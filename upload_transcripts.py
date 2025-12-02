@@ -1,5 +1,6 @@
 import os
 import json
+import re
 
 import boto3
 import pandas as pd
@@ -42,19 +43,34 @@ def main():
         # Read CSV
         df = pd.read_csv(local_path)
 
-        # Convert to JSON and upload
-        # Extract filename without path and extension
-        base_name = os.path.splitext(os.path.basename(csv_file))[0]
-        subdir = os.path.dirname(csv_file).replace("data/", "")
+        # Extract company prefix from filename (e.g., "nexiv-solutions" from "nexiv-solutions__2_transcript.csv")
+        base_name = os.path.basename(csv_file)
+        match = re.match(r"(.+?)__(\d+)_transcript\.csv", base_name)
+        if match:
+            company = match.group(1)
+            transcript_num = match.group(2)
+            output_filename = f"{transcript_num}_transcript.json"
+        else:
+            company = "other"
+            output_filename = base_name.replace(".csv", ".json")
 
-        # Upload entire transcript as single JSON
-        records = df.to_dict(orient="records")
-        key = f"{prefix}/{subdir}/{base_name}.json"
+        # Transform records: only keep text, id, speaker
+        transformed = []
+        for _, row in df.iterrows():
+            record = {
+                "text": row.get("Text", ""),
+                "id": int(row.get("Chunk_id", 0)),
+                "speaker": row.get("Speaker", ""),
+            }
+            transformed.append(record)
+
+        # Upload to S3 with company as subdirectory
+        key = f"{prefix}/{company}/{output_filename}"
 
         s3.put_object(
             Bucket=bucket,
             Key=key,
-            Body=json.dumps(records, indent=2),
+            Body=json.dumps(transformed, indent=2),
             ContentType="application/json",
         )
 
