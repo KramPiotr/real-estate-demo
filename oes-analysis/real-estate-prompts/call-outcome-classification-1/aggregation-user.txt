@@ -1,0 +1,16 @@
+# Call Outcome Aggregation Task
+
+## Output Format
+```json
+{
+  "call_outcome": {
+    "primary_outcome": "category",
+    "consensus_count": 1-3,
+    "success_indicator": true|false,
+    "next_steps_committed": [...],
+    "buyer_engagement_level": "level",
+    "evidence": "quote",
+    "confidence": 0.0-1.0
+  }
+}
+```

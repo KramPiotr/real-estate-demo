@@ -1,0 +1,99 @@
+{
+    "transcripts_directory": "interesting-transcripts-segments",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "context_analysis",
+            "inputs": [
+                "transcript",
+                "behaviour_definition"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "behaviour_analysis",
+            "inputs": [
+                "transcript",
+                "behaviour_definition",
+                "context_analysis"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "anthropic"
+                },
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "reflection",
+            "inputs": [
+                "transcript",
+                "behaviour_definition",
+                "context_analysis",
+                "behaviour_analysis"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "anthropic"
+                },
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "iteration",
+            "inputs": [
+                "transcript",
+                "behaviour_definition",
+                "context_analysis",
+                "behaviour_analysis",
+                "reflection"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "anthropic"
+                },
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "transcript",
+                "iteration"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        }
+    ]
+}

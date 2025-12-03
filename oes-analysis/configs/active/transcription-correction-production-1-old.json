@@ -1,0 +1,210 @@
+{
+    "transcripts_directory": "speaker-identification-test",
+    "output_directory": "multi_agent_responses",
+    "processing_settings": {
+        "batch_size": 50,
+        "concurrent_requests": 10,
+        "retry_attempts": 3,
+        "min_confidence_threshold": 0.7
+    },
+    "quality_control": {
+        "validate_output_format": true,
+        "flag_low_confidence": true,
+        "require_evidence": true
+    },
+    "nodes": [
+        {
+            "name": "speaker-analysis",
+            "description": "Primary speaker identification analysis",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "gemini",
+                    "temperature": 0.2,
+                    "max_tokens": 10000,
+                    "max_output_tokens": 10000
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "properties": {
+                    "speaker_identification": {
+                        "type": "object",
+                        "properties": {
+                            "student_speaker": {"type": "string"},
+                            "consultant_speaker": {"type": "string"},
+                            "identification_evidence": {"type": "string"},
+                            "confidence": {"type": "number"}
+                        },
+                        "required": ["student_speaker", "consultant_speaker", "identification_evidence", "confidence"]
+                    },
+                    "analysis_details": {
+                        "type": "object",
+                        "properties": {
+                            "consultant_indicators": {
+                                "type": "array",
+                                "items": {"type": "string"}
+                            },
+                            "student_indicators": {
+                                "type": "array",
+                                "items": {"type": "string"}
+                            },
+                            "key_evidence_segments": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "segment_id": {"type": "string"},
+                                        "speaker": {"type": "string"},
+                                        "content": {"type": "string"},
+                                        "significance": {"type": "string"}
+                                    },
+                                    "required": ["segment_id", "speaker", "content", "significance"]
+                                }
+                            }
+                        },
+                        "required": ["consultant_indicators", "student_indicators", "key_evidence_segments"]
+                    },
+                    "confidence_reasoning": {"type": "string"}
+                },
+                "required": ["speaker_identification", "analysis_details", "confidence_reasoning"],
+                "additionalProperties": false
+            }
+        },
+        {
+            "name": "conversation-flow",
+            "description": "Detect self-talking patterns and conversation fragmentation",
+            "inputs": [
+                "transcript",
+                "speaker-analysis"
+            ],
+            "models": [
+                {
+                    "provider": "gemini",
+                    "temperature": 0.1,
+                    "max_tokens": 10000,
+                    "max_output_tokens": 10000
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "properties": {
+                    "has_conversation_flow_issue": {"type": "boolean"},
+                    "reasoning": {"type": "string"},
+                    "suggested_split_points": {
+                        "type": "array",
+                        "items": {"type": "integer"}
+                    }
+                },
+                "required": ["has_conversation_flow_issue", "reasoning", "suggested_split_points"],
+                "additionalProperties": false
+            }
+        },
+        {
+            "name": "speaker-correction",
+            "description": "LLM-based re-identification for problematic segments",
+            "inputs": [
+                "transcript",
+                "speaker-analysis",
+                "conversation-flow"
+            ],
+            "models": [
+                {
+                    "provider": "gemini",
+                    "temperature": 0.1,
+                    "max_tokens": 10000,
+                    "max_output_tokens": 10000
+                }
+            ],
+            "conditional": true,
+            "condition": "conversation-flow.has_issues == true",
+            "response_format_schema": {
+                "type": "object",
+                "properties": {
+                    "corrected_segments": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {"type": "integer"},
+                                "corrected_speaker": {"type": "string"},
+                                "reasoning": {"type": "string"}
+                            },
+                            "required": ["id", "corrected_speaker", "reasoning"]
+                        }
+                    }
+                },
+                "required": ["corrected_segments"],
+                "additionalProperties": false
+            }
+        },
+        {
+            "name": "transcript-transform",
+            "description": "Generate final corrected transcript with speaker labels and concatenation",
+            "inputs": [
+                "transcript",
+                "speaker-analysis",
+                "conversation-flow",
+                "speaker-correction"
+            ],
+            "models": [
+                {
+                    "provider": "gemini",
+                    "temperature": 0.1,
+                    "max_tokens": 10000,
+                    "max_output_tokens": 10000
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "properties": {
+                    "corrected_transcript": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {"type": "string"},
+                                "speaker": {"type": "string"},
+                                "text": {"type": "string"},
+                                "start": {"type": "number"},
+                                "end": {"type": "number"},
+                                "merged_from_segments": {
+                                    "type": "array",
+                                    "items": {"type": "string"}
+                                }
+                            },
+                            "required": ["id", "speaker", "text", "start", "end"]
+                        }
+                    },
+                    "processing_summary": {
+                        "type": "object",
+                        "properties": {
+                            "original_segments": {"type": "integer"},
+                            "final_segments": {"type": "integer"},
+                            "speaker_corrections_applied": {"type": "integer"},
+                            "adjacent_concatenations": {"type": "integer"},
+                            "confidence": {"type": "number"}
+                        },
+                        "required": ["original_segments", "final_segments", "speaker_corrections_applied", "adjacent_concatenations", "confidence"]
+                    },
+                    "evidence_summary": {
+                        "type": "object",
+                        "properties": {
+                            "speaker_identification_confidence": {"type": "number"},
+                            "conversation_flow_issues_detected": {"type": "integer"},
+                            "corrections_applied": {
+                                "type": "array",
+                                "items": {"type": "string"}
+                            }
+                        },
+                        "required": ["speaker_identification_confidence", "conversation_flow_issues_detected", "corrections_applied"]
+                    }
+                },
+                "required": ["corrected_transcript", "processing_summary", "evidence_summary"],
+                "additionalProperties": false
+            }
+        }
+    ]
+}

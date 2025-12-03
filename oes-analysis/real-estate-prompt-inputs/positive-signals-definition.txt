@@ -1,0 +1,224 @@
+# Positive Buyer Signals - Behavioral Definition
+
+## Purpose
+Identify and score positive buying signals that indicate a prospect's likelihood to purchase.
+
+---
+
+## 1. Financial Readiness (`financial_readiness`)
+
+### Definition
+Buyer demonstrates clear financial preparation and capability to complete a purchase.
+
+### Checklist Conditions (require 2 of 3)
+- [ ] Mentions pre-approval, mortgage approval, or specific lender
+- [ ] States specific budget with confidence (not "around" or "maybe")
+- [ ] References deposit/down payment availability or proof of funds
+
+### Scoring Rubric
+| Score | Criteria |
+|-------|----------|
+| 5 | Pre-approved with letter in hand, cash buyer, or deposit ready. Specific numbers mentioned. |
+| 4 | Pre-approval in progress with specific lender, clear budget with some flexibility stated |
+| 3 | Has spoken to lender, general budget range established, knows approximate down payment |
+| 2 | Vague budget ("around $X"), hasn't started financing conversation, unsure about down payment |
+| 1 | No financial discussion, unclear ability to purchase, avoids money questions |
+
+### Strong Signal Examples
+> **Score 5**: "We got our pre-approval last week for $750k from Chase, and we have 20% ready to go in our savings account."
+
+> **Score 5**: "We're cash buyers - we sold our business last year and we're ready to move."
+
+> **Score 4**: "We're working with a mortgage broker right now, should have pre-approval by Friday. Looking in the $600-650k range."
+
+### Weak Signal Examples
+> **Score 2**: "We're probably looking around $500k, maybe $600k if we really love it. Haven't talked to a bank yet."
+
+> **Score 1**: "We're not sure about budget yet, we need to figure out what we can afford."
+
+---
+
+## 2. Timeline Urgency (`timeline_urgency`)
+
+### Definition
+Buyer has external pressure or motivation creating a real deadline for purchase.
+
+### Checklist Conditions (require 2 of 3)
+- [ ] Mentions specific deadline (lease end, job start, school year, closing on sale)
+- [ ] Expresses urgency language ("need to", "have to", "must", "deadline")
+- [ ] References life event driving timeline (baby, marriage, divorce, relocation, retirement)
+
+### Scoring Rubric
+| Score | Criteria |
+|-------|----------|
+| 5 | Hard deadline within 30 days with specific date. External pressure is immovable. |
+| 4 | Deadline within 60 days, strong motivation expressed, clear consequence if missed |
+| 3 | Soft deadline within 3 months, moderate urgency, some flexibility |
+| 2 | Vague timeline ("sometime this year"), no external pressure, purely preference |
+| 1 | No timeline, "just looking", "no rush", browsing mode |
+
+### Strong Signal Examples
+> **Score 5**: "Our lease ends February 1st, we have to be out. We absolutely need to close by mid-January."
+
+> **Score 5**: "I start my new job in Dallas on March 15th, so we need to have something under contract by end of February."
+
+> **Score 4**: "We're expecting our first baby in April, so we'd really like to be settled before then."
+
+### Weak Signal Examples
+> **Score 2**: "We're hoping to move sometime this year, but there's no real rush."
+
+> **Score 1**: "We're just starting to look, seeing what's out there."
+
+---
+
+## 3. Decision Maker Engagement (`decision_maker_engagement`)
+
+### Definition
+All key decision makers are actively involved in the buying process, reducing risk of deal falling through due to absent stakeholder.
+
+### Checklist Conditions (require 2 of 3)
+- [ ] Both partners/spouses present or explicitly aligned ("my husband agrees", "we both want")
+- [ ] References to family consensus or approval where relevant (parents helping, family input)
+- [ ] Decision authority confirmed ("we can decide", "it's our call", "we're the buyers")
+
+### Scoring Rubric
+| Score | Criteria |
+|-------|----------|
+| 5 | Both partners present and engaged, or single decision-maker confirmed. Clear authority. |
+| 4 | Primary decision-maker present, partner's preferences known and aligned |
+| 3 | One decision-maker present, partner involved remotely, some alignment indicated |
+| 2 | Only one partner present, other partner's views unknown or potentially conflicting |
+| 1 | Decision-maker absent, agent talking to someone without buying authority |
+
+### Strong Signal Examples
+> **Score 5**: "My wife and I are both here today. We've talked about this a lot and we're ready to find our home."
+
+> **Score 5**: "I'm buying this myself - it's just me, so I can make decisions quickly."
+
+> **Score 4**: "My husband couldn't make it today but I showed him the listing and he loves it. We're on the same page."
+
+### Weak Signal Examples
+> **Score 2**: "I'm looking for my parents, they asked me to check out some places for them."
+
+> **Score 1**: "My wife doesn't know I'm here yet, I want to surprise her."
+
+---
+
+## 4. Property Specificity (`property_specificity`)
+
+### Definition
+Buyer has clear, specific criteria for what they want, indicating they've done research and are serious.
+
+### Checklist Conditions (require 2 of 3)
+- [ ] Lists specific must-have features (not just bedrooms, but specific needs)
+- [ ] Names specific neighborhoods or areas (not just "good schools")
+- [ ] Describes lifestyle requirements that dictate property needs (home office, multigenerational, etc.)
+
+### Scoring Rubric
+| Score | Criteria |
+|-------|----------|
+| 5 | Highly specific criteria with clear priorities. Knows exactly what they need and why. |
+| 4 | Specific on key criteria, some flexibility on others, clear rationale for requirements |
+| 3 | General criteria with some specifics, open to options, moderate clarity |
+| 2 | Vague criteria ("nice neighborhood", "good size"), open to almost anything |
+| 1 | No clear criteria, "just looking to see what's out there" |
+
+### Strong Signal Examples
+> **Score 5**: "We need at least 4 bedrooms because we have three kids and my mother-in-law will be moving in. Must have a first-floor bedroom and bath for her. We're focused on the Riverside or Oakmont school districts only."
+
+> **Score 4**: "We need a home office since I work remotely, at least 3 bedrooms, and we'd like to stay in the north side near my wife's work."
+
+### Weak Signal Examples
+> **Score 2**: "We're flexible on most things. Just want something nice with good schools nearby."
+
+> **Score 1**: "We're open to anything really, just want to see what's available."
+
+---
+
+## 5. Repeat Engagement (`repeat_engagement`)
+
+### Definition
+Buyer demonstrates sustained interest through multiple interactions, viewings, or follow-up questions.
+
+### Checklist Conditions (require 2 of 3)
+- [ ] Multiple viewings of same property or return visits mentioned/requested
+- [ ] Follow-up questions after initial viewing (about specifics, not just general)
+- [ ] Proactive outreach (buyer initiates contact, asks for more info)
+
+### Scoring Rubric
+| Score | Criteria |
+|-------|----------|
+| 5 | Third+ viewing, brings others to see it, asks detailed due diligence questions |
+| 4 | Second viewing, asks specific follow-up questions, requests additional information |
+| 3 | First viewing but scheduling second, asking good questions |
+| 2 | First interaction, limited questions, no immediate follow-up planned |
+| 1 | Passive engagement, doesn't ask questions, seems disinterested |
+
+### Strong Signal Examples
+> **Score 5**: "This is our third time seeing this house. We brought my parents today to get their opinion. Can you tell us more about the roof age and the HOA reserves?"
+
+> **Score 4**: "We were here last week and we can't stop thinking about it. Can we come back with our contractor to look at the basement?"
+
+### Weak Signal Examples
+> **Score 2**: "This is our first time here. It's nice."
+
+---
+
+## 6. Commitment Language (`commitment_language`)
+
+### Definition
+Buyer uses language that indicates emotional attachment or readiness to commit.
+
+### Checklist Conditions (require 2 of 3)
+- [ ] Possessive or future-oriented language ("our bedroom", "when we move in", "we would put")
+- [ ] Explicit positive emotional statements ("love", "perfect", "this is it", "the one")
+- [ ] Offer or negotiation language ("what would they take", "can we make an offer", "are they flexible")
+
+### Scoring Rubric
+| Score | Criteria |
+|-------|----------|
+| 5 | Ready to write offer NOW, explicit "this is the one" language, planning move-in |
+| 4 | Strong emotional attachment expressed, discussing offer strategy, possessive language |
+| 3 | Positive feedback but hedged ("we really like it but..."), comparing to others |
+| 2 | Neutral language, observational comments, no emotional engagement |
+| 1 | Negative or dismissive language, finding faults, showing resistance |
+
+### Strong Signal Examples
+> **Score 5**: "This is it. This is our house. What do we need to do to make an offer today?"
+
+> **Score 5**: "I can already see where our couch would go. When can we discuss terms?"
+
+> **Score 4**: "We absolutely love this place. Are they open to negotiation on the price?"
+
+### Weak Signal Examples
+> **Score 2**: "It's nice. The kitchen is fine. Bedrooms are adequate."
+
+> **Score 1**: "I don't know, it's okay I guess. What else do you have?"
+
+---
+
+## Output Schema
+
+For each positive signal identified, output:
+
+```json
+{
+  "category": "financial_readiness",
+  "score": 5,
+  "confidence": 0.9,
+  "quote": "We got our pre-approval last week for $750k",
+  "transcript_range": "45-48",
+  "explanation": "Buyer explicitly states pre-approval amount and timeframe, indicating high financial readiness."
+}
+```
+
+---
+
+## Analysis Instructions
+
+1. Review the entire transcript for each signal category
+2. Identify the strongest evidence for each category
+3. Score based on the rubric, not on assumptions
+4. Include direct quotes with transcript segment references
+5. If no evidence exists for a category, score as 1 with explanation "No evidence found"
+6. Consider context - a signal early in conversation may differ from one after objections

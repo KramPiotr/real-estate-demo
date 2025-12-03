@@ -1,0 +1,301 @@
+{
+  "transcripts_directory": "monash-tp1-categorised-1-to-3-equal-duration-subset-100-fixed",
+  "output_directory": "knowledge_base_per_call",
+
+  "nodes": [
+    {
+      "name": "scenario_segmentation",
+      "inputs": [
+        "transcript"
+      ],
+      "models": [
+        {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash",
+          "mini": false
+        }
+      ],
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "ScenarioSegmentationResponse",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "call_id": {
+                "type": "string",
+                "description": "The unique identifier for this call"
+              },
+              "extracted_scenarios": {
+                "type": "array",
+                "description": "List of scenarios found in this call with their segments",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "scenario_name": {
+                      "type": "string",
+                      "description": "Name of the scenario"
+                    },
+                    "segments": {
+                      "type": "array",
+                      "description": "All segments in this call that match this scenario",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "start_segment_id": {
+                            "type": "integer",
+                            "description": "Starting segment ID for this scenario"
+                          },
+                          "end_segment_id": {
+                            "type": "integer",
+                            "description": "Ending segment ID for this scenario"
+                          },
+                          "dialogue": {
+                            "type": "array",
+                            "description": "The conversation turns in this segment",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "speaker": {
+                                  "type": "string",
+                                  "description": "Speaker label: 'consultant' or 'student' from the transcript"
+                                },
+                                "text": {
+                                  "type": "string",
+                                  "description": "The text spoken by this speaker"
+                                },
+                                "id": {
+                                  "type": "integer",
+                                  "description": "The segment ID from the transcript"
+                                }
+                              },
+                              "required": ["speaker", "text", "id"],
+                              "additionalProperties": false
+                            }
+                          },
+                          "reason": {
+                            "type": "string",
+                            "description": "Brief explanation of why this segment matches the scenario"
+                          }
+                        },
+                        "required": ["start_segment_id", "end_segment_id", "dialogue", "reason"],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "required": ["scenario_name", "segments"],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": ["call_id", "extracted_scenarios"],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    {
+      "name": "fact_extraction",
+      "inputs": [
+        "transcript",
+        "scenario_segmentation"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "model": "gpt-4o",
+          "mini": false
+        }
+      ],
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "FactExtractionResponse",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "call_id": {
+                "type": "string",
+                "description": "The unique identifier for this call"
+              },
+              "scenarios": {
+                "type": "array",
+                "description": "Facts extracted for each scenario found in this call",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "scenario_name": {
+                      "type": "string",
+                      "description": "Name of the scenario these facts belong to"
+                    },
+                    "requirements": {
+                      "type": "array",
+                      "description": "Entry requirements, qualifications, prerequisites",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "requirement": {
+                            "type": "string",
+                            "description": "The requirement stated clearly and concisely"
+                          },
+                          "segment_ids": {
+                            "type": "array",
+                            "description": "Segment IDs from transcript where this requirement is mentioned",
+                            "items": {
+                              "type": "integer"
+                            }
+                          },
+                          "variations": {
+                            "type": "array",
+                            "description": "Different acceptable ways to meet this requirement",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "exceptions": {
+                            "type": "array",
+                            "description": "Exceptions or special cases for this requirement",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "context": {
+                            "type": "string",
+                            "description": "Additional context if needed for clarity"
+                          }
+                        },
+                        "required": ["requirement", "segment_ids"],
+                        "additionalProperties": false
+                      }
+                    },
+                    "policies": {
+                      "type": "array",
+                      "description": "Institutional policies and rules",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "policy": {
+                            "type": "string",
+                            "description": "The policy stated clearly"
+                          },
+                          "details": {
+                            "type": "string",
+                            "description": "Additional details or clarifications"
+                          },
+                          "segment_ids": {
+                            "type": "array",
+                            "description": "Segment IDs from transcript where this policy is mentioned",
+                            "items": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        "required": ["policy", "segment_ids"],
+                        "additionalProperties": false
+                      }
+                    },
+                    "procedures": {
+                      "type": "array",
+                      "description": "Step-by-step processes",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "procedure": {
+                            "type": "string",
+                            "description": "Name of the procedure"
+                          },
+                          "steps": {
+                            "type": "array",
+                            "description": "Ordered list of steps in this procedure",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "timeline": {
+                            "type": "string",
+                            "description": "How long this procedure takes (if mentioned)"
+                          },
+                          "segment_ids": {
+                            "type": "array",
+                            "description": "Segment IDs from transcript where this procedure is described",
+                            "items": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        "required": ["procedure", "steps", "segment_ids"],
+                        "additionalProperties": false
+                      }
+                    },
+                    "timelines": {
+                      "type": "array",
+                      "description": "Durations, deadlines, schedules",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "event": {
+                            "type": "string",
+                            "description": "What this timeline refers to"
+                          },
+                          "duration": {
+                            "type": "string",
+                            "description": "The time period or deadline"
+                          },
+                          "details": {
+                            "type": "string",
+                            "description": "Additional details about this timeline"
+                          },
+                          "segment_ids": {
+                            "type": "array",
+                            "description": "Segment IDs from transcript where this timeline is mentioned",
+                            "items": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        "required": ["event", "duration", "segment_ids"],
+                        "additionalProperties": false
+                      }
+                    },
+                    "edge_cases": {
+                      "type": "array",
+                      "description": "Special circumstances and exceptions",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "case": {
+                            "type": "string",
+                            "description": "Description of the special case"
+                          },
+                          "handling": {
+                            "type": "string",
+                            "description": "How this case is handled"
+                          },
+                          "segment_ids": {
+                            "type": "array",
+                            "description": "Segment IDs from transcript where this edge case is discussed",
+                            "items": {
+                              "type": "integer"
+                            }
+                          }
+                        },
+                        "required": ["case", "handling", "segment_ids"],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "required": ["scenario_name"],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": ["call_id", "scenarios"],
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  ]
+}

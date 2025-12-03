@@ -1,0 +1,22 @@
+<behavior_specific>
+<behavior_name>One Call Resolution</behavior_name>
+
+<behavior_definition>
+Striving to resolve all student queries and concerns in a single call when possible. This approach involves being prepared to address a wide range of questions and concerns efficiently, ensuring that the student receives comprehensive assistance without the need for multiple interactions or follow-ups.
+</behavior_definition>
+
+<behavior_essence>
+One Call Resolution is about providing thorough, efficient service that meets all of the student's needs in a single interaction. The consultant demonstrates this by being well-prepared with comprehensive knowledge, anticipating potential questions, and proactively addressing related topics. This approach saves time for both the student and the institution, increases student satisfaction, and demonstrates the institution's commitment to excellent service. The goal is to leave the student feeling fully informed and supported after just one conversation.
+</behavior_essence>
+
+<behavior_examples>
+* Asking "Is there anything else I can help you with today?" to ensure all questions have been addressed.
+* Saying "Let's make sure we've covered all your questions before we wrap up."
+* Anticipating and proactively addressing related concerns: "Now that we've discussed the course structure, let me also explain our support services..."
+* Offering a comprehensive overview of the enrollment process, from application to first day of class, without the student needing to ask.
+* Using phrases like "While we're on the topic, let me also tell you about..." to provide additional relevant information.
+* Checking for understanding throughout the call: "Does that fully answer your question about [topic]?"
+* Summarizing key points at the end of the call to ensure nothing has been missed.
+* Providing clear next steps and contact information, so the student feels equipped to move forward independently.
+</behavior_examples>
+</behavior_specific>

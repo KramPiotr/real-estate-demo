@@ -1,0 +1,171 @@
+{
+    "transcripts_directory": "weekly-analysis-2024-12-16-2024-12-20",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "facts",
+        "location": "ground-truth-data-new",
+        "types": [
+            "taxonomy"
+        ]
+    },
+    "nodes": [
+        {
+            "name": "data",
+            "inputs": [
+                "facts",
+                "transcript"
+            ],
+            "model_id": "gemini-2.5-flash",
+            "models": [
+                {
+                    "provider": "gemini"
+                },
+                {
+                    "provider": "gemini"
+                },
+                {
+                    "provider": "gemini"
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "speaker_identification": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "student_speaker": {
+                                "type": "string"
+                            },
+                            "consultant_speaker": {
+                                "type": "string"
+                            },
+                            "identification_evidence": {
+                                "type": "string"
+                            },
+                            "confidence": {
+                                "type": "number",
+                                "minimum": 0.0,
+                                "maximum": 1.0
+                            }
+                        },
+                        "required": [
+                            "student_speaker",
+                            "consultant_speaker",
+                            "identification_evidence",
+                            "confidence"
+                        ]
+                    },
+                    "categories": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "name": {
+                                    "type": "string"
+                                },
+                                "data_points": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "additionalProperties": false,
+                                        "properties": {
+                                            "name": {
+                                                "type": "string"
+                                            },
+                                            "value": {
+                                                "type": "string"
+                                            },
+                                            "source": {
+                                                "type": "string",
+                                                "enum": [
+                                                    "explicit",
+                                                    "contextual",
+                                                    "inferred"
+                                                ]
+                                            },
+                                            "confidence": {
+                                                "type": "number",
+                                                "minimum": 0.0,
+                                                "maximum": 1.0
+                                            },
+                                            "evidence": {
+                                                "type": "string"
+                                            },
+                                            "reasoning": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "required": [
+                                            "name",
+                                            "value",
+                                            "source",
+                                            "confidence",
+                                            "evidence",
+                                            "reasoning"
+                                        ]
+                                    }
+                                }
+                            },
+                            "required": [
+                                "name",
+                                "data_points"
+                            ]
+                        }
+                    },
+                    "extraction_metadata": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "call_type": {
+                                "type": "string",
+                                "enum": [
+                                    "enrollment",
+                                    "consultation",
+                                    "follow-up"
+                                ]
+                            },
+                            "categories_requested": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "data_points_requested": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "data_points_found": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "overall_confidence": {
+                                "type": "number",
+                                "minimum": 0.0,
+                                "maximum": 1.0
+                            }
+                        },
+                        "required": [
+                            "call_type",
+                            "categories_requested",
+                            "data_points_requested",
+                            "data_points_found",
+                            "overall_confidence"
+                        ]
+                    }
+                },
+                "required": [
+                    "speaker_identification",
+                    "categories",
+                    "extraction_metadata"
+                ]
+            }
+        }
+    ]
+}

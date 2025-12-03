@@ -1,0 +1,62 @@
+{
+    "transcripts_directory": "call-type-classified-monash-calls",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+          "name": "requirement",
+          "location": "compliance",
+          "types": ["broad", "enhanced"],
+          "logic": {
+            "call_recording_disclosure": "lambda kwargs: False",
+            "eligibility": "lambda kwargs: kwargs['parent_dir'] == 'follow-up-enrollment'",
+            "information": "lambda kwargs: kwargs['parent_dir'] == 'follow-up-enrollment'",
+            "proper_introduction": "lambda kwargs: False"
+          }
+    },
+    "nodes": [
+        {
+            "name": "check",
+            "inputs": [
+                "requirement-broad",
+                "requirement-enhanced",
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        },
+        {
+            "name": "errors",
+            "inputs": [
+                "requirement-broad",
+                "requirement-enhanced",
+                "transcript",
+                "check"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        },
+        {
+            "name": "validation",
+            "inputs": [
+                "requirement-broad",
+                "requirement-enhanced",
+                "transcript",
+                "check",
+                "errors"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        }
+    ]
+}

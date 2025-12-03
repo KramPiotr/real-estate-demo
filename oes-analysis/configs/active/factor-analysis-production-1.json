@@ -1,0 +1,26 @@
+{
+  "transcripts_directory": "[insert transcripts directory]",
+  "output_directory": "multi_agent_responses",
+  "input_catalog": {
+    "name": "definition",
+    "location": "factor-definitions",
+    "types": [
+      "planning"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "check",
+      "inputs": [
+        "transcript",
+        "definition"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        }
+      ],
+      "response_format_path": "factor_analysis.analysis.FactorAnalysis"
+    }
+  ]
+}

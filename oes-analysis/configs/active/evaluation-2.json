@@ -1,0 +1,42 @@
+{
+    "transcripts_directory": "interesting-transcripts-segments",
+    "output_directory": "evaluation",
+    "transcript_matching_inputs": {
+        "results": "multi_agent_responses"
+    },
+    "nodes": [
+        {
+            "name": "evaluation",
+            "inputs": [
+                "transcript",
+                "results"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "anthropic"
+                },
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "transcript",
+                "evaluation"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        }
+    ]
+}

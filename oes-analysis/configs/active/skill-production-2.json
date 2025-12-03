@@ -1,0 +1,65 @@
+{
+    "transcripts_directory": "test-transcripts",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "behaviour",
+        "location": "causals",
+        "types": [
+            "opportunity","definition"
+        ]
+    },
+    "nodes": [
+        {
+            "name": "trigger_identification",
+            "inputs": [
+                "transcript",
+                "behaviour-opportunity"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        },
+        {
+            "name": "response_analysis",
+            "inputs": [
+                "transcript",
+                "behaviour-opportunity",
+                "trigger_identification"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        },
+        {
+            "name": "recommended_improvement",
+            "inputs": [
+                "transcript",
+                "behaviour-definition",
+                "response_analysis"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        },
+        {
+            "name": "response_validation",
+            "inputs": [
+                "transcript",
+                "behaviour-definition",
+                "behaviour-opportunity",
+                "recommended_improvement"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        }
+    ]
+}

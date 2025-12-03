@@ -1,0 +1,98 @@
+# TAXONOMY ARTIFACT 18: FORMS ACQUISITION CHANNEL BEHAVIORS
+This taxonomy examines behavioral patterns and issues specific to prospects who initiated contact through completing online forms, including application difficulties, communication breakdowns, and process confusion that may impact enrollment completion.
+
+## 18.A: Application Process Barriers
+
+### 18.A.i: Process Clarity and Instruction Issues
+**Description:** Student demonstrates confusion about application procedures, next steps, or requirements after submitting initial forms, indicating insufficient guidance or unclear instructions.
+
+**Identification Guidance:** Listen for uncertainty about what happens after form submission, confusion about required steps, or requests for clarification about the application process.
+
+**Examples:**
+- Student: "I would just like to put the application through, but it said I had to call first before moving forward with the application"
+- Student: "When I submitted my application, I didn't get any email... I wanted to know what other things I need to send through"
+- Student: "I just wasn't sure if I have to reply to that with my documentation or if there's a proper application portal"
+
+### 18.A.ii: Technical Submission Difficulties
+**Description:** Student encounters technical problems when attempting to submit forms or upload required documents, creating barriers to completing the application process.
+
+**Identification Guidance:** Note mentions of upload failures, technical errors during submission, or inability to complete form-related tasks due to system issues.
+
+**Examples:**
+- Student: "I tried to upload a picture of my passport on the enrollment and it didn't really like when I tried to do that"
+- Student: "So I just wanted to ask, have you got the files? My end is telling me error"
+- Student: "I've been trying to change my username and password and complete my enrollment and questionnaire but I haven't had much success"
+
+### 18.A.iii: Document Requirements Confusion
+**Description:** Student expresses uncertainty about which documents are needed, acceptable formats, or certification requirements for their application submission.
+
+**Identification Guidance:** Look for questions about specific document requirements, confusion about document formats, or uncertainty about certification needs.
+
+**Examples:**
+- Student: "Does a transcript need to be JP certified or can you just have a transcript?"
+- Student: "I also have a question about that diploma... when I was filling out the application it was saying that was a requirement"
+- Student: "What other things do I need to send through, because I didn't get that confirmation?"
+
+## 18.B: Communication and Follow-up Problems
+
+### 18.B.i: Missing Confirmation Communications
+**Description:** Student did not receive expected confirmation emails, acknowledgments, or follow-up communications after submitting forms, leading to uncertainty about application status.
+
+**Identification Guidance:** Listen for mentions of missing confirmation emails, lack of acknowledgment after form submission, or uncertainty about whether the application was received.
+
+**Examples:**
+- Student: "When I submitted my application, I didn't get any email"
+- Student: "I didn't receive like an email follow-up... I'm assuming it's like an automated system"
+- Student: "I still haven't received an email to do the student stuff"
+
+### 18.B.ii: Email Delivery and Response Issues
+**Description:** Student experiences problems with email communications, including emails not being received, going to spam, or delayed responses from the institution.
+
+**Identification Guidance:** Note mentions of emails not arriving, spam filter issues, or delays in receiving expected communications from the institution.
+
+**Examples:**
+- Student: "I tried to send you a quick email. Unfortunately, the email just bounced back"
+- Student: "The spam filter on my email is continuously blocking the actual letter of offer"
+- Student: "I haven't got a call and I just got an email saying that my offer expires tomorrow"
+
+### 18.B.iii: Account Setup and Access Problems
+**Description:** Student encounters difficulties setting up their student account, accessing login credentials, or receiving account setup instructions after form submission.
+
+**Identification Guidance:** Look for mentions of account setup issues, missing login details, or problems accessing student portals after initial form completion.
+
+**Examples:**
+- Student: "I did speak to someone on Saturday... She said I will receive an email for my Monash online login"
+- Student: "I was going to call back about my enrollment. I haven't received any further calls or emails to create an online account"
+- Student: "I received instructions for setting up your Monash Online account but I just haven't gone around to setting it up yet"
+
+## 18.C: User Experience and Interface Issues
+
+### 18.C.i: Form Design and Usability Problems
+**Description:** Student finds the online forms confusing, difficult to navigate, or poorly designed, impacting their ability to complete the submission process effectively.
+
+**Identification Guidance:** Listen for complaints about form complexity, navigation difficulties, or design issues that create barriers to completion.
+
+**Examples:**
+- Student: "Actually, the online form bit was pretty, could be, was a bit confusing"
+- Student: "I try to get some units in, then it refreshes and crashes, and I can't even find units or what electives it will let me do"
+- Student: "The office application website... should I just be putting through all the documents on there?"
+
+### 18.C.ii: Authentication and Password Management
+**Description:** Student experiences difficulties with password creation, reset processes, or authentication requirements that prevent them from progressing through the application process.
+
+**Identification Guidance:** Note mentions of password problems, authentication failures, or difficulties with login credential management during the application process.
+
+**Examples:**
+- Student: "I've been trying to change my username and password and complete my enrollment"
+- Student: "I got the link I need from the website, but I can't remember my password and I've been locked out"
+- Student: "I tried to do the password reset, now I can't log into my profile"
+
+### 18.C.iii: Multi-step Process Breakdown
+**Description:** Student becomes confused or lost during multi-step application processes, unable to track progress or understand what stage they are in.
+
+**Identification Guidance:** Look for expressions of confusion about application stages, uncertainty about progress, or difficulty understanding what steps remain to complete enrollment.
+
+**Examples:**
+- Student: "I haven't got a call and I just got an email saying that my offer expires tomorrow and I should enroll in units"
+- Student: "I clicked the link to confirm enrollment and I got a student number... I thought that was enough"
+- Student: "There is still a couple of steps left to enrollment... I can see you have applied"

@@ -1,0 +1,23 @@
+# Positive Signals Aggregation Task
+
+## Instructions
+Review the three analyst extractions and produce consolidated results.
+
+## Output Format
+```json
+{
+  "positive_signals": [
+    {
+      "category": "category_name",
+      "consensus_score": 1.0-5.0,
+      "analyst_agreement": 1-3,
+      "quote": "best evidence quote",
+      "transcript_range": "line_range",
+      "explanation": "consolidated explanation"
+    }
+  ],
+  "overall_positive_score": 0-30
+}
+```
+
+The analyst responses will be appended below.

@@ -1,0 +1,22 @@
+# Agent Behavior Extraction Task
+
+## Instructions
+Score agent across 7 behavior categories with evidence.
+
+## Output Format
+```json
+{
+  "agent_behaviors": [
+    {
+      "behavior": "needs_discovery|rapport_building|property_value_articulation|objection_handling|urgency_creation|next_steps_closing|competitor_differentiation",
+      "score": 1-5,
+      "evidence_quote": "quote demonstrating behavior",
+      "transcript_range": "line_range",
+      "strengths": ["strength1"],
+      "improvement_areas": ["area1"]
+    }
+  ]
+}
+```
+
+The behavior definitions and transcript will be appended separately.

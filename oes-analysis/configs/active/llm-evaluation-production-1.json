@@ -1,0 +1,25 @@
+{
+    "transcripts_directory": "test-transcripts",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "criteria",
+        "location": "evals",
+        "types": [
+            "criteria"
+        ]
+    },
+    "nodes": [
+        {
+            "name": "eval",
+            "inputs": [
+                "transcript",
+                "criteria"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        }
+    ]
+}

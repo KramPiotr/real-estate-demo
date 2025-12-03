@@ -1,0 +1,164 @@
+## Collaborative Planning
+
+**Definition:** The consultant's ability to proactively engage in educational and professional planning discussions with students, tailoring the level of collaboration based on individual preferences and previously gathered context. This involves working together to explore pathways, discuss transitions, and identify support mechanisms when such collaboration aligns with the student's demonstrated needs and communication style.
+
+**Importance Scoring:**
+
+1: Minimal or inappropriate attempts at collaboration
+- Fails to engage in planning discussions
+- Ignores previously gathered context
+- Forces collaborative approach when student prefers directness
+- Makes assumptions without student input
+
+2: Basic attempt at collaboration with inconsistent execution
+- Some effort to include student in planning
+- Limited use of previously gathered information
+- Occasional misalignment with student preferences
+- Basic exploration of pathways or options
+
+3: Moderate implementation of collaborative planning
+- Regular attempts to engage student in planning
+- Uses gathered context to inform discussions
+- Shows awareness of student preferences
+- Provides relevant options and pathways
+- Demonstrates flexibility in approach
+
+4: Strong collaborative planning with consistent execution
+- Skillfully adapts collaboration level to student preferences
+- Effectively uses previous context to guide planning
+- Provides comprehensive pathway exploration
+- Proactively identifies relevant support mechanisms
+- Creates clear action plans with student input
+
+5: Exemplary collaborative planning driving student engagement
+- Masters the balance between guidance and student autonomy
+- Expertly uses all gathered context to personalize planning
+- Creates highly effective, student-centered action plans
+- Demonstrates exceptional ability to adapt approach based on student signals
+- Seamlessly integrates support mechanisms into planning
+
+**Key Indicators:**
+- Use of previously gathered context in planning discussions
+- Adaptation of collaborative approach based on student preferences
+- Proactive exploration of pathways and options
+- Integration of relevant support mechanisms
+- Creation of clear action plans
+- Respect for student autonomy in decision-making
+- Flexibility in collaboration style
+
+**Example Phrases:**
+- "Let's map out your short-term and long-term goals. What would you like to achieve in the next year, and where do you see yourself in 5 years?"
+- "Let's explore different pathways to reach your goal - there might be multiple routes available."
+- "I understand your need for flexibility given your work schedule. Let me outline our online learning options and how they can accommodate your needs."
+- "Let's map out the required qualifications and experience needed for your chosen career."
+- "Let me connect you with one of our student support reps who is clued up on this detail. How does this sound?"
+
+**Common Mistakes:**
+- Forcing collaboration when student prefers direct guidance
+- Not using previously gathered context in planning discussions
+- Making assumptions about student preferences
+- Providing rigid solutions without exploring options
+- Failing to adapt collaboration style to student signals
+- Not integrating relevant support mechanisms
+- Overlooking student autonomy in decision-making
+- Planning without clear connection to student's expressed needs
+
+EDGE CASES FOR PRODUCING RELEVANT BEHAVIORAL ANALYSIS
+
+When analyzing sales calls for Collaborative Planning behavior, use these edge cases to:
+
+1. Filter Content Correctly
+- Skip administrative interactions completely
+- Focus only on strategic planning that impacts enrollment
+- Look for appropriate high-level guidance
+
+2. Check Role Boundaries
+- Verify consultants stay within their sales role
+- Confirm proper referrals to post-enrollment support
+- Reward appropriate depth of guidance without overstepping
+
+3. Evaluate Quality
+- Good analysis = high-level guidance with clear boundaries
+- Poor analysis = too detailed or too administrative
+
+SCOPE OF COLLABORATIVE PLANNING [EDGE CASES]:
+### 1. Administrative vs Strategic Planning
+**What is it?**  
+Simple scheduling, coordination, or administrative discussions that don't impact enrollment decisions or study pathways ARE OUT OF SCOPE.
+**Example (Not Valid for Analysis):**
+```
+Title: "Scheduling Discussion"
+Student Trigger: "Is there any chance I could schedule this after four o'clock? It's just that I'm working till."
+Consultant Response: "Yeah, absolutely. So if I was to schedule it, let me just double check my time here. Yeah, at four o'clock. Is four o'clock okay or a little bit after four o'clock?"
+```
+**Why It's Not Relevant:**
+- Simply administrative scheduling
+- No critical decision-making involved
+- No impact on enrollment or study success
+- Routine procedural matter
+- No strategic planning required
+- No exploration of options or pathways
+**Recommended Analysis:**
+Do not include in behavioral analysis. THESE ARE NOT OPPORTUNITIES FOR COLLABORATIVE PLANNING. Only analyze interactions that involve strategic planning, enrollment decisions, or study pathway discussions.
+
+### 2. Career Guidance Boundaries
+**What is it?**  
+Discussions about career pathways and transitions where consultants must maintain appropriate boundaries between general guidance and detailed career planning.
+**Example (Incorrect Approach):**
+```
+Title: "Career Transition Planning"
+Student Trigger: "I want to get into the education space and ideally I'd like to get in there faster than having to do a full four years first."
+Consultant Response: "Here's a detailed timeline for transitioning into education: First, you'll need X certification, then Y modules, followed by Z practicum. Many successful career changers have taken this specific path..."
+```
+**Why It's Problematic:**
+- Too detailed for sales consultant's role
+- Goes beyond appropriate boundaries
+- Attempts to provide specific career guidance
+- Creates detailed transition timelines
+- Offers career-specific advice
+- Promises to arrange support services pre-enrollment
+**Recommended Analysis Scope:**
+Sales consultants should:
+- Provide high-level, general pathway guidance
+- Suggest independent research or external career advisors for detailed planning
+- Mention OES learning advisers as post-enrollment resource
+- Keep focus on educational program options rather than specific career paths
+- Avoid detailed professional pathway planning or timelines
+- Not offer to arrange meetings with support services pre-enrollment
+Both these edge cases help define the boundaries of what should and shouldn't be included in collaborative planning behavioral analysis, ensuring focus remains on appropriate and strategic interactions.
+
+### 3. Support Service Boundaries (Coaching vs Sales Role)
+**What is it?**  
+Sales consultants must maintain clear boundaries between their role providing high-level program information and the detailed student support services that become available post-enrollment.
+**Example (Incorrect Approach):**
+```
+Title: "Flexible Study Options Discussion"
+Recommended approach: "Consultants could enhance support by:
+1) Exploring specific scheduling needs in more detail
+2) Creating detailed weekly study plans aligned with personal schedules
+3) Discussing strategies for managing peak pressure periods
+4) Setting up regular check-points to adjust plans as needed
+5) Providing examples of successful flexible study arrangements"
+```
+**Why It's Problematic:**
+- Suggests sales consultants take on a coaching role
+- Exceeds appropriate pre-enrollment support boundaries
+- Attempts to provide detailed study planning that should be handled by learning coaches
+- Creates expectations for ongoing support from sales consultant
+- Confuses sales role with post-enrollment support services
+**Recommended Analysis Scope:**
+Sales consultants should:
+- Provide high-level overview of flexible study options
+- Explain basic program structure and study modes
+- Highlight availability of OES online learning coaches post-enrollment who can provide:
+  * Detailed weekly study planning
+  * Specific scheduling strategies
+  * Peak period management techniques
+  * Regular progress check-points
+  * Examples of successful study arrangements
+- Keep focus on enrollment decision-making rather than detailed study planning
+- Position detailed study support as a valuable post-enrollment benefit
+This completes our three main edge cases/nuances that define the boundaries of collaborative planning behavior:
+1. Administrative vs Strategic Planning (exclude administrative)
+2. Career Guidance Boundaries (high-level only)
+3. Support Service Boundaries (avoid coaching role)

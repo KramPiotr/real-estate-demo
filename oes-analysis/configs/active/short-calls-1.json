@@ -1,0 +1,17 @@
+{
+    "transcripts_directory": "sol-under-2-mins",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "analyse",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        }
+    ]
+}

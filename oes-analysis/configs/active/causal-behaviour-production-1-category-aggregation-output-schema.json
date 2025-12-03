@@ -1,0 +1,46 @@
+{
+    "transcripts_directory": "weekly-analysis-2024-12-16-2024-12-20",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+          "name": "behaviour",
+          "location": "causals",
+          "types": ["opportunity","definition"]
+    },
+    "nodes": [
+        {
+            "name": "opportunity",
+            "inputs": [
+                "behaviour-opportunity",
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "behaviour-opportunity",
+                "transcript",
+                "opportunity"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        }
+    ]
+}

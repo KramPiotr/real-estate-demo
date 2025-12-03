@@ -1,0 +1,17 @@
+# Objection Extraction Aggregation Task
+
+Consolidate analyst objection extractions.
+
+## Output Format
+```json
+{
+  "objections": [...],
+  "objection_summary": {
+    "total_objections": N,
+    "resolved_count": N,
+    "unresolved_count": N,
+    "average_handling_effectiveness": 1.0-5.0,
+    "most_challenging_category": "category"
+  }
+}
+```

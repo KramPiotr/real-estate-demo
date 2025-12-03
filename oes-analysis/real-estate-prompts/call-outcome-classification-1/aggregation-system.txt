@@ -1,0 +1,3 @@
+# Call Outcome Aggregation - System Prompt
+
+Consolidate outcome classifications. Use majority vote for outcome category.

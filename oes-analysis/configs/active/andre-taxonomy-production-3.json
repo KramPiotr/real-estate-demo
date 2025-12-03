@@ -1,0 +1,96 @@
+{
+    "transcripts_directory": "mol-tp1-2025-andre",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "taxonomy",
+        "location": "andre-taxonomy-emotions-behaviors",
+        "types": [
+            "taxonomy"
+        ]
+    },
+    "nodes": [
+        {
+            "name": "analysis",
+            "inputs": [
+                "taxonomy",
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "gemini",
+                    "model": "gemini-2.5-flash",
+                    "mini": false
+                }
+            ],
+            "response_format": {
+                "type": "json_schema",
+                "json_schema": {
+                    "name": "TaxonomyAnalysisResponse",
+                    "strict": true,
+                    "schema": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "feature_evaluations": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "feature_code": {
+                                            "type": "string",
+                                            "description": "Feature index code from taxonomy"
+                                        },
+                                        "feature_name": {
+                                            "type": "string",
+                                            "description": "Name of the feature"
+                                        },
+                                        "speaker": {
+                                            "type": "string",
+                                            "enum": ["consultant", "student"],
+                                            "description": "Which speaker this feature applies to"
+                                        },
+                                        "segment_ids": {
+                                            "type": "array",
+                                            "items": {
+                                                "type": "integer"
+                                            },
+                                            "description": "Segment IDs from transcript where feature is observed"
+                                        },
+                                        "intensity": {
+                                            "type": "string",
+                                            "enum": ["very_weak", "weak", "moderate", "strong", "very_strong"],
+                                            "description": "Intensity of the feature manifestation"
+                                        },
+                                        "confidence": {
+                                            "type": "number",
+                                            "minimum": 0,
+                                            "maximum": 1,
+                                            "description": "Confidence in the assessment (0.0-1.0)"
+                                        },
+                                        "justification": {
+                                            "type": "string",
+                                            "description": "Brief explanation combining what was observed and why it indicates this feature"
+                                        }
+                                    },
+                                    "required": [
+                                        "feature_code",
+                                        "feature_name",
+                                        "speaker",
+                                        "segment_ids",
+                                        "intensity",
+                                        "confidence",
+                                        "justification"
+                                    ]
+                                }
+                            }
+                        },
+                        "required": [
+                            "feature_evaluations"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

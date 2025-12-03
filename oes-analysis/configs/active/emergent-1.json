@@ -1,0 +1,17 @@
+{
+    "transcripts_directory": "interesting-transcripts-segments",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "emergent",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        }
+    ]
+}

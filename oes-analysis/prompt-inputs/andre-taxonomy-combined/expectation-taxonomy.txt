@@ -1,0 +1,80 @@
+# TAXONOMY ARTIFACT 1: EXPECTATION SETTING & INFORMATION ACCURACY
+
+This taxonomy examines how accurately consultants represent the course, requirements, and process to identify misalignments that may affect student progression.
+
+## 1.A: Course Workload & Structure Representation
+
+### 1.A.i: Time Commitment Misalignment
+**Description**: Consultant provides inaccurate or incomplete information about the required weekly time commitment for the course.
+
+**Identification Guidance**: Look for specific hourly estimates provided by the consultant versus student's stated availability. Note discrepancies where the consultant minimizes the actual workload or fails to address obvious conflicts with the student's schedule.
+
+**Examples**:
+- Consultant: "You'll probably just need a few hours each week" (when program actually requires 10-15 hours per unit)
+- Student: "I work 50 hours a week" → Consultant: "That won't be a problem with our flexible learning"
+- Consultant fails to discuss specific time requirements when student mentions multiple commitments
+
+### 1.A.ii: Online Learning Modality Confusion
+**Description**: Consultant inadequately explains the fully online nature of the program, leading to student misunderstanding about in-person requirements or synchronous learning expectations.
+
+**Identification Guidance**: Search for moments where the consultant is unclear about the online delivery format or when students express surprise about the lack of face-to-face components.
+
+**Examples**:
+- Student: "So I never need to come to campus?" → Consultant: "Well, mostly it's online" (creating ambiguity)
+- Student expresses an assumption about live lectures and the consultant doesn't correct it
+- Consultant: "You can study whenever you want" without explaining asynchronous vs. synchronous components
+
+### 1.A.iii: Assessment Structure Misrepresentation
+**Description**: Consultant inaccurately represents the types, frequency, or difficulty of assessments.
+
+**Identification Guidance**: Identify instances where assessment information is downplayed, oversimplified, or presented inaccurately, particularly when students express concern about academic challenge.
+
+**Examples**:
+- Consultant: "The assessments are pretty simple" when discussing a rigorous program
+- Student asks about exam formats and consultant provides incorrect information
+- Consultant fails to mention major projects or group work when directly asked about assessment types
+
+## 1.B: Financial Information Clarity
+
+### 1.B.i: Cost Omission or Minimization
+**Description**: Consultant obscures, minimizes, or fails to fully disclose all costs associated with the program.
+
+**Identification Guidance**: Look for incomplete cost discussions, particularly when a student specifically asks about finances. Note if the consultant focuses only on initial costs without mentioning total program cost.
+
+**Examples**:
+- Consultant discusses per-unit cost but not total qualification cost
+- Student: "Are there any other fees?" → Consultant: "Nothing significant"
+- Consultant emphasizes deferred payment without clearly explaining eventual repayment obligations
+
+### 1.B.ii: Financial Aid/Payment Option Misrepresentation
+**Description**: Consultant provides incorrect or misleading information about financial aid eligibility, payment plans, or scholarship opportunities.
+
+**Identification Guidance**: Identify statements that suggest financial options that don't exist or incorrectly represent eligibility requirements for existing options.
+
+**Examples**:
+- Consultant incorrectly explains HECS-HELP eligibility to non-citizens
+- Consultant suggests payment flexibility or installment options that don't exist
+- Consultant implies scholarship opportunities when none are available
+
+## 1.C: Process & Next Steps Clarity
+
+### 1.C.i: Enrollment Process Ambiguity
+**Description**: Consultant fails to clearly explain the steps required to complete enrollment, particularly related to the Hub and account creation.
+
+**Identification Guidance**: Look for vague descriptions of next steps or failure to provide specific guidance about the Hub navigation or account setup requirements.
+
+**Examples**:
+- Consultant: "You'll get an email with everything you need" (without specific guidance)
+- Consultant fails to explain the distinct steps of creating an account, accessing the Hub, and completing enrollment
+- Consultant doesn't clearly explain which documents are needed and by when
+
+### 1.C.ii: Timeline/Deadline Imprecision
+**Description**: Consultant provides incorrect or vague information about critical deadlines or program start dates.
+
+**Identification Guidance**: Note instances where specific dates are requested but not provided, or where the consultant gives incorrect timeline information.
+
+**Examples**:
+- Student: "When is the enrollment deadline?" → Consultant: "Oh, you have plenty of time" (without specifics)
+- Consultant provides incorrect census date information
+- Consultant doesn't make clear the consequences of missing key deadlines
+

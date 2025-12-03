@@ -1,0 +1,18 @@
+<behavior_specific>
+<behavior_name>Empathy</behavior_name>
+
+<behavior_definition>
+Showing understanding and acknowledgment of student feelings and concerns. This involves recognizing and validating the student's emotions, experiences, and challenges, which helps build trust and rapport with the student.
+</behavior_definition>
+
+<behavior_essence>
+Empathy is about putting oneself in the student's shoes and demonstrating a genuine understanding of their situation. The consultant expresses this understanding through supportive statements and by sharing relevant information about how the university addresses common concerns. This creates a connection with the student and shows that their feelings are respected and considered.
+</behavior_essence>
+
+<behavior_examples>
+* "I understand how challenging it can be to balance work, family, and study."
+* "It's natural to feel nervous about returning to study after a long break."
+* "Many of our students have similar concerns, and we have support systems in place to help."
+* "I can see why you might feel overwhelmed by the prospect of online learning. Let's talk about how our program is designed to make it manageable."
+</behavior_examples>
+</behavior_specific>

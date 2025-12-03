@@ -1,0 +1,104 @@
+{
+    "transcripts_directory": "interesting-transcripts-segments",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "context_analysis",
+            "inputs": [
+                "transcript",
+                "behaviour_definition"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "quantitative_analysis",
+            "system_prompt": "layer_2-system",
+            "inputs": [
+                "transcript",
+                "behaviour_definition",
+                "context_analysis"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        },
+        {
+            "name": "needs_assessment",
+            "system_prompt": "layer_2-system",
+            "inputs": [
+                "transcript",
+                "behaviour_definition",
+                "context_analysis"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "solution_alignment",
+            "system_prompt": "layer_2-system",
+            "inputs": [
+                "transcript",
+                "behaviour_definition",
+                "context_analysis"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "objection_handling",
+            "system_prompt": "layer_2-system",
+            "inputs": [
+                "transcript",
+                "behaviour_definition",
+                "context_analysis"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "emotional_analysis",
+            "system_prompt": "layer_2-system",
+            "inputs": [
+                "transcript",
+                "behaviour_definition",
+                "context_analysis"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "transcript",
+                "quantitative_analysis",
+                "needs_assessment",
+                "solution_alignment",
+                "objection_handling",
+                "emotional_analysis"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        }
+    ]
+}

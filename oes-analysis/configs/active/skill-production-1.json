@@ -1,0 +1,64 @@
+{
+  "transcripts_directory": "test-transcripts",
+  "output_directory": "multi_agent_responses",
+  "input_catalog": {
+    "name": "behavioural_definition",
+    "location": "behavioural-definitions",
+    "types": [
+      "definition"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "trigger_identification",
+      "inputs": [
+        "transcript",
+        "behavioural_definition"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        }
+      ]
+    },
+    {
+      "name": "response_analysis",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "trigger_identification"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        }
+      ]
+    },
+    {
+      "name": "recommended_improvement",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "response_analysis"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        }
+      ]
+    },
+    {
+      "name": "response_validation",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "recommended_improvement"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        }
+      ]
+    }
+  ]
+}

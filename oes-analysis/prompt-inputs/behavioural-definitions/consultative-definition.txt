@@ -1,0 +1,18 @@
+<behavior_specific>
+<behavior_name>Consultative Approach</behavior_name>
+
+<behavior_definition>
+Using open-ended questions to understand student needs and tailoring the approach accordingly. This approach helps build rapport and ensures the consultant provides relevant information.
+</behavior_definition>
+
+<behavior_essence>
+The consultative approach is about guiding the conversation through thoughtful questioning, allowing the student to express their needs and motivations. The consultant then uses this information to customize their responses and recommendations.
+</behavior_essence>
+
+<behavior_examples>
+* "What is it that interested you in studying Psychology?"
+* "Can you tell me more about your career goals?"
+* "How do you see this degree fitting into your life?"
+* "What aspects of [course/field] are you most excited about?"
+</behavior_examples>
+</behavior_specific>

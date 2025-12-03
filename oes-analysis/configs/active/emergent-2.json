@@ -1,0 +1,113 @@
+{
+    "transcripts_directory": "interesting-transcripts-segments",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "any_insights",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        },
+        {
+            "name": "behaviour",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        },
+        {
+            "name": "emotion",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        },
+        {
+            "name": "quant",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        },
+        {
+            "name": "interaction",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "language",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "logic",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "psychology",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "transcript",
+                "any_insights",
+                "behaviour",
+                "emotion",
+                "interaction",
+                "language",
+                "logic",
+                "psychology",
+                "quant"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        }
+    ]
+}

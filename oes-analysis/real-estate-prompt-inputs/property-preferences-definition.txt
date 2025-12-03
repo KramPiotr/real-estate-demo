@@ -1,0 +1,224 @@
+# Property Preferences - Extraction Definition
+
+## Purpose
+Extract and categorize buyer property preferences to enable property-buyer matching.
+
+---
+
+## 1. Location Preferences (`location`)
+
+### Sub-Categories
+- **neighborhoods**: Specific areas, towns, or neighborhoods mentioned
+- **commute**: Work locations and acceptable commute times
+- **schools**: School district requirements or preferences
+- **proximity**: Near family, amenities, specific places
+- **avoid**: Areas or characteristics to avoid
+
+### Extraction Format
+```json
+{
+  "category": "location",
+  "preferences": [
+    {
+      "type": "neighborhoods",
+      "value": "Westside, downtown area, or the suburbs near Highway 101",
+      "priority": "must_have",
+      "quote": "We want to stay on the Westside or maybe downtown",
+      "transcript_range": "23-28"
+    },
+    {
+      "type": "commute",
+      "value": "Within 30 minutes of tech park",
+      "priority": "must_have",
+      "quote": "I can't do more than 30 minutes to work",
+      "transcript_range": "45-48"
+    }
+  ]
+}
+```
+
+---
+
+## 2. Size Preferences (`size`)
+
+### Sub-Categories
+- **bedrooms**: Number of bedrooms required
+- **bathrooms**: Number of bathrooms required
+- **square_footage**: Minimum/preferred square footage
+- **lot_size**: Yard or lot size preferences
+- **parking**: Garage spaces or parking needs
+
+### Priority Levels
+- `must_have`: Non-negotiable requirement
+- `strong_preference`: Important but might flex
+- `nice_to_have`: Would like but not essential
+- `flexible`: No strong opinion
+
+---
+
+## 3. Features Preferences (`features`)
+
+### Sub-Categories
+- **interior_must_have**: Required interior features
+- **interior_nice_to_have**: Desired interior features
+- **exterior_must_have**: Required exterior features
+- **exterior_nice_to_have**: Desired exterior features
+- **deal_breakers**: Features that would disqualify a property
+
+### Common Features to Listen For
+Interior: open floor plan, home office, updated kitchen, natural light, storage, basement, fireplace
+Exterior: pool, garage, yard, patio/deck, outdoor kitchen, garden, privacy
+
+---
+
+## 4. Budget Preferences (`budget`)
+
+### Sub-Categories
+- **price_range**: Min/max purchase price
+- **flexibility**: How firm is the budget
+- **financing**: Cash, conventional, FHA, VA, etc.
+- **monthly_payment**: Target monthly payment if mentioned
+- **down_payment**: Available down payment
+
+---
+
+## 5. Style Preferences (`style`)
+
+### Sub-Categories
+- **architecture**: Ranch, colonial, modern, craftsman, etc.
+- **age**: New construction, newer, established, historic
+- **condition**: Move-in ready, light updates, full renovation
+- **aesthetic**: Traditional, contemporary, farmhouse, etc.
+
+---
+
+## 6. Lifestyle Preferences (`lifestyle`)
+
+### Sub-Categories
+- **family**: Kids, planning for kids, aging parents
+- **pets**: Current or planned pets, yard needs
+- **work_from_home**: Home office requirements
+- **entertaining**: Space for guests, parties
+- **hobbies**: Workshop, craft room, gym, etc.
+- **accessibility**: Single-story, wheelchair access, etc.
+
+---
+
+## Revealed vs. Stated Preferences
+
+### Stated Preferences
+What buyer explicitly says they want.
+
+### Revealed Preferences
+What buyer's behavior/reactions indicate they actually value.
+
+**Example:**
+- Stated: "We don't need a big yard"
+- Revealed: "Wow, look at this backyard! The kids would love this!" → Actually values yard more than stated
+
+Flag when revealed preferences contradict stated preferences.
+
+---
+
+## Output Schema
+
+```json
+{
+  "buyer_id": "CALL-2024-12345",
+  "preferences": {
+    "location": {
+      "stated": [
+        {
+          "type": "neighborhoods",
+          "value": "Riverside or Oakmont",
+          "priority": "must_have",
+          "quote": "We're only looking in Riverside or Oakmont for the schools",
+          "transcript_range": "34-38"
+        }
+      ],
+      "revealed": []
+    },
+    "size": {
+      "stated": [
+        {
+          "type": "bedrooms",
+          "value": "4+",
+          "priority": "must_have",
+          "quote": "Four bedrooms minimum, we have three kids",
+          "transcript_range": "42-45"
+        }
+      ],
+      "revealed": []
+    },
+    "features": {
+      "stated": [
+        {
+          "type": "interior_must_have",
+          "value": "home office",
+          "priority": "must_have",
+          "quote": "I work from home full-time so I need a dedicated office",
+          "transcript_range": "56-60"
+        }
+      ],
+      "revealed": [],
+      "deal_breakers": [
+        {
+          "value": "no pool",
+          "reason": "Safety concern with young kids",
+          "quote": "We specifically don't want a pool - too dangerous with little ones",
+          "transcript_range": "78-82"
+        }
+      ]
+    },
+    "budget": {
+      "price_range": {
+        "min": null,
+        "max": 650000,
+        "flexibility": "some",
+        "quote": "We're approved for $650k but would rather stay around $600 if possible"
+      },
+      "financing_type": "conventional"
+    },
+    "style": {
+      "stated": [],
+      "revealed": []
+    },
+    "lifestyle": {
+      "stated": [
+        {
+          "type": "family",
+          "value": "3 kids, ages 3, 5, 8",
+          "implications": ["yard needed", "proximity to elementary school", "kid-friendly neighborhood"],
+          "transcript_range": "12-18"
+        }
+      ]
+    }
+  },
+  "preference_conflicts": [
+    {
+      "conflict": "Wants 4BR in Riverside for $600k - may be difficult in current market",
+      "resolution_needed": "May need to flex on neighborhood or budget"
+    }
+  ],
+  "unstated_preferences": [
+    {
+      "inference": "Likely values quiet street given young children",
+      "confidence": 0.7
+    }
+  ]
+}
+```
+
+---
+
+## Match Scoring (for property matching)
+
+When comparing a property to preferences:
+
+| Match Level | Criteria |
+|-------------|----------|
+| **Strong Match** | Meets all must-haves, most strong preferences |
+| **Good Match** | Meets all must-haves, some strong preferences |
+| **Possible Match** | Meets most must-haves, has compelling trade-offs |
+| **Weak Match** | Missing some must-haves but has other strengths |
+| **Poor Match** | Missing must-haves or has deal-breakers |

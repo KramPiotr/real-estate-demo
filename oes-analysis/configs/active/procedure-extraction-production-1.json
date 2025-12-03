@@ -1,0 +1,123 @@
+{
+  "transcripts_directory": "OVERRIDE_WITH_SHELL_SCRIPT",
+  "output_directory": "procedure-extraction-production-1",
+  "_comment_transcripts_directory": "This will be overridden by --transcripts-directory flag from shell script",
+
+  "nodes": [
+    {
+      "name": "guideline_generation",
+      "inputs": [
+        "transcript"
+      ],
+      "models": [
+        {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash",
+          "mini": false,
+          "max_tokens": 20000
+        }
+      ],
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "ConsultantGuidelineResponse",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "topic_id": {
+                "type": "string",
+                "description": "The unique identifier for this topic"
+              },
+              "topic_name": {
+                "type": "string",
+                "description": "Name of the topic"
+              },
+              "guidelines": {
+                "type": "object",
+                "description": "Comprehensive consultant guidelines for this topic",
+                "properties": {
+                  "overview": {
+                    "type": "string",
+                    "description": "High-level summary of what this topic covers and why it matters"
+                  },
+                  "key_objectives": {
+                    "type": "array",
+                    "description": "What the consultant should achieve in this conversation segment",
+                    "maxItems": 5,
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "consultant_procedures": {
+                    "type": "array",
+                    "description": "Detailed step-by-step procedures for different scenarios within this topic. Include edge cases as separate scenarios. Focus on the most important 4-6 scenarios only.",
+                    "maxItems": 6,
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "scenario": {
+                          "type": "string",
+                          "description": "The specific situation or context (e.g., 'Student asks about entry requirements', 'Student mentions financial concerns', 'Student has unusual qualification')"
+                        },
+                        "trigger_indicators": {
+                          "type": "array",
+                          "description": "Phrases, behaviors, or cues that indicate this scenario",
+                          "maxItems": 4,
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "step_by_step_procedure": {
+                          "type": "array",
+                          "description": "Ordered steps the consultant should follow. Maximum 5 steps per scenario.",
+                          "maxItems": 5,
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "step_number": {
+                                "type": "integer"
+                              },
+                              "action": {
+                                "type": "string",
+                                "description": "What the consultant should do"
+                              },
+                              "key_phrases": {
+                                "type": "array",
+                                "description": "Example phrases or language to use. Maximum 2 examples per step.",
+                                "maxItems": 2,
+                                "items": {
+                                  "type": "string"
+                                }
+                              },
+                              "references": {
+                                "type": "array",
+                                "description": "Which policies, requirements, or facts support this step. Maximum 3 references per step.",
+                                "maxItems": 3,
+                                "items": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "required": ["step_number", "action"],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "required": ["scenario", "step_by_step_procedure"],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": ["overview", "key_objectives", "consultant_procedures"],
+                "additionalProperties": false
+              }
+            },
+            "required": ["topic_id", "topic_name", "guidelines"],
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  ]
+}

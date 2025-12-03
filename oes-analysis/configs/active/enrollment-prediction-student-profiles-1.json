@@ -1,0 +1,552 @@
+{
+    "transcripts_directory": "monash-tp1-categorised-1-to-3-equal-duration-subset-100",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "enrollment",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "model_id": "gemini-2.5-flash"
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "transcript_id": {
+                        "type": "string"
+                    },
+                    "institution": {
+                        "type": "string",
+                        "enum": [
+                            "SOL",
+                            "MOL",
+                            "Unknown"
+                        ]
+                    },
+                    "program": {
+                        "type": "string"
+                    },
+                    "call_type": {
+                        "type": "string",
+                        "enum": [
+                            "Initial",
+                            "Follow-up",
+                            "Enrollment",
+                            "Support",
+                            "Unknown"
+                        ]
+                    },
+                    "enrollment_determination": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "prediction": {
+                                "type": "string",
+                                "enum": [
+                                    "YES",
+                                    "NO",
+                                    "UNDETERMINED"
+                                ]
+                            },
+                            "primary_drivers": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "driver_name": {
+                                            "type": "string"
+                                        },
+                                        "evidence": {
+                                            "type": "string"
+                                        },
+                                        "explanation": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "driver_name",
+                                        "evidence",
+                                        "explanation"
+                                    ]
+                                }
+                            },
+                            "primary_barriers": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "barrier_name": {
+                                            "type": "string"
+                                        },
+                                        "evidence": {
+                                            "type": "string"
+                                        },
+                                        "explanation": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "barrier_name",
+                                        "evidence",
+                                        "explanation"
+                                    ]
+                                }
+                            },
+                            "commitment_strength": {
+                                "type": "string",
+                                "enum": [
+                                    "High",
+                                    "Moderate",
+                                    "Developing",
+                                    "Low",
+                                    "N/A"
+                                ]
+                            },
+                            "commitment_evidence": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "prediction",
+                            "commitment_strength"
+                        ]
+                    },
+                    "confidence_assessment": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "confidence_score": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 100
+                            },
+                            "confidence_justification": {
+                                "type": "string"
+                            },
+                            "strong_evidence": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "moderate_evidence": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "weak_evidence": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "confidence_limitations": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "confidence_score",
+                            "confidence_justification"
+                        ]
+                    },
+                    "future_enrollment": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "likelihood": {
+                                "type": "string",
+                                "enum": [
+                                    "High",
+                                    "Moderate",
+                                    "Low",
+                                    "N/A"
+                                ]
+                            },
+                            "timeframe_estimate": {
+                                "type": "string"
+                            },
+                            "supporting_factors": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            },
+                            "required_conditions": {
+                                "type": "array",
+                                "items": {
+                                    "type": "string"
+                                }
+                            }
+                        },
+                        "required": [
+                            "likelihood"
+                        ]
+                    },
+                    "student_profile": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "demographic_context": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "age_generation": {
+                                        "type": "string"
+                                    },
+                                    "location": {
+                                        "type": "string"
+                                    },
+                                    "citizenship_status": {
+                                        "type": "string"
+                                    },
+                                    "employment_status": {
+                                        "type": "string"
+                                    },
+                                    "employment_sector": {
+                                        "type": "string"
+                                    },
+                                    "family_situation": {
+                                        "type": "string"
+                                    },
+                                    "current_qualifications": {
+                                        "type": "string"
+                                    },
+                                    "study_gap": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": []
+                            },
+                            "motivational_drivers": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "primary_driver": {
+                                        "type": "string"
+                                    },
+                                    "secondary_drivers": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "motivation_strength": {
+                                        "type": "string",
+                                        "enum": [
+                                            "Passionate",
+                                            "Pragmatic",
+                                            "Exploratory",
+                                            "Weak",
+                                            "Unknown"
+                                        ]
+                                    },
+                                    "evidence": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "primary_driver",
+                                    "motivation_strength"
+                                ]
+                            },
+                            "decision_making_style": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "style_type": {
+                                        "type": "string",
+                                        "enum": [
+                                            "Analytical",
+                                            "Intuitive",
+                                            "Collaborative",
+                                            "Autonomous",
+                                            "Mixed"
+                                        ]
+                                    },
+                                    "decision_speed": {
+                                        "type": "string",
+                                        "enum": [
+                                            "Quick",
+                                            "Moderate",
+                                            "Prolonged",
+                                            "Unknown"
+                                        ]
+                                    },
+                                    "external_dependencies": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "evidence": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "style_type",
+                                    "decision_speed"
+                                ]
+                            },
+                            "financial_situation": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "payment_approach": {
+                                        "type": "string"
+                                    },
+                                    "affordability_level": {
+                                        "type": "string",
+                                        "enum": [
+                                            "Confident",
+                                            "Concerned",
+                                            "Stretched",
+                                            "Infeasible",
+                                            "Unknown"
+                                        ]
+                                    },
+                                    "financial_literacy": {
+                                        "type": "string",
+                                        "enum": [
+                                            "High",
+                                            "Moderate",
+                                            "Low",
+                                            "Confused",
+                                            "Unknown"
+                                        ]
+                                    },
+                                    "planning_status": {
+                                        "type": "string",
+                                        "enum": [
+                                            "Ready now",
+                                            "Needs preparation",
+                                            "Long-term planning",
+                                            "Unknown"
+                                        ]
+                                    },
+                                    "evidence": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "payment_approach",
+                                    "affordability_level"
+                                ]
+                            },
+                            "barriers_and_concerns": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "critical_barriers": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "additionalProperties": false,
+                                            "properties": {
+                                                "barrier": {
+                                                    "type": "string"
+                                                },
+                                                "evidence": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "barrier",
+                                                "evidence"
+                                            ]
+                                        }
+                                    },
+                                    "moderate_barriers": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "additionalProperties": false,
+                                            "properties": {
+                                                "barrier": {
+                                                    "type": "string"
+                                                },
+                                                "evidence": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "barrier",
+                                                "evidence"
+                                            ]
+                                        }
+                                    },
+                                    "minor_barriers": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "additionalProperties": false,
+                                            "properties": {
+                                                "barrier": {
+                                                    "type": "string"
+                                                },
+                                                "evidence": {
+                                                    "type": "string"
+                                                }
+                                            },
+                                            "required": [
+                                                "barrier",
+                                                "evidence"
+                                            ]
+                                        }
+                                    }
+                                },
+                                "required": []
+                            },
+                            "engagement_indicators": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "engagement_level": {
+                                        "type": "string",
+                                        "enum": [
+                                            "High",
+                                            "Moderate",
+                                            "Low",
+                                            "Minimal"
+                                        ]
+                                    },
+                                    "question_quality": {
+                                        "type": "string",
+                                        "enum": [
+                                            "Detailed",
+                                            "Moderate",
+                                            "Basic",
+                                            "Minimal"
+                                        ]
+                                    },
+                                    "research_depth": {
+                                        "type": "string"
+                                    },
+                                    "conversational_energy": {
+                                        "type": "string"
+                                    },
+                                    "evidence": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "engagement_level"
+                                ]
+                            },
+                            "consultant_relationship": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "trust_level": {
+                                        "type": "string",
+                                        "enum": [
+                                            "High",
+                                            "Developing",
+                                            "Skeptical",
+                                            "Resistant",
+                                            "Unknown"
+                                        ]
+                                    },
+                                    "rapport_quality": {
+                                        "type": "string",
+                                        "enum": [
+                                            "Strong",
+                                            "Professional",
+                                            "Distant",
+                                            "Contentious",
+                                            "Unknown"
+                                        ]
+                                    },
+                                    "influence_receptivity": {
+                                        "type": "string",
+                                        "enum": [
+                                            "High",
+                                            "Moderate",
+                                            "Low",
+                                            "Resistant"
+                                        ]
+                                    },
+                                    "evidence": {
+                                        "type": "string"
+                                    }
+                                },
+                                "required": [
+                                    "trust_level",
+                                    "rapport_quality"
+                                ]
+                            },
+                            "risk_factors": {
+                                "type": "object",
+                                "additionalProperties": false,
+                                "properties": {
+                                    "attrition_risks": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "non_enrollment_risks": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "string"
+                                        }
+                                    }
+                                },
+                                "required": []
+                            },
+                            "support_needs": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "additionalProperties": false,
+                                    "properties": {
+                                        "priority": {
+                                            "type": "string",
+                                            "enum": [
+                                                "Priority 1",
+                                                "Priority 2",
+                                                "Priority 3"
+                                            ]
+                                        },
+                                        "need": {
+                                            "type": "string"
+                                        },
+                                        "evidence": {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": [
+                                        "priority",
+                                        "need",
+                                        "evidence"
+                                    ]
+                                }
+                            }
+                        },
+                        "required": [
+                            "motivational_drivers",
+                            "decision_making_style",
+                            "financial_situation",
+                            "engagement_indicators",
+                            "consultant_relationship"
+                        ]
+                    }
+                },
+                "required": [
+                    "transcript_id",
+                    "institution",
+                    "enrollment_determination",
+                    "confidence_assessment",
+                    "future_enrollment",
+                    "student_profile"
+                ]
+            }
+        }
+    ]
+}

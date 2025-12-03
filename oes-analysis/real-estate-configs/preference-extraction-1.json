@@ -1,0 +1,134 @@
+{
+    "transcripts_directory": "real-estate-calls",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "property_preferences",
+        "location": "real-estate-definitions",
+        "types": ["definition"]
+    },
+    "nodes": [
+        {
+            "name": "preference_extraction",
+            "inputs": [
+                "property_preferences-definition",
+                "transcript"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "preferences": {
+                        "type": "object",
+                        "properties": {
+                            "location": {
+                                "type": "object",
+                                "properties": {
+                                    "stated": {"type": "array", "items": {"$ref": "#/$defs/preference_item"}},
+                                    "revealed": {"type": "array", "items": {"$ref": "#/$defs/preference_item"}}
+                                }
+                            },
+                            "size": {
+                                "type": "object",
+                                "properties": {
+                                    "stated": {"type": "array", "items": {"$ref": "#/$defs/preference_item"}},
+                                    "revealed": {"type": "array", "items": {"$ref": "#/$defs/preference_item"}}
+                                }
+                            },
+                            "features": {
+                                "type": "object",
+                                "properties": {
+                                    "stated": {"type": "array", "items": {"$ref": "#/$defs/preference_item"}},
+                                    "revealed": {"type": "array", "items": {"$ref": "#/$defs/preference_item"}},
+                                    "deal_breakers": {"type": "array", "items": {"type": "object"}}
+                                }
+                            },
+                            "budget": {
+                                "type": "object",
+                                "properties": {
+                                    "price_range": {"type": "object"},
+                                    "financing_type": {"type": "string"}
+                                }
+                            },
+                            "style": {
+                                "type": "object",
+                                "properties": {
+                                    "stated": {"type": "array", "items": {"$ref": "#/$defs/preference_item"}},
+                                    "revealed": {"type": "array", "items": {"$ref": "#/$defs/preference_item"}}
+                                }
+                            },
+                            "lifestyle": {
+                                "type": "object",
+                                "properties": {
+                                    "stated": {"type": "array", "items": {"$ref": "#/$defs/preference_item"}}
+                                }
+                            }
+                        }
+                    }
+                },
+                "$defs": {
+                    "preference_item": {
+                        "type": "object",
+                        "properties": {
+                            "type": {"type": "string"},
+                            "value": {"type": "string"},
+                            "priority": {"type": "string", "enum": ["must_have", "strong_preference", "nice_to_have", "flexible"]},
+                            "quote": {"type": "string"},
+                            "transcript_range": {"type": "string"}
+                        },
+                        "required": ["type", "value", "priority"]
+                    }
+                },
+                "required": ["preferences"]
+            }
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "property_preferences-definition",
+                "transcript",
+                "preference_extraction"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "buyer_id": {"type": "string"},
+                    "preferences": {"type": "object"},
+                    "preference_conflicts": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "conflict": {"type": "string"},
+                                "resolution_needed": {"type": "string"}
+                            }
+                        }
+                    },
+                    "unstated_preferences": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "inference": {"type": "string"},
+                                "confidence": {"type": "number"}
+                            }
+                        }
+                    },
+                    "match_readiness": {
+                        "type": "string",
+                        "enum": ["ready_to_match", "needs_clarification", "preferences_incomplete"]
+                    }
+                },
+                "required": ["preferences", "match_readiness"]
+            }
+        }
+    ]
+}

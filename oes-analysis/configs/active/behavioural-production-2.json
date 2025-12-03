@@ -1,0 +1,80 @@
+{
+  "transcripts_directory": "test-transcripts",
+  "output_directory": "multi_agent_responses",
+  "input_catalog": {
+    "name": "behavioural_definition",
+    "location": "behavioural-definitions",
+    "types": [
+      "definition"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "trigger_identification",
+      "inputs": [
+        "transcript",
+        "behavioural_definition"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ],
+      "response_format_path": "behavioural.trigger_identification.TriggerIdentificationSystem"
+    },
+    {
+      "name": "parallel_response",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "trigger_identification"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true,
+          "prompt_suffix": "1",
+          "response_format_path": "behavioural.parallel_response_1.ParallelResponseSystem1"
+        },
+        {
+          "provider": "azure",
+          "mini": true,
+          "prompt_suffix": "2",
+          "response_format_path": "behavioural.parallel_response_1.ParallelResponseSystem2"
+        }
+      ]
+    },
+    {
+      "name": "response_generation",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "parallel_response"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ],
+      "type": "separate",
+      "response_format_path": "behavioural.response_generation.ResponseGenerationSystem"
+    },
+    {
+      "name": "final_synthesis",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "response_generation"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ],
+      "response_format_path": "behavioural.final_synthesis.FinalSynthesisSystem"
+    }
+  ]
+}

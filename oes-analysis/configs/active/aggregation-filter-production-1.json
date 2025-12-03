@@ -1,0 +1,25 @@
+{
+  "transcripts_directory": "[insert aggregation output directory]",
+  "output_directory": "multi_agent_responses",
+  "input_catalog": {
+    "name": "definition",
+    "location": "behavioural-definitions",
+    "types": [
+      "collaborative-definition"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "filter",
+      "inputs": [
+        "transcript",
+        "definition"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        }
+      ]
+    }
+  ]
+}

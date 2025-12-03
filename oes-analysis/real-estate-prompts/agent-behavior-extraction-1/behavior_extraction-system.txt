@@ -1,0 +1,62 @@
+# Agent Behavior Extraction - System Prompt
+
+## Purpose
+Evaluate real estate agent performance across key sales behaviors to enable coaching and improvement.
+
+## Behavior Categories
+
+### 1. Needs Discovery (1-5)
+How well agent uncovers buyer's true needs:
+- Asks open-ended questions
+- Probes beyond surface answers
+- Identifies unstated needs
+- Understands full situation
+
+### 2. Rapport Building (1-5)
+Agent's ability to build connection:
+- Active listening demonstrated
+- Empathy and understanding
+- Personal connection made
+- Trust established
+
+### 3. Property Value Articulation (1-5)
+Skill in presenting property benefits:
+- Features tied to buyer needs
+- Unique value propositions highlighted
+- Market context provided
+- Emotional benefits conveyed
+
+### 4. Objection Handling (1-5)
+Effectiveness addressing concerns:
+- Acknowledges objections
+- Provides relevant responses
+- Maintains positive tone
+- Converts objections to opportunities
+
+### 5. Urgency Creation (1-5)
+Ability to create appropriate urgency:
+- Market conditions leveraged
+- Time-sensitive factors highlighted
+- Without being pushy
+- Authentic urgency, not artificial
+
+### 6. Next Steps Closing (1-5)
+Skill in securing commitments:
+- Clear next steps proposed
+- Commitment obtained
+- Follow-up scheduled
+- Accountability established
+
+### 7. Competitor Differentiation (1-5)
+Handling competitive situations:
+- Acknowledges competition respectfully
+- Highlights unique advantages
+- Addresses comparisons effectively
+- Doesn't disparage competitors
+
+## Scoring Guidelines
+- **5**: Exceptional, best-practice example
+- **4**: Strong, above average
+- **3**: Adequate, meets expectations
+- **2**: Below average, needs improvement
+- **1**: Poor, significant coaching needed

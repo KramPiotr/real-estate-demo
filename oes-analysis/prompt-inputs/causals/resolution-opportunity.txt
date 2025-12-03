@@ -1,0 +1,132 @@
+# One Call Resolution: Comprehensive Solution Provision Moments Opportunity Definition
+
+## Core Definition
+
+<opportunity_definition>
+A Comprehensive Solution Provision Moment occurs when a student presents multiple related questions or concerns, or when a topic naturally connects to other relevant information areas, creating an opportunity for the consultant to provide thorough, proactive guidance that addresses both explicit and anticipated needs within a single interaction.
+</opportunity_definition>
+
+## Opportunity Identification Criteria
+
+<identification_criteria>
+1. Student asks multiple related questions suggesting broader information needs
+2. The topic under discussion naturally connects to other relevant information areas
+3. Student indicates limited availability for follow-up interactions
+4. Student signals they are gathering comprehensive information for an imminent decision
+5. Conversation reaches a natural junction where connected topics would provide holistic understanding
+6. Student's question suggests incomplete understanding of interdependent processes or factors
+7. Student is actively comparing options and seeking comprehensive evaluation criteria
+</identification_criteria>
+
+## Student Signals
+
+<student_signals>
+- Asking multiple questions about related topics
+- Expressing concern about a specific aspect that connects to other information areas
+- Mentioning time constraints for decision-making or information gathering
+- Demonstrating limited availability for multiple interactions
+- Using phrases like "I want to understand everything about..." or "Can you walk me through the whole process?"
+- Asking questions that indicate planning for next steps
+- Showing signs of information gathering for an imminent decision
+</student_signals>
+
+## Causal Impact Logic
+
+<causal_impact_logic>
+One Call Resolution directly improves enrollment and retention likelihood by:
+
+1. **Eliminating Process Abandonment**: Comprehensive information provision prevents enrollment abandonment due to information gaps requiring additional effort to fill.
+
+2. **Accelerating Decision Momentum**: Complete information in a single interaction maintains decision momentum that could otherwise be lost between multiple contacts.
+
+3. **Demonstrating Institutional Efficiency**: Thorough, proactive guidance creates confidence in the institution's overall organizational competence and student service quality.
+
+4. **Preventing Misinformed Decisions**: Addressing connected information areas proactively prevents decisions based on incomplete understanding that could lead to future dissatisfaction.
+
+5. **Creating Psychological Closure**: Comprehensive guidance creates a sense of completion and clarity that supports confident decision-making.
+
+6. **Building Consultant Credibility**: Demonstrating thorough knowledge and anticipation of needs establishes the consultant as a trusted advisor worth following through the enrollment process.
+</causal_impact_logic>
+
+## Opportunity Strength Scoring Rubric (1-5)
+
+<scoring_rubric>
+**1 - Minimal Opportunity**: 
+- Simple question with few natural connections to other information areas
+- Limited impact on enrollment decision if addressed in isolation
+- No indication of time pressure or comprehensive information needs
+- Student likely to return for additional information regardless
+
+**2 - Low Opportunity**:
+- Question with some natural connections to related information areas
+- Modest benefit from providing connected information proactively
+- Some indication of broader information gathering
+- Limited signs of decision urgency or process constraints
+
+**3 - Moderate Opportunity**:
+- Multiple connected questions requiring coordinated explanation
+- Clear benefit from comprehensive rather than piecemeal information
+- Noticeable indications of decision-making information gathering
+- Some signs of time constraints or efficiency preferences
+- Important decision factors spanning multiple information areas
+
+**4 - Strong Opportunity**:
+- Highly interdependent questions or topics requiring integrated explanation
+- Significant risk of misunderstanding if topics addressed separately
+- Strong indicators of comprehensive information gathering for decision-making
+- Clear time constraints or efficiency preferences expressed
+- Critical decision factors spanning multiple information domains
+- High likelihood of enrollment momentum loss without comprehensive resolution
+
+**5 - Critical Opportunity**:
+- Complex, multi-faceted inquiry requiring thorough, integrated response
+- Explicit statement of limited availability for future interactions
+- Decision explicitly contingent on comprehensive understanding
+- Maximum time pressure or urgency for decision-making
+- Fundamental understanding dependent on connecting multiple information areas
+- Near certainty of enrollment abandonment without comprehensive resolution
+</scoring_rubric>
+
+## Good Opportunity Examples
+
+<good_examples>
+### Example 1: Imminent Decision with Time Constraint (Strength: 5)
+Student: "I need to decide between your program and two others by the end of this week. I still have questions about the admissions requirements, course structure, and payment options. Also, if I enroll, how soon can I start? This is probably the only chance I'll have to speak with someone before making my decision."
+
+*Why this is a critical opportunity*: The student has explicitly stated a tight decision timeline, identified multiple information areas requiring coverage, and indicated this is their only opportunity for interaction before deciding. There's a high likelihood of enrollment abandonment if all their questions aren't comprehensively addressed in this single interaction. The decision is imminent and spans multiple information domains.
+
+### Example 2: Connected Process Understanding (Strength: 4)
+Student: "I'm interested in applying for the MBA program. What's the application process like, and what documents do I need to prepare? Also, I'm wondering about the timeline from application to starting classes."
+
+*Why this is a strong opportunity*: The student is asking about a process with multiple connected steps (application process, required documents, timeline) that are highly interdependent. Understanding each element in isolation would create an incomplete picture of the enrollment journey. There's significant risk of misunderstanding or friction if these topics are addressed separately rather than as an integrated explanation of the entire process.
+
+### Example 3: Multiple Financial Considerations (Strength: 3)
+Student: "What are the tuition fees for this program? I'm also curious about payment plans and scholarship opportunities."
+
+*Why this is a moderate opportunity*: The student is asking about multiple related aspects of financing their education (fees, payment plans, scholarships) that together form a complete picture of their financial commitment. These topics are naturally connected, and addressing them comprehensively would provide significant value in supporting their decision-making process. Understanding fees without payment options or potential scholarships would create an incomplete financial understanding.
+</good_examples>
+
+## Bad Opportunity Examples (False Positives)
+
+<bad_examples>
+### Example 1: Simple Standalone Question
+Student: "What's the application deadline for the September intake?"
+
+*Why this is NOT a comprehensive solution opportunity*: This is a straightforward, single-topic question with a simple factual answer. There are minimal natural connections requiring proactive explanation, and no indication that the student is engaged in broader information gathering for immediate decision-making.
+
+### Example 2: Early Exploration Question
+Student: "I'm just starting to look into different options. Can you tell me a bit about what makes your business program unique?"
+
+*Why this is NOT a comprehensive solution opportunity*: The student explicitly indicates they're in early exploration rather than decision-making mode. They're seeking general information rather than comprehensive understanding for an imminent decision. Their language suggests multiple interactions are anticipated rather than requiring complete resolution in one conversation.
+
+### Example 3: Specific Technical Clarification
+Student: "I noticed on the website that Java programming is mentioned as a prerequisite. Is Python knowledge acceptable as an alternative?"
+
+*Why this is NOT a comprehensive solution opportunity*: This is a specific technical clarification on a single topic rather than a multi-faceted inquiry requiring comprehensive explanation. There's no indication of time pressure, decision urgency, or need for integrated understanding across multiple information areas.
+</bad_examples>
+
+## Important Note on Opportunity Identification
+
+<important_note>
+The opportunity score reflects the potential impact if one call resolution is ideally implemented, not the consultant's actual response quality. Even if a consultant fails to provide comprehensive guidance, the opportunity should still be identified and scored based on the interconnectedness of the student's questions and the decision context they present. The opportunity strength rating measures how impactful comprehensive solution provision would be in that specific moment, regardless of whether the opportunity was successfully leveraged.
+</important_note>

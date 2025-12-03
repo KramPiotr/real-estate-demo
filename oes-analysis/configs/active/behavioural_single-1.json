@@ -1,0 +1,36 @@
+{
+    "transcripts_directory": "interesting-transcripts-segments",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "behavioural_definition",
+        "location": "single_behaviour",
+        "types": ["definition"]
+    },
+    "nodes": [
+        {
+            "name": "behaviour_analysis",
+            "inputs": [
+                "transcript",
+                "behavioural_definition"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "specificity",
+            "inputs": [
+                "transcript",
+                "behavioural_definition",
+                "behaviour_analysis"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        }
+    ]
+}

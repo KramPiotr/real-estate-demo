@@ -1,0 +1,56 @@
+{
+    "transcripts_directory": "weekly-analysis-2024-12-16-2024-12-20",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+          "name": "call_recording_disclosure",
+          "location": "call-recording-compliance",
+          "types": ["broad","enhanced"]
+    },
+    "nodes": [
+        {
+            "name": "check",
+            "inputs": [
+                "call_recording_disclosure-broad",
+                "call_recording_disclosure-enhanced",
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ],
+            "response_format_path": "compliance.check.CheckSystem"
+        },
+        {
+            "name": "errors",
+            "inputs": [
+                "call_recording_disclosure-broad",
+                "call_recording_disclosure-enhanced",
+                "transcript",
+                "check"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ],
+            "response_format_path": "compliance.errors.ErrorsSystem"
+        },
+        {
+            "name": "validation",
+            "inputs": [
+                "call_recording_disclosure-broad",
+                "call_recording_disclosure-enhanced",
+                "transcript",
+                "check",
+                "errors"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ],
+            "response_format_path": "compliance.validation.ValidationSystem"
+        }
+    ]
+}

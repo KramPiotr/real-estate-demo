@@ -1,0 +1,24 @@
+# Course Hours per Unit
+
+## Conceptual Overview
+Consultants should communicate information about the course structure, which may include time commitment per unit, number of teaching periods, or unit enrollment details. Any combination of these elements satisfies the requirement.
+
+## Essential Composite Requirements
+
+The consultant should mention at least one of the following:
+
+### 1. Study Hours
+- Number of study hours required per unit
+
+### 2. Teaching Periods
+- Number of teaching periods per year for the specific institution
+
+### 3. Unit Restrictions
+- Restrictions on the number of units that can be taken simultaneously
+
+## Examples
+- "6 teaching periods a year for Monash"
+- "3 teaching periods a year for SOL, 1-4 units, 10-12 hours per unit"
+- "Each unit requires approximately 20-24 hours of study per week"
+
+Note: LLMs should assess whether the consultant has mentioned at least one of the above elements (study hours, teaching periods, or unit restrictions). Mentioning any one or any combination of these elements is sufficient to meet the requirement. The exact phrasing is not critical, and abbreviations like 'tp' for teaching period are acceptable if previously explained. Additional details beyond these points are optional.

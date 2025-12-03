@@ -1,0 +1,31 @@
+# Counter-Script Generation Task
+
+Generate response scripts for identified objection patterns.
+
+## Output Format
+```json
+{
+  "counter_scripts": [
+    {
+      "objection_category": "category",
+      "objection_sub_category": "sub_category",
+      "frequency_rank": N,
+      "recommended_scripts": [
+        {
+          "script_text": "full script",
+          "tone": "empathetic|consultative|assertive|educational",
+          "best_used_when": "context",
+          "success_rate_basis": "evidence"
+        }
+      ],
+      "key_principles": ["principle1"],
+      "common_mistakes_to_avoid": ["mistake1"]
+    }
+  ],
+  "training_materials": {
+    "summary": "overview",
+    "role_play_scenarios": ["scenario1"],
+    "assessment_criteria": ["criterion1"]
+  }
+}
+```

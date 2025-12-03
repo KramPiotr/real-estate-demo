@@ -1,0 +1,50 @@
+{
+  "transcripts_directory": "weekly-analysis-2024-12-16-2024-12-20",
+  "output_directory": "multi_agent_responses",
+  "nodes": [
+      {
+          "name": "intent",
+          "inputs": [
+              "transcript"
+          ],
+          "models": [
+              {
+                  "provider": "azure",
+                  "mini": true
+              },
+              {
+                  "provider": "azure",
+                  "mini": true
+              },
+              {
+                  "provider": "azure",
+                  "mini": true
+              }
+          ]
+      },
+      {
+          "name": "aggregation",
+          "inputs": [
+              "transcript",
+              "intent"
+          ],
+          "models": [
+              {
+                  "provider": "azure"
+              }
+          ]
+      },
+      {
+          "name": "resolution",
+          "inputs": [
+              "transcript",
+              "aggregation"
+          ],
+          "models": [
+              {
+                  "provider": "azure"
+              }
+          ]
+      }
+  ]
+}

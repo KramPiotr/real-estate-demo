@@ -1,0 +1,98 @@
+# TAXONOMY ARTIFACT 7: ACADEMIC BACKGROUND & LEARNING READINESS
+This taxonomy examines student educational history and learning capability indicators that emerge through sales call discussions and may predict academic success.
+
+## 7.A: Educational Foundation Strength
+
+### 7.A.i: Logical Credential Progression
+**Description:** Student's educational background demonstrates a logical stepping-stone approach to qualifications, suggesting systematic skill-building.
+
+**Identification Guidance:** Listen for mentions of sequential qualifications (certificate to diploma to degree), relevant prior study, or strategic educational planning over time.
+
+**Examples:**
+- Student: "I did my Certificate IV in Project Management first, then the Diploma, and now I'm ready for the Bachelor's"
+- Student: "I have a nursing degree but want to add business skills with this MBA"
+- Student: "I completed the psychology undergraduate and now want to specialize with the Master's"
+
+### 7.A.ii: Academic Success History
+**Description:** Student mentions positive academic experiences, achievements, or performance indicators from previous educational experiences.
+
+**Identification Guidance:** Note references to good grades, academic recognition, successful completion of challenging programs, or positive learning experiences.
+
+**Examples:**
+- Student: "I graduated with honors from my previous degree"
+- Student: "I really enjoyed my undergraduate studies and did well in the business units"
+- Student: "I was on the Dean's List for most of my degree"
+
+### 7.A.iii: Optimal Time-Since-Study Positioning
+**Description:** Student indicates an ideal gap since last formal education - long enough to gain practical experience but recent enough to maintain study skills.
+
+**Identification Guidance:** Look for mentions of timeframes suggesting 3-10 years since last formal study, with references to maintaining learning habits or professional development in the interim.
+
+**Examples:**
+- Student: "I finished my Bachelor's about five years ago, so I feel ready to get back into formal study"
+- Student: "It's been seven years since uni, but I've been doing professional development courses at work"
+- Student: "I graduated in 2018 and have been working in the field since then, so I understand how the theory applies"
+
+## 7.B: Learning Capability & Study Skills
+
+### 7.B.i: Self-Directed Learning Evidence
+**Description:** Student demonstrates experience with independent learning, suggesting capability for online study success.
+
+**Identification Guidance:** Listen for mentions of self-directed professional development, online courses, personal research projects, or independent skill acquisition.
+
+**Examples:**
+- Student: "I've completed several LinkedIn Learning courses on my own time"
+- Student: "I taught myself Excel through YouTube videos and online tutorials"
+- Student: "I regularly read industry publications and do online training modules at work"
+
+### 7.B.ii: Professional Learning Integration
+**Description:** Student shows evidence of successfully applying learned concepts in professional contexts, indicating strong learning transfer abilities.
+
+**Identification Guidance:** Note examples of taking training or education and implementing it effectively at work, suggesting good practical application skills.
+
+**Examples:**
+- Student: "After I did the leadership workshop, I implemented those techniques with my team"
+- Student: "The accounting course I took really helped me understand our financial reports better"
+- Student: "I use the project management methodologies I learned in training every day at work"
+
+### 7.B.iii: Analytical & Research Orientation
+**Description:** Student demonstrates comfort with research, analysis, and critical thinking through their questions and approach to decision-making.
+
+**Identification Guidance:** Look for sophisticated questions about program content, evidence of comparing programs, or analytical approaches to understanding requirements.
+
+**Examples:**
+- Student: "I've compared the curriculum with other universities and like how this one focuses on practical application"
+- Student: "Can you explain how the assessment methods align with industry best practices?"
+- Student: "I've researched the employment outcomes for graduates and they look promising"
+
+## 7.C: Digital Learning & Technology Readiness
+
+### 7.C.i: Online Learning Platform Experience
+**Description:** Student has previous experience with online learning platforms or digital educational tools, indicating readiness for online study format.
+
+**Identification Guidance:** Listen for mentions of MOOCs, workplace learning management systems, webinars, virtual training, or other online learning experiences.
+
+**Examples:**
+- Student: "I've done several Coursera courses and really like the online format"
+- Student: "Our company uses an LMS for training, so I'm comfortable with online learning platforms"
+- Student: "I completed a virtual certificate program during COVID and found it really effective"
+
+### 7.C.ii: Digital Communication Comfort
+**Description:** Student demonstrates comfort with digital communication methods and online collaboration, essential for online learning success.
+
+**Identification Guidance:** Note references to video calls, online collaboration tools, digital document sharing, or comfort with technology-mediated communication.
+
+**Examples:**
+- Student: "I work remotely so I'm very comfortable with video calls and online collaboration"
+- Student: "I use Teams and Zoom daily for work meetings"
+- Student: "I'm familiar with Google Docs and online document sharing from my current role"
+
+### 7.C.iii: Technology Problem-Solving Capability
+**Description:** Student shows ability to troubleshoot technology issues independently, suggesting resilience in online learning environments.
+
+**Identification Guidance:** Look for examples of solving technical problems, learning new software independently, or adapting to technology changes.
+
+**Examples:**
+- Student: "When our work system changed, I figured out the new software pretty quickly"
+- Student: "I usually can work through tech issues myself or find solutions online"
+- Student: "I helped my team transition to new software when we went remote"

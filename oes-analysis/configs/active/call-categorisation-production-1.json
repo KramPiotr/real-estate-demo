@@ -1,0 +1,74 @@
+{
+    "transcripts_directory": "monash-tp1-categorised-1-test",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "opportunity",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "transcript",
+                "opportunity"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        },
+        {
+            "name": "behaviour",
+            "inputs": [
+                "transcript",
+                "aggregation"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        },
+        {
+            "name": "aggregation2",
+            "inputs": [
+                "transcript",
+                "aggregation",
+                "behaviour"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+<behavior_specific>
+<behavior_name>Objection Handling</behavior_name>
+
+<behavior_definition>
+Effectively addressing student concerns or hesitations by acknowledging the concern, providing information or solutions, and checking if the student is satisfied with the response. This approach demonstrates responsiveness to student needs and helps overcome potential barriers to enrollment.
+</behavior_definition>
+
+<behavior_essence>
+Objection handling is about transforming potential obstacles into opportunities for deeper engagement. The consultant listens carefully to identify the underlying concerns, addresses them directly with relevant information or solutions, and ensures that the student feels heard and satisfied. This process not only resolves immediate issues but also builds trust and confidence in the institution's ability to support the student.
+</behavior_essence>
+
+<behavior_examples>
+* "I understand your concern about [specific issue]. Let's discuss how we can address that."
+* "Many students worry about [common concern]. Here's how our program is designed to help with that..."
+* "That's a great question about [objection topic]. Let me explain our approach to handling this."
+* Using "Objection discovery questions" to fully understand the student's concern.
+* Providing "USP solutions" (Unique Selling Proposition) that highlight how the institution uniquely addresses the concern.
+* Checking for resolution: "Does that help address your concern about [specific issue]?"
+* Following up with "Is there any other aspect of this you'd like me to clarify?"
+</behavior_examples>
+</behavior_specific>

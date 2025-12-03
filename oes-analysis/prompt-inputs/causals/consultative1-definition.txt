@@ -1,0 +1,560 @@
+# Behaviour Name: 'Consultative Approach'
+
+# Consultative Approach: Behavioral Response Definition
+
+## Core Definition
+
+Effective Consultative Approach responses demonstrate genuine curiosity about student needs through thoughtful open-ended questions, persistent probing beyond surface-level answers, and confirming understanding through paraphrasing. These responses enable consultants to gather the information necessary to tailor their approach and ultimately sell the course based on the student's specific motivations and goals.
+
+The effectiveness of consultative approach responses directly impacts enrollment and retention outcomes by:
+- **Gathering Essential Information**: Understanding student motivations enables tailored value demonstration
+- **Building Trust**: Demonstrating genuine interest through questions and paraphrasing creates psychological safety
+- **Uncovering Hidden Needs**: Probing reveals concerns and circumstances that inform better recommendations
+- **Creating Student Ownership**: When students articulate their own goals, enrollment feels like their decision
+- **Improving Expectation Alignment**: Thorough discovery ensures students understand how the course fits their needs
+- **Differentiating from Competition**: Student-focused discovery positions institution above transactional competitors
+- **Strengthening Closing Effectiveness**: Paraphrasing before closing makes commitment requests feel natural
+
+## ⚠️ CRITICAL SCOPE GUIDANCE
+
+This framework focuses **ONLY** on these five key consultative approach response types:
+
+1. Career Motivation Discovery Responses
+2. Qualification Background Discovery Responses
+3. Outcome Goals Discovery Responses
+4. Deep Probing Follow-Up Responses
+5. Pre-Closing Value Paraphrasing Responses
+
+Administrative questions, eligibility verification, document requests, and standard information provision without discovery elements fall outside this scope.
+
+## 🌟 GOLD STANDARD ANALYSIS: THE BENCHMARK FOR ALL RESPONSE EVALUATIONS
+
+The following analysis represents the exemplary standard that should be replicated for ALL consultative approach response evaluations, regardless of specific category type:
+
+> "The consultant's open-ended question, 'What specifically about the program caught your attention?' effectively moves beyond the student's surface-level statement that it 'seems interesting.' This question demonstrates genuine curiosity by focusing on specific interest drivers rather than accepting the vague initial response. The use of 'specifically' is particularly effective as it signals to the student that detailed, thoughtful answers are expected and valued. By asking what 'caught your attention' rather than simply 'why are you interested,' the consultant frames the question in a way that invites storytelling and deeper reflection about the moment or factor that sparked their interest. This approach aligns with the Career Motivation Discovery component by seeking to understand the underlying drivers of their inquiry. The question's open-ended structure ('What specifically...') prevents yes/no answers and requires the student to provide substantive information about their motivations. Successfully gathering this information would enable the consultant to tailor the subsequent course presentation to the specific elements that resonate with this student, significantly increasing the likelihood of demonstrating relevant value and securing enrollment."
+
+### Elements That Make This Analysis Exceptional - ALWAYS INCORPORATE THESE
+
+Every response analysis should consistently incorporate these key elements:
+
+1. **Direct Consultant Quote**: Include precise consultant language that demonstrates the consultative approach
+
+2. **Effectiveness Explanation**: Detail how the consultant's language gathers information or builds understanding
+
+3. **Specific Technique Identification**: Highlight the specific consultative techniques used (e.g., "use of 'specifically'")
+
+4. **Comparison to Weak Alternatives**: Show why this approach is superior to less effective alternatives
+
+5. **Connection to Information Gathering**: Link the response to what information it enables the consultant to gather
+
+6. **Pattern Alignment**: Connect the response to the specific consultative approach component
+
+7. **Forward Impact Statement**: Explain how gathering this information improves the remainder of the consultation and enrollment likelihood
+
+These elements must be present in EVERY response analysis, using language that maintains the tone, depth, and precision of the gold standard example.
+
+## The 5-Part Response Framework
+
+Each type of consultative approach response addresses a specific discovery need and requires distinct approaches to maximize effectiveness. Below, we detail each response type with exemplary implementations, analysis, and improvement recommendations.
+
+---
+
+## 1. Career Motivation Discovery Responses
+
+**Definition**: Responses that use open-ended questions to explore why students want the course, what career goals they have, what the qualification would mean for their future, or what initially drew their interest.
+
+**Purpose**: To gather foundational information about student motivations that enables tailored value demonstration throughout the consultation.
+
+**⚠️ CRITICAL LEAD SOURCE RULES**
+
+**For Brochure Downloads:**
+- ❌ **NEVER USE**: "Do you have any questions about the brochure?"
+- ✅ **ALWAYS USE**: Immediate "why" questions
+- Example: "What drew your interest to this course?"
+
+**For Web Applications:**
+- ✅ **CORRECT SEQUENCE**: Acknowledge application → Pivot to "why" before next steps
+- ❌ **INCORRECT**: Jumping immediately to application details
+- Example: "I can see you've submitted an application. Before we discuss next steps, I'd love to understand what motivated you to apply for this course?"
+
+**Key Implementation Principles**:
+- Use open-ended "what" or "why" questions, not closed yes/no questions
+- Frame questions to invite storytelling and reflection
+- Avoid defensive or sales-focused language
+- Lead with curiosity, not qualification assessment
+- Ask about future aspirations, not just current dissatisfaction
+- Connect questions naturally to student's statements
+
+### Exemplary Implementation (Score 5)
+
+#### Example 1: Perfect Web Application Opening
+
+**Call ID**: 625847392015
+**Consultant**: Sarah Chen
+**Lead Source**: Web Application
+
+**Consultant Response**:
+"Thanks for taking my call. I can see you submitted an application for the Master of Business Administration last week - that's great. Before we go through the next steps with your application, I'd really love to understand what motivated you to apply for this particular program. What are you hoping an MBA will help you accomplish in your career?"
+
+**Analysis**:
+The consultant's response demonstrates exceptional Career Motivation Discovery by perfectly following the web application lead source protocol: acknowledging the application submission first ("I can see you submitted an application... that's great") before immediately pivoting to discovery with "Before we go through the next steps." This sequence respects the student's demonstrated intent while prioritizing understanding over processing. The question "What are you hoping an MBA will help you accomplish in your career?" is exemplary because it combines three powerful elements: (1) focuses on forward-looking goals ("hoping to accomplish") rather than past dissatisfaction, (2) connects directly to the specific program mentioned (MBA), and (3) frames the question around career impact, inviting the student to articulate concrete professional outcomes. The phrase "motivated you to apply" acknowledges the student's action while seeking the underlying drivers. This approach aligns perfectly with the meeting directive that for web applications, consultants must "acknowledge that they've put their application through and we've received it, and then... just want to understand your motivations are for the course and why you are applying." Successfully gathering this foundational information enables the consultant to reference the student's specific career goals when presenting MBA content, directly connecting program features to articulated aspirations.
+
+**Why This Is Exemplary (Score 5)**:
+Perfect adherence to web application lead source protocol, combining acknowledgment with immediate pivot to discovery. The question effectively invites detailed response about career goals while maintaining natural conversation flow. Demonstrates mastery of lead-source-appropriate opening strategy.
+
+#### Example 2: Effective Brochure Download Opening
+
+**Call ID**: 624918472653
+**Consultant**: Michael Torres
+
+**Consultant Response**:
+"Thanks for downloading the brochure for our Bachelor of Psychology program. What drew your interest to studying psychology at this point in your life?"
+
+**Analysis**:
+The consultant's response demonstrates strong Career Motivation Discovery by avoiding the explicitly forbidden brochure question ("Do you have any questions about the brochure?") and instead immediately moving to discovery with "What drew your interest to studying psychology at this point in your life?" This question is highly effective because it combines broad program interest ("studying psychology") with personal context ("at this point in your life"), inviting the student to share both their subject interest and their life circumstances or timing motivations. The phrase "drew your interest" is softer and more curiosity-driven than "why are you interested," making it feel less interrogative and more conversational. The question's structure prevents yes/no responses and requires the student to reflect on and articulate their motivations. This approach aligns with the meeting notes' hard rule that for brochure downloads, consultants must never ask about brochure questions but should "immediately start with 'why' questions." By gathering this information early, the consultant can tailor the entire consultation to the student's specific drivers, whether they're career change, skill development, personal interest, or other motivations.
+
+**Why This Is Exemplary (Score 5)**:
+Avoids the forbidden brochure question and immediately opens with discovery. Question combines subject interest with personal timing context, inviting rich, detailed response about motivations.
+
+### Career Motivation Discovery Response Scoring Rubric
+
+**5 - Exceptional Implementation**
+- Uses open-ended "what" or "why" questions that invite detailed responses
+- Adheres perfectly to lead source rules (acknowledges web apps before pivoting; avoids brochure questions)
+- Frames questions to invite storytelling about future aspirations or specific drivers
+- Connects naturally to student's context or statements
+- Uses language that demonstrates genuine curiosity rather than interrogation
+- Question structure prevents yes/no answers and requires substantive response
+- Successfully gathers information that enables tailored approach throughout consultation
+
+**4 - Strong Implementation**
+- Uses effective open-ended questions with minor room for improvement
+- Generally follows lead source rules with minor execution gaps
+- Invites reasonably detailed responses about motivations
+- Shows genuine interest in understanding student's situation
+- May use slightly less optimal framing but still gathers useful information
+- Question allows for substantive response with some potential for brief answers
+
+**3 - Competent Implementation**
+- Asks open-ended questions but may lack specificity or depth
+- Follows lead source rules but without optimal execution
+- Invites responses but may not fully explore underlying motivations
+- Shows basic interest in student's goals but could probe deeper
+- Questions gather some useful information but miss opportunities for richer understanding
+- May mix open and closed questions, diluting discovery effectiveness
+
+**2 - Basic Implementation**
+- Uses questions that are somewhat open but easily answered briefly
+- May violate lead source rules (e.g., asking about brochure, skipping acknowledgment)
+- Questions lack depth or fail to invite meaningful reflection
+- Shows limited genuine curiosity about student's specific situation
+- Gathers minimal information that doesn't enable tailored approach
+- May use leading questions that telegraph expected answers
+
+**1 - Minimal Implementation**
+- Uses closed yes/no questions or makes statements without questions
+- Violates lead source rules (asks about brochure for brochure downloads)
+- Shows no curiosity about underlying motivations
+- Questions focus on consultant's needs (qualification, timeline) rather than student's goals
+- Gathers no useful information for tailoring approach
+- May skip discovery entirely and jump to information provision or closing
+
+---
+
+## 2. Qualification Background Discovery Responses
+
+**Definition**: Responses that use open-ended questions to explore student's educational background, work experience, current qualifications, or related field experience to understand their starting position.
+
+**Purpose**: To understand student's readiness and context for the program, enabling appropriate recommendations and connection of previous experience to course content.
+
+**Key Implementation Principles**:
+- Frame questions as "tell me about" or "walk me through" to invite narrative
+- Focus on understanding relevance and depth, not just checking boxes
+- Connect background questions to course applicability
+- Avoid interrogative tone; maintain conversational curiosity
+- Ask about experiences rather than just credentials
+- Invite student to explain significance of their background
+
+### Exemplary Implementation (Score 5)
+
+#### Example 1: Work Experience Discovery
+
+**Call ID**: 625039485726
+**Consultant**: James Patterson
+
+**Consultant Response**:
+"You mentioned you've been working in the marketing field. Could you tell me a bit more about your current role and the types of projects you're typically involved with? I'm curious how that experience connects to what you're hoping to get out of this MBA."
+
+**Analysis**:
+The consultant's response demonstrates exceptional Qualification Background Discovery by using the invitation structure "Could you tell me a bit more about" which signals genuine interest and creates psychological space for detailed response. The question has two effective components: first asking about "current role and the types of projects" (seeking specific, concrete examples of their work), and then explicitly connecting this to their MBA goals with "I'm curious how that experience connects to what you're hoping to get out of this MBA." This connection is critical because it frames the background discovery not as box-checking but as understanding how their experience relates to their goals, making the question feel purposeful rather than procedural. The phrase "I'm curious" demonstrates authentic interest and humility rather than interrogative authority. By asking about "types of projects" rather than just "role," the consultant invites the student to share specific examples that reveal the depth and nature of their experience, enabling much more tailored discussion of how MBA content would build on or redirect this foundation. This approach gathers both factual background information and the student's own perception of how their experience relates to their study goals.
+
+**Why This Is Exemplary (Score 5)**:
+Combines specific background inquiry with explicit connection to student's goals. "Tell me about" structure invites narrative response. "I'm curious" demonstrates genuine interest. Question reveals both experience details and student's own understanding of relevance.
+
+### Qualification Background Discovery Response Scoring Rubric
+
+**5 - Exceptional Implementation**
+- Uses "tell me about" or "walk me through" invitation structures
+- Explicitly connects background inquiry to student's goals or course relevance
+- Asks about experiences and significance, not just credentials
+- Demonstrates genuine curiosity through language choices
+- Frames questions to invite storytelling and concrete examples
+- Gathers information that enables tailored recommendations and connection-making
+
+**4 - Strong Implementation**
+- Uses open-ended questions that invite detailed background sharing
+- Makes some connection to course relevance or goals
+- Shows interest in understanding depth of experience
+- May lack explicit connection-making but still gathers useful information
+- Invites narrative responses with minor room for improvement
+
+**3 - Competent Implementation**
+- Asks open-ended background questions with limited depth
+- Shows basic interest in student's experience
+- May not explicitly connect background to goals or course
+- Gathers factual information but misses opportunity for deeper understanding
+- Questions are functional but not particularly engaging
+
+**2 - Basic Implementation**
+- Asks background questions that could be answered very briefly
+- Shows little interest in understanding significance or depth
+- Makes no connection to course relevance or student's goals
+- Feels more like credential verification than discovery
+- Gathers minimal useful information beyond basics
+
+**1 - Minimal Implementation**
+- Uses closed yes/no questions about credentials
+- Shows no interest in understanding experience significance
+- Treats background as checklist rather than discovery
+- Questions feel interrogative rather than curious
+- Gathers no actionable information for tailoring approach
+
+---
+
+## 3. Outcome Goals Discovery Responses
+
+**Definition**: Responses that use open-ended questions to explore what students hope to achieve, what skills they want to gain, how they plan to use the qualification, or what specific outcomes they're targeting.
+
+**Purpose**: To understand student's success criteria and desired outcomes, enabling demonstration of how course content delivers specific results aligned with their goals.
+
+**Key Implementation Principles**:
+- Ask about future application of skills, not just acquisition
+- Frame questions around concrete outcomes rather than general benefits
+- Connect outcomes to career, lifestyle, or personal development contexts
+- Invite specificity about what success looks like
+- Avoid leading questions that telegraph expected answers
+- Ask how they'll measure or recognize success from the qualification
+
+### Exemplary Implementation (Score 5)
+
+#### Example 1: Career Outcome Discovery
+
+**Call ID**: 624857293645
+**Consultant**: Elena Rodriguez
+
+**Consultant Response**:
+"You've mentioned wanting to move into a management role. What would success look like for you in that transition? I mean, when you think about yourself in that management position, what are the specific capabilities or credentials you'd need to have to feel confident and effective in that role?"
+
+**Analysis**:
+The consultant's response demonstrates exceptional Outcome Goals Discovery by using the powerful "what would success look like" framework, which invites the student to articulate concrete success criteria rather than vague aspirations. The follow-up clarification "when you think about yourself in that management position" asks the student to visualize their future self, making the outcome tangible and personal. The question then becomes more specific: "what are the specific capabilities or credentials you'd need to have to feel confident and effective" - this combination of "capabilities" (skills) and "credentials" (qualifications) along with emotional elements ("feel confident and effective") creates a comprehensive picture of what the student needs. The phrase "to feel confident and effective" is particularly powerful because it acknowledges that success includes both competence and self-assurance, giving the student permission to discuss both technical and psychological needs. This multi-dimensional question enables the consultant to later demonstrate how the MBA delivers not just knowledge but also the credibility and confidence the student identified as essential. The question's structure prevents surface-level responses by requesting "specific" elements and asking the student to project themselves into the future role.
+
+**Why This Is Exemplary (Score 5)**:
+Uses powerful "success looks like" framework. Asks student to visualize future self in the role. Combines capabilities, credentials, and emotional dimensions of success. Enables consultant to demonstrate comprehensive value aligned with student's articulated success criteria.
+
+### Outcome Goals Discovery Response Scoring Rubric
+
+**5 - Exceptional Implementation**
+- Asks what success looks like or how student will measure achievement
+- Invites visualization of future self using the qualification
+- Combines skill development with practical application or outcomes
+- Requests specific capabilities, credentials, or changes student expects
+- Frames questions around concrete rather than abstract benefits
+- Gathers information that enables precise demonstration of course value
+
+**4 - Strong Implementation**
+- Uses open-ended questions about desired outcomes
+- Invites reasonably specific responses about goals
+- Shows interest in how student will apply learning
+- May lack the visualization or specificity element
+- Gathers useful information about expected results
+
+**3 - Competent Implementation**
+- Asks about outcomes but may be somewhat generic
+- Shows basic interest in what student hopes to achieve
+- May not probe for specificity or application details
+- Gathers general outcome expectations
+- Questions functional but not particularly insightful
+
+**2 - Basic Implementation**
+- Asks outcome questions that invite brief, vague responses
+- Shows limited interest in specific applications or success criteria
+- May ask leading questions that telegraph expected answers
+- Gathers minimal actionable information about desired results
+- Questions don't enable tailored value demonstration
+
+**1 - Minimal Implementation**
+- Makes assumptions about outcomes without asking
+- Uses closed questions about generic benefits
+- Shows no interest in student's specific success criteria
+- Questions focus on course features rather than student outcomes
+- Gathers no useful information about desired results
+
+---
+
+## 4. Deep Probing Follow-Up Responses
+
+**Definition**: Responses that probe deeper when students provide surface-level, brief, or vague initial answers, demonstrating curiosity by not accepting incomplete information and asking follow-up questions to uncover underlying motivations.
+
+**Purpose**: To demonstrate genuine interest by persistently exploring student's situation and motivations, transforming vague responses into actionable information that enables tailored approach.
+
+## ⚠️ CRITICAL DISTINCTION: First Question vs. Follow-Up Probing
+
+**This category ONLY applies to follow-up questions after vague initial responses:**
+
+**❌ NOT Deep Probing**: First question asked = Different discovery category
+**✅ IS Deep Probing**: Follow-up when initial answer was vague/surface-level
+
+**Example of What's NOT Deep Probing:**
+- Consultant asks: "What drew your interest to this course?" (First question = Career Motivation Discovery)
+- Student responds: "I'm interested in psychology"
+- This initial question is NOT deep probing - it's Career Motivation Discovery
+
+**Example of What IS Deep Probing:**
+- Consultant asks: "What drew your interest to this course?"
+- Student responds: "I don't know, it just seems interesting"
+- Consultant follows up: "What specifically about psychology caught your attention?" (This follow-up IS deep probing)
+
+**Key Implementation Principles**:
+- Acknowledge the initial response before probing deeper
+- Use gentle, curious language to invite more detail
+- Try multiple angles if first follow-up doesn't yield depth
+- Avoid making student feel interrogated or defensive
+- Frame follow-ups as helping you understand, not testing them
+- Demonstrate that detailed answers are valued and useful
+
+### Exemplary Implementation (Score 5)
+
+#### Example 1: Probing Beyond "It Seems Interesting"
+
+**Initial Question**: "What drew your interest to this course?" (segment 34)
+**Student Response**: "I don't know, it just seems interesting" (segment 35)
+
+**Call ID**: 625748293014
+**Consultant**: Marcus Williams
+
+**Consultant Response**:
+"That's totally understandable. Sometimes it's hard to put into words exactly what catches our attention. Let me ask it a different way - what was the moment or situation that made you think 'I should look into psychology programs'? Was there something happening in your work or life that sparked that interest?"
+
+**Analysis**:
+The consultant's response demonstrates exceptional Deep Probing Follow-Up by first validating the student's vague initial response with "That's totally understandable. Sometimes it's hard to put into words exactly what catches our attention." This acknowledgment is crucial because it prevents the student from feeling defensive about their incomplete answer while simultaneously signaling that more detail is expected. The consultant then explicitly reframes with "Let me ask it a different way," which transparently acknowledges the first attempt wasn't successful and invites the student to approach the question from a new angle. The follow-up question "what was the moment or situation that made you think 'I should look into psychology programs'?" is particularly effective because it asks for a specific trigger event rather than abstract motivations, making it much easier for the student to identify and articulate. The addition of "Was there something happening in your work or life that sparked that interest?" provides concrete categories (work/life) that further scaffold the student's thinking. This multi-part approach demonstrates persistence without pressure, showing genuine curiosity about understanding the student's story. The consultant transforms a completely vague response ("it just seems interesting") into multiple specific pathways for the student to access and share their underlying motivations.
+
+**Why This Is Exemplary (Score 5)**:
+Validates vague initial response without accepting it. Explicitly reframes the question transparently. Asks for specific trigger moment rather than abstract motivations. Provides concrete categories to scaffold thinking. Demonstrates persistent curiosity without creating defensiveness.
+
+#### Example 2: Probing Beyond "Just Looking to Progress"
+
+**Initial Question**: "What are your career goals?" (segment 52)
+**Student Response**: "Um, just looking to progress in my current field" (segment 53)
+
+**Call ID**: 624918374659
+**Consultant**: Jennifer Liu
+
+**Consultant Response**:
+"Okay, progress is definitely a great goal. Help me understand what progression means for you specifically - when you picture yourself having successfully progressed, what does your role or position look like? What are you doing day-to-day that's different from what you're doing now?"
+
+**Analysis**:
+The consultant's response demonstrates strong Deep Probing Follow-Up by first acknowledging the student's response ("progress is definitely a great goal") before immediately probing deeper with "Help me understand what progression means for you specifically." This phrase is effective because "help me understand" positions the consultant as genuinely seeking to comprehend rather than interrogating, and "specifically" signals that general answers are insufficient. The question then uses visualization technique: "when you picture yourself having successfully progressed, what does your role or position look like?" This invites the student to create a concrete mental image rather than discuss abstractions. The follow-up "What are you doing day-to-day that's different from what you're doing now?" is particularly effective because it asks for tangible differences in daily activities rather than title or status changes, revealing what the student actually values about progression (responsibilities, impact, autonomy, etc.). This approach transforms the vague "progress in my current field" into specific information about desired role changes, daily activity shifts, and concrete career moves that the consultant can connect to MBA outcomes.
+
+**Why This Is Exemplary (Score 5)**:
+Acknowledges initial response while signaling it's insufficient. Uses "help me understand" to position probing as curiosity not interrogation. Employs visualization to make abstract concept concrete. Asks about day-to-day differences to reveal what student values about progression.
+
+### Deep Probing Follow-Up Response Scoring Rubric
+
+**5 - Exceptional Implementation**
+- Acknowledges initial vague response without accepting it as sufficient
+- Explicitly reframes question or tries different angle transparently
+- Uses specific techniques (visualization, trigger moments, concrete examples) to help student access deeper information
+- Demonstrates persistent curiosity without creating defensiveness
+- Provides scaffolding or categories to help student organize thoughts
+- Successfully transforms vague response into actionable information
+
+**4 - Strong Implementation**
+- Acknowledges initial response and probes deeper
+- Uses effective follow-up questions that invite more detail
+- Shows genuine interest in understanding beyond surface level
+- May lack sophisticated reframing but still gathers useful information
+- Demonstrates respect for student while pursuing deeper understanding
+
+**3 - Competent Implementation**
+- Asks follow-up questions when responses are vague
+- Shows basic interest in getting more detail
+- May not fully acknowledge initial response before probing
+- Follow-ups functional but not particularly skillful
+- Gathers some additional information but may miss depth
+
+**2 - Basic Implementation**
+- Asks minimal follow-up when responses are vague
+- Shows limited persistence in pursuing deeper understanding
+- May make student feel interrogated rather than understood
+- Follow-ups may be closed-ended or leading
+- Gathers little additional useful information
+
+**1 - Minimal Implementation**
+- Accepts vague responses without follow-up
+- Shows no curiosity about underlying motivations
+- May move immediately to information provision or closing
+- Misses opportunities to understand student's situation
+- Gathers no actionable information for tailoring approach
+
+---
+
+## 5. Pre-Closing Value Paraphrasing Responses
+
+**Definition**: Responses that summarize and paraphrase the student's previously stated motivations back to them immediately before requesting enrollment commitment or discussing next steps, confirming understanding and building trust at the critical closing moment.
+
+**Purpose**: To demonstrate that the consultant has genuinely heard and understood the student's specific situation and goals, transforming the closing from a generic transaction to a logical next step aligned with articulated aspirations. This is a **HARD RULE** from the meeting notes - consultants MUST paraphrase before closing as a "trust builder."
+
+**⚠️ CRITICAL TIMING REQUIREMENTS**
+
+**When This Must Occur:**
+- AFTER information provision phase
+- BEFORE enrollment closing requests
+- Typically in final third of call (segment 100+)
+- Immediately preceding commitment or next-step discussions
+
+**When This Cannot Occur:**
+- First 5-7 minutes of call (too early)
+- Before discovery has been conducted
+- During information provision phase
+- After enrollment closing has already begun
+
+**Key Implementation Principles**:
+- Reference specific motivations student stated earlier in call
+- Use student's own language and phrases when possible
+- Connect multiple motivation threads into coherent summary
+- Frame as confirmation-seeking ("Is that right?" or "Did I understand correctly?")
+- Include both "push" (current situation) and "pull" (desired future) factors if stated
+- Keep summary concise but comprehensive - 2-4 sentences typically
+- Transition naturally from paraphrasing to enrollment discussion
+
+**Critical Meeting Note Reference**:
+*"The team discussed the importance of paraphrasing the student's responses to build trust and ensure understanding before closing the sale... we're probably gonna start from, like, a 5% base for the paraphrasing... it's definitely an area that we think we can improve on... If you don't use that information [to close], there's no point getting it."*
+
+### Exemplary Implementation (Score 5)
+
+#### Example 1: Comprehensive Motivation Summary Before Closing
+
+**Context**: Call segment 145 (late stage), consultant approaching enrollment discussion
+**Earlier Student Statements**:
+- Segment 23: "I want to move into a management role within the next couple of years"
+- Segment 45: "I'm currently in a senior coordinator position but feel like I'm missing the strategic skills"
+- Segment 67: "Getting this MBA would give me the credibility and knowledge I need"
+
+**Call ID**: 625948372015
+**Consultant**: David Chen
+
+**Consultant Response**:
+"Before we talk about getting you enrolled, I just want to make sure I've really understood what you're looking for. You're currently in a senior coordinator role, and you're ready to make that step up to management within the next couple of years. You've identified that the missing piece right now is those strategic thinking skills that managers need, and you're looking for the MBA to give you both the practical knowledge and the professional credibility that'll help you make that transition. Is that capturing what we've discussed?"
+
+**Analysis**:
+The consultant's response demonstrates exceptional Pre-Closing Value Paraphrasing by adhering to the hard rule that paraphrasing must occur "before closing to reiterate the value of the course" as stated in the meeting notes. The opening phrase "Before we talk about getting you enrolled" explicitly signals the transition to closing while creating space for the paraphrasing, preventing the closing from feeling abrupt. The consultant then comprehensively synthesizes three separate student statements from throughout the call (segments 23, 45, 67) into a coherent narrative that demonstrates genuine listening: current position ("senior coordinator role"), timeline ("next couple of years"), gap identification ("strategic thinking skills"), and desired outcomes ("practical knowledge and professional credibility"). The use of the student's own language ("strategic skills," "credibility") makes the paraphrasing feel authentic rather than scripted. The phrase "I just want to make sure I've really understood" positions the paraphrasing as the consultant's responsibility to comprehend rather than the student's obligation to confirm, creating psychological safety. The closing question "Is that capturing what we've discussed?" invites confirmation and creates a natural pause for the student to correct or affirm before enrollment discussion begins. This approach transforms the enrollment request from external pressure into a logical next step aligned with the student's articulated goals.
+
+**Why This Is Exemplary (Score 5)**:
+Perfect adherence to hard rule of paraphrasing before closing. Explicitly signals transition with "Before we talk about getting you enrolled." Synthesizes multiple motivations from throughout call into coherent narrative. Uses student's own language. Frames as consultant's responsibility to understand. Creates confirmation moment before closing. Transforms enrollment request into logical next step aligned with stated goals.
+
+#### Example 2: Career Change Motivation Summary
+
+**Context**: Call segment 162 (closing approach)
+**Earlier Student Statements**:
+- Segment 31: "I've been thinking about this career change for about six months"
+- Segment 52: "I want to become a clinical psychologist"
+- Segment 78: "My current work in social services feels like it's missing the therapeutic component"
+
+**Call ID**: 625039485726
+**Consultant**: Sarah Martinez
+
+**Consultant Response**:
+"Okay, so before we discuss the application process, let me just check I've understood your situation correctly. You've been in social services but you're feeling like something's missing - specifically that therapeutic, clinical component that you'd get as a psychologist. You've been thinking seriously about this change for the last six months, and your goal is to eventually practice as a clinical psychologist. This Graduate Diploma in Psychology is the first step in that pathway. Does that sound right?"
+
+**Analysis**:
+The consultant's response demonstrates strong Pre-Closing Value Paraphrasing by opening with "before we discuss the application process," clearly marking the transition point and adhering to the meeting requirement that paraphrasing occur before enrollment steps. The phrase "let me just check I've understood your situation correctly" frames the paraphrasing as confirmation-seeking, showing humility and genuine interest in accuracy. The consultant effectively synthesizes the student's "push" factor (current work missing therapeutic component) and "pull" factor (goal to become clinical psychologist) while acknowledging the timeline consideration ("six months"). The paraphrasing includes specific language the student used ("therapeutic component," "clinical psychologist") which demonstrates authentic listening. The consultant then provides context by connecting the specific program to the student's stated goal: "This Graduate Diploma in Psychology is the first step in that pathway." This addition is particularly effective because it shows the consultant not only heard the goal but understands how this particular program serves it. The closing "Does that sound right?" invites confirmation and creates the trust-building moment emphasized in the meeting notes before proceeding to enrollment discussion.
+
+**Why This Is Exemplary (Score 5)**:
+Clearly signals transition before enrollment discussion. Frames as confirmation-seeking with humility. Synthesizes both "push" (current dissatisfaction) and "pull" (future goal) factors. Uses student's specific language. Connects program to stated pathway goal. Creates trust-building confirmation moment before proceeding to closing.
+
+### Pre-Closing Value Paraphrasing Response Scoring Rubric
+
+**5 - Exceptional Implementation**
+- Occurs at appropriate time (after information provision, before enrollment closing)
+- Explicitly signals transition ("Before we discuss next steps...")
+- Comprehensively synthesizes multiple motivations from throughout call
+- Uses student's own language and phrases authentically
+- Includes both current situation and desired future if applicable
+- Frames as confirmation-seeking to invite correction or affirmation
+- Connects paraphrased motivations to how program serves these needs
+- Creates natural bridge to enrollment discussion
+- Demonstrates genuine listening and understanding that builds trust
+
+**4 - Strong Implementation**
+- Occurs at appropriate time in call
+- Summarizes key motivations stated earlier
+- Uses some of student's language
+- Shows good understanding of student's situation and goals
+- Seeks confirmation of understanding
+- Creates reasonable foundation for enrollment discussion
+- May lack some depth or comprehensive synthesis
+
+**3 - Competent Implementation**
+- Occurs at somewhat appropriate time
+- Summarizes some motivations but may miss key elements
+- Shows basic understanding of student's goals
+- May not use much of student's own language
+- Limited confirmation-seeking
+- Creates minimal foundation for enrollment discussion
+- Feels somewhat generic or incomplete
+
+**2 - Basic Implementation**
+- Timing may be off (too early, during closing, or absent entirely)
+- Provides minimal summary of motivations
+- Shows limited understanding of student's specific situation
+- Uses primarily consultant's language rather than student's
+- Little or no confirmation-seeking
+- Weak connection to enrollment discussion
+- May feel perfunctory or scripted
+
+**1 - Minimal Implementation**
+- Absent entirely or occurs at wrong time
+- Makes no reference to student's stated motivations
+- Shows no evidence of listening or understanding
+- Jumps to closing without paraphrasing (violates hard rule)
+- Creates no foundation for enrollment discussion
+- May make student feel unheard or pressured
+
+---
+
+## Comprehensive Response Assessment
+
+When evaluating consultant responses to consultative approach opportunities, consider not only the execution of the primary category but also whether the consultant effectively built upon earlier discovery throughout the call. For example:
+- Did Career Motivation Discovery early in call enable tailored information provision?
+- Did Deep Probing Follow-Up successfully transform vague responses into actionable information?
+- Did Pre-Closing Value Paraphrasing synthesize all earlier discovery into coherent summary?
+
+The meeting notes emphasize that consultative approach is not complete without using the gathered information: "It's all right to consult somebody and get all the information from them. But if you don't use that information, there's no point getting it." This means effective consultative approach must be evaluated both on information gathering AND on subsequent utilization of that information in closing.
+
+When appropriate, note how discovery in one category enabled more effective responses in other categories, demonstrating the integrated nature of the consultative approach throughout the full consultation.
+
+---
+
+## REMINDER: ALWAYS APPLY THE GOLD STANDARD ANALYSIS FORMAT
+
+Remember that every response analysis must follow the gold standard example's structure and style. Consistently incorporate all seven critical elements:
+
+1. Direct consultant quote
+2. Effectiveness explanation
+3. Specific technique identification
+4. Comparison to weak alternatives (when relevant)
+5. Connection to information gathering
+6. Pattern alignment
+7. Forward impact statement
+
+This approach ensures comprehensive, evidence-based analyses that provide actionable insights for improving consultative approach effectiveness. The meeting notes indicate starting from ~5% baseline for paraphrasing, emphasizing that incremental improvement in these skills will be a journey, making proper identification and evaluation of responses essential for consultant development.

@@ -1,0 +1,20 @@
+<behavior_specific>
+<behavior_name>Professionalism and Composure</behavior_name>
+
+<behavior_definition>
+Maintaining a professional demeanor throughout the call, especially during challenging situations. This involves staying calm, focused, and respectful at all times, using appropriate language, and managing the conversation with poise and dignity.
+</behavior_definition>
+
+<behavior_essence>
+Professionalism and composure are about projecting a consistent, polished image that instills confidence in the student. The consultant demonstrates this by remaining unflappable in the face of challenges, using professional language, and maintaining a courteous and respectful tone throughout the interaction. This approach helps to create a positive impression of the institution and ensures that even difficult conversations remain productive.
+</behavior_essence>
+
+<behavior_examples>
+* Maintaining a calm and respectful tone even if the student becomes frustrated or angry.
+* Using professional language and avoiding slang or overly casual expressions.
+* Responding to challenging questions or objections with patience and respect.
+* Guiding the conversation back on track if it veers off-topic, while still acknowledging the student's concerns.
+* Using phrases like "I appreciate your perspective. Let me explain how we can address this concern."
+* Avoiding emotional reactions and instead focusing on problem-solving: "I understand this is frustrating. Let's work together to find a solution."
+</behavior_examples>
+</behavior_specific>

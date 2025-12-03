@@ -1,0 +1,25 @@
+# Objection Extraction Task
+
+## Instructions
+Analyze the sales call transcript for buyer objections.
+
+## Output Format
+```json
+{
+  "objections": [
+    {
+      "main_category": "PRICE|PROPERTY|TIMING|COMPETITION|TRUST",
+      "sub_category": "specific_category_code",
+      "buyer_quote": "exact objection quote",
+      "transcript_range": "line_range",
+      "agent_response": "agent's response quote",
+      "agent_response_range": "line_range",
+      "response_effectiveness": 1-5,
+      "effectiveness_reasoning": "why this score",
+      "resolution_status": "resolved|partially_resolved|unresolved|escalated|deferred"
+    }
+  ]
+}
+```
+
+The objection definitions and transcript will be appended separately.

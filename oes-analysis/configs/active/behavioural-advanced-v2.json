@@ -1,0 +1,27 @@
+{
+    "input_directory": "interesting-transcripts-segments",
+    "output_directory": "multi_agent_responses/behavioural-advanced-v2",
+    "layers": [
+      {
+        "prompt": "context-analysis-prompt",
+        "models": [
+          {"provider": "anthropic"}
+        ]
+      },
+      {
+        "prompt": "basic-behavioural-analysis-prompt",
+        "models": [
+          {"provider": "azure"},
+          {"provider": "azure"},
+          {"provider": "anthropic"},
+          {"provider": "anthropic"}
+        ]
+      },
+      {
+        "prompt": "output-aggregation-prompt",
+        "models": [
+          {"provider": "azure"}
+        ]
+      }
+    ]
+  }

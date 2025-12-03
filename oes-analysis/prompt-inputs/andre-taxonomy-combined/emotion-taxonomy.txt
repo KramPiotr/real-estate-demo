@@ -1,0 +1,100 @@
+# TAXONOMY ARTIFACT 4: STUDENT LINGUISTIC & EMOTIONAL PATTERNS
+
+This taxonomy identifies student communication patterns that might predict progression challenges.
+
+## 4.A: Hesitation & Uncertainty Markers
+
+### 4.A.i: Linguistic Uncertainty Patterns
+**Description**: Student uses verbal patterns that indicate unresolved doubts or hesitation about enrollment decisions.
+
+**Identification Guidance**: Note frequent use of hedge words, conditional language, or verbal hesitations that suggest uncertainty.
+
+**Examples**:
+- Frequent use of phrases like "I guess," "maybe," "probably," "I might"
+- Conditional statements: "If I decide to enroll..." rather than "When I enroll..."
+- Repeated questions about the same topics, suggesting information isn't resolving doubts
+
+### 4.A.ii: Online Study Anxiety
+**Description**: Student expresses specific concerns or surprise about the fully online learning format.
+
+**Identification Guidance**: Listen for direct expressions of concern about online learning or indications that the student expected in-person components.
+
+**Examples**:
+- Student: "I was hoping there would be some face-to-face classes"
+- Student: "I'm not sure I can learn effectively online"
+- Student expresses surprise when learning there are no synchronous lectures
+
+### 4.A.iii: Conflict Avoidance Behavior
+**Description**: Student demonstrates reluctance to express disagreement or concern directly, suggesting they may agree to enrollment without genuine commitment.
+
+**Identification Guidance**: Look for patterns of passive agreement followed by indirect expressions of doubt, or reluctance to voice concerns directly.
+
+**Examples**:
+- Student gives minimal responses ("sure," "okay") but doesn't demonstrate enthusiasm
+- Student raises concerns indirectly: "My friend had trouble with online learning" (referring to their own concerns)
+- Student defers decisions without clear objections: "I need to think about it" without specifying concerns
+
+## 4.B: Commitment & Engagement Indicators
+
+### 4.B.i: Direct Question Frequency
+**Description**: Student asks few specific questions about the program, suggesting limited engagement with the decision process.
+
+**Identification Guidance**: Note the number, specificity, and relevance of questions the student asks about program details and requirements.
+
+**Examples**:
+- Student asks no questions about program content
+- Student's questions focus only on superficial aspects rather than substantive content
+- Student doesn't seek clarification on important points about structure or requirements
+
+### 4.B.ii: Follow-Through Statement Patterns
+**Description**: Student's statements about future actions suggest likelihood of completing or not completing enrollment steps.
+
+**Identification Guidance**: Look for specific vs. vague commitments to next steps, immediate vs. delayed action plans, and ownership of action items.
+
+**Examples**:
+- Specific commitment: "I'll submit my documents tonight" vs. vague: "I'll try to get to that soon"
+- Immediate action: "I'll create my account as soon as we hang up" vs. delayed: "I'll look into that next week"
+- Ownership: "I will complete the form" vs. passive: "The form needs to be completed"
+
+### 4.B.iii: Future Self-Projection
+**Description**: Student's ability to envision themselves as a student and graduate, indicating genuine commitment to the educational journey.
+
+**Identification Guidance**: Note whether the student discusses their future as a student or graduate in concrete, specific terms or remains abstract.
+
+**Examples**:
+- Concrete projection: "I'm looking forward to applying the accounting principles in my current role"
+- Abstract: "I suppose having a degree would be good"
+- Student spontaneously discusses how they'll manage their study schedule or apply their learning
+
+## 4.C: Emotional Response Patterns
+
+### 4.C.i: Overwhelm Indicators
+**Description**: Student shows signs of feeling overwhelmed by information, decisions, or perceived difficulty.
+
+**Identification Guidance**: Listen for explicit statements about feeling overwhelmed or behavioral signals like sighing, long pauses, or scattered focus.
+
+**Examples**:
+- Student: "This is a lot to take in at once"
+- Student shows difficulty tracking the conversation or repeatedly asks for information to be repeated
+- Student makes statements like "I don't know where to start" or "I'm not sure I can handle all this"
+
+### 4.C.ii: Enthusiasm-Anxiety Balance
+**Description**: The balance between excitement about program benefits and anxiety about challenges, indicating overall emotional orientation.
+
+**Identification Guidance**: Note the ratio of positive to negative emotional expressions and which emotions dominate the conversation.
+
+**Examples**:
+- Enthusiasm dominance: Student repeatedly expresses excitement about learning and career advancement
+- Anxiety dominance: Student continually returns to concerns despite reassurance
+- Balanced: Student acknowledges challenges but maintains focus on valued outcomes
+
+### 4.C.iii: Decision Confidence Fluctuation
+**Description**: Student's confidence level about their enrollment decision varies significantly throughout the conversation.
+
+**Identification Guidance**: Track changes in certainty levels across the conversation, noting points where confidence increases or decreases.
+
+**Examples**:
+- Student begins confidently but grows hesitant as requirements are explained
+- Student transitions from uncertainty to certainty following effective explanation
+- Student oscillates between confidence and doubt throughout the conversation
+

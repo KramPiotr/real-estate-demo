@@ -1,0 +1,147 @@
+# REFACTORED TAXONOMY ARTIFACT 4: STUDENT LINGUISTIC & EMOTIONAL PATTERNS
+
+This taxonomy identifies student communication patterns that might predict progression challenges.
+
+## 4.C: Emotional Response Patterns
+
+### 4.C.i: Overwhelm Indicators
+
+**Definition**: Student shows signs of feeling overwhelmed by information, decisions, or perceived difficulty of the enrollment process.
+
+**Checklist Conditions**:
+1. Student explicitly states feeling overwhelmed or uncertain where to start
+2. Student shows difficulty tracking conversation or asks for information repetition
+3. Student exhibits behavioral signals (sighs, long pauses, scattered responses)
+
+**Guiding Principles**:
+- Explicit overwhelm statements carry highest weight
+- Behavioral signals require multiple instances to be significant
+- Consider information complexity relative to student background
+- Distinguish between temporary confusion and persistent overwhelm
+- Questions for clarification are normal information processing, not overwhelm unless accompanied by distress signals
+
+**Examples**:
+- Student: "This is a lot to take in at once"
+- Student shows difficulty tracking the conversation or repeatedly asks for information to be repeated
+- Student makes statements like "I don't know where to start" or "I'm not sure I can handle all this"
+
+**Real Examples**:
+- STUDENT: "This is a lot to take in at once." (Student explicitly states feeling overwhelmed by information)
+- STUDENT: "I don't know where to start." (Student expresses uncertainty about where to begin, indicating overwhelm with process)
+- STUDENT: "I'm really stupid and just can't do it. Is that kind of thing?" (Student shows self-deprecating doubt about their ability to succeed, indicating feeling overwhelmed by academic requirements)
+
+**Negative Example (What NOT to classify as 4.C.i)**:
+- **Incorrect Evidence**: "STUDENT: And four years. CONSULTANT: Four units. CONSULTANT: Four units. STUDENT: Oh, four years. CONSULTANT: Seven months, yeah. STUDENT: Yeah. STUDENT: Oh, okay. STUDENT: Seven months. STUDENT: Okay."
+- **Incorrect Justification**: "The student repeatedly misinterprets the 'four units' of the program as 'four years,' even after multiple corrections from the consultant, which clearly indicates difficulty in processing and tracking key program details and suggests signs of being overwhelmed by the information presented."
+- **Why This Is Wrong**: This represents a simple misunderstanding or mishearing between "four units" and "four years," not emotional overwhelm. The student is processing and correcting their understanding in real-time, which is normal information processing. Once clarified, they acknowledge the correct information ("Seven months. Okay."). Overwhelm indicators require emotional distress signals, explicit statements of feeling overwhelmed, or behavioral signs of being unable to cope. Simple clarification exchanges about factual details should not be interpreted as overwhelm.
+
+### 4.C.ii: Enthusiasm-Anxiety Balance
+
+**Definition**: The ratio between positive excitement about program benefits and negative anxiety about challenges, indicating overall emotional orientation.
+
+**Checklist Conditions**:
+1. Student repeatedly expresses excitement about learning and career advancement
+2. Student continually returns to concerns despite consultant reassurance
+3. Student acknowledges challenges while maintaining focus on valued outcomes
+
+**Guiding Principles**:
+- Track emotional expressions throughout entire conversation
+- Note which emotions persist despite information or reassurance
+- Balanced students acknowledge both benefits and challenges realistically
+- Consider if anxiety relates to logistics vs fundamental doubts
+- Questions about challenges or logistics are normal due diligence, distinguish from persistent anxiety patterns
+
+**Examples**:
+- Enthusiasm dominance: Student repeatedly expresses excitement about learning and career advancement
+- Anxiety dominance: Student continually returns to concerns despite reassurance
+- Balanced: Student acknowledges challenges but maintains focus on valued outcomes
+
+**Real Examples**:
+- STUDENT: "You know I'm organized I'm structured I like to if someone if I have a task I do it now not later, not five minutes before the exam, I do it now. So I'm not so much worried about that stuff, I suppose it's just the format of learning, understanding the questions, understanding the assignments..." (Student shows enthusiasm about their organizational skills but anxiety about online learning format)
+- STUDENT: "So I may just need to check my diary to see what I have on, which is going to be in terms of work-related, to then be able to confirm which date I'll be able to start on. But I definitely want to do the next steps in terms of getting enrolled." (Student balances enthusiasm about enrolling with anxiety about coordinating with work schedule)
+- STUDENT: "I really want to do study on campus occasionally to actually see some people." (Student shows enthusiasm for studying but anxiety about fully online format and potential isolation)
+
+**Negative Example (What NOT to classify as 4.C.ii)**:
+- **Incorrect Evidence**: "STUDENT: Yeah, yeah, yeah. STUDENT: Yeah, yeah. Cool. STUDENT: Okay, okay. STUDENT: Okay okay sure all right that sounds good. STUDENT: Sure, sounds good. Thank you."
+- **Incorrect Justification**: "The student consistently responds with neutral and minimalist affirmations throughout the conversation, notably lacking any enthusiastic language or statements expressing excitement about the program's benefits or their potential enrollment. This indicates a dominant emotional orientation of neutrality rather than strong positive engagement."
+- **Why This Is Wrong**: These are normal conversational acknowledgments showing polite engagement and agreement. The absence of over-enthusiastic language does not indicate anxiety, nor does neutral politeness represent an emotional imbalance. Many students communicate in a measured, professional manner without expressing excessive enthusiasm while still being genuinely interested. This category should only be used when there are clear expressions of both enthusiasm and anxiety, or when one clearly dominates over the other in a way that impacts decision-making. Normal, polite conversation should not be pathologized as emotional imbalance.
+
+### 4.C.iii: Decision Confidence Fluctuation
+
+**Definition**: Student's confidence level about enrollment decisions varies significantly throughout the conversation, indicating instability in commitment.
+
+**Checklist Conditions**:
+1. Student begins confidently but grows hesitant as requirements are explained
+2. Student transitions from uncertainty to certainty following effective explanation
+3. Student oscillates between confidence and doubt multiple times during call
+
+**Guiding Principles**:
+- Track confidence changes across conversation segments
+- Note specific trigger points that cause confidence shifts
+- Distinguish between clarification-driven changes vs underlying instability
+- Consider if final confidence level is stable or tentative
+- Questions that lead to increased understanding and confidence are positive, focus on unexplained confidence drops or volatility
+
+**Examples**:
+- Student begins confidently but grows hesitant as requirements are explained
+- Student transitions from uncertainty to certainty following effective explanation
+- Student oscillates between confidence and doubt throughout the conversation
+
+**Real Examples**:
+- STUDENT: "Well, I mean, look, I mean, I've done lots of study before and I have overloaded or not overloaded myself... So that could work, definitely." (Student fluctuates between expressing prior capability and showing hesitation about study schedule)
+- STUDENT: "I'm going to possibly be overseas like for several weeks. So I guess then what's the sort of downside to starting during like the March intake." (Student shows uncertainty about enrollment timing due to external circumstances, indicating confidence fluctuation)
+- STUDENT: "I'm excited. I feel like I should start and get it over with quick." (Student expresses enthusiasm but the phrase "get it over with" suggests underlying uncertainty about the commitment)
+
+## 4.D: Format Understanding & Information-Seeking
+
+### 4.D.i: On-Campus vs Online Confusion
+
+**Definition**: Student demonstrates confusion about whether on-campus options are available, not understanding that courses are exclusively online.
+
+**Checklist Conditions**:
+1. Student asks about on-campus attendance options or physical campus locations
+2. Student expresses confusion when told no physical campus attendance is required
+3. Student seeks clarification about whether any in-person components exist
+
+**Guiding Principles**:
+- This is factual confusion about delivery format, not emotional anxiety
+- Focus on misunderstanding of service offering rather than concerns about effectiveness
+- Students may have assumed hybrid or in-person options were available
+- Distinguish from anxiety about online learning capability or preferences
+- Questions about format availability are normal information-seeking behavior
+
+**Examples**:
+- Student: "Where is the campus located?" or "What are the class times?"
+- Student: "Wait, so I never have to go anywhere in person?"
+- Student: "Are there any labs or workshops I need to attend on campus?"
+
+**Real Examples**:
+- STUDENT: "So there are no classes I need to attend in person?" CONSULTANT: "That's right, it's fully online." (Student seeking clarification about in-person attendance requirements, showing factual confusion about delivery format)
+- STUDENT: "And yes, and that one's fully online, yeah." CONSULTANT: "Yeah, 100% online." STUDENT: "Okay sure um just give me one second i just need to go through some things before i can confirm" (Student realizing it's 100% online and needing moment to process this information)
+- STUDENT: "Because it's all online, isn't it? I just wanted to clarify everything before I can be bothered to go ahead and get all the documentation I'm going to need." (Student confirming online format before proceeding, demonstrating need for clarification about delivery method)
+
+### 4.D.ii: Online Study Questions
+
+**Definition**: Student asks informational questions about the online learning format without expressing anxiety or concern about their ability to succeed.
+
+**Checklist Conditions**:
+1. Student asks questions about how online learning platform or delivery works
+2. Student seeks information about online study requirements, structure, or expectations
+3. Student inquires about online interaction methods with instructors or classmates
+
+**Guiding Principles**:
+- Questions indicate engagement and due diligence, not anxiety or hesitation
+- Students are gathering information to make informed decisions
+- Focus on curious/neutral tone rather than worried or concerned tone
+- Normal part of decision-making process for online education
+- Distinguish questions from concerns about capability or effectiveness
+
+**Examples**:
+- Student: "How do the online classes work exactly?"
+- Student: "What platform do you use for the courses?"
+- Student: "How do I interact with instructors if it's all online?"
+- Student: "Are there deadlines for when I need to complete modules?"
+
+**Real Examples**:
+- STUDENT: "Is it kind of like one subject as a block for a few weeks, or is it just like a traditional semester, you do a couple classes over the same month?" (Student curious about online course structure and timing without expressing concerns)
+- STUDENT: "I guess also with that, because you're saying it's part-time, so how many like during that six-week block, how many hours of work I guess a week, what does that look like an online kind of like circuit." (Student asking about online study structure and time requirements without expressing anxiety)

@@ -1,0 +1,357 @@
+# Collaborative Planning: Behavior Response Analysis Guide
+
+## Conceptual Definition
+<conceptual_definition>
+Collaborative Planning is the consultant's ability to proactively engage in educational and professional planning discussions with students, tailoring the level of collaboration based on individual preferences and previously gathered context. This involves working together to explore pathways, discuss transitions, and identify support mechanisms when such collaboration aligns with the student's demonstrated needs and communication style. The focus is on strategic planning that impacts enrollment decisions or study pathways, not routine administrative matters.
+</conceptual_definition>
+
+## ⚠️ CRITICAL SCOPE BOUNDARIES ⚠️
+
+<scope_boundaries>
+1. **Administrative vs Strategic Planning**
+   - EXCLUDE simple scheduling, coordination, or administrative discussions
+   - FOCUS ONLY on strategic planning that impacts enrollment decisions or study pathways
+   - Example of OUT OF SCOPE interaction: Basic appointment scheduling, simple document submissions
+
+2. **Career Guidance Boundaries**
+   - PROVIDE high-level, general pathway guidance only
+   - AVOID detailed career planning, specific certifications, or job-specific advice
+   - SUGGEST independent research or referral to career advisors for detailed planning
+
+3. **Support Service Boundaries**
+   - MAINTAIN clear boundaries between sales role and post-enrollment support
+   - AVOID taking on a coaching role or creating detailed study plans
+   - POSITION detailed support as a post-enrollment benefit
+   - NEVER suggest that the sales consultant will provide support that should be offered by post-enrollment roles
+   - ALWAYS direct students to the appropriate post-enrollment team for specialized support
+</scope_boundaries>
+
+## Purpose
+<purpose>
+This behavior directly influences enrollment and retention by:
+- Creating shared ownership of the educational journey
+- Aligning expectations about workload, progression, and outcomes
+- Building student confidence in their educational choices
+- Personalizing the educational journey to individual circumstances
+- Proactively addressing potential obstacles to success
+- Strengthening the consultant-student relationship through collaborative decision-making
+</purpose>
+
+## Key Elements
+<key_elements>
+1. **Context-Informed Planning**: Using previously gathered information about the student's background, goals, and preferences to guide the planning discussion and avoid repetitive questioning.
+
+2. **Adaptive Collaboration Style**: Adjusting the level of directiveness versus collaboration based on the student's demonstrated communication preferences and decision-making style.
+
+3. **Pathway Exploration**: Strategically exploring relevant educational pathways and options that align with the student's stated goals and constraints.
+
+4. **Support Mechanism Integration**: Appropriately introducing relevant support services as part of the planning process while maintaining clear boundaries about the consultant's role.
+
+5. **Collaborative Action Planning**: Creating clear, actionable next steps with appropriate student input rather than imposing predetermined paths.
+
+6. **Autonomy Respect**: Honoring the student's decision-making authority while providing expert guidance appropriate to a sales context.
+</key_elements>
+
+## Behavioral Indicators
+<behavioral_indicators>
+- References previously gathered information when suggesting options
+- Adjusts collaboration style based on student's communication preferences
+- Uses open-ended questions to explore preferences before presenting options
+- Provides relevant options rather than a single predetermined path
+- Creates clear, specific action plans with appropriate student input
+- Introduces support mechanisms as relevant to the planning discussion
+- Maintains appropriate boundaries regarding career guidance and support services
+- Balances expert guidance with respect for student autonomy
+- Connects planning suggestions directly to student's expressed needs and constraints
+- Uses phrases like "Let's explore options together" and "Based on what you've shared..."
+</behavioral_indicators>
+
+## Distinguished From
+<distinguished_from>
+- **Administrative Coordination**: Unlike simple scheduling or documentation processes, collaborative planning focuses on strategic decision-making that impacts enrollment or study success.
+
+- **Detailed Career Counseling**: While collaborative planning includes high-level discussion of educational pathways, it avoids detailed career planning that would exceed the sales consultant's role.
+
+- **Post-Enrollment Support**: Collaborative planning introduces support mechanisms but maintains clear boundaries regarding the detailed support that becomes available after enrollment.
+
+- **Directive Advising**: Unlike one-way advice-giving, collaborative planning involves the student as an active participant in the decision-making process.
+</distinguished_from>
+
+## Example Phrases
+<example_phrases>
+- "Let's map out your short-term and long-term goals. What would you like to achieve in the next year, and where do you see yourself in 5 years?"
+- "Let's explore different pathways to reach your goal - there might be multiple routes available."
+- "I understand your need for flexibility given your work schedule. Let me outline our online learning options and how they can accommodate your needs."
+- "Let's map out the required qualifications and experience needed for your chosen career."
+- "Let me connect you with one of our student support reps who is clued up on this detail. How does this sound?"
+</example_phrases>
+
+## Behavioral Scoring Rubric (1-5)
+
+<scoring_rubric>
+### 1: Minimal Implementation
+The consultant fails to engage in collaborative planning effectively, displaying one or more of these behaviors:
+- Fails to engage in planning discussions when opportunities arise
+- Ignores previously gathered context when making suggestions
+- Forces collaborative approach when student clearly prefers directness
+- Makes assumptions about student preferences without verification
+- Focuses on administrative details rather than strategic planning
+- Crosses appropriate boundaries regarding career guidance or support services
+
+**Example**: 
+Student: "I'm not sure how to balance this course with my full-time job."
+Consultant: "You'll need to manage your time. So about your application process..."
+
+### 2: Basic Implementation
+The consultant shows basic collaborative planning with significant room for improvement:
+- Makes some effort to include student in planning discussions
+- Uses limited previously gathered information
+- Shows occasional misalignment with student preferences
+- Provides basic exploration of pathways or options
+- Sometimes blurs boundaries between sales role and detailed support
+- Creates vague action plans without sufficient student input
+
+**Example**:
+Student: "I'm not sure how to balance this course with my full-time job."
+Consultant: "Many students work while studying. We offer flexible options. Does that help? Great, now about the application process..."
+
+### 3: Moderate Implementation
+The consultant demonstrates adequate collaborative planning capabilities:
+- Regularly attempts to engage student in relevant planning discussions
+- Uses gathered context to inform planning suggestions
+- Shows awareness of student preferences in communication style
+- Provides relevant options and pathways that align with student needs
+- Generally maintains appropriate boundaries regarding role
+- Creates reasonably clear action plans with some student input
+- Demonstrates some flexibility in collaboration approach
+
+**Example**:
+Student: "I'm not sure how to balance this course with my full-time job."
+Consultant: "That's a common concern for working professionals. Based on what you've shared about your work schedule, there are a couple of approaches we could consider. Some students prefer to take fewer units per teaching period to manage the workload, while others arrange specific study times each week. What approach do you think might work better with your schedule? [Student responds] Thank you for sharing that. Let's look at how we might structure your study plan accordingly. After enrollment, our learning coaches can help you develop more detailed strategies, but for now, let's focus on the overall approach."
+
+### 4: Strong Implementation
+The consultant implements collaborative planning effectively with a structured approach:
+- Skillfully adapts collaboration level to student preferences
+- Effectively uses previous context to guide planning discussions
+- Provides comprehensive pathway exploration aligned with student goals
+- Clearly maintains appropriate boundaries while being helpful
+- Creates specific, clear action plans with meaningful student input
+- Proactively identifies relevant support mechanisms within role boundaries
+- Seamlessly integrates planning into the overall conversation
+
+**Example**:
+Student: "I'm not sure how to balance this course with my full-time job."
+Consultant: "I appreciate you sharing that concern - it's something many working professionals navigate successfully. From our earlier conversation, I understand you typically work 40 hours per week with some evening meetings. Let's explore a few approaches to balance your study with these commitments. 
+
+First, would you prefer to consider adjusting your study load, or would you rather look at specific scheduling strategies within a standard load? [Student responds preferring reduced load]
+
+Based on your preference, we could consider starting with 2 units instead of the standard 3 in your first teaching period. This would require about 15-20 hours of study per week instead of 25-30. How does that sound as an initial approach? [Student responds positively]
+
+Great. Looking at your career goals in healthcare management, I'd suggest starting with these core units that provide the foundation you'll need. After enrollment, our learning coaches can help you develop detailed weekly study schedules, but does this overall approach align with what you're looking for? [Confirms resolution before proceeding]"
+
+### 5: Exemplary Implementation
+The consultant demonstrates exceptional collaborative planning that transforms the student's confidence and clarity:
+- Masters the balance between guidance and student autonomy
+- Expertly uses all gathered context to personalize planning
+- Creates highly effective, student-centered action plans
+- Demonstrates exceptional ability to adapt approach based on student signals
+- Maintains perfect role boundaries while being maximally helpful
+- Seamlessly integrates appropriate support mechanisms into planning
+- Transforms potential obstacles into manageable steps
+- Creates a true partnership approach that dramatically enhances enrollment likelihood
+
+**Example**:
+Student: "I'm not sure how to balance this course with my full-time job."
+Consultant: "That's an important consideration, and I'm glad you've brought it up. From our conversation, I understand you're working in healthcare administration with rotating shifts, aiming to move into leadership, and you're concerned about balancing study with your unpredictable schedule.
+
+Let's approach this collaboratively. Would it help to explore a few different options that have worked for other healthcare professionals with similar schedules? [Student confirms]
+
+There are essentially three approaches we could consider, and I'd value your thoughts on which might work best for your situation:
+
+First, some students with variable schedules prefer a reduced study load, particularly in their first teaching period. This would mean taking 2 units instead of 3, requiring about 15-20 hours of study weekly.
+
+Second, others maintain a full study load but choose units that have more flexible assessment schedules.
+
+Third, some students maintain a standard load but arrange their study schedule to align with their work roster, creating a customized weekly plan.
+
+Given what you've shared about your work patterns, which approach sounds most manageable for your situation? [Student responds with preference for first option with some elements of the third]
+
+That makes perfect sense for your situation. Based on your preference, I'd suggest starting with these specific foundation units which align well with your healthcare background while providing the leadership focus you're aiming for. This approach gives you a manageable entry point while still moving you toward your goal of completing the degree within three years.
+
+For the scheduling aspect, after enrollment, our dedicated online learning coaches can help you create a customized study schedule that adapts to your rotating shifts. They've worked with many healthcare professionals and have specific strategies for managing variable work patterns.
+
+Does this collaborative approach address your concerns about balancing work and study? [Confirms resolution]
+
+Excellent. Let's note these decisions in your enrollment plan, and I'll make sure to highlight your preferred approach when I send over the summary. This will ensure we're aligned on next steps and the pathway we've mapped out together."
+</scoring_rubric>
+
+## Edge Cases and Analysis Guidance
+
+<edge_cases>
+### 1. Administrative vs Strategic Planning
+**What is it?**  
+Simple scheduling, coordination, or administrative discussions that don't impact enrollment decisions or study pathways ARE OUT OF SCOPE.
+
+**Example (Not Valid for Analysis):**
+```
+Title: "Scheduling Discussion"
+Student Trigger: "Is there any chance I could schedule this after four o'clock? It's just that I'm working till."
+Consultant Response: "Yeah, absolutely. So if I was to schedule it, let me just double check my time here. Yeah, at four o'clock. Is four o'clock okay or a little bit after four o'clock?"
+```
+
+**Why It's Not Relevant:**
+- Simply administrative scheduling
+- No critical decision-making involved
+- No impact on enrollment or study success
+- Routine procedural matter
+- No strategic planning required
+- No exploration of options or pathways
+
+**Recommended Analysis:**
+Do not include in behavioral analysis. THESE ARE NOT OPPORTUNITIES FOR COLLABORATIVE PLANNING. Only analyze interactions that involve strategic planning, enrollment decisions, or study pathway discussions.
+
+### 2. Career Guidance Boundaries
+**What is it?**  
+Discussions about career pathways and transitions where consultants must maintain appropriate boundaries between general guidance and detailed career planning.
+
+**Example (Incorrect Approach):**
+```
+Title: "Career Transition Planning"
+Student Trigger: "I want to get into the education space and ideally I'd like to get in there faster than having to do a full four years first."
+Consultant Response: "Here's a detailed timeline for transitioning into education: First, you'll need X certification, then Y modules, followed by Z practicum. Many successful career changers have taken this specific path..."
+```
+
+**Why It's Problematic:**
+- Too detailed for sales consultant's role
+- Goes beyond appropriate boundaries
+- Attempts to provide specific career guidance
+- Creates detailed transition timelines
+- Offers career-specific advice
+- Promises to arrange support services pre-enrollment
+
+**Recommended Analysis Scope:**
+Sales consultants should:
+- Provide high-level, general pathway guidance
+- Suggest independent research or external career advisors for detailed planning
+- Mention OES learning advisers as post-enrollment resource
+- Keep focus on educational program options rather than specific career paths
+- Avoid detailed professional pathway planning or timelines
+- Not offer to arrange meetings with support services pre-enrollment
+
+### 3. Support Service Boundaries (Coaching vs Sales Role)
+**What is it?**  
+Sales consultants must maintain clear boundaries between their role providing high-level program information and the detailed student support services that become available post-enrollment.
+
+**Example (Incorrect Approach):**
+```
+Title: "Flexible Study Options Discussion"
+Recommended approach: "Consultants could enhance support by:
+1) Exploring specific scheduling needs in more detail
+2) Creating detailed weekly study plans aligned with personal schedules
+3) Discussing strategies for managing peak pressure periods
+4) Setting up regular check-points to adjust plans as needed
+5) Providing examples of successful flexible study arrangements"
+```
+
+**Why It's Problematic:**
+- Suggests sales consultants take on a coaching role
+- Exceeds appropriate pre-enrollment support boundaries
+- Attempts to provide detailed study planning that should be handled by learning coaches
+- Creates expectations for ongoing support from sales consultant
+- Confuses sales role with post-enrollment support services
+
+**Recommended Analysis Scope:**
+Sales consultants should:
+- Provide high-level overview of flexible study options
+- Explain basic program structure and study modes
+- Highlight availability of specific post-enrollment support teams and their distinct functions:
+  * Inbound Student Advisor (SA): For student-initiated support requests
+  * Outbound Student Advisor (START team in SOL): For proactive administrative support
+  * Student Coach (COACH): For personalized learning support, including detailed study planning
+  * Dedicated Student Coach (DSC): For one-to-one assigned coaching relationships
+- Clarify that these specialized teams can provide:
+  * Detailed weekly study planning
+  * Specific scheduling strategies
+  * Peak period management techniques
+  * Regular progress check-points
+  * Examples of successful study arrangements
+- Keep focus on enrollment decision-making rather than detailed study planning
+- Position detailed study support as a valuable post-enrollment benefit delivered by the appropriate specialized teams
+</edge_cases>
+
+## Common Mistakes
+<common_mistakes>
+- Forcing collaboration when student prefers direct guidance
+- Not using previously gathered context in planning discussions
+- Making assumptions about student preferences
+- Providing rigid solutions without exploring options
+- Failing to adapt collaboration style to student signals
+- Not integrating relevant support mechanisms
+- Overlooking student autonomy in decision-making
+- Planning without clear connection to student's expressed needs
+- Crossing role boundaries into detailed career counseling
+- Taking on post-enrollment support responsibilities
+- Focusing on administrative details rather than strategic planning
+- Creating vague action plans without specific next steps
+</common_mistakes>
+
+## Causal Impact Mechanism
+<causal_impact>
+Effective collaborative planning directly impacts enrollment decisions by:
+
+1. **Creating Ownership**: When students participate in creating their educational plan, they develop a sense of ownership that increases commitment to follow through with enrollment and persist through challenges.
+
+2. **Aligning Expectations**: Collaborative discussions ensure students have realistic expectations about workload, progression, and outcomes, preventing future disappointment that could lead to dropout.
+
+3. **Building Confidence**: Guided decision-making builds student confidence in their educational choices, reducing decision anxiety that can prevent enrollment completion.
+
+4. **Personalizing the Educational Journey**: Plans tailored to individual circumstances demonstrate the institution's commitment to student success beyond enrollment.
+
+5. **Proactively Addressing Constraints**: Identifying and planning around potential obstacles preemptively reduces future dropout risk when those challenges arise.
+
+6. **Strengthening Relationship**: The collaborative nature of the planning process strengthens the consultant-student relationship, creating comfort and trust that supports enrollment decisions.
+</causal_impact>
+
+## Implementation Guidelines
+
+<implementation_guidelines>
+1. **Start by referencing context**
+   - Begin planning discussions by acknowledging what you already know about the student
+   - Use phrases like "Based on what you've shared about your work schedule..."
+   - Avoid asking the student to repeat information already provided
+
+2. **Assess collaboration preference**
+   - Notice verbal and non-verbal cues about decision-making style
+   - Adapt your approach to match student's apparent preference for collaboration vs. direction
+   - When uncertain, directly ask about preference: "Would you prefer to explore options together, or would you like me to make a specific recommendation?"
+
+3. **Maintain appropriate boundaries**
+   - Provide only high-level career guidance within your role
+   - Clearly distinguish between pre-enrollment support and post-enrollment services
+   - Position detailed support as a benefit of enrollment
+   - Avoid making promises about specific outcomes or timelines
+   - NEVER offer to provide support that should be delivered by post-enrollment teams
+   - Refer to appropriate post-enrollment support teams for specialized assistance
+
+4. **Understand post-enrollment support structure**
+   - Be aware of the distinct post-enrollment support teams and their functions:
+     * Inbound Student Advisor (SA): Handles student-initiated support requests
+     * Outbound Student Advisor (START team in SOL): Provides proactive administrative support
+     * Student Coach (COACH): Delivers personalized learning support
+     * Dedicated Student Coach (DSC): Offers one-to-one assigned coaching relationships
+   - Accurately describe these teams' roles when discussing post-enrollment support
+   - Never suggest that sales consultants will perform functions reserved for these teams
+
+5. **Create specific action plans**
+   - End planning discussions with clear next steps
+   - Specify what the student will do and what you will do
+   - Include timeframes for actions where appropriate
+   - Confirm mutual understanding of the plan
+   - Clearly indicate which post-enrollment teams will provide specialized support after enrollment
+
+6. **Check for satisfaction**
+   - Verify that the collaborative plan meets the student's needs
+   - Ask questions like "Does this approach address your concerns?"
+   - Be prepared to adjust the plan based on feedback
+   - Confirm the student feels ownership of the decisions made
+</implementation_guidelines>

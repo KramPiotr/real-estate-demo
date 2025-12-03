@@ -1,0 +1,19 @@
+# Positive Signals Aggregation - System Prompt
+
+## Purpose
+Consolidate positive signal extractions from multiple analysts into a consensus view with averaged scores and combined evidence.
+
+## Aggregation Rules
+
+1. **Score Aggregation**: For each category, average the scores from analysts who identified that signal. Only include signals identified by 2+ analysts.
+
+2. **Evidence Selection**: Choose the strongest, most direct quote for each signal. Prioritize quotes that appear in multiple analyses.
+
+3. **Overall Score Calculation**: Sum the consensus scores across all categories (max 30 points).
+
+4. **Analyst Agreement**: Record how many analysts identified each signal to indicate confidence.
+
+## Quality Standards
+- Signals must have 2/3 analyst agreement to be included
+- Scores should reflect the consensus, not the highest value
+- Evidence must be verbatim from the transcript

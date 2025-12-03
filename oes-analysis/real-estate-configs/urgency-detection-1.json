@@ -1,0 +1,94 @@
+{
+    "transcripts_directory": "real-estate-calls",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "urgency_flags",
+        "location": "real-estate-definitions",
+        "types": ["definition"]
+    },
+    "nodes": [
+        {
+            "name": "urgency_detection",
+            "inputs": [
+                "urgency_flags-definition",
+                "transcript"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "urgency_flags": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "flag_type": {
+                                    "type": "string",
+                                    "enum": ["CRITICAL", "HIGH", "MEDIUM"]
+                                },
+                                "category": {"type": "string"},
+                                "description": {"type": "string"},
+                                "quote": {"type": "string"},
+                                "transcript_range": {"type": "string"},
+                                "recommended_response_window": {"type": "string"},
+                                "recommended_action": {"type": "string"}
+                            },
+                            "required": ["flag_type", "category", "description", "quote", "transcript_range", "recommended_response_window"]
+                        }
+                    },
+                    "highest_urgency": {
+                        "type": "string",
+                        "enum": ["CRITICAL", "HIGH", "MEDIUM", "NONE"]
+                    }
+                },
+                "required": ["urgency_flags", "highest_urgency"]
+            }
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "urgency_flags-definition",
+                "transcript",
+                "urgency_detection"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "urgency_flags": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "flag_type": {"type": "string"},
+                                "category": {"type": "string"},
+                                "description": {"type": "string"},
+                                "consensus_count": {"type": "integer", "minimum": 1, "maximum": 3},
+                                "quote": {"type": "string"},
+                                "transcript_range": {"type": "string"},
+                                "recommended_response_window": {"type": "string"},
+                                "recommended_action": {"type": "string"}
+                            },
+                            "required": ["flag_type", "category", "consensus_count", "description", "quote"]
+                        }
+                    },
+                    "highest_urgency": {"type": "string"},
+                    "alert_summary": {"type": "string"},
+                    "immediate_actions_required": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    }
+                },
+                "required": ["urgency_flags", "highest_urgency", "alert_summary", "immediate_actions_required"]
+            }
+        }
+    ]
+}

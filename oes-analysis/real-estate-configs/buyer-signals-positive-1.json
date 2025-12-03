@@ -1,0 +1,85 @@
+{
+    "transcripts_directory": "real-estate-calls",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "positive_signals",
+        "location": "real-estate-definitions",
+        "types": ["definition"]
+    },
+    "nodes": [
+        {
+            "name": "signal_extraction",
+            "inputs": [
+                "positive_signals-definition",
+                "transcript"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "positive_signals": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "category": {
+                                    "type": "string",
+                                    "enum": ["financial_readiness", "timeline_urgency", "decision_maker_engagement", "property_specificity", "repeat_engagement", "commitment_language"]
+                                },
+                                "score": {"type": "integer", "minimum": 1, "maximum": 5},
+                                "quote": {"type": "string"},
+                                "transcript_range": {"type": "string"},
+                                "explanation": {"type": "string"}
+                            },
+                            "required": ["category", "score", "quote", "transcript_range", "explanation"]
+                        }
+                    }
+                },
+                "required": ["positive_signals"]
+            }
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "positive_signals-definition",
+                "transcript",
+                "signal_extraction"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "positive_signals": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "category": {"type": "string"},
+                                "consensus_score": {"type": "number"},
+                                "analyst_agreement": {"type": "integer", "minimum": 1, "maximum": 3},
+                                "quote": {"type": "string"},
+                                "transcript_range": {"type": "string"},
+                                "explanation": {"type": "string"}
+                            },
+                            "required": ["category", "consensus_score", "analyst_agreement", "quote", "transcript_range", "explanation"]
+                        }
+                    },
+                    "overall_positive_score": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 30
+                    }
+                },
+                "required": ["positive_signals", "overall_positive_score"]
+            }
+        }
+    ]
+}

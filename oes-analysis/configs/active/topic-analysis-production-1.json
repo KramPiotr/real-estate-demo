@@ -1,0 +1,334 @@
+{
+    "transcripts_directory": "oes-call-transcripts",
+    "output_directory": "topic_timeseries_responses",
+    "nodes": [
+        {
+            "name": "category",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "speaker_identification": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "consultant_speaker": {
+                                "type": "integer",
+                                "minimum": 1
+                            },
+                            "student_speaker": {
+                                "type": "integer",
+                                "minimum": 1
+                            },
+                            "identification_evidence": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "consultant_speaker",
+                            "student_speaker",
+                            "identification_evidence"
+                        ]
+                    },
+                    "topic_count": {
+                        "type": "integer",
+                        "minimum": 1
+                    },
+                    "topic_timeseries": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "topic_name": {
+                                    "type": "string"
+                                },
+                                "topic_description": {
+                                    "type": "string"
+                                },
+                                "representative_quote": {
+                                    "type": "string"
+                                },
+                                "explanation": {
+                                    "type": "string"
+                                },
+                                "confidence_level": {
+                                    "type": "string",
+                                    "enum": ["high", "medium", "low"]
+                                },
+                                "start_segment_id": {
+                                    "type": "integer",
+                                    "minimum": 0
+                                },
+                                "end_segment_id": {
+                                    "type": "integer",
+                                    "minimum": 0
+                                }
+                            },
+                            "required": [
+                                "topic_name",
+                                "topic_description",
+                                "representative_quote",
+                                "explanation",
+                                "confidence_level",
+                                "start_segment_id",
+                                "end_segment_id"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "speaker_identification",
+                    "topic_count",
+                    "topic_timeseries"
+                ]
+            }
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "transcript",
+                "category"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "speaker_identification": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "consultant_speaker": {
+                                "type": "integer",
+                                "minimum": 1
+                            },
+                            "student_speaker": {
+                                "type": "integer",
+                                "minimum": 1
+                            },
+                            "identification_evidence": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "consultant_speaker",
+                            "student_speaker",
+                            "identification_evidence"
+                        ]
+                    },
+                    "topic_count": {
+                        "type": "integer",
+                        "minimum": 1
+                    },
+                    "topic_timeseries": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "topic_name": {
+                                    "type": "string"
+                                },
+                                "topic_description": {
+                                    "type": "string"
+                                },
+                                "representative_quote": {
+                                    "type": "string"
+                                },
+                                "explanation": {
+                                    "type": "string"
+                                },
+                                "confidence_level": {
+                                    "type": "string",
+                                    "enum": ["high", "medium", "low"]
+                                },
+                                "start_segment_id": {
+                                    "type": "integer",
+                                    "minimum": 0
+                                },
+                                "end_segment_id": {
+                                    "type": "integer",
+                                    "minimum": 0
+                                },
+                                "analyst_consensus": {
+                                    "type": "integer",
+                                    "minimum": 1,
+                                    "maximum": 3
+                                }
+                            },
+                            "required": [
+                                "topic_name",
+                                "topic_description",
+                                "representative_quote",
+                                "explanation",
+                                "confidence_level",
+                                "start_segment_id",
+                                "end_segment_id",
+                                "analyst_consensus"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "speaker_identification",
+                    "topic_count",
+                    "topic_timeseries"
+                ]
+            }
+        },
+        {
+            "name": "validation",
+            "inputs": [
+                "transcript",
+                "aggregation"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "speaker_identification": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "consultant_speaker": {
+                                "type": "integer",
+                                "minimum": 1
+                            },
+                            "student_speaker": {
+                                "type": "integer",
+                                "minimum": 1
+                            },
+                            "identification_evidence": {
+                                "type": "string"
+                            }
+                        },
+                        "required": [
+                            "consultant_speaker",
+                            "student_speaker",
+                            "identification_evidence"
+                        ]
+                    },
+                    "topic_count": {
+                        "type": "integer",
+                        "minimum": 1
+                    },
+                    "topic_timeseries": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "topic_name": {
+                                    "type": "string"
+                                },
+                                "topic_description": {
+                                    "type": "string"
+                                },
+                                "representative_quote": {
+                                    "type": "string"
+                                },
+                                "explanation": {
+                                    "type": "string"
+                                },
+                                "confidence_level": {
+                                    "type": "string",
+                                    "enum": ["high", "medium", "low"]
+                                },
+                                "start_segment_id": {
+                                    "type": "integer",
+                                    "minimum": 0
+                                },
+                                "end_segment_id": {
+                                    "type": "integer",
+                                    "minimum": 0
+                                },
+                                "analyst_consensus": {
+                                    "type": "integer",
+                                    "minimum": 1,
+                                    "maximum": 3
+                                },
+                                "validation_notes": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "topic_name",
+                                "topic_description",
+                                "representative_quote",
+                                "explanation",
+                                "confidence_level",
+                                "start_segment_id",
+                                "end_segment_id",
+                                "analyst_consensus",
+                                "validation_notes"
+                            ]
+                        }
+                    },
+                    "quality_assessment": {
+                        "type": "object",
+                        "additionalProperties": false,
+                        "properties": {
+                            "coverage_completeness": {
+                                "type": "string",
+                                "enum": ["complete", "partial", "gaps_identified"]
+                            },
+                            "boundary_accuracy": {
+                                "type": "string",
+                                "enum": ["accurate", "minor_adjustments", "major_revisions"]
+                            },
+                            "educational_context_appropriateness": {
+                                "type": "string",
+                                "enum": ["appropriate", "mostly_appropriate", "needs_improvement"]
+                            },
+                            "overall_confidence": {
+                                "type": "string",
+                                "enum": ["high", "medium", "low"]
+                            }
+                        },
+                        "required": [
+                            "coverage_completeness",
+                            "boundary_accuracy",
+                            "educational_context_appropriateness",
+                            "overall_confidence"
+                        ]
+                    }
+                },
+                "required": [
+                    "speaker_identification",
+                    "topic_count",
+                    "topic_timeseries",
+                    "quality_assessment"
+                ]
+            }
+        }
+    ]
+}

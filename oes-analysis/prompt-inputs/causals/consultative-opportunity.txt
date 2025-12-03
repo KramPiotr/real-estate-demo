@@ -1,0 +1,141 @@
+# Consultative Approach: Discovery-Led Solution Moments Opportunity Definition
+
+## Core Definition
+
+<opportunity_definition>
+A Discovery-Led Solution Moment occurs when there is an opportunity to uncover a student's deeper motivations, constraints, or goals through targeted questioning, allowing the consultant to tailor subsequent information and recommendations to precisely meet the student's unique situation rather than providing generic information.
+</opportunity_definition>
+
+## Opportunity Identification Criteria
+
+<identification_criteria>
+1. Student provides general or surface-level information that hints at deeper motivations
+2. Conversation point where additional context would enable more personalized guidance
+3. Student's situation appears to have complexity not yet fully explored
+4. Generic information would be insufficient to address the student's unique needs
+5. Student is receptive to sharing more about their circumstances or goals
+6. Pivotal moment where deeper understanding would significantly alter recommendation quality
+</identification_criteria>
+
+## Student Signals
+
+<student_signals>
+- Providing general or surface-level statements about their interest
+- Making broad comments about career goals or aspirations
+- Expressing uncertainty about what they're looking for in a program
+- Asking generic questions that suggest limited understanding of their own needs
+- Mentioning multiple potential directions or interests
+- Using phrases like "I'm exploring my options" or "I'm not sure what's best for me"
+- Demonstrating readiness to share more about their situation when prompted
+- Making statements that hint at underlying motivations not yet fully expressed
+</student_signals>
+
+## Causal Impact Logic
+
+<causal_impact_logic>
+Consultative Approach directly improves enrollment and retention likelihood by:
+
+1. **Creating Personalized Relevance**: Discovering unique motivations and constraints allows for tailoring information to what matters most to the individual student, increasing perceived relevance and value.
+
+2. **Uncovering Hidden Barriers**: Proactive discovery identifies potential objections or concerns before they become enrollment obstacles, allowing for preemptive addressing.
+
+3. **Building Relational Trust**: The process of thoughtful questioning demonstrates genuine interest in the student beyond making a sale, creating a relationship foundation that supports enrollment decisions.
+
+4. **Ensuring Program Fit**: Deep understanding of student needs ensures recommendations are truly aligned with their situation, increasing the likelihood of enrollment and long-term satisfaction.
+
+5. **Creating Emotional Connection**: Exploration of personal goals and motivations shifts the conversation from transactional to meaningful, strengthening the student's emotional investment in the process.
+
+6. **Preventing Mismatched Expectations**: Thorough discovery prevents recommendation of programs that won't meet the student's actual needs, reducing future attrition due to expectation-reality gaps.
+</causal_impact_logic>
+
+## Opportunity Strength Scoring Rubric (1-5)
+
+<scoring_rubric>
+**1 - Minimal Opportunity**: 
+- Student's situation appears straightforward with few complicating factors
+- Basic information already provided with limited hints of deeper complexity
+- Student showing limited receptiveness to exploratory questioning
+- Minimal difference between generic and personalized information value
+
+**2 - Low Opportunity**:
+- Some indication of underlying factors not yet discussed
+- Moderate complexity in student's situation requiring some discovery
+- Student somewhat open to sharing more details about their situation
+- Some benefit possible from more tailored recommendations
+
+**3 - Moderate Opportunity**:
+- Clear indications of unexplored motivations or constraints
+- Notable complexity in student's situation requiring deeper understanding
+- Student actively seeking guidance that would benefit from personalization
+- Significant potential value in tailored vs. generic recommendations
+- Important decision points approaching that require contextual understanding
+
+**4 - Strong Opportunity**:
+- Substantial untapped information about student's situation evident
+- High complexity in needs, constraints, or motivations
+- Student highly receptive to in-depth exploration
+- Critical decision points where personalized guidance would be significantly valuable
+- Clear risk of mismatched recommendations without deeper discovery
+
+**5 - Critical Opportunity**:
+- Fundamental motivations or constraints remain completely unexplored
+- Extremely complex situation with multiple interacting factors
+- Pivotal moment where discovery would transform the enrollment conversation
+- Generic information would be actively harmful rather than merely suboptimal
+- Student explicitly seeking personalized guidance requiring deep understanding
+- High-stakes decision directly contingent on personalized recommendation
+</scoring_rubric>
+
+## Good Opportunity Examples
+
+<good_examples>
+### Example 1: Undefined Career Direction (Strength: 5)
+Student: "I'm interested in business studies because I think it will give me good career options. I'm not really sure which specific area yet, but I know I want to advance my career."
+
+*Why this is a critical opportunity*: The student has provided only surface-level information about their career goals, using generic language ("good career options") that reveals nothing about their specific aspirations, current situation, or constraints. There are fundamental motivations and directions completely unexplored. Without deeper discovery, any program recommendation would be generic rather than aligned with their true needs and goals.
+
+### Example 2: Complex Life Circumstances (Strength: 4)
+Student: "I need to complete my degree while working full-time. I'm concerned about the time commitment."
+
+*Why this is a strong opportunity*: The student has indicated constraints (working full-time) and concerns (time commitment) but has shared minimal detail about their specific work situation, other responsibilities, learning preferences, or support systems. There's clearly complexity behind this brief statement that requires exploration to provide appropriate guidance on program selection, study load, and support services.
+
+### Example 3: Ambiguous Motivation (Strength: 3)
+Student: "I've always been interested in psychology, especially how people think. I'm wondering if your psychology program would be suitable for me."
+
+*Why this is a moderate opportunity*: The student has expressed interest in a subject area but hasn't clarified whether their interest is academic, professional, or personal. Without understanding if they're seeking a career change, professional development, or personal interest education, the consultant can't effectively advise on program suitability or alternative options.
+
+### Example 4: Vague Industry Transition (Strength: 5)
+Student: "I'm currently in healthcare but I'm looking to move into more of a management role. I thought your business program might help with that."
+
+*Why this is a critical opportunity*: The student has indicated a desire for a role change but has provided minimal context about their current position, healthcare experience, management experience, specific career goals, or timeline. Deep discovery is essential to determine whether a general business program, healthcare management specialization, or something else entirely would best serve their needs. Without exploration, any recommendation would risk misalignment.
+
+### Example 5: Uncertain Educational Pathway (Strength: 4)
+Student: "I didn't finish my undergraduate degree years ago. I'm wondering what options I have now to get qualified without starting completely over."
+
+*Why this is a strong opportunity*: The student has shared a basic education history but hasn't provided details about their previous studies, reasons for not completing, transferable credits, current knowledge level, or specific qualification goals. Without deeper understanding of their educational background and current objectives, guidance about pathways would be generic and potentially inappropriate.
+</good_examples>
+
+## Bad Opportunity Examples (False Positives)
+
+<bad_examples>
+### Example 1: Highly Specific Inquiry
+Student: "I'm looking for a program that will qualify me for CPA certification. I've already completed an undergraduate in accounting and have three years of experience in tax preparation. Does your Master of Professional Accounting meet the CPA Australia requirements?"
+
+*Why this is NOT a discovery-led solution opportunity*: The student has already clearly articulated their specific goal (CPA certification), relevant background, and exact information need. They demonstrate a high level of clarity about their requirements with minimal evidence of unexplored motivations or constraints that would significantly alter the recommendation.
+
+### Example 2: Simple Factual Question
+Student: "What's the application deadline for the July intake?"
+
+*Why this is NOT a discovery-led solution opportunity*: This is a straightforward request for factual information rather than a situation requiring personalized guidance. There's no indication of underlying complexity or need for deeper exploration to provide an appropriate response.
+
+### Example 3: Clear Decision Stage
+Student: "I've narrowed down my choice to your MBA program and I'm ready to apply. Can you guide me through the application process?"
+
+*Why this is NOT a discovery-led solution opportunity*: The student has clearly completed their decision-making process and is now seeking procedural guidance rather than program selection assistance. The exploration phase is appropriately complete at this stage, and the focus should be on facilitating the application process.
+</bad_examples>
+
+## Important Note on Opportunity Identification
+
+<important_note>
+The opportunity score reflects the potential impact if consultative approach is ideally implemented, not the consultant's actual response quality. Even if a consultant fails to ask appropriate discovery questions, the opportunity should still be identified and scored based on the evidence of unexplored depth in the student's situation. The opportunity strength rating measures how impactful proper discovery would be in that specific moment, regardless of whether the opportunity was successfully leveraged.
+</important_note>

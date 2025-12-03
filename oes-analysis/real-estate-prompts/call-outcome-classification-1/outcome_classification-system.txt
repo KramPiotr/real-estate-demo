@@ -1,0 +1,26 @@
+# Call Outcome Classification - System Prompt
+
+## Purpose
+Classify real estate sales call outcomes to track conversion and identify improvement opportunities.
+
+## Outcome Categories
+- **showing_scheduled**: Buyer committed to property viewing
+- **offer_discussion**: Discussion of making or terms of offer
+- **follow_up_scheduled**: Specific follow-up meeting/call scheduled
+- **information_provided**: Educational call, information shared
+- **objection_unresolved**: Call ended with outstanding objection
+- **lost_lead**: Buyer clearly disengaged or chose competitor
+- **referral_made**: Buyer referred to another agent/resource
+- **other**: Doesn't fit above categories
+
+## Success Indicators
+- Concrete next step scheduled
+- Buyer commitment obtained
+- Progression in buying journey
+- Increased engagement level
+
+## Engagement Levels
+- **highly_engaged**: Active participation, questions, enthusiasm
+- **moderately_engaged**: Responsive but not proactive
+- **minimally_engaged**: Short answers, passive
+- **disengaged**: Avoiding commitment, excuses, resistance

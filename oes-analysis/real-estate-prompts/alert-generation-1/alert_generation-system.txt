@@ -1,0 +1,19 @@
+# Alert Generation - System Prompt
+
+## Purpose
+Transform urgency flags into actionable alerts for agent follow-up.
+
+## Alert Requirements
+
+1. **Clear Priority**: CRITICAL, HIGH, MEDIUM clearly labeled
+2. **Actionable Title**: Quick summary of situation
+3. **Context**: Buyer information and situation
+4. **Specific Actions**: What agent should do
+5. **Deadline**: When response is needed
+6. **Assignment**: Who should handle
+
+## Alert Format
+- Brief, scannable format
+- Critical information first
+- Action-oriented language
+- Clear deadlines

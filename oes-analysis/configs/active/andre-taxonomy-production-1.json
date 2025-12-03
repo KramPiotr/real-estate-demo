@@ -1,0 +1,118 @@
+{
+    "transcripts_directory": "mol-tp1-2025-andre",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "category_taxonomy",
+        "location": "andre-taxonomy-student",
+        "types": [
+            "taxonomy"
+        ]
+    },
+    "nodes": [
+        {
+            "name": "category",
+            "inputs": [
+                "category_taxonomy",
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "identified_categories": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "category_code": {
+                                    "type": "string"
+                                },
+                                "evidence": {
+                                    "type": "string"
+                                },
+                                "justification": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "category_code",
+                                "evidence",
+                                "justification"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "identified_categories"
+                ]
+            }
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "category_taxonomy",
+                "transcript",
+                "category"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "identified_categories": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "category_code": {
+                                    "type": "string"
+                                },
+                                "analyst_count": {
+                                    "type": "integer",
+                                    "minimum": 1,
+                                    "maximum": 3
+                                },
+                                "evidence": {
+                                    "type": "string"
+                                },
+                                "justification": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "category_code",
+                                "analyst_count",
+                                "evidence",
+                                "justification"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "identified_categories"
+                ]
+            }
+        }
+    ]
+}

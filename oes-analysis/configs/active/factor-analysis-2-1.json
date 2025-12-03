@@ -1,0 +1,17 @@
+{
+    "transcripts_directory": "10-percent-monash-sample",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "check",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        }
+    ]
+}

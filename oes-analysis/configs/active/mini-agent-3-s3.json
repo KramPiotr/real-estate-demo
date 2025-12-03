@@ -1,0 +1,141 @@
+{
+  "transcripts_directory": "s3://oes-cxone-call-recordings/sentiment-ai/processed-azure-transcriptions",
+  "output_directory": "multi_agent_responses",
+  "input_catalog": {
+    "name": "behavioural_definition",
+    "location": "behavioural-definitions",
+    "types": [
+      "definition"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "context_analysis",
+      "inputs": [
+        "transcript",
+        "behavioural_definition"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ]
+    },
+    {
+      "name": "brainstorm_insights",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true,
+          "prompt_suffix": "1"
+        },
+        {
+          "provider": "azure",
+          "mini": true,
+          "prompt_suffix": "2"
+        }
+      ]
+    },
+    {
+      "name": "reflection_prioritisation",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis",
+        "brainstorm_insights"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        },
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ],
+      "type": "separate"
+    },
+    {
+      "name": "prioritisation",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis",
+        "brainstorm_insights",
+        "reflection_prioritisation"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        },
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ],
+      "type": "separate"
+    },
+    {
+      "name": "reflection_specificity",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis",
+        "prioritisation"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        },
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ],
+      "type": "separate"
+    },
+    {
+      "name": "specificity",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis",
+        "prioritisation",
+        "reflection_specificity"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        },
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ]
+    },
+    {
+      "name": "aggregation",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "specificity"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ]
+    }
+  ]
+}

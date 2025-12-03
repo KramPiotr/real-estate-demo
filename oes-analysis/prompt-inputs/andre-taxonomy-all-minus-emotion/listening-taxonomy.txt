@@ -1,0 +1,98 @@
+# TAXONOMY ARTIFACT 15: ACTIVE LISTENING BEHAVIORAL PATTERNS
+This taxonomy examines consultant behaviors related to demonstrating thorough comprehension of student communication by accurately capturing, synthesizing, and reflecting back both explicit and implicit information to create mutual understanding and validate student experiences observable in sales call transcripts.
+
+## 15.A: Reflection & Mirroring Behaviors
+
+### 15.A.i: Selective Content Mirroring
+**Description:** Consultant demonstrates behavior of selectively mirroring the most important elements of student statements using key terms while maintaining conversation flow.
+
+**Identification Guidance:** Look for consultants who acknowledge key concerns using some of the student's own words and demonstrate understanding through focused reflection without creating redundant conversation loops.
+
+**Examples:**
+- Consultant: "Okay great so to open up more doors for you into another career"
+- Consultant: "So what I'm hearing is you're looking to transition from your current role and work with people in a different capacity"
+- Consultant: "You mentioned that flexibility is important to you, particularly with your work schedule"
+
+### 15.A.ii: Appropriate Acknowledgment Depth
+**Description:** Consultant demonstrates behavior of providing sufficient acknowledgment of student concerns with moderate reflection that validates their experience without overanalyzing.
+
+**Identification Guidance:** Note instances where consultants provide targeted, specific acknowledgment that clearly demonstrates understanding while maintaining forward progress in the conversation.
+
+**Examples:**
+- Consultant: "Yeah, absolutely. You can take up to six deferrals throughout the master program if need be. You're more than welcome to take several study breaks"
+- Consultant: "I think even the best students, you know, with balancing work and family as well, would find it difficult here and there. It's always a challenge, no matter how good your work ethic is, so yeah, that's completely understandable"
+- Consultant: "But it's absolutely understandable being nervous about online study"
+
+### 15.A.iii: Emotional Tone Recognition
+**Description:** Consultant demonstrates behavior of recognizing evident emotional signals (anxiety, uncertainty, excitement) and responding with appropriate emotional calibration while maintaining professional boundaries.
+
+**Identification Guidance:** Look for consultants who acknowledge emotions without extensive exploration, maintaining professional boundaries while showing empathy.
+
+**Examples:**
+- Consultant: "I can sense you're excited about this opportunity and also want to make sure it's the right fit"
+- Consultant: "I understand there's some anxiety about returning to study after a break. That's completely normal"
+- Consultant: "You sound really motivated about this career change, and I appreciate you sharing your concerns about the transition"
+
+## 15.B: Context Integration & Synthesis Behaviors
+
+### 15.B.i: Contextual Connection Making
+**Description:** Consultant demonstrates behavior of connecting immediate concerns to previously shared context and integrating key background elements without extensive synthesis.
+
+**Identification Guidance:** Note instances where consultants thoughtfully incorporate relevant context to demonstrate understanding without creating elaborate frameworks.
+
+**Examples:**
+- Consultant: "Based on what you mentioned earlier about your nursing background, this program would build perfectly on your existing clinical experience"
+- Consultant: "Given your concern about work-life balance that you shared, let me explain how our flexible structure specifically addresses that"
+- Consultant: "Connecting this back to your goal of leadership roles that you mentioned, this qualification would position you well for those opportunities"
+
+### 15.B.ii: Information Synthesis & Organization
+**Description:** Consultant demonstrates behavior of creating meaningful connections between related concerns and organizing information in ways that help student comprehension without overcomplicating.
+
+**Identification Guidance:** Look for consultants who make purposeful, relevant connections that enhance understanding while maintaining appropriate simplicity and conversation momentum.
+
+**Examples:**
+- Consultant: "And so you're essentially looking to expand your knowledge and then end your career path as well"
+- Consultant: "So bringing together what you've said about your experience and your goals, this program would give you both the theoretical foundation and practical skills you're looking for"
+- Consultant: "I'm seeing a pattern in what you've shared - you want flexibility, quality education, and career advancement. Let me show you how our program addresses all three"
+
+### 15.B.iii: Implicit Concern Recognition
+**Description:** Consultant demonstrates behavior of showing awareness of underlying concerns without extensive exploration, balancing attention to stated priorities while recognizing underlying factors.
+
+**Identification Guidance:** Note instances where consultants address explicit concerns directly while demonstrating awareness of implicit issues without overanalyzing them.
+
+**Examples:**
+- Consultant: "I hear your question about entry requirements, and I sense there might also be some concern about whether you'll be competitive for admission"
+- Consultant: "You're asking about the program structure, and I get the impression you're also wondering how it will fit with your family commitments"
+- Consultant: "Beyond the cost question, I'm sensing you might be wondering about the return on this investment"
+
+## 15.C: Adaptive Response & Verification Behaviors
+
+### 15.C.i: Strategic Verification Technique
+**Description:** Consultant demonstrates behavior of using focused questions to verify understanding of key points and confirming important details without excessive checking.
+
+**Identification Guidance:** Look for consultants who employ strategic verification that maintains momentum while ensuring sufficient mutual understanding.
+
+**Examples:**
+- Consultant: "Is there a particular reason you're thinking about pushing that back?"
+- Consultant: "Just to confirm, when you say flexible, you're mainly referring to scheduling rather than content, correct?"
+- Consultant: "Let me make sure I understand - your main concern is about the time commitment rather than the subject matter itself?"
+
+### 15.C.ii: Responsive Adaptability
+**Description:** Consultant demonstrates behavior of showing appropriate responsiveness to meaningful student signals and adjusting approach based on clear student cues without overreacting to minor signals.
+
+**Identification Guidance:** Note instances where consultants demonstrate reasonable responsiveness to student signals while balancing structure with flexibility in response to student cues.
+
+**Examples:**
+- Consultant: "I notice you hesitated when I mentioned the group work component. Would you like me to explain more about how that works?"
+- Consultant: "And in terms of your motivation to do this course, what was it that really sparked your interest in pursuing this one?"
+- Consultant: "You seem to have some specific questions about the online format. What aspects would be most helpful for me to clarify?"
+
+### 15.C.iii: Appropriate Space Creation
+**Description:** Consultant demonstrates behavior of providing appropriate space for student expression while maintaining conversation direction, balancing patient listening with effective conversation guidance.
+
+**Identification Guidance:** Look for consultants who allow sufficient expression while ensuring enrollment progress, creating structure that allows for student input without losing focus.
+
+**Examples:**
+- Consultant: "Yeah, sure, yeah, please do so, not a problem"
+- Consultant: "Take your time thinking about that. I want to make sure we address all your concerns"
+- Consultant: "I can see you're processing a lot of information. Would it help to pause here and see what questions have come up for you?"

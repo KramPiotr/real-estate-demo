@@ -1,0 +1,11 @@
+# Agent Behavior Aggregation Task
+
+## Output Format
+```json
+{
+  "agent_behaviors": [...],
+  "overall_performance_score": 1.0-5.0,
+  "top_strengths": ["strength1", "strength2"],
+  "priority_improvement_areas": ["area1", "area2"]
+}
+```

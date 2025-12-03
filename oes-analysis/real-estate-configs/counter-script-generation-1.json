@@ -1,0 +1,66 @@
+{
+    "transcripts_directory": "objection-analytics",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "counter_scripts",
+        "location": "real-estate-definitions",
+        "types": ["template"]
+    },
+    "nodes": [
+        {
+            "name": "script_generation",
+            "inputs": [
+                "counter_scripts-template",
+                "objection_patterns",
+                "successful_responses"
+            ],
+            "models": [
+                {"provider": "azure"}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "counter_scripts": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "objection_category": {"type": "string"},
+                                "objection_sub_category": {"type": "string"},
+                                "frequency_rank": {"type": "integer"},
+                                "recommended_scripts": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "script_text": {"type": "string"},
+                                            "tone": {
+                                                "type": "string",
+                                                "enum": ["empathetic", "consultative", "assertive", "educational"]
+                                            },
+                                            "best_used_when": {"type": "string"},
+                                            "success_rate_basis": {"type": "string"}
+                                        }
+                                    }
+                                },
+                                "key_principles": {"type": "array", "items": {"type": "string"}},
+                                "common_mistakes_to_avoid": {"type": "array", "items": {"type": "string"}}
+                            },
+                            "required": ["objection_category", "objection_sub_category", "recommended_scripts", "key_principles"]
+                        }
+                    },
+                    "training_materials": {
+                        "type": "object",
+                        "properties": {
+                            "summary": {"type": "string"},
+                            "role_play_scenarios": {"type": "array", "items": {"type": "string"}},
+                            "assessment_criteria": {"type": "array", "items": {"type": "string"}}
+                        }
+                    }
+                },
+                "required": ["counter_scripts"]
+            }
+        }
+    ]
+}

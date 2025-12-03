@@ -1,0 +1,199 @@
+{
+    "prompts_config": "transcription-correction-production-1",
+    "transcripts_directory": "speaker-identification-test",
+    "output_directory": "multi_agent_responses",
+    "processing_settings": {
+        "batch_size": 100,
+        "concurrent_requests": 20,
+        "retry_attempts": 3,
+        "min_confidence_threshold": 0.7
+    },
+    "quality_control": {
+        "validate_output_format": true,
+        "flag_low_confidence": true,
+        "require_evidence": true
+    },
+    "nodes": [
+        {
+            "name": "speaker-analysis",
+            "description": "Primary speaker identification analysis",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "gemini",
+                    "temperature": 0.2,
+                    "max_tokens": 20000,
+                    "max_output_tokens": 20000
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "properties": {
+                    "speaker_identification": {
+                        "type": "object",
+                        "properties": {
+                            "speaker_roles": {
+                                "type": "object",
+                                "additionalProperties": {
+                                    "type": "string",
+                                    "enum": ["student", "consultant"]
+                                }
+                            },
+                            "identification_evidence": {"type": "string"},
+                            "confidence": {"type": "number"}
+                        },
+                        "required": ["speaker_roles", "identification_evidence", "confidence"]
+                    },
+                    "analysis_details": {
+                        "type": "object",
+                        "properties": {
+                            "consultant_indicators": {
+                                "type": "array",
+                                "items": {"type": "string"}
+                            },
+                            "student_indicators": {
+                                "type": "array",
+                                "items": {"type": "string"}
+                            },
+                            "key_evidence_segments": {
+                                "type": "array",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "segment_id": {"type": "string"},
+                                        "speaker": {"type": "string"},
+                                        "content": {"type": "string"},
+                                        "significance": {"type": "string"}
+                                    },
+                                    "required": ["segment_id", "speaker", "content", "significance"]
+                                }
+                            }
+                        },
+                        "required": ["consultant_indicators", "student_indicators", "key_evidence_segments"]
+                    },
+                    "confidence_reasoning": {"type": "string"}
+                },
+                "required": ["speaker_identification", "analysis_details", "confidence_reasoning"],
+                "additionalProperties": false
+            }
+        },
+        {
+            "name": "conversation-flow",
+            "description": "Detect self-talking patterns and conversation fragmentation",
+            "inputs": [
+                "transcript",
+                "speaker-analysis"
+            ],
+            "models": [
+                {
+                    "provider": "gemini",
+                    "temperature": 0.1,
+                    "max_tokens": 20000,
+                    "max_output_tokens": 20000
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "properties": {
+                    "has_conversation_flow_issue": {"type": "boolean"},
+                    "reasoning": {"type": "string"},
+                    "suggested_split_points": {
+                        "type": "array",
+                        "items": {"type": "integer"}
+                    }
+                },
+                "required": ["has_conversation_flow_issue", "reasoning", "suggested_split_points"],
+                "additionalProperties": false
+            }
+        },
+        {
+            "name": "speaker-correction",
+            "description": "LLM-based re-identification for problematic segments",
+            "inputs": [
+                "transcript",
+                "speaker-analysis",
+                "conversation-flow"
+            ],
+            "models": [
+                {
+                    "provider": "gemini",
+                    "temperature": 0.1,
+                    "max_tokens": 20000,
+                    "max_output_tokens": 20000
+                }
+            ],
+            "conditional": true,
+            "condition": "conversation-flow.has_conversation_flow_issue == true",
+            "response_format_schema": {
+                "type": "object",
+                "properties": {
+                    "corrected_segments": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "id": {"type": "integer"},
+                                "corrected_speaker": {"type": "string"},
+                                "reasoning": {"type": "string"}
+                            },
+                            "required": ["id", "corrected_speaker", "reasoning"]
+                        }
+                    }
+                },
+                "required": ["corrected_segments"],
+                "additionalProperties": false
+            }
+        },
+        {
+            "name": "segment-splitting",
+            "description": "Analyze segments containing multiple speakers and determine split positions",
+            "inputs": [
+                "transcript",
+                "speaker-analysis",
+                "conversation-flow"
+            ],
+            "models": [
+                {
+                    "provider": "gemini",
+                    "temperature": 0.1,
+                    "max_tokens": 20000,
+                    "max_output_tokens": 20000
+                }
+            ],
+            "conditional": true,
+            "condition": "conversation-flow.has_conversation_flow_issue == true",
+            "response_format_schema": {
+                "type": "object",
+                "properties": {
+                    "segments_to_split": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "segment_id": {"type": "integer"},
+                                "needs_split": {"type": "boolean"},
+                                "reasoning": {"type": "string"},
+                                "splits": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "text": {"type": "string"},
+                                            "speaker": {"type": "string"}
+                                        },
+                                        "required": ["text", "speaker"]
+                                    }
+                                }
+                            },
+                            "required": ["segment_id", "needs_split", "reasoning", "splits"]
+                        }
+                    }
+                },
+                "required": ["segments_to_split"],
+                "additionalProperties": false
+            }
+        }
+    ]
+}

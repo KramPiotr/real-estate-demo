@@ -1,0 +1,98 @@
+# TAXONOMY ARTIFACT 8: COMMUNICATION PATTERNS & ENGAGEMENT QUALITY
+This taxonomy examines student communication behaviors and engagement patterns during sales calls that may predict successful program completion and enrollment follow-through.
+
+## 8.A: Information Processing & Response Quality
+
+### 8.A.i: Sophisticated Question Progression
+**Description:** Student's questions become increasingly detailed and program-specific throughout the conversation, indicating deepening engagement and serious consideration.
+
+**Identification Guidance:** Track how student questions evolve from basic to detailed, showing progression from general interest to specific implementation planning.
+
+**Examples:**
+- Early call: "What programs do you offer?" → Later: "How do the assessment methods in the MBA prepare you for real-world strategic planning?"
+- Student: "Can you tell me about the workload for someone working full-time in healthcare management?"
+- Student: "What specific skills will I gain that I can immediately apply in my current role?"
+
+### 8.A.ii: Information Integration & Reference-Back
+**Description:** Student demonstrates active listening by referencing and building upon information provided earlier in the conversation or previous calls.
+
+**Identification Guidance:** Listen for students connecting new information to previously discussed points, showing they are processing and retaining details.
+
+**Examples:**
+- Student: "You mentioned earlier that the program focuses on practical application - can you give me an example of how that works in the finance units?"
+- Student: "Based on what you said about the three teaching periods, I think July would work best with my work schedule"
+- Student: "I remember you saying there's career support - how does that connect with the internship opportunities?"
+
+### 8.A.iii: Clarification Seeking Precision
+**Description:** Student asks for specific clarifications rather than accepting vague information, indicating commitment to making an informed decision.
+
+**Identification Guidance:** Note when students push for specifics, ask follow-up questions for clarity, or seek concrete examples rather than general statements.
+
+**Examples:**
+- Student: "When you say 'flexible learning,' what exactly does that mean in terms of deadlines and scheduling?"
+- Student: "Can you give me a specific example of what a typical week would look like for a student in this program?"
+- Student: "What exactly do you mean by 'industry-relevant content'?"
+
+## 8.B: Engagement Depth & Commitment Signals
+
+### 8.B.i: Multi-Session Conversation Development
+**Description:** Student maintains and develops conversation themes across multiple interactions, showing sustained engagement rather than casual inquiry.
+
+**Identification Guidance:** Look for references to previous conversations, following up on discussed points, or building upon earlier topics in subsequent calls.
+
+**Examples:**
+- Student: "I've been thinking about what we discussed last week regarding the capstone project"
+- Student: "Since our last conversation, I've looked into those career pathways you mentioned"
+- Student: "I wanted to follow up on the question about credit transfers that I asked about yesterday"
+
+### 8.B.ii: Implementation Planning Language
+**Description:** Student uses language suggesting they are mentally planning how to implement study alongside their current commitments.
+
+**Identification Guidance:** Listen for specific discussions about time management, study schedules, family arrangements, or work coordination that indicate concrete planning.
+
+**Examples:**
+- Student: "I'm thinking I could do most of my studying on weekends and a couple of evenings per week"
+- Student: "My partner and I have discussed how we'll manage childcare during my study periods"
+- Student: "I've already identified a quiet space at home where I can set up for online classes"
+
+### 8.B.iii: Stakeholder Discussion Evidence
+**Description:** Student mentions having discussed the program with relevant people in their life, indicating serious consideration and support-building.
+
+**Identification Guidance:** Note references to conversations with family, employers, colleagues, or mentors about the educational decision.
+
+**Examples:**
+- Student: "I've talked to my manager about adjusting my schedule if I enroll"
+- Student: "My spouse is really supportive and we've discussed the financial commitment"
+- Student: "I spoke with a colleague who did this program and they had great things to say"
+
+## 8.C: Decision-Making Process Quality
+
+### 8.C.i: Systematic Comparison Approach
+**Description:** Student demonstrates they are comparing multiple options systematically rather than considering only one program or making impulsive decisions.
+
+**Identification Guidance:** Listen for mentions of other programs considered, specific comparison criteria, or structured evaluation processes.
+
+**Examples:**
+- Student: "I've looked at three different universities and I like that your program has more practical components"
+- Student: "Compared to the other MBA programs I've researched, this one seems more focused on what I need"
+- Student: "I'm choosing between starting this year or next year, and also considering whether to do it part-time or full-time"
+
+### 8.C.ii: Risk Assessment & Mitigation Planning
+**Description:** Student identifies potential challenges and discusses strategies for addressing them, showing realistic planning and problem-solving orientation.
+
+**Identification Guidance:** Note when students acknowledge potential difficulties and propose solutions or ask about support resources for anticipated challenges.
+
+**Examples:**
+- Student: "My biggest concern is time management, so I'm wondering what support is available for students juggling work and study"
+- Student: "I'm worried about the technology aspect - what happens if I have technical difficulties during online classes?"
+- Student: "If I struggle with the academic writing, are there resources to help me improve those skills?"
+
+### 8.C.iii: Timeline Realism & Planning
+**Description:** Student demonstrates realistic understanding of program timelines and shows evidence of planning their commitment around realistic expectations.
+
+**Identification Guidance:** Look for accurate understanding of program duration, realistic planning for study commitments, and appropriate timeline expectations.
+
+**Examples:**
+- Student: "I understand this is a two-year commitment and I've planned my other goals around that timeline"
+- Student: "I want to start in July because that gives me time to finish my current project at work"
+- Student: "I'm not rushing into this - I want to make sure I can give it the time it deserves"

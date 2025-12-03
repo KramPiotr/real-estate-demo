@@ -1,0 +1,12 @@
+# Negative Signals Aggregation Task
+
+## Output Format
+```json
+{
+  "negative_signals": [...],
+  "overall_negative_score": 0-30,
+  "deal_breakers_identified": true|false
+}
+```
+
+The analyst responses will be appended below.

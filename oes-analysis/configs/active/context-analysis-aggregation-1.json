@@ -1,0 +1,18 @@
+{
+    "transcripts_directory": "context_analysis_outputs",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "context_aggregation",
+            "inputs": [
+                "transcript",
+                "behavioural_definition"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        }
+    ]
+}

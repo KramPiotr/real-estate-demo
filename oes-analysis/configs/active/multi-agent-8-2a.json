@@ -1,0 +1,145 @@
+{
+  "transcripts_directory": "interesting-transcripts-segments",
+  "output_directory": "multi_agent_responses",
+  "input_catalog": {
+    "name": "behavioural_definition",
+    "location": "single-behaviour",
+    "types": [
+      "definition"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "context_analysis",
+      "inputs": [
+        "transcript",
+        "behavioural_definition"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        }
+      ]
+    },
+    {
+      "name": "behaviour_analysis",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        },
+        {
+          "provider": "azure"
+        }
+      ]
+    },
+    {
+      "name": "specificity_iteration",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis",
+        "behaviour_analysis"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        },
+        {
+          "provider": "azure"
+        }
+      ],
+      "type": "separate"
+    },
+    {
+      "name": "error_identification",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis",
+        "specificity_iteration"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        },
+        {
+          "provider": "azure"
+        }
+      ],
+      "type": "separate"
+    },
+    {
+      "name": "enhancing_insights",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis",
+        "specificity_iteration",
+        "error_identification"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        },
+        {
+          "provider": "azure"
+        }
+      ],
+      "type": "separate"
+    },
+    {
+      "name": "comprehensive_iteration",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis",
+        "specificity_iteration",
+        "error_identification",
+        "enhancing_insights"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        },
+        {
+          "provider": "azure"
+        }
+      ],
+      "type": "separate"
+    },
+    {
+      "name": "synthesising_themes",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis",
+        "comprehensive_iteration"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        }
+      ]
+    },
+    {
+      "name": "aggregation",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis",
+        "comprehensive_iteration",
+        "synthesising_themes"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        }
+      ]
+    }
+  ]
+}

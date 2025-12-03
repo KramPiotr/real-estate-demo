@@ -1,0 +1,19 @@
+Student Declaration
+
+Conceptual Overview
+The Student Declaration (or Terms and Conditions) is an important agreement between the student and the institution. Consultants should ensure that students have either received and agreed to the declaration or have it read to them during the call.
+
+Essential Composite Requirements
+1. Handling of Declaration (Importance: Essential)
+Option A:
+
+Check that the student has received and agreed to the Student Declaration/Terms and Conditions
+OR
+Option B:
+Read the Student Declaration/Terms and Conditions to the student during the call
+
+2. Agreement Check (Importance: Essential)
+
+Perform a simple check for the student's agreement to the declaration
+
+Note: LLMs should assess whether the consultant has followed either Option A or Option B, and performed a basic agreement check. The exact method or phrasing used is not critical as long as one of these approaches is followed and some form of agreement is confirmed. Both "Student Declaration" and "Terms and Conditions" are acceptable terms.

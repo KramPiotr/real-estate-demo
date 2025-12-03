@@ -1,0 +1,119 @@
+{
+    "transcripts_directory": "weekly-analysis-2024-10-25",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "check",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "properties": {
+                    "call_analysis": {
+                        "type": "object",
+                        "properties": {
+                            "call_type": {
+                                "type": "string",
+                                "enum": ["INITIAL_CONSULTATION", "FOLLOWUP_CONSULTATION", "ENROLLMENT_CALL", "OTHER"],
+                                "description": "Type of sales call"
+                            },
+                            "education_interest": {
+                                "type": "string",
+                                "enum": ["BACHELOR_OF_EDUCATION", "OTHER_EDUCATION", "NON_EDUCATION"],
+                                "description": "Student's education program interest"
+                            },
+                            "evidence": {
+                                "type": "object",
+                                "properties": {
+                                    "call_type_evidence": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "quote": {
+                                                    "type": "string",
+                                                    "description": "Exact quote from transcript"
+                                                },
+                                                "context": {
+                                                    "type": "string",
+                                                    "description": "Explanation of surrounding context"
+                                                },
+                                                "timestamp": {
+                                                    "type": "string",
+                                                    "description": "HH:MM format if available"
+                                                }
+                                            },
+                                            "required": ["quote", "context"]
+                                        }
+                                    },
+                                    "education_interest_evidence": {
+                                        "type": "array",
+                                        "items": {
+                                            "type": "object",
+                                            "properties": {
+                                                "quote": {
+                                                    "type": "string",
+                                                    "description": "Exact quote from transcript"
+                                                },
+                                                "context": {
+                                                    "type": "string",
+                                                    "description": "Explanation of surrounding context"
+                                                },
+                                                "timestamp": {
+                                                    "type": "string",
+                                                    "description": "HH:MM format if available"
+                                                }
+                                            },
+                                            "required": ["quote", "context"]
+                                        }
+                                    }
+                                },
+                                "required": ["call_type_evidence", "education_interest_evidence"]
+                            },
+                            "analysis": {
+                                "type": "object",
+                                "properties": {
+                                    "call_type_reasoning": {
+                                        "type": "string",
+                                        "description": "Detailed explanation of call type classification"
+                                    },
+                                    "education_interest_reasoning": {
+                                        "type": "string",
+                                        "description": "Detailed explanation of education interest classification"
+                                    }
+                                },
+                                "required": ["call_type_reasoning", "education_interest_reasoning"]
+                            }
+                        },
+                        "required": ["call_type", "education_interest", "evidence", "analysis"]
+                    }
+                },
+                "required": ["call_analysis"],
+                "additionalProperties": false
+            }
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "transcripts_directory": "test-transcripts",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "config",
+        "location": "scenes-config",
+        "types": [
+            "definition"
+        ]
+    },
+    "nodes": [
+        {
+            "name": "scene_list",
+            "inputs": [
+                "config-definition"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        },
+        {
+            "name": "scene_definition",
+            "inputs": [
+                "config-definition",
+                "scene_list"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "azure"
+                },
+                {
+                    "provider": "azure"
+                }
+            ]
+        }
+    ]
+}

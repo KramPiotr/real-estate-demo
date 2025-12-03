@@ -1,0 +1,24 @@
+# Urgency Detection Task
+
+## Instructions
+Analyze the sales call transcript for time-sensitive situations requiring immediate follow-up.
+
+## Output Format
+```json
+{
+  "urgency_flags": [
+    {
+      "flag_type": "CRITICAL|HIGH|MEDIUM",
+      "category": "category description",
+      "description": "what makes this urgent",
+      "quote": "exact transcript quote",
+      "transcript_range": "line_range",
+      "recommended_response_window": "timeframe",
+      "recommended_action": "specific next step"
+    }
+  ],
+  "highest_urgency": "CRITICAL|HIGH|MEDIUM|NONE"
+}
+```
+
+The urgency flags definition and transcript will be appended separately.

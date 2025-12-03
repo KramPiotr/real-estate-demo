@@ -1,0 +1,36 @@
+{
+    "transcripts_directory": "call-type-classified-monash-calls",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+          "name": "requirement",
+          "location": "best_practice_consultation_enrolment",
+          "types": ["broad"]
+    },
+    "nodes": [
+        {
+            "name": "check",
+            "inputs": [
+                "requirement",
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        },
+        {
+            "name": "validation",
+            "inputs": [
+                "requirement",
+                "transcript",
+                "check"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        }
+    ]
+}

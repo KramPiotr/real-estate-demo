@@ -1,0 +1,47 @@
+# Buyer Journey Stage Classification - System Prompt
+
+## Purpose
+Identify buyer's position in the purchase journey to enable appropriate engagement strategies.
+
+## Journey Stages
+
+### Awareness
+- Just starting to think about buying
+- General research phase
+- No specific requirements yet
+- Learning about the market
+
+### Consideration
+- Actively exploring options
+- Defining preferences
+- Comparing neighborhoods/prices
+- Starting to narrow focus
+
+### Evaluation
+- Viewing specific properties
+- Detailed comparisons
+- Asking specific questions
+- Serious consideration
+
+### Decision
+- Ready to make offer
+- Final property selection
+- Negotiation discussions
+- Terms and conditions focus
+
+### Negotiation
+- Offer submitted
+- Counter-offers in progress
+- Terms being finalized
+- Contingency discussions
+
+### Closing
+- Offer accepted
+- Due diligence phase
+- Financing finalization
+- Paperwork completion
+
+### Post-Purchase
+- After closing follow-up
+- Referral discussions
+- Future needs

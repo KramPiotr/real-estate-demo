@@ -1,0 +1,18 @@
+# Preference Extraction Aggregation Task
+
+Consolidate analyst preference extractions.
+
+## Output Format
+```json
+{
+  "buyer_id": "...",
+  "preferences": {...},
+  "preference_conflicts": [
+    { "conflict": "description", "resolution_needed": "suggestion" }
+  ],
+  "unstated_preferences": [
+    { "inference": "...", "confidence": 0.0-1.0 }
+  ],
+  "match_readiness": "ready_to_match|needs_clarification|preferences_incomplete"
+}
+```

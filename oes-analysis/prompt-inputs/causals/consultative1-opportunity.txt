@@ -1,0 +1,559 @@
+# Behaviour Name: 'Consultative Approach'
+
+# Consultative Approach: Multi-Category Opportunity Definition
+
+## Core Opportunity Definition
+
+**Consultative Approach Opportunities** occur when consultants can use open-ended questions to understand student needs, probe deeper into motivations rather than accepting surface-level answers, and paraphrase student responses back to confirm understanding and build trust. These moments are critical for gathering information that enables consultants to tailor their approach and ultimately sell the course based on the student's specific needs and motivations.
+
+The consultative approach should be implemented at **two key moments** in sales calls:
+1. **At the beginning of the call** to understand the student's motivations ("the why")
+2. **Before closing** to reiterate the value of the course by paraphrasing their stated motivations back to them
+
+## ⚠️ CRITICAL SCOPE RESTRICTION
+
+Analysis must focus **EXCLUSIVELY** on these five key consultative approach categories. Any discovery questions or interactions outside these scope areas should not be identified as consultative approach opportunities:
+
+1. **Career Motivation Discovery**
+2. **Qualification Background Discovery**
+3. **Outcome Goals Discovery**
+4. **Deep Probing Follow-Up**
+5. **Pre-Closing Value Paraphrasing**
+
+**Critical Context Rules:**
+- **Lead Source Matters**: Different lead sources require different opening approaches
+  - **Brochure downloads**: NEVER ask "Do you have any questions about the brochure?" - immediately start with "why" questions
+  - **Web applications**: Acknowledge application receipt, THEN go to "why" questions before discussing next steps
+  - **Always cover "the why"** even if student has sent documents or completed application
+
+**Out of Scope:**
+- Administrative questions about enrollment process
+- Eligibility verification questions
+- Document collection requests
+- Teaching period scheduling discussions
+- Standard information provision without discovery element
+
+# NORMALIZED CATEGORY NAMES - MANDATORY USAGE
+
+## ⚠️ CRITICAL INSTRUCTION FOR OPPORTUNITY CATEGORIZATION
+
+When identifying and labeling Consultative Approach opportunities in transcripts, you MUST use EXACTLY ONE of the following five normalized category names. These are the ONLY valid category labels for this behavioral pattern.
+
+### The Five Normalized Category Names:
+
+1. **`career_motivation_discovery`**
+   - Use when consultant can explore why student wants the course, their career goals, or what the qualification means for their future
+   - Includes questions about interest drivers, career aspirations, and qualification value
+
+2. **`qualification_background_discovery`**
+   - Use when consultant can explore student's educational background, work experience, or current qualifications
+   - Includes questions about previous study, related field experience, or professional history
+
+3. **`outcome_goals_discovery`**
+   - Use when consultant can explore what student hopes to achieve, what skills they want to gain, or how they'll use the qualification
+   - Includes questions about desired outcomes, skill development, and future utilization
+
+4. **`deep_probing_follow_up`**
+   - Use when student provides surface-level/vague answer and consultant has opportunity to probe deeper with follow-up questions
+   - Applies across any discovery category when initial response lacks depth or detail
+
+5. **`pre_closing_value_paraphrasing`**
+   - Use when consultant is approaching closing and can paraphrase student's stated motivations back to them
+   - Opportunity to summarize student's "why" before requesting enrollment commitment or next steps
+
+### Mandatory Usage Rules:
+
+- **NEVER** create custom category names or variations
+- **NEVER** combine categories (e.g., "career_and_qualification_discovery")
+- **NEVER** use abbreviated forms or partial names
+- **ALWAYS** use exact snake_case formatting as shown above
+- **ALWAYS** select the single most relevant category if multiple could apply
+- **ALWAYS** verify your selected category matches one of the five normalized names exactly
+
+### Category Selection Priority:
+
+If an opportunity could fit multiple categories, prioritize in this order:
+1. Call phase context (opening discovery vs. pre-closing paraphrasing)
+2. Most specific discovery need evident in student's language
+3. Primary information gap that would most benefit enrollment decision
+4. Category that best captures the consultant's immediate opportunity to build trust
+
+### Special Category Notes:
+
+**For `deep_probing_follow_up`:**
+- ONLY use when student has already provided an initial response that was surface-level
+- Must show evidence of vague, brief, or incomplete initial answer
+- Can appear in combination with any other discovery category
+- Focus is on the follow-up opportunity, not the initial question
+
+**For `pre_closing_value_paraphrasing`:**
+- ONLY use when call has progressed to closing phase
+- Must occur BEFORE enrollment closing attempts
+- Should reference previously stated student motivations
+- Cannot occur in first 5-7 minutes of call
+
+**Example Category Assignment:**
+- ✓ CORRECT: `"category": "career_motivation_discovery"`
+- ✗ INCORRECT: `"category": "Career Motivation Discovery"`
+- ✗ INCORRECT: `"category": "career_discovery"`
+- ✗ INCORRECT: `"category": "motivation"`
+
+## 🌟 GOLD STANDARD OPPORTUNITY ANALYSIS: THE BENCHMARK FOR ALL IDENTIFICATIONS
+
+The following analysis represents the exemplary standard that should be replicated for ALL consultative approach opportunity identifications, regardless of specific category type:
+
+> **GOLD STANDARD EXAMPLE**: "This represents a high-value Career Motivation Discovery opportunity when the student mentions 'I've been thinking about doing this for a while' (segment 23) without elaborating on their specific motivations. The consultant has a prime opportunity to explore the underlying drivers with open-ended questions like 'What initially drew your interest to this particular course?' or 'What are you hoping this qualification will help you accomplish in your career?' This moment is significant because the student has signaled readiness to discuss their motivations but hasn't yet articulated the specific career goals or personal value that will enable the consultant to tailor the course presentation effectively. Understanding these motivations is essential for building a compelling value proposition that resonates with the student's specific needs. The call timing is appropriate for discovery (early stage, segment 23), and the student's vague statement creates a natural opening for deeper exploration. Successfully capitalizing on this opportunity would provide crucial information to inform the remainder of the consultation and strengthen the eventual enrollment conversation by connecting course features directly to the student's expressed aspirations."
+
+### Critical Elements That Make This Analysis Exceptional
+
+1. **Category Identification with Context**: Opens with clear category identification and the specific student trigger quote with segment reference
+
+2. **Specific Question Examples**: Provides exact open-ended question examples the consultant could use
+
+3. **Significance Explanation**: Articulates why this moment matters for the enrollment journey and information gathering
+
+4. **Call Phase Recognition**: Notes the appropriate timing in the call (early stage, segment 23)
+
+5. **Natural Opening Recognition**: Identifies how the student's language creates a natural conversational opportunity
+
+6. **Forward-Looking Impact**: Explains how capitalizing on this opportunity would benefit the remainder of the consultation
+
+7. **Value Connection**: Links discovery to eventual enrollment conversation effectiveness
+
+These elements must be present in EVERY opportunity analysis, maintaining the tone, depth, and precision of the gold standard example.
+
+## Opportunity Analysis Template
+
+When identifying ANY consultative approach opportunity, follow this exact structure to ensure your analysis mirrors the gold standard:
+
+1. **Opening Statement**: Begin by explicitly naming the opportunity category and value level with the specific student trigger
+   Example: "This represents a high-value Career Motivation Discovery opportunity when the student mentions '[quote]' (segment X)"
+
+2. **Specific Question Examples**: Include exact open-ended questions the consultant could use
+   Example: "The consultant has a prime opportunity to explore with questions like '[example question 1]' or '[example question 2]'"
+
+3. **Significance Explanation**: Explain why this moment is important for gathering student needs
+   Example: "This moment is significant because the student has signaled [readiness indicator] but hasn't yet articulated [specific information needed]"
+
+4. **Call Phase Appropriateness**: Note where this fits in the call structure and why timing is right
+   Example: "The call timing is appropriate for discovery (early stage, segment X)"
+
+5. **Natural Opening Recognition**: Identify how the student's language or context creates the opportunity
+   Example: "The student's [vague statement/question/concern] creates a natural opening for deeper exploration"
+
+6. **Forward Impact Statement**: Explain how capitalizing on this opportunity benefits the consultation
+   Example: "Successfully capitalizing on this opportunity would provide crucial information to inform [specific outcomes]"
+
+This structure ensures comprehensive, evidence-based analysis that provides clear insights into each opportunity's consultation impact potential.
+
+## Universal Opportunity Identification Criteria
+
+1. Student makes a general statement about interest without explaining specific motivations
+2. Student provides brief or surface-level responses to initial questions
+3. Student references career or qualification goals without elaborating on details
+4. Call opening occurs with appropriate lead source (brochure download or web application)
+5. Student mentions background elements (previous study, work experience) without details
+6. Consultant is approaching closing phase without having paraphrased student's motivations
+7. Student asks questions that reveal underlying needs not yet explored
+8. Student uses language suggesting deeper motivations not yet articulated
+
+## Universal Student Signals
+
+- Making general interest statements: "I've been thinking about this for a while"
+- Providing one-word or brief answers to discovery questions
+- Mentioning career changes without explaining motivations
+- Asking "what" or "how" questions about the course without explaining "why"
+- Referencing life circumstances (new job, family situation) without connecting to goals
+- Expressing timing considerations without explaining urgency or motivations
+- Showing engagement but not volunteering detailed information
+- Using phrases like "I'm interested in..." without elaboration
+
+---
+
+## Category 1: Career Motivation Discovery
+
+### **Category Definition**
+Moments when consultants can explore why students want the course, what career goals they have, what the qualification would mean for their future, or what initially drew their interest. These are foundational discovery opportunities typically occurring in the opening phase of the call.
+
+### **Specific Student Triggers**
+- *"I've been thinking about studying this course"* (without explaining why)
+- *"I'm interested in the psychology program"* (without stating motivations)
+- *"I downloaded the brochure"* (without explaining interest)
+- *"I submitted an application online"* (without explaining motivations)
+- General interest statements without articulated goals
+- Career change mentions without explaining new direction
+- References to timing ("looking to start soon") without explaining why
+
+### **Identification Criteria**
+- Call is in opening phase (first 5-10 minutes)
+- Student has indicated interest but not explained underlying motivations
+- No career goals or qualification value has been discussed yet
+- Student's lead source indicates interest (brochure download, web app) but lacks detail
+- Consultant has not yet asked "why" questions
+- Student makes statements about wanting to study without explaining drivers
+
+### **Critical Lead Source Rules**
+
+**For Brochure Downloads:**
+- ❌ **NEVER IDENTIFY**: "Do you have any questions about the brochure?" as an opportunity
+- ✅ **ALWAYS IDENTIFY**: Immediate "why" questions as opportunities
+- Example correct opening: "What drew your interest to this course?"
+
+**For Web Applications:**
+- ✅ **CORRECT SEQUENCE**: "I can see you've submitted an application. Before we discuss next steps, I'd love to understand what motivated you to apply for this course?"
+- ❌ **INCORRECT**: Jumping immediately to application details without discovering motivations
+- Must acknowledge application receipt, then pivot to "why" questions
+
+### **Opportunity Strength Scoring (1-5)**
+
+**5 - Critical**: Call opening with clear lead source indicator (brochure/web app), zero discovery conducted, student has made general interest statement. Perfect opportunity for foundational motivation discovery that will inform entire consultation.
+
+**4 - Strong**: Early call phase, limited discovery conducted, student has mentioned interest but only in passing. Strong opportunity to establish motivation understanding before information provision.
+
+**3 - Moderate**: Some discovery attempted but incomplete, student has provided partial motivation information. Opportunity to deepen understanding of career goals or qualification value.
+
+**2 - Low**: Significant discovery already conducted, most career motivations understood, opportunity exists for minor clarification or confirmation of previously stated goals.
+
+**1 - Minimal**: Late in call, career motivations thoroughly discussed, minimal additional discovery value. Only opportunity for minor confirmation questions.
+
+### **Good Example** (Strength: 5)
+
+**Lead Source**: Web Application
+**Student Statement**: *"Yes, I submitted the application last week"* (segment 12)
+
+**Opportunity Analysis**:
+This represents a critical Career Motivation Discovery opportunity occurring at the call opening (segment 12) when the student confirms their web application submission without explaining their motivations. The consultant has a perfect opportunity to acknowledge the application and immediately explore the underlying drivers with open-ended questions like "That's great. Before we discuss the next steps, I'd love to understand - what motivated you to apply for this particular course?" or "What are you hoping this qualification will help you accomplish in your career?" This moment is significant because the web application indicates high intent but doesn't reveal the specific career goals or personal value that will enable the consultant to tailor the course presentation effectively. Following the critical lead source rule for web applications, the consultant must acknowledge receipt but then immediately pivot to "why" questions before discussing application details or next steps. Successfully capitalizing on this opportunity would provide the foundational information to inform the entire consultation, allowing the consultant to connect course features directly to the student's expressed aspirations when presenting value later in the call.
+
+**Why Critical Opportunity**: Web application lead source with zero discovery conducted creates the foundational opportunity for the entire consultative approach. Proper handling sets the tone for the full consultation and gathers essential information for tailored selling.
+
+### **Good Example** (Strength: 4)
+
+**Lead Source**: Brochure Download
+**Student Statement**: *"I saw the brochure online and thought it looked interesting"* (segment 8)
+
+**Opportunity Analysis**:
+This represents a strong Career Motivation Discovery opportunity when the student provides a surface-level explanation of their interest (segment 8) without articulating specific career motivations or qualification value. The consultant should avoid asking "Do you have any questions about the brochure?" (critical error for brochure downloads) and instead immediately explore deeper with questions like "What specifically about the course caught your interest?" or "What are you hoping to achieve career-wise with this qualification?" This moment is significant because the student has signaled engagement by downloading the brochure but hasn't revealed the career goals, skill development needs, or life circumstances driving their interest. The call timing is appropriate for foundational discovery (early stage, segment 8), and the student's general statement creates a natural opening for deeper exploration. Successfully capitalizing on this opportunity would provide crucial information about the student's career trajectory, current role challenges, or aspirations that can be directly connected to course outcomes throughout the consultation.
+
+**Why Strong Opportunity**: Brochure download lead source with only surface-level interest expressed. Student has engaged but not articulated motivations. Proper discovery here prevents the common error of asking about brochure questions and instead builds foundation for tailored approach.
+
+---
+
+## Category 2: Qualification Background Discovery
+
+### **Category Definition**
+Moments when consultants can explore student's educational background, work experience, current qualifications, or related field experience to understand their starting position and readiness for the program.
+
+### **Specific Student Triggers**
+- *"I have some previous qualifications"* (without specifying what or relevance)
+- *"I've been working in this field"* (without describing role or experience)
+- *"I studied something similar before"* (without explaining connection)
+- References to work experience without details
+- Mentions of previous study without describing level or relevance
+- General statements about background without elaboration
+
+### **Identification Criteria**
+- Student mentions background elements (study/work) without providing specifics
+- Consultant needs to understand student's starting position for program fit assessment
+- Previous qualifications or experience mentioned but not explored
+- Student's readiness or eligibility unclear due to limited background information
+- Work experience referenced but relevance to program not established
+
+### **Opportunity Strength Scoring (1-5)**
+
+**5 - Critical**: Student mentions background/experience that could significantly impact program suitability or eligibility, but provides no details. Essential discovery for proper guidance.
+
+**4 - Strong**: Student references relevant background that would inform course recommendations or starting point, but lacks specificity needed for tailored advice.
+
+**3 - Moderate**: Some background information provided but gaps exist in understanding full context of student's experience or qualifications.
+
+**2 - Low**: Most background information gathered, opportunity exists for minor clarification of specific aspects.
+
+**1 - Minimal**: Background thoroughly explored, only minor confirmation questions could add value.
+
+### **Good Example** (Strength: 4)
+
+**Student Statement**: *"I've been working in HR for a few years"* (segment 45)
+
+**Opportunity Analysis**:
+This represents a strong Qualification Background Discovery opportunity when the student mentions work experience (segment 45) without providing specifics about their role, responsibilities, or how it relates to the course they're considering. The consultant has an opportunity to explore deeper with questions like "Could you tell me a bit more about your current role and responsibilities?" or "What specific aspects of HR have you been involved with?" This moment is significant because the student's work experience could reveal skill gaps the course addresses, demonstrate readiness for advanced content, or indicate specific units that would align with their practical experience. Understanding the depth and nature of their HR experience would enable the consultant to position the course content more effectively, highlighting relevant units or career progression opportunities that match their background. The general statement creates a natural opening for exploring how their current experience connects to their study goals and what additional skills they're seeking to develop.
+
+**Why Strong Opportunity**: Work experience mentioned but specifics unknown. Understanding the details would enable targeted course positioning and relevance demonstration.
+
+---
+
+## Category 3: Outcome Goals Discovery
+
+### **Category Definition**
+Moments when consultants can explore what students hope to achieve, what skills they want to gain, how they plan to use the qualification, or what specific outcomes they're targeting through study.
+
+### **Specific Student Triggers**
+- *"I want to develop new skills"* (without specifying which skills)
+- *"This would help my career"* (without explaining how)
+- *"I'm looking to move into..."* (without elaborating on the transition)
+- References to career progression without specifics
+- Mentions of skill development without identifying target skills
+- General statements about course utility without concrete outcomes
+
+### **Identification Criteria**
+- Student mentions desired outcomes without providing specifics
+- Goals referenced but not clearly articulated
+- Skill development mentioned but target skills not identified
+- Career change or progression mentioned without explaining desired role/level
+- Student's success criteria for the qualification unclear
+
+### **Opportunity Strength Scoring (1-5)**
+
+**5 - Critical**: Student mentions outcomes/goals that would fundamentally inform course fit and value proposition, but provides no specifics. Essential for demonstrating course relevance.
+
+**4 - Strong**: Student references important outcomes that would enable targeted value demonstration, but lacks detail needed for precise course positioning.
+
+**3 - Moderate**: Some outcome information provided but gaps exist in understanding specific goals or how student will measure success.
+
+**2 - Low**: Most outcome expectations understood, opportunity exists for minor clarification of specific applications or success criteria.
+
+**1 - Minimal**: Outcomes thoroughly explored, only minor confirmation questions could add value.
+
+### **Good Example** (Strength: 5)
+
+**Student Statement**: *"I'm hoping to move into a management role eventually"* (segment 67)
+
+**Opportunity Analysis**:
+This represents a critical Outcome Goals Discovery opportunity when the student expresses a career progression goal (segment 67) without providing specifics about timeline, target industry, management level, or skills they need to develop for this transition. The consultant has a prime opportunity to explore deeper with questions like "What sort of timeline are you considering for this transition?" or "What specific management skills are you hoping to develop through this course?" or "What would success look like for you in terms of the role you're targeting?" This moment is significant because understanding the student's specific management aspirations would enable the consultant to directly connect course content (leadership units, strategic thinking modules, people management skills) to the student's desired outcomes. The general statement about "management role" could mean anything from team lead to executive level, across various industries with different requirements. Successfully capitalizing on this opportunity would provide the specific information needed to demonstrate course value by showing exactly how the qualification delivers the skills and credentials necessary for the student's particular management goal, making the value proposition concrete rather than generic.
+
+**Why Critical Opportunity**: Vague career goal expressed without specifics needed to demonstrate course relevance. Discovery here enables targeted value connection between course content and student's actual desired outcome.
+
+---
+
+## Category 4: Deep Probing Follow-Up
+
+### **Category Definition**
+Moments when students provide surface-level, brief, or vague responses to initial questions, creating opportunities for consultants to probe deeper with follow-up questions rather than accepting incomplete answers. This category represents the critical behavior of not settling for insufficient information.
+
+### **Specific Student Triggers**
+- *"I'm just looking into my options"* (without explaining decision criteria)
+- *"It seems interesting"* (without articulating specific interest)
+- *"I thought it might be good for my career"* (without explaining how)
+- *"Yeah, I guess so"* (vague confirmation without elaboration)
+- One-word or brief responses to open-ended questions
+- General statements that don't answer the underlying "why"
+- Deflective responses that avoid deeper disclosure
+
+### **Identification Criteria**
+- Student provided initial response but it lacks depth, specificity, or detail
+- First-layer question asked but answer was surface-level or incomplete
+- Student gave vague response that doesn't enable tailored approach
+- Consultant accepted brief answer without probing deeper
+- Student's true motivations, goals, or concerns remain unclear after initial question
+- Response suggests deeper information exists but hasn't been articulated
+
+### **Critical Implementation Principle**
+This opportunity type ONLY exists when:
+1. An initial discovery question was asked
+2. Student response was vague, brief, or incomplete
+3. Consultant has opportunity to follow up with deeper probing
+
+It does NOT exist:
+- On the first question (that would be one of the other discovery categories)
+- When student has provided detailed, specific responses
+- When consultant is asking clarifying questions about well-explained points
+
+### **Opportunity Strength Scoring (1-5)**
+
+**5 - Critical**: Student provided completely vague response that reveals nothing useful about motivations, goals, or needs. Follow-up essential to gather any actionable information for tailored approach.
+
+**4 - Strong**: Student gave brief response with minimal detail when much more information likely exists. Strong follow-up opportunity to uncover motivations that inform course positioning.
+
+**3 - Moderate**: Student provided partial information but key details missing. Moderate opportunity to complete understanding of their situation or goals.
+
+**2 - Low**: Student gave reasonable answer but minor gaps exist. Limited follow-up opportunity for additional context or clarification.
+
+**1 - Minimal**: Student provided fairly detailed response. Minimal value in additional follow-up beyond confirmation.
+
+### **Good Example** (Strength: 5)
+
+**Initial Question**: "What drew your interest to this course?" (segment 34)
+**Student Response**: *"I don't know, it just seems interesting"* (segment 35)
+
+**Opportunity Analysis**:
+This represents a critical Deep Probing Follow-Up opportunity when the student provides an extremely vague response (segment 35) that reveals nothing about their actual motivations, career goals, or reasons for considering the course. The consultant cannot tailor their approach based on "it just seems interesting" and must probe deeper with follow-up questions like "What specifically about the course caught your attention?" or "What are you hoping to accomplish career-wise that made you look into this qualification?" or "Help me understand - what led you to start researching psychology programs?" This moment is significant because the student's deflective response could indicate uncertainty about sharing true motivations, lack of clarity about their own goals, or simply a conversational style that requires more prompting. Without deeper probing, the consultant has no foundation for demonstrating course relevance or connecting features to the student's needs. The completely vague nature of the response (5/5 strength) makes follow-up essential rather than optional - accepting this answer would leave the entire consultation without directional information. Successfully capitalizing on this opportunity requires the consultant to demonstrate curiosity and persistence in understanding the student's situation, using multiple angles if needed to uncover the underlying drivers that brought the student to inquire about the course.
+
+**Why Critical Opportunity**: Completely vague response provides zero actionable information. Follow-up is essential, not optional, to gather any foundation for tailored approach.
+
+### **Good Example** (Strength: 4)
+
+**Initial Question**: "What are your career goals?" (segment 52)
+**Student Response**: *"Um, just looking to progress in my current field"* (segment 53)
+
+**Opportunity Analysis**:
+This represents a strong Deep Probing Follow-Up opportunity when the student provides a brief, non-specific response (segment 53) about career progression without articulating what progression means, what current field they're in, or what level they're targeting. The consultant has a strong opportunity to probe deeper with follow-up questions like "Tell me more about your current field - what are you doing now?" or "What does progression look like for you - are you thinking next level up, or a different direction within the field?" or "What specific skills or credentials do you need for that progression?" This moment is significant because "progress in my current field" could mean anything from a modest step up to a complete specialty change, and the vagueness prevents the consultant from connecting course content to specific career outcomes. The student likely has clearer goals than expressed but hasn't articulated them, creating a natural opportunity for gentle probing that demonstrates genuine interest in their situation. Successfully capitalizing on this opportunity would reveal the specific career trajectory the student envisions, enabling the consultant to position relevant course content and demonstrate concrete value for their progression path.
+
+**Why Strong Opportunity**: Surface-level response masks likely more specific goals beneath. Probing reveals actionable information for targeted course positioning.
+
+---
+
+## Category 5: Pre-Closing Value Paraphrasing
+
+### **Category Definition**
+Moments when consultants are approaching the closing phase of the call (after information provision, before enrollment closing) and have the opportunity to paraphrase the student's previously stated motivations back to them, confirming understanding and building trust immediately before requesting commitment or next steps.
+
+### **Specific Student Triggers**
+This category is NOT triggered by student statements but rather by:
+- Call phase progression to closing
+- Previous discovery of student motivations earlier in call
+- Imminent enrollment closing approach by consultant
+- Student showing readiness signals but consultant hasn't yet paraphrased
+
+### **Identification Criteria**
+- Call has progressed beyond discovery and information provision phases
+- Consultant is approaching or beginning enrollment closing
+- Student previously stated motivations, career goals, or desired outcomes earlier in call
+- Consultant has not yet summarized or paraphrased student's motivations back to them
+- Opportunity exists to connect student's "why" to enrollment action before closing
+
+### **Critical Timing Rules**
+- CANNOT occur in first 5-7 minutes of call (too early for closing)
+- MUST occur BEFORE enrollment closing attempts
+- MUST reference previously stated motivations from earlier in call
+- Should occur after course information provided, before commitment requests
+
+### **Opportunity Strength Scoring (1-5)**
+
+**5 - Critical**: Consultant approaching enrollment closing with zero paraphrasing of student's motivations. Student stated clear, specific motivations earlier in call. Paraphrasing essential for trust-building before commitment request.
+
+**4 - Strong**: Consultant near closing phase with limited paraphrasing of student's key motivations. Significant opportunity to summarize and connect before enrollment requests.
+
+**3 - Moderate**: Consultant approaching closing with some acknowledgment of motivations but incomplete paraphrasing. Opportunity to strengthen trust with fuller summary.
+
+**2 - Low**: Most motivations previously acknowledged, limited additional paraphrasing opportunity before closing. Minor value in additional confirmation.
+
+**1 - Minimal**: Motivations thoroughly paraphrased throughout call. Minimal value in additional summary before closing.
+
+### **Good Example** (Strength: 5)
+
+**Context**: Call segment 145 (late stage), consultant beginning closing discussion
+**Earlier Student Statements**:
+- Segment 23: "I want to move into a management role within the next couple of years"
+- Segment 45: "I'm currently in a senior coordinator position but feel like I'm missing the strategic skills"
+- Segment 67: "Getting this MBA would give me the credibility and knowledge I need"
+
+**Opportunity Analysis**:
+This represents a critical Pre-Closing Value Paraphrasing opportunity when the consultant begins discussing enrollment steps (segment 145) without first summarizing the student's clearly stated motivations from earlier in the call (segments 23, 45, 67). The consultant has a prime opportunity to build trust and confirm understanding before requesting commitment by paraphrasing: "So just to make sure I've understood correctly - you're looking to transition from your senior coordinator role into management within the next couple of years, and you've identified that strategic skills and credentials are what you need for that move. The MBA would give you both the practical management knowledge and the credibility you're looking for. Is that right?" This moment is critical because the student provided specific, detailed motivations throughout the discovery phase, but the consultant hasn't yet demonstrated that these motivations were truly heard and understood. According to the meeting notes, this paraphrasing is a hard rule before closing and functions as a "trust builder." Successfully capitalizing on this opportunity transforms the closing from a simple transaction request to a logical next step that clearly connects to the student's articulated goals, significantly increasing enrollment likelihood by making the commitment feel personally relevant rather than generic.
+
+**Why Critical Opportunity**: Clear motivations stated throughout call but zero paraphrasing before closing. This is a hard rule violation - consultant MUST paraphrase before enrollment closing to build trust and demonstrate understanding.
+
+### **Good Example** (Strength: 4)
+
+**Context**: Call segment 162 (closing approach)
+**Earlier Student Statements**:
+- Segment 31: "I've been thinking about this career change for about six months"
+- Segment 52: "I want to become a clinical psychologist"
+- Student's motivations discussed but not fully summarized back
+
+**Opportunity Analysis**:
+This represents a strong Pre-Closing Value Paraphrasing opportunity when the consultant begins transitioning to enrollment discussion (segment 162) with limited acknowledgment of the student's stated motivations from earlier in the call. While the consultant may have acknowledged some elements throughout the conversation, there hasn't been a comprehensive paraphrasing that demonstrates full understanding before requesting commitment. The consultant should pause and paraphrase: "Before we talk about next steps, I want to make sure I've really understood what's brought you here. You've been considering this career change for about six months, and your goal is to become a clinical psychologist. This qualification is the first step in that pathway. Does that capture what you're looking for?" This moment is significant because it serves as the bridge between information provision and enrollment requests, transforming the closing into a natural progression from the student's own stated goals rather than an external pressure. The paraphrasing demonstrates genuine listening and builds trust at the critical moment when the consultant will ask for commitment, significantly strengthening the enrollment conversation by grounding it in the student's personal motivations.
+
+**Why Strong Opportunity**: Some motivation acknowledgment occurred but incomplete paraphrasing before closing. Strong opportunity to demonstrate full understanding and build trust before commitment request.
+
+---
+
+## Critical Analysis Guidelines
+
+### **What Immediately Disqualifies as Consultative Approach Opportunities**
+
+1. **Closed-Ended Eligibility Questions**:
+   - "Are you an Australian citizen?"
+   - "Do you have a bachelor's degree?"
+   - Questions that verify requirements rather than discover motivations
+
+2. **Administrative Process Questions**:
+   - "Have you submitted your documents yet?"
+   - "When can you send your transcript?"
+   - Logistical questions without discovery element
+
+3. **Information Provision Without Discovery**:
+   - Explaining course structure without first understanding needs
+   - Describing teaching periods without understanding timing motivations
+   - Providing program details before discovering student goals
+
+4. **The Forbidden Brochure Question**:
+   - ❌ "Do you have any questions about the brochure?"
+   - This is explicitly identified as a "really bad example" in meeting notes
+   - Never identify this as a consultative opportunity
+
+5. **Premature Closing Without Paraphrasing**:
+   - Enrollment closing attempts before discovery conducted
+   - Commitment requests without referencing student's stated motivations
+   - Process discussions (documents, applications) before understanding "why"
+
+### **Universal Implementation Principles**
+
+1. **Lead Source Determines Opening Approach**:
+   - Brochure downloads → Immediate "why" questions, never brochure questions
+   - Web applications → Acknowledge receipt, pivot to "why" before next steps
+   - Always cover "the why" regardless of documents sent or application completion
+
+2. **Discovery Before Information**:
+   - Must understand motivations before presenting course details
+   - Open-ended questions come before information provision
+   - Student's "why" must be established before tailoring approach
+
+3. **Probing Required for Vague Responses**:
+   - Surface-level answers require follow-up questions
+   - Don't accept incomplete information that prevents tailoring
+   - Demonstrate curiosity through persistent, respectful probing
+
+4. **Paraphrasing Before Closing is Non-Negotiable**:
+   - Hard rule from meeting: must paraphrase before closing
+   - Functions as "trust builder" before commitment requests
+   - Cannot skip this step even if time-constrained
+
+5. **Call Phase Matters**:
+   - Opening phase (0-10 min): Career motivation, background, outcomes discovery
+   - Middle phase (10-20 min): Deep probing follow-ups during information provision
+   - Closing phase (20+ min): Pre-closing value paraphrasing before enrollment closing
+
+---
+
+## Causal Impact Logic
+
+Effective consultative approach directly improves enrollment and retention by:
+
+1. **Enabling Tailored Value Demonstration**: Understanding student needs allows consultants to connect course features directly to stated goals, making the value proposition personally relevant rather than generic.
+
+2. **Building Trust Through Genuine Interest**: Open-ended questions and active listening demonstrate the institution cares about student success, not just enrollment numbers, creating psychological safety for commitment.
+
+3. **Uncovering Hidden Objections Early**: Deep probing reveals concerns or circumstances that might otherwise surface late in the process, allowing early resolution before they become enrollment barriers.
+
+4. **Creating Student-Owned Decisions**: When students articulate their own motivations and hear them paraphrased back, enrollment feels like their decision aligned with their goals rather than consultant pressure.
+
+5. **Improving Expectation Alignment**: Thorough discovery ensures students understand how the course serves their specific needs, reducing post-enrollment regret and improving retention.
+
+6. **Differentiating from Competition**: Taking time to understand individual circumstances positions the institution as student-focused, distinguishing from competitors who may use more transactional approaches.
+
+7. **Informing Better Course Recommendations**: Understanding background and goals enables consultants to suggest appropriate programs, start times, and study loads that actually fit student circumstances.
+
+8. **Strengthening Closing Effectiveness**: When closing is preceded by paraphrasing student's motivations, the commitment request becomes a logical next step rather than a jarring transition, significantly improving conversion.
+
+Each consultative approach opportunity represents a moment where proper discovery and demonstration of understanding significantly influences the student's likelihood of enrolling and succeeding in their chosen program.
+
+---
+
+## Verification Checklist
+
+Before finalizing the identification and scoring of any consultative approach opportunity, verify:
+
+1. **Category Alignment**: Does this opportunity clearly fit one of the 5 defined categories?
+2. **Call Phase Appropriateness**: Is this the right phase for this category (opening discovery vs. pre-closing paraphrasing)?
+3. **Lead Source Compliance**: Does the approach match the lead source rules (brochure vs. web app)?
+4. **Discovery vs. Administration**: Is this genuinely about understanding needs, not just processing requirements?
+5. **Student Signal Present**: Has the student provided language or context that creates this opportunity?
+6. **Not Forbidden Territory**: Are we avoiding the explicitly prohibited "brochure questions" or other disqualified approaches?
+7. **Analysis Quality**: Does the opportunity analysis follow the gold standard example structure?
+
+If the answer to any of these questions is "no," the opportunity should not be identified or the analysis needs revision. If all are "yes," identify the opportunity and assign the appropriate score using the 1-5 rubric above.
+
+---
+
+## Conclusion
+
+By consistently applying this framework to identify and score consultative approach opportunities, consultants can recognize the optimal moments to discover student needs, probe deeper into motivations, and build trust through paraphrasing before closing. Remember that all legitimate opportunities within the 5 categories should be identified and scored appropriately. The meeting notes emphasize starting from a low baseline (~5% for paraphrasing currently) and building incrementally, making proper identification of these opportunities essential for improving consultant performance over time. Always model your analyses after the gold standard example, ensuring all critical elements are present and properly balanced.

@@ -1,0 +1,89 @@
+{
+    "transcripts_directory": "monash-tp1-categorised-1-to-3-equal-duration-subset-100-fixed",
+    "output_directory": "topic_analysis_single_node",
+    "nodes": [
+        {
+            "name": "topic_extraction",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "google",
+                    "model": "gemini-2.5-flash",
+                    "max_output_tokens": 20000
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "total_topics_identified": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "description": "Total number of distinct topics identified in the call"
+                    },
+                    "topic_time_series": {
+                        "type": "array",
+                        "description": "Chronological sequence of topics discussed during the call",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "topic_name": {
+                                    "type": "string",
+                                    "description": "Clear, concise name for the topic"
+                                },
+                                "topic_description": {
+                                    "type": "string",
+                                    "description": "Comprehensive description of what was discussed"
+                                },
+                                "representative_quotes": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string"
+                                    },
+                                    "minItems": 1,
+                                    "maxItems": 5,
+                                    "description": "2-5 representative quotes from the conversation"
+                                },
+                                "boundary_explanation": {
+                                    "type": "string",
+                                    "description": "Why this topic boundary was chosen (why it starts and ends where it does)"
+                                },
+                                "confidence": {
+                                    "type": "string",
+                                    "enum": ["High", "Medium", "Low"],
+                                    "description": "Confidence level in topic boundary identification"
+                                },
+                                "start_segment_id": {
+                                    "type": "integer",
+                                    "minimum": 0,
+                                    "description": "Starting segment ID where topic begins"
+                                },
+                                "end_segment_id": {
+                                    "type": "integer",
+                                    "minimum": 0,
+                                    "description": "Ending segment ID where topic ends"
+                                }
+                            },
+                            "required": [
+                                "topic_name",
+                                "topic_description",
+                                "representative_quotes",
+                                "boundary_explanation",
+                                "confidence",
+                                "start_segment_id",
+                                "end_segment_id"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "total_topics_identified",
+                    "topic_time_series"
+                ]
+            }
+        }
+    ]
+}

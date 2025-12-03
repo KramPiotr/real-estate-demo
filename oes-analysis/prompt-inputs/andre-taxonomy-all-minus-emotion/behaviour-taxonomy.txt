@@ -1,0 +1,99 @@
+# TAXONOMY ARTIFACT 3: SALES CONSULTANT BEHAVIORS
+
+This taxonomy examines sales consultant approaches that may influence student progression through enrollment gates.
+
+## 3.A: Pressure Tactics & Misaligned Incentives
+
+### 3.A.i: Artificial Urgency Creation
+**Description**: Consultant creates false time pressure or uses scarcity tactics to push for immediate enrollment.
+
+**Identification Guidance**: Look for statements suggesting limited spots, imminent deadlines, or other time pressures that may not be accurate or relevant.
+
+**Examples**:
+- Consultant: "We only have a few spots left in this intake"
+- Consultant: "I'd hate for you to miss out if you wait too long to decide"
+- Consultant creates arbitrary deadlines: "I need your decision by tomorrow"
+
+### 3.A.ii: Objection Dismissal/Minimization
+**Description**: Consultant quickly dismisses or minimizes legitimate student concerns rather than addressing them substantively.
+
+**Identification Guidance**: Note instances where student concerns are downplayed, redirected, or dismissed without adequate exploration or resolution.
+
+**Examples**:
+- Student: "I'm worried about the time commitment" → Consultant: "Oh, everyone feels that way at first, it's no big deal"
+- Consultant changes the subject when student raises concerns
+- Consultant provides generic reassurance without addressing the specific concern
+
+### 3.A.iii: Excessive Promise-Making
+**Description**: Consultant makes unrealistic promises about outcomes, support, or the student experience that exceed what the institution can deliver.
+
+**Identification Guidance**: Identify specific promises about results, support levels, or experiences that appear exaggerated or unverifiable.
+
+**Examples**:
+- Consultant: "This degree virtually guarantees you'll get a promotion"
+- Consultant: "I'll personally be available whenever you need help" (when this isn't their role)
+- Consultant makes specific salary increase promises without evidence
+
+## 3.B: Student-Centered Approaches
+
+### 3.B.i: Comprehensive Needs Assessment
+**Description**: Consultant conducts thorough exploration of student needs, goals, and circumstances before discussing program fit.
+
+**Identification Guidance**: Look for open-ended questions about the student's situation, active listening behaviors, and tailoring of information to stated needs.
+
+**Examples**:
+- Consultant asks multiple probing questions before making recommendations
+- Consultant: "Can you tell me more about your career goals so I can explain how this program might help?"
+- Consultant refers back to student's stated needs when discussing program features
+
+### 3.B.ii: Realistic Expectation Setting
+**Description**: Consultant provides balanced, honest information about program challenges and benefits, particularly when addressing student concerns.
+
+**Identification Guidance**: Note instances where the consultant acknowledges both positive and challenging aspects of the program, especially when directly asked.
+
+**Examples**:
+- Consultant: "Many students do find the first unit challenging while adjusting to online study"
+- Consultant honestly discusses workload demands when asked
+- Consultant explains both the benefits and limitations of support services
+
+### 3.B.iii: Fit-Based Recommendation
+**Description**: Consultant makes recommendations based on genuine program-student fit rather than pushing for enrollment regardless of appropriateness.
+
+**Identification Guidance**: Look for instances where the consultant acknowledges potential misalignment or suggests alternatives when appropriate.
+
+**Examples**:
+- Consultant suggests a different program that better matches student goals
+- Consultant recommends starting with fewer units based on student's situation
+- Consultant is willing to suggest delaying enrollment if timing isn't right
+
+## 3.C: Enrollment Process Facilitation
+
+### 3.C.i: Step-by-Step Guidance Provision
+**Description**: Consultant provides clear, specific instructions for completing the enrollment process, particularly regarding Hub navigation and account creation.
+
+**Identification Guidance**: Note detailed explanations of enrollment steps, account creation procedures, and Hub navigation that leave little room for confusion.
+
+**Examples**:
+- Consultant explains exact steps: "First, you'll receive an email with a link. Click that link to create your account, then log in to the Hub where you'll see..."
+- Consultant confirms understanding: "Does that make sense? Can I clarify anything about these steps?"
+- Consultant anticipates common challenges: "Some people find that section confusing, so let me explain..."
+
+### 3.C.ii: Document Requirement Clarity
+**Description**: Consultant clearly explains all required documentation, submission methods, and deadlines.
+
+**Identification Guidance**: Look for specific, comprehensive information about required documents and submission processes.
+
+**Examples**:
+- Consultant provides a complete list: "You'll need to submit your transcript, ID, and proof of residency"
+- Consultant explains format requirements: "They'll accept scanned copies or clear photos of your documents"
+- Consultant discusses deadlines: "To secure your spot in this intake, we need these documents by [specific date]"
+
+### 3.C.iii: Proactive Follow-Up Planning
+**Description**: Consultant establishes specific plans for follow-up communication to support the student through enrollment steps.
+
+**Identification Guidance**: Note concrete plans for future contact, specific timing, and clear ownership of next steps.
+
+**Examples**:
+- Consultant: "I'll follow up with you next Tuesday to see how you're progressing with your application"
+- Consultant establishes accountability: "So you'll submit those documents by Friday, and I'll call on Monday to confirm receipt"
+- Consultant provides direct contact information: "If you have any questions before then, you can reach me at..."

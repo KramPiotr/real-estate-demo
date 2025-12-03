@@ -1,0 +1,26 @@
+{
+  "transcripts_directory": "weekly-analysis-2024-12-16-2024-12-20",
+  "output_directory": "multi_agent_responses",
+  "input_catalog": {
+    "name": "behavioural_definition",
+    "location": "behavioural-definitions-combined",
+    "types": [
+      "definition"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "score",
+      "inputs": [
+        "transcript",
+        "behavioural_definition"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        }
+      ],
+      "response_format_path": "mini_score.score.MiniScore"
+    }
+  ]
+}

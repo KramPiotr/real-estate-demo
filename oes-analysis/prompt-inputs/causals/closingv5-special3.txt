@@ -1,0 +1,309 @@
+# CONTEXTUAL ACCURACY AND PLACEHOLDER VERIFICATION FRAMEWORK
+
+## DOCUMENT OVERVIEW AND USAGE GUIDE
+
+This special file addresses two critical refinement requirements for enrollment closing analysis:
+
+1. **Contextual Accuracy Verification**: Ensuring analysis with 'negative' tags only criticizes consultant responses for contextually appropriate issues, removing analysis where recommendations conflict with the broader call context or timeline.
+
+2. **Placeholder Standardization**: Ensuring all recommended response quotes use appropriate placeholders for specific dates, deadlines, and documentation rather than fabricated specifics.
+
+**Document Structure:**
+- **Decision Trees**: Logical pathways to determine if analysis requires correction or removal
+- **Correction Instructions**: Step-by-step guidance immediately following each decision point
+- **Before/After Examples**: Concrete demonstrations of proper corrections
+- **Verification Checklists**: Final confirmation that all requirements are met
+
+**How to Apply This Framework:**
+1. Process each analysis section through the relevant decision trees
+2. When correction is required, apply the instructions that directly follow the decision point
+3. For contextual issues, remove the entire analysis ID section when core criticism is inappropriate
+4. For placeholder issues, preserve all analysis while replacing only the specific problematic elements
+5. Verify final output against the checklist before proceeding
+
+## CONTEXTUAL ACCURACY VERIFICATION DECISION TREE
+
+### Step 1: Negative Tag Assessment
+Does the analysis ID section have a 'negative' tag?
+
+- **If NO →** Skip to Placeholder Standardization Decision Tree
+- **If YES →** Continue to Step 2
+
+### Step 2: Core Criticism Identification
+What is the primary criticism or recommendation in this analysis? Identify the main consultant behavior being criticized.
+
+- Continue to Step 3
+
+### Step 3: Call Context Appropriateness Check
+Does the core criticism or recommendation make sense given the broader context of the call? Consider:
+- **Call timing**: Is the suggested approach appropriate for this stage of the call?
+- **Call progression**: Has the criticized action actually been performed elsewhere in the call?
+- **Student readiness**: Does the recommendation match the student's demonstrated level of interest/commitment?
+- **Consultant role boundaries**: Does the criticism suggest actions outside consultant scope?
+- **Enrollment vs. post-enrollment context**: Is this actually a post-enrollment administrative discussion being treated as an enrollment opportunity?
+- **Student timeline**: Has the student explicitly stated they're not ready to study for months/years?
+- **Financial constraints**: Does the recommendation ignore program-specific payment requirements or limitations?
+
+**Investigation Requirements:**
+Before making a removal decision, you MUST examine:
+1. **Full call context**: Read beyond the specific segments quoted in the analysis to understand the broader conversation
+2. **Student statements**: Look for explicit statements about timeline, readiness, or constraints that may contradict recommendations
+3. **Sequential actions**: Check if criticized actions occur elsewhere in the call (earlier or later segments)
+4. **Program context**: Consider if this is pre-enrollment, post-enrollment, or far-future inquiry
+5. **Financial context**: Verify if recommended approaches align with actual program payment options
+
+**Key Contextual Red Flags:**
+- Criticizing lack of hard closes in early call segments (first 10-15 minutes)
+- Suggesting aggressive enrollment tactics when student is clearly in research phase
+- Criticizing consultant for not doing something that occurs later in the same call
+- Recommending approaches that contradict student's explicitly stated timeline or constraints
+- Suggesting techniques inappropriate for the specific student type or situation
+- **Post-enrollment context confusion**: Treating post-enrollment administrative discussions (Fee-Help setup, student account creation) as enrollment closing opportunities
+- **Explicit timeline conflicts**: Recommending immediate enrollment when student has stated they want to study "in a few years" or after major life events
+- **Financial context ignorance**: Suggesting follow-up or urgency tactics that don't account for upfront payment requirements or lack of financial aid options
+- **Student readiness misalignment**: Hard closes when student explicitly indicates they're not decision-ready or are in early research phase
+- **Far future inquiries**: Enrollment closing tactics when student is asking about programs for distant future starts
+
+- **If criticism IS contextually appropriate →** Reproduce analysis verbatim, then proceed to Placeholder Standardization Decision Tree
+- **If criticism IS NOT contextually appropriate →** Apply the following removal:
+
+**Removal Instructions:**
+1. Remove the ENTIRE analysis ID section (opportunity, response, and recommendation subsections)
+2. Do not attempt to modify or salvage any part of the analysis
+3. Ensure the JSON structure remains valid after removal
+4. Continue processing remaining analysis ID sections
+
+**⚠️ CRITICAL REMOVAL THRESHOLD:**
+Only remove analysis where the CORE criticism or recommendation fundamentally conflicts with call context. Do not remove analysis for minor issues or subjective preferences. The criticism must be clearly inappropriate given the broader call circumstances.
+
+## PLACEHOLDER STANDARDIZATION DECISION TREE
+
+### Step 1: Recommended Response Quote Assessment
+Does the analysis contain recommended response quotes (specific consultant language suggestions)?
+
+- **If NO →** Reproduce analysis verbatim (no changes required)
+- **If YES →** Continue to Step 2
+
+### Step 2: Specific Content Detection
+Do the recommended response quotes contain any of the following specific elements?
+- **Specific dates or deadlines** (e.g., "by Friday", "submit by March 15th", "before next Tuesday")
+- **Specific documentation references** (e.g., "your transcript and birth certificate", "the resume you mentioned earlier")
+- **Specific timelines** (e.g., "within 48 hours", "by end of business today")
+
+- **If NO specific elements found →** Reproduce analysis verbatim (no changes required)
+- **If YES specific elements found →** Apply the following standardization:
+
+**Standardization Instructions:**
+1. Maintain ALL analysis content exactly as provided
+2. Identify ONLY the specific dates, deadlines, or documentation references within recommended quotes
+3. Replace specific elements with appropriate placeholders:
+   - **Dates/Deadlines**: Replace with `{appropriate follow-up date}`, `{suggested deadline}`, or `{follow-up timeline}`
+   - **Specific Documentation**: Replace with `{specific documentation}`, `{required documents}`, or `{discussed documents}`
+   - **Timeframes**: Replace with `{appropriate timeframe}` or `{suggested timeline}`
+4. Preserve all surrounding language and context within the recommended quotes
+5. Maintain all other quotes, segment numbers, and evidence exactly as provided
+
+**⚠️ CRITICAL PRESERVATION REQUIREMENT:**
+Placeholder standardization must ONLY affect the specific problematic elements within recommended response quotes. All analytical content, evidence, and surrounding language must be preserved exactly as provided.
+
+### Example Placeholder Standardization
+
+**BEFORE STANDARDIZATION (PROBLEMATIC):**
+```
+The consultant should have said: "Great! If you can send me your transcript and passport by this Friday, I'll have your application processed for the July intake."
+```
+
+**AFTER STANDARDIZATION (CORRECT):**
+```
+The consultant should have said: "Great! If you can send me {specific documentation} by {appropriate follow-up date}, I'll have your application processed for the July intake."
+```
+
+### Example Contextual Removal Scenarios
+
+**SCENARIO 1: POST-ENROLLMENT CONTEXT CONFUSION**
+```json
+{
+  "id": 3,
+  "title": "Missed Deadline Creation Opportunity",
+  "tag": "negative",
+  "recommendation": "The consultant should have created urgency by saying 'submit your tax file number by next Tuesday to ensure your enrollment progresses smoothly.'"
+}
+```
+**REASON FOR REMOVAL**: Analysis treats post-enrollment Fee-Help administrative setup as an enrollment closing opportunity. The consultant is explaining post-enrollment procedures, not trying to close enrollment.
+
+**SCENARIO 2: EXPLICIT TIMELINE CONFLICT**
+```json
+{
+  "id": 5,
+  "title": "Missed Commitment Securing Opportunity",
+  "tag": "negative",
+  "recommendation": "The consultant should have immediately transitioned to securing enrollment by asking 'Are you ready to start this year?' and requesting documents."
+}
+```
+**REASON FOR REMOVAL**: Student explicitly stated they want to study "in a few years once they are at home and had children." Immediate enrollment tactics directly contradict the student's stated timeline.
+
+**SCENARIO 3: FINANCIAL CONTEXT IGNORANCE**
+```json
+{
+  "id": 7,
+  "title": "Inadequate Follow-Up Scheduling",
+  "tag": "negative",
+  "recommendation": "The consultant should have scheduled a follow-up to discuss financial aid options and payment plans to maintain momentum."
+}
+```
+**REASON FOR REMOVAL**: Course requires upfront payment with no financial aid available. Recommending follow-up about non-existent financial options shows fundamental misunderstanding of program constraints.
+
+**SCENARIO 4: ACTIONS COMPLETED ELSEWHERE**
+```json
+{
+  "id": 9,
+  "title": "Missing Next Steps Documentation",
+  "tag": "negative",
+  "recommendation": "The consultant failed to outline clear next steps and documentation requirements for the student."
+}
+```
+**REASON FOR REMOVAL**: Analysis criticizes consultant for not doing something that actually occurs in segments 95-110 of the same call, where detailed next steps and documentation requirements are thoroughly explained.
+
+## CONTEXTUAL APPROPRIATENESS ASSESSMENT CRITERIA
+
+### Timing-Based Appropriateness
+
+**Early Call Context (First 15-20 minutes)**:
+- ✓ Appropriate: Discovery questions, rapport building, initial needs assessment
+- ✗ Inappropriate: Hard closes, aggressive document requests, enrollment urgency creation
+- ✗ Inappropriate: Criticizing lack of commitment-seeking when basic needs haven't been established
+
+**Mid-Call Context (After needs established)**:
+- ✓ Appropriate: Tailored information delivery, addressing specific concerns, building value
+- ✗ Inappropriate: Continuing discovery when student is ready to proceed
+- ✗ Inappropriate: Avoiding commitment assessment when clear buying signals present
+
+**Late Call Context (After value established)**:
+- ✓ Appropriate: Teaching period confirmation, documentation requests, commitment securing
+- ✗ Inappropriate: Returning to basic discovery, avoiding closure when appropriate
+
+### Student Readiness Appropriateness
+
+**Research Phase Students**:
+- ✓ Appropriate: Information provision, addressing concerns, building trust
+- ✗ Inappropriate: Aggressive closing tactics, creating artificial urgency
+- ✗ Inappropriate: Criticizing patient, consultative approaches
+
+**Decision-Ready Students**:
+- ✓ Appropriate: Clear next steps, documentation requests, intake confirmation
+- ✗ Inappropriate: Continuing extensive discovery, avoiding commitment assessment
+- ✗ Inappropriate: Passive approaches when active engagement is warranted
+
+**Explicitly Not-Ready Students**:
+- ✓ Appropriate: Future-focused information, maintaining relationship, gentle timeline exploration
+- ✗ Inappropriate: Any immediate enrollment tactics, document requests, or urgency creation
+- ✗ Inappropriate: Criticizing consultants for not pushing when student has stated future timeline
+
+### Call Context Appropriateness
+
+**Pre-Enrollment Discussions**:
+- ✓ Appropriate: Enrollment closing tactics, commitment securing, documentation requests
+- ✗ Inappropriate: Treating exploratory conversations as enrollment opportunities
+
+**Post-Enrollment Administrative Discussions**:
+- ✓ Appropriate: Administrative guidance, process explanation, support service information
+- ✗ Inappropriate: Enrollment closing tactics, urgency creation, commitment securing
+- ✗ Inappropriate: Treating Fee-Help setup or account creation as enrollment opportunities
+
+**Far Future Inquiries (Student asking about programs starting in 6+ months or years)**:
+- ✓ Appropriate: Information provision, relationship building, future-focused planning
+- ✗ Inappropriate: Immediate enrollment tactics, current intake pressure, document urgency
+
+### Financial Context Appropriateness
+
+**Upfront Payment Required Programs**:
+- ✓ Appropriate: Clear payment timeline explanation, financial reality acknowledgment
+- ✗ Inappropriate: Follow-up scheduling about non-existent financial aid or payment plans
+- ✗ Inappropriate: Urgency tactics that don't account for payment preparation time
+
+**HECS/FEE-HELP Eligible Programs**:
+- ✓ Appropriate: Deferred payment explanation, enrollment urgency (where contextually appropriate)
+- ✗ Inappropriate: Suggesting upfront payment when deferred options available
+
+### Call Progression Appropriateness
+
+**Sequential Actions**:
+- ✗ Inappropriate: Criticizing consultant for not doing X when X occurs later in the same call
+- ✗ Inappropriate: Suggesting repetition of actions already effectively completed
+- ✗ Inappropriate: Recommending approaches that contradict established call flow
+
+**Information Completeness**:
+- ✗ Inappropriate: Criticizing lack of information that was provided in earlier/later segments
+- ✗ Inappropriate: Suggesting information repetition when already thoroughly covered
+
+## VERIFICATION CHECKLIST
+
+Before finalizing any analysis, verify:
+
+1. **Contextual Accuracy**
+   - ✓ Have all 'negative' tag analyses been assessed for contextual appropriateness?
+   - ✓ Have any analyses with contextually inappropriate core criticisms been completely removed?
+   - ✓ Do remaining negative analyses offer criticism that makes sense given call timing and context?
+   - ✓ Are recommendations appropriate for the student's demonstrated readiness level?
+
+2. **Placeholder Standardization**
+   - ✓ Have all recommended response quotes been checked for specific dates/documentation?
+   - ✓ Have specific elements been replaced with appropriate placeholders?
+   - ✓ Has all surrounding analysis content been preserved exactly as provided?
+   - ✓ Do placeholders maintain the intent and flow of the original recommendations?
+
+3. **Content Preservation**
+   - ✓ Has ALL analysis content (except removed sections) been preserved verbatim?
+   - ✓ Are all quotes, segment numbers, and evidence maintained exactly as provided?
+   - ✓ Has the JSON structure remained valid after any removals?
+   - ✓ Have only the specific problematic elements been modified?
+
+If ANY verification item fails, revisit the appropriate decision tree and apply the corresponding correction framework.
+
+## CRITICAL IMPLEMENTATION PRINCIPLES
+
+### Removal Threshold
+
+Analysis should ONLY be removed when:
+1. **Fundamental context conflicts**: The core criticism directly contradicts the actual context of the conversation segment
+2. **Explicit student contradiction**: The recommendation directly conflicts with what the student has explicitly stated about their timeline, readiness, or constraints
+3. **Post-enrollment confusion**: The analysis treats post-enrollment administrative discussions as enrollment closing opportunities
+4. **Action already completed**: The analysis criticizes the consultant for not doing something that clearly occurs elsewhere in the same call
+5. **Financial impossibility**: The recommendation suggests approaches involving financial options that definitively don't exist for the program
+
+**Do NOT remove analysis for:**
+- Minor timing preferences that don't fundamentally conflict with context
+- Subjective style differences in consultant approach
+- Ambitious but contextually possible recommendations
+- Small improvements that could enhance already adequate responses
+- Recommendations that are aspirational but not contextually inappropriate
+- Analysis where the core criticism is valid even if some details could be refined
+
+**When in doubt, PRESERVE the analysis.** Only remove when the contextual conflict is clear, fundamental, and undermines the entire analytical premise.
+
+### Preservation Requirements
+
+When making any changes:
+1. **Complete Preservation**: All analysis content except specifically identified problems must remain exactly as provided
+2. **Evidence Maintenance**: All quotes, segment numbers, and specific examples must be preserved
+3. **Structural Integrity**: JSON structure must remain valid and complete
+4. **Content Accuracy**: No analytical insights should be lost except through complete section removal
+
+### Quality Standards
+
+The output must maintain:
+1. **Contextual Coherence**: All remaining analyses must make sense within call context
+2. **Professional Standards**: All recommended language must use appropriate placeholders
+3. **Analytical Integrity**: Core insights and recommendations must remain valuable and actionable
+4. **Evidence Density**: All specific quotes and examples must be preserved
+
+## IMPLEMENTATION SUMMARY
+
+This framework ensures that:
+
+1. **Contextual Appropriateness**: Only analyses with contextually appropriate criticisms and recommendations are retained
+2. **Professional Standardization**: All recommended responses use proper placeholders instead of fabricated specifics
+3. **Content Preservation**: All valuable analytical content is maintained exactly as provided
+4. **Quality Assurance**: Final output maintains high standards of relevance and professionalism
+
+These requirements are critical for maintaining the credibility and usefulness of the analysis while ensuring recommendations align with realistic call contexts and professional standards.

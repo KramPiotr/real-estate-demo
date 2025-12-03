@@ -1,0 +1,38 @@
+{
+  "transcripts_directory": "interesting-transcripts-segments",
+  "output_directory": "multi_agent_responses",
+  "input_catalog": {
+    "name": "behavioural_definition",
+    "location": "single-behaviour",
+    "types": [
+      "definition"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "score",
+      "inputs": [
+        "transcript"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ]
+    },
+    {
+      "name": "check",
+      "inputs": [
+        "transcript",
+        "score"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ]
+    }
+  ]
+}

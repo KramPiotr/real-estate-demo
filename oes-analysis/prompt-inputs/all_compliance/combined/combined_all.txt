@@ -1,0 +1,153 @@
+# Combined Compliance Definitions
+
+## Broad Definitions
+
+
+Call Recording Disclosure:
+
+Definition: Consultants must inform students that the call is being recorded at the beginning of each call. This is a legal requirement and must be stated clearly.
+
+Example phrases:
+"Call is recorded"
+"This call is being recorded"
+
+Clarification: This statement should be made within the first two minutes of the call, before any substantive discussion begins.
+1. Census Date Information
+Definition: Consultants must explain the census date and its implications. This is crucial information for students to understand their financial and academic obligations.
+
+Exact phrase required:
+
+- "Census Date & You can defer or withdraw from the course without academic or financial penalty or drop a unit."
+
+Examples of acceptable paraphrasing:
+
+- 'The census date is the last day you can withdraw from a unit without financial or academic penalty.'
+- 'You have until the census date, which is [specific date], to decide if you want to continue with the course or any specific units.'
+- 'If you withdraw before the census date, you won't be charged for the unit and it won't appear on your academic record.'Student Declaration
+Definition: Consultants must confirm that the student has received and agreed to the student declaration (or terms and conditions) during enrollment calls. This ensures that students understand and accept the terms and conditions of their enrollment.
+
+Indicative phrases:
+
+"Student Declaration -- Confirmed as emailed, read, and agreed upon."
+
+Examples of common paraphrasing:
+
+'Have you received the student declaration/terms and conditions email? It's important that you read and agree to the terms before we proceed.'
+'I'll send you the student declaration/terms and conditions now. Once you've had a chance to review it, please confirm that you agree to the terms.'
+'The student declaration/terms and conditions outlines your rights and responsibilities as a student. Please let me know when you've read and agreed to it.'HECS-HELP and Fee-Help Explanation
+
+Essence:
+The consultant should briefly mention the availability of government loan schemes like HECS-HELP and other fee-help options for domestic students. The explanation should be simple and tailored to the student's level of interest.
+
+Indicative phrasing:
+"As a domestic student, you might be eligible for government loan schemes like HECS-HELP, which can help you defer your tuition fees. Would you like me to explain a bit more about how that works?"
+
+If the student shows interest, the consultant can add: "Basically, it means you don't have to pay your fees upfront. You'll only start repaying the loan once you're earning above a certain amount, and it's done through the tax system."
+The consultant should be ready to provide more details or direct the student to additional resources if asked.
+Course Hours per Unit
+
+Essence:
+Clearly communicate the time commitment per unit on the relevant course.
+The consultant should specify the number of study hours required per unit.
+Mention any restrictions on the number of units that can be taken simultaneously.
+
+Indicative phrasing
+Example: "For this course, each unit requires approximately 20-24 hours of study per week. At Monash, you'll focus on one unit at a time, allowing you to fully engage with the material."
+Indicative phrasing: "Let me tell you about the time commitment for this course. Each unit typically involves [X] hours of study per week. [Institution name] allows you to take [Y] units at a time, which means you'll be dedicating about [X*Y] hours weekly to your studies."
+
+## Enhanced Definitions
+
+# Call Recording Disclosure Sub-Requirements
+
+1. Timing of Disclosure
+   - The disclosure must be made near the beginning of each call
+   - It should occur within the first two minutes of the call
+   - The disclosure must be made before any substantive discussion begins
+
+2. Content of Disclosure
+   - The consultant must inform the student that the call is being recorded
+   - The disclosure must be stated clearly
+   - Indicative phrases:
+     - "Call is recorded"
+     - "This call is being recorded"
+
+# Census Date Information
+
+## Conceptual Overview
+The census date is a critical milestone with significant financial and academic implications for students. Consultants should communicate key information to:
+- Help students understand their rights and obligations
+- Support informed decision-making about academic commitments
+- Prevent potential penalties due to lack of awareness
+- Demonstrate transparency and support for students
+
+## Essential Composite Requirements
+
+### 1. Clear Definition and Significance (Importance: Essential)
+- Provide a clear, concise definition of the census date
+- Explain the significance of this date in the context of the student's enrollment
+- Emphasize the importance of being aware of and acting before this date if necessary
+
+### 2. Implications and Options Explanation (Importance: Essential)
+- Explain the academic implications, including transcript records
+
+Note: LLMs should assess whether the consultant has made a reasonable effort to cover these key points about the census date, without requiring exact phrasing or exhaustive detail.Student Declaration
+
+Conceptual Overview
+The Student Declaration (or Terms and Conditions) is an important agreement between the student and the institution. Consultants should ensure that students have either received and agreed to the declaration or have it read to them during the call.
+
+Essential Composite Requirements
+1. Handling of Declaration (Importance: Essential)
+Option A:
+
+Check that the student has received and agreed to the Student Declaration/Terms and Conditions
+OR
+Option B:
+Read the Student Declaration/Terms and Conditions to the student during the call
+
+2. Agreement Check (Importance: Essential)
+
+Perform a simple check for the student's agreement to the declaration
+
+Note: LLMs should assess whether the consultant has followed either Option A or Option B, and performed a basic agreement check. The exact method or phrasing used is not critical as long as one of these approaches is followed and some form of agreement is confirmed. Both "Student Declaration" and "Terms and Conditions" are acceptable terms.# HECS-HELP and Fee-Help Explanation
+
+## Conceptual Overview
+Consultants should briefly inform domestic students about the existence of government loan schemes like HECS-HELP and other fee-help options. Further explanation is optional and based on student interest.
+
+## Essential Composite Requirement
+
+### 1. Mention Availability (Importance: Essential)
+- Briefly mention the existence of government loan schemes like HECS-HELP for domestic students
+
+## Optional Components
+
+### 2. Gauge Interest (Optional)
+- The consultant may check if the student wants more information about these options
+
+### 3. Provide Basic Explanation (Optional)
+- If the student shows interest and the consultant chooses to elaborate, they may offer a simple explanation of how the loan scheme works
+- The consultant may provide more details or direct the student to additional resources if asked
+
+Note: LLMs should assess whether the consultant has mentioned the availability of loan schemes. Gauging interest and providing further explanation are not required to meet this requirement and should not be factors in determining compliance.# Course Hours per Unit
+
+## Conceptual Overview
+Consultants should communicate information about the course structure, which may include time commitment per unit, number of teaching periods, or unit enrollment details. Any combination of these elements satisfies the requirement.
+
+## Essential Composite Requirements
+
+The consultant should mention at least one of the following:
+
+### 1. Study Hours
+- Number of study hours required per unit
+
+### 2. Teaching Periods
+- Number of teaching periods per year for the specific institution
+
+### 3. Unit Restrictions
+- Restrictions on the number of units that can be taken simultaneously
+
+## Examples
+- "6 teaching periods a year for Monash"
+- "3 teaching periods a year for SOL, 1-4 units, 10-12 hours per unit"
+- "Each unit requires approximately 20-24 hours of study per week"
+
+Note: LLMs should assess whether the consultant has mentioned at least one of the above elements (study hours, teaching periods, or unit restrictions). Mentioning any one or any combination of these elements is sufficient to meet the requirement. The exact phrasing is not critical, and abbreviations like 'tp' for teaching period are acceptable if previously explained. Additional details beyond these points are optional.

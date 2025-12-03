@@ -1,0 +1,65 @@
+{
+    "transcripts_directory": "call-type-classified-sol-calls",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+          "name": "requirement",
+          "location": "compliance",
+          "types": ["broad", "enhanced"],
+          "logic": {
+            "call_recording_disclosure": "lambda kwargs: int(kwargs['call_id']) in kwargs['get_pickle']('outbound')",
+            "eligibility": "lambda kwargs: kwargs['parent_dir'] == 'follow-up-enrollment'",
+            "information": "lambda kwargs: kwargs['parent_dir'] == 'follow-up-enrollment'",
+            "documentation": "lambda kwargs: kwargs['parent_dir'] == 'follow-up-enrollment'",
+            "next_steps": "lambda kwargs: kwargs['parent_dir'] == 'follow-up-enrollment'",
+            "census": "lambda kwargs: kwargs['parent_dir'] == 'follow-up-enrollment'",
+            "declaration": "lambda kwargs: kwargs['parent_dir'] == 'follow-up-enrollment'"
+          }
+    },
+    "nodes": [
+        {
+            "name": "check",
+            "inputs": [
+                "requirement-broad",
+                "requirement-enhanced",
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        },
+        {
+            "name": "errors",
+            "inputs": [
+                "requirement-broad",
+                "requirement-enhanced",
+                "transcript",
+                "check"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        },
+        {
+            "name": "validation",
+            "inputs": [
+                "requirement-broad",
+                "requirement-enhanced",
+                "transcript",
+                "check",
+                "errors"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        }
+    ]
+}

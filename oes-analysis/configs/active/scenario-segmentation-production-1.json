@@ -1,0 +1,78 @@
+{
+  "transcripts_directory": "monash-tp1-categorised-1-to-3-equal-duration-subset-100-fixed",
+  "output_directory": "multi_agent_responses",
+  "input_catalog": {
+    "name": "scenarios",
+    "location": "knowledge-extraction-scenarios",
+    "types": ["scenarios"]
+  },
+  "nodes": [
+    {
+      "name": "scenario_segmentation",
+      "inputs": ["scenarios", "transcript"],
+      "models": [
+        {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash",
+          "mini": false
+        }
+      ],
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "scenario_segmentation_response",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "call_id": {
+                "type": "string",
+                "description": "Unique identifier for this call"
+              },
+              "extracted_scenarios": {
+                "type": "array",
+                "description": "List of scenarios found in this call with their segment boundaries",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "scenario_name": {
+                      "type": "string",
+                      "description": "Name of the scenario from the predefined list"
+                    },
+                    "segments": {
+                      "type": "array",
+                      "description": "Continuous chunks where this scenario is discussed",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "start_segment_id": {
+                            "type": "integer",
+                            "description": "Starting segment ID for this chunk"
+                          },
+                          "end_segment_id": {
+                            "type": "integer",
+                            "description": "Ending segment ID for this chunk (inclusive)"
+                          },
+                          "reason": {
+                            "type": "string",
+                            "description": "Brief explanation of why this segment belongs to this scenario"
+                          }
+                        },
+                        "required": ["start_segment_id", "end_segment_id", "reason"],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  "required": ["scenario_name", "segments"],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": ["call_id", "extracted_scenarios"],
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  ]
+}

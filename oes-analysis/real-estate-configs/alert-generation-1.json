@@ -1,0 +1,61 @@
+{
+    "transcripts_directory": "urgency-results",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "alert_template",
+        "location": "real-estate-definitions",
+        "types": ["template"]
+    },
+    "nodes": [
+        {
+            "name": "alert_generation",
+            "inputs": [
+                "alert_template-template",
+                "urgency_flags_aggregated"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "alerts": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "alert_id": {"type": "string"},
+                                "priority": {"type": "string", "enum": ["CRITICAL", "HIGH", "MEDIUM"]},
+                                "title": {"type": "string"},
+                                "description": {"type": "string"},
+                                "buyer_info": {
+                                    "type": "object",
+                                    "properties": {
+                                        "name": {"type": "string"},
+                                        "contact": {"type": "string"},
+                                        "last_call_date": {"type": "string"}
+                                    }
+                                },
+                                "recommended_actions": {"type": "array", "items": {"type": "string"}},
+                                "response_deadline": {"type": "string"},
+                                "assigned_to": {"type": "string"}
+                            },
+                            "required": ["alert_id", "priority", "title", "description", "recommended_actions", "response_deadline"]
+                        }
+                    },
+                    "alert_summary": {
+                        "type": "object",
+                        "properties": {
+                            "total_alerts": {"type": "integer"},
+                            "critical_count": {"type": "integer"},
+                            "high_count": {"type": "integer"},
+                            "medium_count": {"type": "integer"}
+                        }
+                    }
+                },
+                "required": ["alerts", "alert_summary"]
+            }
+        }
+    ]
+}

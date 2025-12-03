@@ -1,0 +1,341 @@
+<behavior_specific>
+<behavior_name>Adaptability</behavior_name>
+
+<behavior_definition>
+Adjusting communication style and approach based on student responses and needs. This involves reading the student's tone, pace, and level of understanding, and modifying the conversation accordingly to ensure effective communication and a positive experience for each individual student.
+</behavior_definition>
+
+<behavior_essence>
+Adaptability is about being flexible and responsive to the unique needs of each student. The consultant demonstrates this by actively assessing the student's communication style, level of knowledge, and emotional state, then tailoring their approach to best suit the situation. This personalized approach helps create a more comfortable and productive interaction, leading to better outcomes for both the student and the institution.
+</behavior_essence>
+
+<behavior_examples>
+* Slowing down and providing more detailed explanations for students who seem hesitant or confused.
+* Using more technical language for students who demonstrate a high level of knowledge about the field of study.
+* Adjusting the "Pace" of the conversation to match the student's energy level and information processing speed.
+* Shifting from a formal to a more casual tone (or vice versa) based on the student's communication style.
+* Recognizing emotional cues and adapting the conversation to address underlying concerns or anxieties.
+* Offering additional resources or support for students who require more information or reassurance.
+* Streamlining the conversation for students who indicate they are short on time or prefer a direct approach.
+* Using analogies or examples that relate to the student's background or interests to explain complex concepts.
+</behavior_examples>
+</behavior_specific>## Collaborative Planning
+
+**Definition:** The consultant's ability to proactively engage in educational and professional planning discussions with students, tailoring the level of collaboration based on individual preferences and previously gathered context. This involves working together to explore pathways, discuss transitions, and identify support mechanisms when such collaboration aligns with the student's demonstrated needs and communication style.
+
+**Importance Scoring:**
+
+1: Minimal or inappropriate attempts at collaboration
+- Fails to engage in planning discussions
+- Ignores previously gathered context
+- Forces collaborative approach when student prefers directness
+- Makes assumptions without student input
+
+2: Basic attempt at collaboration with inconsistent execution
+- Some effort to include student in planning
+- Limited use of previously gathered information
+- Occasional misalignment with student preferences
+- Basic exploration of pathways or options
+
+3: Moderate implementation of collaborative planning
+- Regular attempts to engage student in planning
+- Uses gathered context to inform discussions
+- Shows awareness of student preferences
+- Provides relevant options and pathways
+- Demonstrates flexibility in approach
+
+4: Strong collaborative planning with consistent execution
+- Skillfully adapts collaboration level to student preferences
+- Effectively uses previous context to guide planning
+- Provides comprehensive pathway exploration
+- Proactively identifies relevant support mechanisms
+- Creates clear action plans with student input
+
+5: Exemplary collaborative planning driving student engagement
+- Masters the balance between guidance and student autonomy
+- Expertly uses all gathered context to personalize planning
+- Creates highly effective, student-centered action plans
+- Demonstrates exceptional ability to adapt approach based on student signals
+- Seamlessly integrates support mechanisms into planning
+
+**Key Indicators:**
+- Use of previously gathered context in planning discussions
+- Adaptation of collaborative approach based on student preferences
+- Proactive exploration of pathways and options
+- Integration of relevant support mechanisms
+- Creation of clear action plans
+- Respect for student autonomy in decision-making
+- Flexibility in collaboration style
+
+**Example Phrases:**
+- "Let's map out your short-term and long-term goals. What would you like to achieve in the next year, and where do you see yourself in 5 years?"
+- "Let's explore different pathways to reach your goal - there might be multiple routes available."
+- "I understand your need for flexibility given your work schedule. Let me outline our online learning options and how they can accommodate your needs."
+- "Let's map out the required qualifications and experience needed for your chosen career."
+- "Let me connect you with one of our student support reps who is clued up on this detail. How does this sound?"
+
+**Common Mistakes:**
+- Forcing collaboration when student prefers direct guidance
+- Not using previously gathered context in planning discussions
+- Making assumptions about student preferences
+- Providing rigid solutions without exploring options
+- Failing to adapt collaboration style to student signals
+- Not integrating relevant support mechanisms
+- Overlooking student autonomy in decision-making
+- Planning without clear connection to student's expressed needs
+
+EDGE CASES FOR PRODUCING RELEVANT BEHAVIORAL ANALYSIS
+
+When analyzing sales calls for Collaborative Planning behavior, use these edge cases to:
+
+1. Filter Content Correctly
+- Skip administrative interactions completely
+- Focus only on strategic planning that impacts enrollment
+- Look for appropriate high-level guidance
+
+2. Check Role Boundaries
+- Verify consultants stay within their sales role
+- Confirm proper referrals to post-enrollment support
+- Reward appropriate depth of guidance without overstepping
+
+3. Evaluate Quality
+- Good analysis = high-level guidance with clear boundaries
+- Poor analysis = too detailed or too administrative
+
+SCOPE OF COLLABORATIVE PLANNING [EDGE CASES]:
+### 1. Administrative vs Strategic Planning
+**What is it?**  
+Simple scheduling, coordination, or administrative discussions that don't impact enrollment decisions or study pathways ARE OUT OF SCOPE.
+**Example (Not Valid for Analysis):**
+```
+Title: "Scheduling Discussion"
+Student Trigger: "Is there any chance I could schedule this after four o'clock? It's just that I'm working till."
+Consultant Response: "Yeah, absolutely. So if I was to schedule it, let me just double check my time here. Yeah, at four o'clock. Is four o'clock okay or a little bit after four o'clock?"
+```
+**Why It's Not Relevant:**
+- Simply administrative scheduling
+- No critical decision-making involved
+- No impact on enrollment or study success
+- Routine procedural matter
+- No strategic planning required
+- No exploration of options or pathways
+**Recommended Analysis:**
+Do not include in behavioral analysis. THESE ARE NOT OPPORTUNITIES FOR COLLABORATIVE PLANNING. Only analyze interactions that involve strategic planning, enrollment decisions, or study pathway discussions.
+
+### 2. Career Guidance Boundaries
+**What is it?**  
+Discussions about career pathways and transitions where consultants must maintain appropriate boundaries between general guidance and detailed career planning.
+**Example (Incorrect Approach):**
+```
+Title: "Career Transition Planning"
+Student Trigger: "I want to get into the education space and ideally I'd like to get in there faster than having to do a full four years first."
+Consultant Response: "Here's a detailed timeline for transitioning into education: First, you'll need X certification, then Y modules, followed by Z practicum. Many successful career changers have taken this specific path..."
+```
+**Why It's Problematic:**
+- Too detailed for sales consultant's role
+- Goes beyond appropriate boundaries
+- Attempts to provide specific career guidance
+- Creates detailed transition timelines
+- Offers career-specific advice
+- Promises to arrange support services pre-enrollment
+**Recommended Analysis Scope:**
+Sales consultants should:
+- Provide high-level, general pathway guidance
+- Suggest independent research or external career advisors for detailed planning
+- Mention OES learning advisers as post-enrollment resource
+- Keep focus on educational program options rather than specific career paths
+- Avoid detailed professional pathway planning or timelines
+- Not offer to arrange meetings with support services pre-enrollment
+Both these edge cases help define the boundaries of what should and shouldn't be included in collaborative planning behavioral analysis, ensuring focus remains on appropriate and strategic interactions.
+
+### 3. Support Service Boundaries (Coaching vs Sales Role)
+**What is it?**  
+Sales consultants must maintain clear boundaries between their role providing high-level program information and the detailed student support services that become available post-enrollment.
+**Example (Incorrect Approach):**
+```
+Title: "Flexible Study Options Discussion"
+Recommended approach: "Consultants could enhance support by:
+1) Exploring specific scheduling needs in more detail
+2) Creating detailed weekly study plans aligned with personal schedules
+3) Discussing strategies for managing peak pressure periods
+4) Setting up regular check-points to adjust plans as needed
+5) Providing examples of successful flexible study arrangements"
+```
+**Why It's Problematic:**
+- Suggests sales consultants take on a coaching role
+- Exceeds appropriate pre-enrollment support boundaries
+- Attempts to provide detailed study planning that should be handled by learning coaches
+- Creates expectations for ongoing support from sales consultant
+- Confuses sales role with post-enrollment support services
+**Recommended Analysis Scope:**
+Sales consultants should:
+- Provide high-level overview of flexible study options
+- Explain basic program structure and study modes
+- Highlight availability of OES online learning coaches post-enrollment who can provide:
+  * Detailed weekly study planning
+  * Specific scheduling strategies
+  * Peak period management techniques
+  * Regular progress check-points
+  * Examples of successful study arrangements
+- Keep focus on enrollment decision-making rather than detailed study planning
+- Position detailed study support as a valuable post-enrollment benefit
+This completes our three main edge cases/nuances that define the boundaries of collaborative planning behavior:
+1. Administrative vs Strategic Planning (exclude administrative)
+2. Career Guidance Boundaries (high-level only)
+3. Support Service Boundaries (avoid coaching role)
+<behavior_specific>
+<behavior_name>Clear and Effective Communication</behavior_name>
+
+<behavior_definition>
+Providing information in a clear, concise, and easily understandable manner. This involves organizing information logically, using appropriate language, and consistently checking for understanding to ensure that the student comprehends all the important details shared during the interaction.
+</behavior_definition>
+
+<behavior_essence>
+Clear and Effective Communication is about conveying complex information in a way that is accessible and meaningful to the student. The consultant demonstrates this by structuring their explanations logically, using language appropriate to the student's level of understanding, and employing techniques to enhance clarity. This approach ensures that students leave the conversation with a clear understanding of the information provided, reducing confusion and the need for follow-up clarifications.
+</behavior_essence>
+
+<behavior_examples>
+* Breaking down complex concepts into simpler terms: "Let me explain that in a bit more detail..."
+* Using analogies or examples to illustrate points: "Think of this course structure like building a house..."
+* Checking for understanding regularly: "Does that make sense? Would you like me to clarify anything?"
+* Organizing information in a logical sequence: "First, let's talk about the application process. Then, we'll discuss course structure, and finally, we'll cover financial options."
+* Summarizing key points: "To recap the main points we've covered..."
+* Using clear transitions between topics: "Now that we've covered the entry requirements, let's move on to the course content."
+* Avoiding jargon or explaining it when necessary: "We use the term 'census date,' which means..."
+* Providing visual aids or references when appropriate: "I can email you a diagram that illustrates this process if that would be helpful."
+* Pausing periodically to allow the student to process information and ask questions.
+</behavior_examples>
+</behavior_specific><behavior_specific>
+<behavior_name>Confidence and Expertise</behavior_name>
+
+<behavior_definition>
+Demonstrating knowledge and assurance in providing information and answering questions. This involves being well-prepared with accurate information and communicating it clearly and authoritatively, instilling trust in the student and reinforcing the credibility of the institution.
+</behavior_definition>
+
+<behavior_essence>
+Confidence and expertise are about projecting a strong, knowledgeable presence that reassures students and enhances their perception of the institution. The consultant demonstrates this by providing detailed, accurate information without hesitation, explaining complex concepts clearly, and showing a deep understanding of the programs and processes. This approach helps students feel that they are in capable hands and receiving reliable guidance.
+</behavior_essence>
+
+<behavior_examples>
+* Providing detailed, accurate information about course structure, content, and career outcomes without hesitation.
+* Confidently explaining complex concepts like credit transfers or admission requirements in a clear, understandable way.
+* Using phrases like "Based on my experience with similar cases..." to demonstrate expertise.
+* Quickly accessing and sharing relevant information about specific programs or policies.
+* Offering insights into how the course content relates to industry trends or career opportunities.
+* Demonstrating "Adequate analysis of student needs" by providing tailored information that precisely addresses the student's situation.
+* Using authoritative language: "I can assure you that our program is designed to..." or "You can be confident that our support services..."
+</behavior_examples>
+</behavior_specific><behavior_specific>
+<behavior_name>Consultative Approach</behavior_name>
+
+<behavior_definition>
+Using open-ended questions to understand student needs and tailoring the approach accordingly. This approach helps build rapport and ensures the consultant provides relevant information.
+</behavior_definition>
+
+<behavior_essence>
+The consultative approach is about guiding the conversation through thoughtful questioning, allowing the student to express their needs and motivations. The consultant then uses this information to customize their responses and recommendations.
+</behavior_essence>
+
+<behavior_examples>
+* "What is it that interested you in studying Psychology?"
+* "Can you tell me more about your career goals?"
+* "How do you see this degree fitting into your life?"
+* "What aspects of [course/field] are you most excited about?"
+</behavior_examples>
+</behavior_specific>
+<behavior_specific>
+<behavior_name>Empathy</behavior_name>
+
+<behavior_definition>
+Showing understanding and acknowledgment of student feelings and concerns. This involves recognizing and validating the student's emotions, experiences, and challenges, which helps build trust and rapport with the student.
+</behavior_definition>
+
+<behavior_essence>
+Empathy is about putting oneself in the student's shoes and demonstrating a genuine understanding of their situation. The consultant expresses this understanding through supportive statements and by sharing relevant information about how the university addresses common concerns. This creates a connection with the student and shows that their feelings are respected and considered.
+</behavior_essence>
+
+<behavior_examples>
+* "I understand how challenging it can be to balance work, family, and study."
+* "It's natural to feel nervous about returning to study after a long break."
+* "Many of our students have similar concerns, and we have support systems in place to help."
+* "I can see why you might feel overwhelmed by the prospect of online learning. Let's talk about how our program is designed to make it manageable."
+</behavior_examples>
+</behavior_specific><behavior_specific>
+<behavior_name>Active Listening</behavior_name>
+
+<behavior_definition>
+Demonstrating attentiveness and understanding of student responses by paraphrasing and summarizing what the student has said to confirm understanding. This approach helps ensure accurate comprehension and shows the student that their input is valued.
+</behavior_definition>
+
+<behavior_essence>
+Active listening is about fully engaging with the student's words, tone, and underlying messages. The consultant demonstrates this by carefully processing the information shared, reflecting it back to the student, and seeking confirmation of understanding. This creates a supportive environment where students feel heard and understood.
+</behavior_essence>
+
+<behavior_examples>
+"So, if I understand correctly, you're looking for a course that allows you to balance work and study. Is that right?"
+"You mentioned that flexibility is important to you. Can you tell me more about why that's a priority?"
+"It sounds like you're interested in [specific aspect]. How does that relate to your career goals?"
+"I hear that you're concerned about [specific issue]. Let me make sure I've got this right..."
+</behavior_examples>
+
+</behavior_specific><behavior_specific>
+<behavior_name>Objection Handling</behavior_name>
+
+<behavior_definition>
+Effectively addressing student concerns or hesitations by acknowledging the concern, providing information or solutions, and checking if the student is satisfied with the response. This approach demonstrates responsiveness to student needs and helps overcome potential barriers to enrollment.
+</behavior_definition>
+
+<behavior_essence>
+Objection handling is about transforming potential obstacles into opportunities for deeper engagement. The consultant listens carefully to identify the underlying concerns, addresses them directly with relevant information or solutions, and ensures that the student feels heard and satisfied. This process not only resolves immediate issues but also builds trust and confidence in the institution's ability to support the student.
+</behavior_essence>
+
+<behavior_examples>
+* "I understand your concern about [specific issue]. Let's discuss how we can address that."
+* "Many students worry about [common concern]. Here's how our program is designed to help with that..."
+* "That's a great question about [objection topic]. Let me explain our approach to handling this."
+* Using "Objection discovery questions" to fully understand the student's concern.
+* Providing "USP solutions" (Unique Selling Proposition) that highlight how the institution uniquely addresses the concern.
+* Checking for resolution: "Does that help address your concern about [specific issue]?"
+* Following up with "Is there any other aspect of this you'd like me to clarify?"
+</behavior_examples>
+</behavior_specific><behavior_specific>
+<behavior_name>Professionalism and Composure</behavior_name>
+
+<behavior_definition>
+Maintaining a professional demeanor throughout the call, especially during challenging situations. This involves staying calm, focused, and respectful at all times, using appropriate language, and managing the conversation with poise and dignity.
+</behavior_definition>
+
+<behavior_essence>
+Professionalism and composure are about projecting a consistent, polished image that instills confidence in the student. The consultant demonstrates this by remaining unflappable in the face of challenges, using professional language, and maintaining a courteous and respectful tone throughout the interaction. This approach helps to create a positive impression of the institution and ensures that even difficult conversations remain productive.
+</behavior_essence>
+
+<behavior_examples>
+* Maintaining a calm and respectful tone even if the student becomes frustrated or angry.
+* Using professional language and avoiding slang or overly casual expressions.
+* Responding to challenging questions or objections with patience and respect.
+* Guiding the conversation back on track if it veers off-topic, while still acknowledging the student's concerns.
+* Using phrases like "I appreciate your perspective. Let me explain how we can address this concern."
+* Avoiding emotional reactions and instead focusing on problem-solving: "I understand this is frustrating. Let's work together to find a solution."
+</behavior_examples>
+</behavior_specific><behavior_specific>
+<behavior_name>One Call Resolution</behavior_name>
+
+<behavior_definition>
+Striving to resolve all student queries and concerns in a single call when possible. This approach involves being prepared to address a wide range of questions and concerns efficiently, ensuring that the student receives comprehensive assistance without the need for multiple interactions or follow-ups.
+</behavior_definition>
+
+<behavior_essence>
+One Call Resolution is about providing thorough, efficient service that meets all of the student's needs in a single interaction. The consultant demonstrates this by being well-prepared with comprehensive knowledge, anticipating potential questions, and proactively addressing related topics. This approach saves time for both the student and the institution, increases student satisfaction, and demonstrates the institution's commitment to excellent service. The goal is to leave the student feeling fully informed and supported after just one conversation.
+</behavior_essence>
+
+<behavior_examples>
+* Asking "Is there anything else I can help you with today?" to ensure all questions have been addressed.
+* Saying "Let's make sure we've covered all your questions before we wrap up."
+* Anticipating and proactively addressing related concerns: "Now that we've discussed the course structure, let me also explain our support services..."
+* Offering a comprehensive overview of the enrollment process, from application to first day of class, without the student needing to ask.
+* Using phrases like "While we're on the topic, let me also tell you about..." to provide additional relevant information.
+* Checking for understanding throughout the call: "Does that fully answer your question about [topic]?"
+* Summarizing key points at the end of the call to ensure nothing has been missed.
+* Providing clear next steps and contact information, so the student feels equipped to move forward independently.
+</behavior_examples>
+</behavior_specific>

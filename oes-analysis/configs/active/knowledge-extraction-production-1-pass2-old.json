@@ -1,0 +1,246 @@
+{
+  "transcripts_directory": "partial_results/knowledge-extraction-production-1-pass1",
+  "output_directory": "knowledge-extraction-production-1-pass2",
+
+  "nodes": [
+    {
+      "name": "guideline_generation",
+      "inputs": [
+        "transcript"
+      ],
+      "models": [
+        {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash",
+          "mini": false
+        }
+      ],
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "ConsultantGuidelineResponse",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "topic_id": {
+                "type": "string",
+                "description": "The unique identifier for this topic"
+              },
+              "topic_name": {
+                "type": "string",
+                "description": "Name of the topic"
+              },
+              "guidelines": {
+                "type": "object",
+                "description": "Comprehensive consultant guidelines for this topic",
+                "properties": {
+                  "overview": {
+                    "type": "string",
+                    "description": "High-level summary of what this topic covers and why it matters"
+                  },
+                  "key_objectives": {
+                    "type": "array",
+                    "description": "What the consultant should achieve in this conversation segment",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "consultant_procedures": {
+                    "type": "array",
+                    "description": "Detailed step-by-step procedures for different scenarios within this topic",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "scenario": {
+                          "type": "string",
+                          "description": "The specific situation or context (e.g., 'Student asks about entry requirements', 'Student mentions financial concerns')"
+                        },
+                        "trigger_indicators": {
+                          "type": "array",
+                          "description": "Phrases, behaviors, or cues that indicate this scenario",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "step_by_step_procedure": {
+                          "type": "array",
+                          "description": "Ordered steps the consultant should follow",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "step_number": {
+                                "type": "integer"
+                              },
+                              "action": {
+                                "type": "string",
+                                "description": "What the consultant should do"
+                              },
+                              "key_phrases": {
+                                "type": "array",
+                                "description": "Example phrases or language to use",
+                                "items": {
+                                  "type": "string"
+                                }
+                              },
+                              "rationale": {
+                                "type": "string",
+                                "description": "Why this step is important"
+                              },
+                              "references": {
+                                "type": "array",
+                                "description": "Which policies, requirements, or facts support this step",
+                                "items": {
+                                  "type": "string"
+                                }
+                              }
+                            },
+                            "required": ["step_number", "action"],
+                            "additionalProperties": false
+                          }
+                        },
+                        "tone_and_style": {
+                          "type": "object",
+                          "description": "How the consultant should communicate",
+                          "properties": {
+                            "recommended_tone": {
+                              "type": "string",
+                              "description": "Overall tone to use (e.g., 'empathetic and reassuring', 'professional and informative')"
+                            },
+                            "language_style": {
+                              "type": "string",
+                              "description": "Language complexity and formality level"
+                            },
+                            "pacing": {
+                              "type": "string",
+                              "description": "How fast/slow to deliver information"
+                            }
+                          },
+                          "required": ["recommended_tone"],
+                          "additionalProperties": false
+                        },
+                        "emotional_considerations": {
+                          "type": "object",
+                          "description": "How to handle different student emotions",
+                          "properties": {
+                            "if_student_is_anxious": {
+                              "type": "array",
+                              "description": "Specific actions when student shows anxiety",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "if_student_is_excited": {
+                              "type": "array",
+                              "description": "Specific actions when student shows excitement",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "if_student_is_confused": {
+                              "type": "array",
+                              "description": "Specific actions when student shows confusion",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "if_student_is_hesitant": {
+                              "type": "array",
+                              "description": "Specific actions when student shows hesitation",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "behavioral_adaptations": {
+                          "type": "object",
+                          "description": "How to adapt based on student behaviors observed in transcripts",
+                          "properties": {
+                            "detail_oriented_student": {
+                              "type": "array",
+                              "description": "How to adjust for students who ask many detailed questions",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "time_constrained_student": {
+                              "type": "array",
+                              "description": "How to adjust for students in a hurry",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "uncertain_student": {
+                              "type": "array",
+                              "description": "How to adjust for students who are unsure about enrollment",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          },
+                          "additionalProperties": false
+                        },
+                        "common_mistakes_to_avoid": {
+                          "type": "array",
+                          "description": "What consultants should NOT do in this scenario",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "success_indicators": {
+                          "type": "array",
+                          "description": "How to know this conversation is going well",
+                          "items": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "required": ["scenario", "step_by_step_procedure", "tone_and_style"],
+                      "additionalProperties": false
+                    }
+                  },
+                  "edge_case_handling": {
+                    "type": "array",
+                    "description": "How to handle special circumstances identified in the facts",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "edge_case": {
+                          "type": "string",
+                          "description": "The special circumstance"
+                        },
+                        "procedure": {
+                          "type": "string",
+                          "description": "How to handle it"
+                        },
+                        "escalation_criteria": {
+                          "type": "string",
+                          "description": "When to escalate to supervisor or specialist"
+                        }
+                      },
+                      "required": ["edge_case", "procedure"],
+                      "additionalProperties": false
+                    }
+                  },
+                  "quality_checklist": {
+                    "type": "array",
+                    "description": "Checklist for consultants to ensure quality in this topic",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "required": ["overview", "key_objectives", "consultant_procedures"],
+                "additionalProperties": false
+              }
+            },
+            "required": ["topic_id", "topic_name", "guidelines"],
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  ]
+}

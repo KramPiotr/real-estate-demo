@@ -1,0 +1,16 @@
+# Call Outcome Classification Task
+
+Classify the sales call outcome and engagement level.
+
+## Output Format
+```json
+{
+  "call_outcome": {
+    "primary_outcome": "outcome_category",
+    "success_indicator": true|false,
+    "next_steps_committed": ["step1"],
+    "buyer_engagement_level": "level",
+    "evidence": "supporting quote"
+  }
+}
+```

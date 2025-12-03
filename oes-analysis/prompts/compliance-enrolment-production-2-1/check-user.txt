@@ -1,0 +1,8 @@
+Please analyze the attached sales call transcript for compliance with the requirement. Use the attached broad definition and enhanced sub-requirements to assess compliance.
+
+Attached:
+1. Sales call transcript in JSON format
+2. Broad Requirement Definition
+3. Enhanced Sub-Requirements
+
+Please provide your analysis in the JSON format specified in the system prompt, including the overall compliance verdict, evidence, reasoning, and sub-requirements analysis.

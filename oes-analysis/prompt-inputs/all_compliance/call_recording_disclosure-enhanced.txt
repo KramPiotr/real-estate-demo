@@ -1,0 +1,13 @@
+# Call Recording Disclosure Sub-Requirements
+
+1. Timing of Disclosure
+   - The disclosure must be made near the beginning of each call
+   - It should occur within the first two minutes of the call
+   - The disclosure must be made before any substantive discussion begins
+
+2. Content of Disclosure
+   - The consultant must inform the student that the call is being recorded
+   - The disclosure must be stated clearly
+   - Indicative phrases:
+     - "Call is recorded"
+     - "This call is being recorded"

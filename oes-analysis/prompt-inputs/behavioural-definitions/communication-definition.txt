@@ -1,0 +1,23 @@
+<behavior_specific>
+<behavior_name>Clear and Effective Communication</behavior_name>
+
+<behavior_definition>
+Providing information in a clear, concise, and easily understandable manner. This involves organizing information logically, using appropriate language, and consistently checking for understanding to ensure that the student comprehends all the important details shared during the interaction.
+</behavior_definition>
+
+<behavior_essence>
+Clear and Effective Communication is about conveying complex information in a way that is accessible and meaningful to the student. The consultant demonstrates this by structuring their explanations logically, using language appropriate to the student's level of understanding, and employing techniques to enhance clarity. This approach ensures that students leave the conversation with a clear understanding of the information provided, reducing confusion and the need for follow-up clarifications.
+</behavior_essence>
+
+<behavior_examples>
+* Breaking down complex concepts into simpler terms: "Let me explain that in a bit more detail..."
+* Using analogies or examples to illustrate points: "Think of this course structure like building a house..."
+* Checking for understanding regularly: "Does that make sense? Would you like me to clarify anything?"
+* Organizing information in a logical sequence: "First, let's talk about the application process. Then, we'll discuss course structure, and finally, we'll cover financial options."
+* Summarizing key points: "To recap the main points we've covered..."
+* Using clear transitions between topics: "Now that we've covered the entry requirements, let's move on to the course content."
+* Avoiding jargon or explaining it when necessary: "We use the term 'census date,' which means..."
+* Providing visual aids or references when appropriate: "I can email you a diagram that illustrates this process if that would be helpful."
+* Pausing periodically to allow the student to process information and ask questions.
+</behavior_examples>
+</behavior_specific>

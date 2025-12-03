@@ -1,0 +1,48 @@
+{
+    "transcripts_directory": "interesting-transcripts-segments",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "check",
+            "inputs": [
+                "requirement-broad",
+                "requirement-enhanced",
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "errors",
+            "inputs": [
+                "requirement-broad",
+                "requirement-enhanced",
+                "transcript",
+                "check"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "validation",
+            "inputs": [
+                "requirement-broad",
+                "requirement-enhanced",
+                "transcript",
+                "check",
+                "errors"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        }
+    ]
+}

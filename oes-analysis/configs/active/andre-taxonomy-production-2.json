@@ -1,0 +1,208 @@
+{
+  "transcripts_directory": "mol-tp1-2025-andre",
+  "output_directory": "multi_agent_responses",
+  "input_catalog": {
+    "name": "feature",
+    "location": "andre-taxonomy-feature-4-new",
+    "types": [
+      "taxonomy"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "category",
+      "inputs": [
+        "feature",
+        "transcript"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        },
+        {
+          "provider": "azure"
+        },
+        {
+          "provider": "azure"
+        }
+      ],
+      "response_format_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "feature_evaluations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "feature_index_code": {
+                  "type": "string"
+                },
+                "feature_name": {
+                  "type": "string"
+                },
+                "verdict": {
+                  "type": "string",
+                  "enum": [
+                    "present",
+                    "unsure",
+                    "not present"
+                  ]
+                },
+                "likelihood": {
+                  "type": "string",
+                  "enum": [
+                    "very unlikely",
+                    "unlikely",
+                    "possible",
+                    "likely",
+                    "highly likely"
+                  ]
+                },
+                "intensity": {
+                  "type": "string",
+                  "enum": [
+                    "very weak",
+                    "weak",
+                    "moderate",
+                    "strong",
+                    "very strong"
+                  ]
+                },
+                "score": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 5
+                },
+                "confidence": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "evidence": {
+                  "type": "string"
+                },
+                "justification": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "feature_index_code",
+                "feature_name",
+                "verdict",
+                "likelihood",
+                "intensity",
+                "score",
+                "confidence",
+                "evidence",
+                "justification"
+              ]
+            }
+          }
+        },
+        "required": [
+          "feature_evaluations"
+        ]
+      }
+    },
+    {
+      "name": "aggregation",
+      "inputs": [
+        "feature",
+        "transcript",
+        "category"
+      ],
+      "models": [
+        {
+          "provider": "azure"
+        }
+      ],
+      "response_format_schema": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "feature_evaluations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "feature_index_code": {
+                  "type": "string"
+                },
+                "feature_name": {
+                  "type": "string"
+                },
+                "verdict": {
+                  "type": "string",
+                  "enum": [
+                    "present",
+                    "unsure",
+                    "not present"
+                  ]
+                },
+                "likelihood": {
+                  "type": "string",
+                  "enum": [
+                    "very unlikely",
+                    "unlikely",
+                    "possible",
+                    "likely",
+                    "highly likely"
+                  ]
+                },
+                "intensity": {
+                  "type": "string",
+                  "enum": [
+                    "very weak",
+                    "weak",
+                    "moderate",
+                    "strong",
+                    "very strong"
+                  ]
+                },
+                "score": {
+                  "type": "number",
+                  "minimum": 1,
+                  "maximum": 5
+                },
+                "confidence": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "analyst_count": {
+                  "type": "integer",
+                  "minimum": 1,
+                  "maximum": 3
+                },
+                "evidence": {
+                  "type": "string"
+                },
+                "justification": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "feature_index_code",
+                "feature_name",
+                "verdict",
+                "likelihood",
+                "intensity",
+                "score",
+                "confidence",
+                "analyst_count",
+                "evidence",
+                "justification"
+              ]
+            }
+          }
+        },
+        "required": [
+          "feature_evaluations"
+        ]
+      }
+    }
+  ]
+}

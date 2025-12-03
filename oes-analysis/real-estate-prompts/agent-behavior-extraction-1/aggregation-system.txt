@@ -1,0 +1,3 @@
+# Agent Behavior Aggregation - System Prompt
+
+Consolidate behavior extractions, average scores, identify top strengths and priority improvements.

@@ -1,0 +1,284 @@
+{
+  "transcripts_directory": "topic-taxonomies/monash-tp1-categorised-1-to-3-equal-duration-subset-100-fixed",
+  "output_directory": "knowledge-extraction-production-1-pass1",
+
+  "_comment": "Input explanation: 'transcript' refers to the topic taxonomy JSON files in transcripts_directory. Each file contains aggregated segments from multiple calls about one topic. The system automatically loads the file content and substitutes it into the {transcript} placeholder in the prompt.",
+
+  "nodes": [
+    {
+      "name": "fact_extraction",
+      "inputs": [
+        "transcript"
+      ],
+      "models": [
+        {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash",
+          "mini": false,
+          "max_tokens": 20000
+        }
+      ],
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "TopicFactExtractionResponse",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "topic_id": {
+                "type": "string",
+                "description": "The unique identifier for this topic"
+              },
+              "topic_name": {
+                "type": "string",
+                "description": "Name of the topic"
+              },
+              "source_taxonomy": {
+                "type": "object",
+                "description": "The complete original topic taxonomy containing all conversation segments. This preserves the full context from which facts were extracted, including actual dialogue between consultants and students across multiple calls."
+              },
+              "knowledge_facts": {
+                "type": "object",
+                "description": "Structured knowledge extracted from all segments in this topic",
+                "properties": {
+                  "policies": {
+                    "type": "array",
+                    "description": "Institutional policies, rules, and regulations mentioned across all segments",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "policy": {
+                          "type": "string",
+                          "description": "Clear statement of the policy"
+                        },
+                        "details": {
+                          "type": "string",
+                          "description": "Additional context, clarifications, or implications"
+                        },
+                        "segment_references": {
+                          "type": "array",
+                          "description": "Which call segments mention this policy, with actual statements from those segments",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "call_id": {
+                                "type": "string",
+                                "description": "The call ID where this was mentioned"
+                              },
+                              "start_segment_id": {
+                                "type": "integer",
+                                "description": "Starting segment number"
+                              },
+                              "end_segment_id": {
+                                "type": "integer",
+                                "description": "Ending segment number"
+                              },
+                              "excerpt": {
+                                "type": "string",
+                                "description": "The actual consultant or student dialogue from these segments. Include 1-3 key turns of conversation showing how this policy was mentioned, with speaker labels (consultant/student)."
+                              }
+                            },
+                            "required": ["call_id", "start_segment_id", "end_segment_id", "excerpt"],
+                            "additionalProperties": false
+                          }
+                        },
+                        "exceptions": {
+                          "type": "array",
+                          "description": "Exceptions or special circumstances for this policy",
+                          "items": {
+                            "type": "string"
+                          }
+                        }
+                      },
+                      "required": ["policy", "segment_references"],
+                      "additionalProperties": false
+                    }
+                  },
+                  "requirements": {
+                    "type": "array",
+                    "description": "Entry requirements, qualifications, prerequisites, eligibility criteria",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "requirement": {
+                          "type": "string",
+                          "description": "Clear statement of the requirement"
+                        },
+                        "variations": {
+                          "type": "array",
+                          "description": "Different acceptable ways to meet this requirement",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "exceptions": {
+                          "type": "array",
+                          "description": "Exceptions or special cases",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "segment_references": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "call_id": {
+                                "type": "string"
+                              },
+                              "start_segment_id": {
+                                "type": "integer"
+                              },
+                              "end_segment_id": {
+                                "type": "integer"
+                              },
+                              "excerpt": {
+                                "type": "string",
+                                "description": "Actual dialogue excerpt mentioning this requirement."
+                              }
+                            },
+                            "required": ["call_id", "start_segment_id", "end_segment_id", "excerpt"],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "required": ["requirement", "segment_references"],
+                      "additionalProperties": false
+                    }
+                  },
+                  "timelines": {
+                    "type": "array",
+                    "description": "Durations, deadlines, schedules, timeframes mentioned",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "timeline": {
+                          "type": "string",
+                          "description": "Complete timeline statement combining what event/process is involved, how long it takes, and relevant context. Format: '[Event/Process]: [Duration/Timeframe]. [Additional context if applicable].' Example: 'Application processing: Takes 2-3 weeks from submission. Students should plan accordingly and check email regularly for updates.'"
+                        },
+                        "segment_references": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "call_id": {
+                                "type": "string"
+                              },
+                              "start_segment_id": {
+                                "type": "integer"
+                              },
+                              "end_segment_id": {
+                                "type": "integer"
+                              },
+                              "excerpt": {
+                                "type": "string",
+                                "description": "Actual dialogue excerpt mentioning this timeline."
+                              }
+                            },
+                            "required": ["call_id", "start_segment_id", "end_segment_id", "excerpt"],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "required": ["timeline", "segment_references"],
+                      "additionalProperties": false
+                    }
+                  },
+                  "edge_cases": {
+                    "type": "array",
+                    "description": "Special circumstances, exceptions, unusual situations discussed",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "case": {
+                          "type": "string",
+                          "description": "Description of the edge case or special circumstance"
+                        },
+                        "handling": {
+                          "type": "string",
+                          "description": "How this case is handled or resolved"
+                        },
+                        "segment_references": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "call_id": {
+                                "type": "string"
+                              },
+                              "start_segment_id": {
+                                "type": "integer"
+                              },
+                              "end_segment_id": {
+                                "type": "integer"
+                              },
+                              "excerpt": {
+                                "type": "string",
+                                "description": "Actual dialogue excerpt showing this edge case."
+                              }
+                            },
+                            "required": ["call_id", "start_segment_id", "end_segment_id", "excerpt"],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "required": ["case", "handling", "segment_references"],
+                      "additionalProperties": false
+                    }
+                  },
+                  "others": {
+                    "type": "array",
+                    "description": "Important information that doesn't fit in other categories",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "category": {
+                          "type": "string",
+                          "description": "What type of information this is (e.g., 'contact information', 'resource availability', 'system details')"
+                        },
+                        "information": {
+                          "type": "string",
+                          "description": "Complete information statement combining the actual content and why it matters for consultants. Format: '[The information]. [Why it's relevant/important for consultants].' Example: 'Students need their student ID ready during calls. This is required for system lookup and to proceed with enrollment verification without delays.'"
+                        },
+                        "segment_references": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "call_id": {
+                                "type": "string"
+                              },
+                              "start_segment_id": {
+                                "type": "integer"
+                              },
+                              "end_segment_id": {
+                                "type": "integer"
+                              },
+                              "excerpt": {
+                                "type": "string",
+                                "description": "Actual dialogue excerpt showing this information."
+                              }
+                            },
+                            "required": ["call_id", "start_segment_id", "end_segment_id", "excerpt"],
+                            "additionalProperties": false
+                          }
+                        }
+                      },
+                      "required": ["category", "information", "segment_references"],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": ["policies", "requirements", "timelines", "edge_cases", "others"],
+                "additionalProperties": false
+              }
+            },
+            "required": ["topic_id", "topic_name", "knowledge_facts"],
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  ]
+}

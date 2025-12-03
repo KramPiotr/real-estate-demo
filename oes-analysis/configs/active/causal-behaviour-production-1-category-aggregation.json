@@ -1,0 +1,161 @@
+{
+    "transcripts_directory": "weekly-analysis-2024-12-16-2024-12-20",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+          "name": "behaviour",
+          "location": "causals",
+          "types": ["opportunity","definition"]
+    },
+    "nodes": [
+        {
+            "name": "opportunity",
+            "inputs": [
+                "behaviour-opportunity",
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "properties": {
+                    "opportunities": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "id": {
+                                    "type": "integer",
+                                    "minimum": 1
+                                },
+                                "category": {
+                                    "type": "string"
+                                },
+                                "id_range": {
+                                    "type": "string"
+                                },
+                                "representative_quote": {
+                                    "type": "string"
+                                },
+                                "strength_score": {
+                                    "type": "integer",
+                                    "minimum": 1,
+                                    "maximum": 5
+                                },
+                                "explanation": {
+                                    "type": "string"
+                                }
+                            },
+                            "required": [
+                                "id",
+                                "category",
+                                "id_range",
+                                "representative_quote",
+                                "strength_score",
+                                "explanation"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "opportunities"
+                ]
+            }
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "behaviour-opportunity",
+                "transcript",
+                "opportunity"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "properties": {
+                    "aggregated_opportunities": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "additionalProperties": false,
+                            "properties": {
+                                "external_id": {
+                                    "type": "integer",
+                                    "minimum": 1
+                                },
+                                "external_opportunity_id": {
+                                    "type": "string"
+                                },
+                                "behaviour": {
+                                    "type": "string"
+                                },
+                                "sub_behaviour": {
+                                    "type": "string"
+                                },
+                                "transcript_range": {
+                                    "type": "string"
+                                },
+                                "quote": {
+                                    "type": "string"
+                                },
+                                "score": {
+                                    "type": "integer",
+                                    "minimum": 1,
+                                    "maximum": 5
+                                },
+                                "justification": {
+                                    "type": "string"
+                                },
+                                "agreement_count": {
+                                    "type": "integer",
+                                    "minimum": 1,
+                                    "maximum": 3
+                                },
+                                "node_indices": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "integer",
+                                        "minimum": 0,
+                                        "maximum": 2
+                                    }
+                                }
+                            },
+                            "required": [
+                                "external_id",
+                                "external_opportunity_id",
+                                "behaviour",
+                                "sub_behaviour",
+                                "transcript_range",
+                                "quote",
+                                "score",
+                                "justification",
+                                "agreement_count",
+                                "node_indices"
+                            ]
+                        }
+                    }
+                },
+                "required": [
+                    "aggregated_opportunities"
+                ]
+            }
+        }
+    ]
+}

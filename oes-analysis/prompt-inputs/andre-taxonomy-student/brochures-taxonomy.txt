@@ -1,0 +1,98 @@
+# TAXONOMY ARTIFACT 19: BROCHURES ACQUISITION CHANNEL BEHAVIORS
+This taxonomy examines behavioral patterns specific to prospects who accessed detailed marketing materials such as brochures, course guides, or comprehensive program information, indicating thorough research approaches and systematic decision-making processes.
+
+## 19.A: Content Depth and Comprehensiveness
+
+### 19.A.i: Detailed Information Seeking Behavior
+**Description:** Student actively seeks comprehensive, in-depth information about programs beyond what is readily available in basic marketing materials, demonstrating thorough research methodology.
+
+**Identification Guidance:** Listen for requests for detailed program information, course outlines, or comprehensive materials that go beyond surface-level descriptions.
+
+**Examples:**
+- Student: "I don't know if you have more of an information pack on the diploma, anything that's more in-depth than what it goes into?"
+- Student: "She wants to look at what those first core subjects are, what constitutes the individual units would be really useful"
+- Student: "Can you email me all the details that I need to know, rather than just looking at the website?"
+
+### 19.A.ii: Supplementary Material Requests
+**Description:** Student requests additional supporting materials, guides, or documentation to supplement their decision-making process, indicating systematic evaluation approach.
+
+**Identification Guidance:** Note requests for course guides, subject selection information, or additional detailed materials beyond initial brochures.
+
+**Examples:**
+- Student: "Can you do me a favor? You're going to send me those two course guides where those subject selections were listed"
+- Student: "It was just so I knew what subjects to use for the final course"
+- Student: "I need to have a look at that. Give me 24, 48 hours to have a look at it"
+
+### 19.A.iii: Course Guide Dependency and Usage
+**Description:** Student demonstrates reliance on course guides and detailed program materials for understanding pathways, requirements, and program components.
+
+**Identification Guidance:** Look for references to re-reading course guides, using them for pathway understanding, or positive feedback about guide clarity.
+
+**Examples:**
+- Student: "I went back and had a re-read on the course guide, just to remind myself of the pathway and the essential components"
+- Student: "I think it's pretty straightforward, which is good"
+- Student: "I've just downloaded the course outline. I need to have a look at that"
+
+## 19.B: Information Format Preferences
+
+### 19.B.i: Written Material Preference Indicators
+**Description:** Student expresses preference for written, documented information that they can review at their own pace rather than verbal communication alone.
+
+**Identification Guidance:** Listen for requests to receive information in written format, preferences for email over phone, or desire for materials they can reference later.
+
+**Examples:**
+- Student: "It's okay if I could get most of the replies in writing on email, because I just don't have anywhere to write them down"
+- Student: "Can you please email me these details so I can discuss with my partner and we can come to a conclusion"
+- Student: "I'll send you the course information via email" / "Sure, sounds good"
+
+### 19.B.ii: Downloadable Resource Utilization
+**Description:** Student actively downloads and utilizes available digital resources such as brochures, course outlines, and program guides for their research process.
+
+**Identification Guidance:** Note mentions of downloading materials, having downloaded brochures, or actively using downloaded resources in their inquiry.
+
+**Examples:**
+- Student: "Awesome thank you very much I've got the I've downloaded the brochure"
+- Student: "I've just downloaded the course outline"
+- Student: "I've downloaded the brochure yeah I'm just scrolling through now having a look at what's available"
+
+### 19.B.iii: Consolidated Information Requests
+**Description:** Student seeks to receive all relevant information in a single, comprehensive format rather than gathering information piecemeal from multiple sources.
+
+**Identification Guidance:** Look for requests to consolidate information, preference for comprehensive packages, or desire to have all details in one place for comparison.
+
+**Examples:**
+- Student: "Can you email me all the details that I need to know, so I can compare that against the current places I'm looking at?"
+- Student: "I'll send you the course information via email"
+- Student: "Can you please email me these details so I can discuss with my partner"
+
+## 19.C: Engagement and Response Patterns
+
+### 19.C.i: Initial Excitement and Interest Indicators
+**Description:** Student demonstrates positive emotional response and enthusiasm upon receiving or accessing detailed program materials, suggesting effective marketing material design.
+
+**Identification Guidance:** Listen for expressions of excitement, positive feedback about materials received, or enthusiastic responses to information accessed.
+
+**Examples:**
+- Student: "Awesome thank you very much I've got the I've downloaded the brochure"
+- Student: "Oh my God, amazing... Your email's popped"
+- Student: "That sounds like a fantastic way to study while working"
+
+### 19.C.ii: Review and Evaluation Behaviors
+**Description:** Student takes time to thoroughly review materials before making decisions, demonstrating methodical evaluation approach typical of brochure users.
+
+**Identification Guidance:** Note mentions of taking time to review materials, re-reading information, or systematic evaluation processes.
+
+**Examples:**
+- Student: "Give me 24, 48 hours to have a look at it"
+- Student: "I went back and had a re-read on the course guide"
+- Student: "I'm just scrolling through now having a look at what's available"
+
+### 19.C.iii: Information Sharing and Discussion Preparation
+**Description:** Student indicates intention to share received materials with others for discussion or consultation, suggesting collaborative decision-making process.
+
+**Identification Guidance:** Look for mentions of discussing information with partners, family, or advisors, or requests for materials suitable for sharing.
+
+**Examples:**
+- Student: "Can you please email me these details so I can discuss with my partner and we can come to a conclusion"
+- Student: "She just wants to have more information to compare"
+- Student: "So I can compare that against the current places I'm looking at"

@@ -1,0 +1,55 @@
+{
+  "transcripts_directory": "interesting-transcripts-segments",
+  "output_directory": "multi_agent_responses",
+  "input_catalog": {
+    "name": "behavioural_definition",
+    "location": "single-behaviour",
+    "types": [
+      "definition"
+    ]
+  },
+  "nodes": [
+    {
+      "name": "context_analysis",
+      "inputs": [
+        "transcript",
+        "behavioural_definition"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ]
+    },
+    {
+      "name": "behaviour_analysis",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ]
+    },
+    {
+      "name": "specificity_iteration",
+      "inputs": [
+        "transcript",
+        "behavioural_definition",
+        "context_analysis",
+        "behaviour_analysis"
+      ],
+      "models": [
+        {
+          "provider": "azure",
+          "mini": true
+        }
+      ]
+    }
+  ]
+}

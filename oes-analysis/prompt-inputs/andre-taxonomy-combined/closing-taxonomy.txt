@@ -1,0 +1,78 @@
+# TAXONOMY ARTIFACT 12: ENROLLMENT CLOSING BEHAVIORAL PATTERNS
+This taxonomy examines consultant behaviors related to converting student interest into concrete enrollment commitments through structured closing techniques observable in sales call transcripts.
+
+## 12.A: Teaching Period Confirmation Behaviors
+
+### 12.A.i: Assumptive Teaching Period Closing
+**Description:** Consultant demonstrates behavior of using calendar information as a springboard to secure commitment to a specific teaching period rather than merely providing dates.
+
+**Identification Guidance:** Look for consultants who transition from providing start dates to seeking commitment with phrases like "Were you looking to commence in July?" or "Would [start date] work with your timeline?" followed by documentation requests.
+
+**Examples:**
+- Consultant: "The next intake begins July 7th. Were you looking to commence in July? Great, then I'd just need your transcript and citizenship proof by June 10th."
+- Consultant: "We have our next intake commencing on the 30th of June. So yeah, today or over the weekend, if you can respond to my email with the document"
+- Consultant: "Would July work with your timeline? Perfect, to move forward with the July intake, I'll need [documents]"
+
+### 12.A.ii: Direct Teaching Period Proposal
+**Description:** Consultant demonstrates behavior of explicitly proposing a specific teaching period and requesting student acceptance.
+
+**Identification Guidance:** Note instances where consultants directly propose specific intake dates and seek explicit agreement rather than just providing calendar information.
+
+**Examples:**
+- Consultant: "Okay, so we're looking to start the Graduate Diploma of Psychology in TP4, which will be our June intake, June 30th. Is that alright with you?"
+- Consultant: "I would recommend the March intake for your situation. How does that sound?"
+- Consultant: "Based on your timeline, shall we secure your spot for the July intake?"
+
+## 12.B: Action Plan & Documentation Behaviors
+
+### 12.B.i: Sequential Step Articulation
+**Description:** Consultant demonstrates behavior of breaking down enrollment processes into specific, numbered steps with clear deadlines and consequences.
+
+**Identification Guidance:** Look for consultants who provide structured, step-by-step guidance with specific dates and clear consequences for action/inaction.
+
+**Examples:**
+- Consultant: "Now you will need to set up your Monash account before the 21st of June and you need to select your units before the 22nd of June. If that's not done, you are unenrolled from your course"
+- Consultant: "Let me outline our three-step application process: 1. Submit your transcript by Friday, 2. Complete the online form by Tuesday, 3. We'll have a brief call next Wednesday"
+- Consultant: "First, you'll receive an email with a link. Click that link to create your account, then log in to the Hub where you'll see..."
+
+### 12.B.ii: Specific Documentation Request Behavior
+**Description:** Consultant demonstrates behavior of requesting specific documents with clear submission methods and timelines.
+
+**Identification Guidance:** Note instances where consultants specify exact documents needed, how to submit them, and by when, rather than using vague language.
+
+**Examples:**
+- Consultant: "When you get a chance today, tonight, all you have to do is just respond to my email with your official academic trial certificate or a mark sheet and your degree certificate along with your citizenship proof"
+- Consultant: "I would need that Cert IV and a copy of your resume"
+- Consultant: "For your Psychology program application, I need three specific documents: your official academic transcript, your passport or birth certificate, and your current CV"
+
+## 12.C: Commitment & Accountability Behaviors
+
+### 12.C.i: Mutual Responsibility Establishment
+**Description:** Consultant demonstrates behavior of creating explicit agreements about both student and consultant responsibilities with clear timelines.
+
+**Identification Guidance:** Look for consultants who clearly state what they will do and what the student should do, with specific deadlines for both parties.
+
+**Examples:**
+- Consultant: "For now, I will send you the letter fall for very soon to your name in the next five minutes confirming your place in the course"
+- Consultant: "I'll email you the program guide by 5pm today, and if you can review these by Thursday and send your transcript by Friday, I'll process your application immediately"
+- Consultant: "Here's what we'll do next: I'll send you the checklist today, you review it by Wednesday, and I'll call you Thursday to finalize everything"
+
+### 12.C.ii: Follow-Up Scheduling Behavior
+**Description:** Consultant demonstrates behavior of establishing specific dates, times, and methods for follow-up interactions that maintain enrollment momentum.
+
+**Identification Guidance:** Note instances where consultants schedule specific follow-up calls or interactions with clear purposes rather than leaving contact open-ended.
+
+**Examples:**
+- Consultant: "I'll call you this Friday at 3pm to check on your document progress and answer any questions"
+- Consultant: "Let's schedule our next call for [date and time]. Does that work for you?"
+- Consultant: "Would you be looking to study this this year? I'll keep that one active then" (negative example - lacks specific follow-up)
+
+### 12.C.iii: Urgency & Momentum Creation
+**Description:** Consultant demonstrates behavior of creating appropriate urgency around enrollment actions while connecting to specific benefits or deadlines.
+
+**Identification Guidance:** Look for consultants who create time-sensitive motivation through real deadlines, benefits of early action, or consequences of delay.
+
+**Examples:**
+- Consultant: "Following this timeline ensures we complete everything before the May 20th deadline and gives you priority access to unit selection"
+- Consultant: "Since you're asking about payment options, it sounds like you're thinking seriously about moving forward. The May 5th intake still has places available"
+- Consultant: "Enrolling today ensures you'll have full access to orientation materials two weeks before classes start"

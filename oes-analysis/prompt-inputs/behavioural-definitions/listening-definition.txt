@@ -1,0 +1,19 @@
+<behavior_specific>
+<behavior_name>Active Listening</behavior_name>
+
+<behavior_definition>
+Demonstrating attentiveness and understanding of student responses by paraphrasing and summarizing what the student has said to confirm understanding. This approach helps ensure accurate comprehension and shows the student that their input is valued.
+</behavior_definition>
+
+<behavior_essence>
+Active listening is about fully engaging with the student's words, tone, and underlying messages. The consultant demonstrates this by carefully processing the information shared, reflecting it back to the student, and seeking confirmation of understanding. This creates a supportive environment where students feel heard and understood.
+</behavior_essence>
+
+<behavior_examples>
+"So, if I understand correctly, you're looking for a course that allows you to balance work and study. Is that right?"
+"You mentioned that flexibility is important to you. Can you tell me more about why that's a priority?"
+"It sounds like you're interested in [specific aspect]. How does that relate to your career goals?"
+"I hear that you're concerned about [specific issue]. Let me make sure I've got this right..."
+</behavior_examples>
+
+</behavior_specific>

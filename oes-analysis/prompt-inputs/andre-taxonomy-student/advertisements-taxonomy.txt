@@ -1,0 +1,98 @@
+# TAXONOMY ARTIFACT 20: ADVERTISEMENTS ACQUISITION CHANNEL BEHAVIORS
+This taxonomy examines behavioral patterns specific to prospects who discovered the institution through advertising channels including digital marketing, email campaigns, social media promotions, and other promotional communications, indicating response to targeted messaging and outreach efforts.
+
+## 20.A: Digital Marketing Effectiveness
+
+### 20.A.i: Email Campaign Engagement and Response
+**Description:** Student demonstrates engagement with email marketing campaigns, indicating effective targeting and message delivery that prompted them to take action or seek additional information.
+
+**Identification Guidance:** Listen for mentions of receiving emails that prompted action, references to email content that influenced their decision, or positive responses to email communications.
+
+**Examples:**
+- Student: "I got an email a week or two ago, it was about the changes to the master's program"
+- Student: "There was a link on the email that I've just been reading. So that's really good"
+- Student: "I received your email saying that you're pleased to proceed with my enrollment"
+
+### 20.A.ii: Social Media Discovery and Interaction
+**Description:** Student found the program or institution through social media platforms, indicating effective social media marketing and targeting strategies.
+
+**Identification Guidance:** Note explicit mentions of discovering programs through social media platforms, responding to social media advertisements, or engaging with social content.
+
+**Examples:**
+- Student: "I just saw it on Facebook and I just went, oh yeah, here, see what happens"
+- Student: "I saw your advertisement on Facebook about career advancement opportunities"
+- Student: "I found you through LinkedIn when I was looking for professional development options"
+
+### 20.A.iii: Program Awareness and Information Seeking
+**Description:** Student's awareness of specific programs or opportunities was generated through advertising efforts, leading them to seek additional information or take action.
+
+**Identification Guidance:** Look for indications that advertising campaigns successfully created awareness and prompted information-seeking behavior or inquiry generation.
+
+**Examples:**
+- Student: "I got an email about program changes and wanted to know more"
+- Student: "Your ad mentioned career outcomes and I wanted to understand what that means"
+- Student: "The promotion caught my attention and I decided to look into it further"
+
+## 20.B: Communication Channel Preferences
+
+### 20.B.i: Email Follow-up Expectations and Management
+**Description:** Student has specific expectations about email communications, including follow-up timing, content, and delivery, based on their experience with marketing touchpoints.
+
+**Identification Guidance:** Listen for expectations about receiving emails, preferences for email communication, or concerns about email delivery and timing.
+
+**Examples:**
+- Student: "I didn't receive like an email follow-up... I'm assuming it's like an automated system"
+- Student: "Oh my God, amazing... Your email's popped"
+- Student: "I was expecting to get a follow-up email but haven't received anything yet"
+
+### 20.B.ii: Multi-channel Engagement Patterns
+**Description:** Student engages with the institution across multiple communication channels, suggesting integrated marketing campaign effectiveness or cross-channel journey progression.
+
+**Identification Guidance:** Note evidence of engagement across email, social media, website, and phone channels, indicating multi-touchpoint marketing effectiveness.
+
+**Examples:**
+- Student: "I saw your email, checked the website, and now I'm calling"
+- Student: "I got your LinkedIn message and followed up by downloading the brochure"
+- Student: "After seeing the Facebook ad, I went to your website and filled out the form"
+
+### 20.B.iii: Response Timing and Delivery Optimization
+**Description:** Student's response patterns and timing preferences provide insights into optimal delivery schedules and communication frequency for advertising campaigns.
+
+**Identification Guidance:** Look for patterns in when students respond to campaigns, preferences for communication timing, or feedback about message frequency.
+
+**Examples:**
+- Student: "I got the email this morning and decided to call right away"
+- Student: "The timing of your follow-up email was perfect"
+- Student: "I've been thinking about this since I saw your advertisement last week"
+
+## 20.C: Campaign Impact and Conversion
+
+### 20.C.i: Advertisement Attribution and Recognition
+**Description:** Student can clearly identify and reference the specific advertisement or campaign that led them to inquire, providing direct attribution for marketing effectiveness measurement.
+
+**Identification Guidance:** Listen for specific mentions of advertisements, campaigns, or promotional messages that prompted their inquiry or action.
+
+**Examples:**
+- Student: "I saw your advertisement about the MBA program on LinkedIn"
+- Student: "The email about the January intake is what made me call"
+- Student: "Your Facebook ad about online learning flexibility really resonated with me"
+
+### 20.C.ii: Message Resonance and Action Triggers
+**Description:** Student indicates that specific messaging elements or value propositions in advertisements resonated strongly enough to prompt them to take action.
+
+**Identification Guidance:** Note when students reference specific messages, benefits, or appeals that motivated them to respond to advertising campaigns.
+
+**Examples:**
+- Student: "The flexibility you mentioned in the ad is exactly what I need"
+- Student: "When I saw that you offer fully online programs, that's what made me interested"
+- Student: "The career advancement outcomes you advertised are what I'm looking for"
+
+### 20.C.iii: Cross-channel Journey Progression
+**Description:** Student's journey demonstrates progression from advertising touchpoint through multiple channels toward enrollment, indicating effective campaign integration and conversion pathway design.
+
+**Identification Guidance:** Look for evidence of students moving from initial advertisement exposure through website visits, form completions, or direct contact, showing campaign conversion effectiveness.
+
+**Examples:**
+- Student: "After seeing your ad, I visited the website and now I'm ready to apply"
+- Student: "The email campaign led me to download the brochure and now I want to enroll"
+- Student: "I started with your social media post, then visited your website, and now I'm calling to learn more"

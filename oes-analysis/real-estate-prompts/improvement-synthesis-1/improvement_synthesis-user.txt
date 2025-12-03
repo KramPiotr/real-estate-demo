@@ -1,0 +1,27 @@
+# Improvement Synthesis Task
+
+Generate coaching recommendations from aggregated behavior data.
+
+## Output Format
+```json
+{
+  "agent_id": "...",
+  "period": "...",
+  "overall_assessment": {
+    "performance_tier": "tier",
+    "trend": "trend",
+    "score": 1.0-5.0
+  },
+  "improvement_priorities": [
+    {
+      "behavior": "behavior_name",
+      "current_score": N,
+      "target_score": N,
+      "specific_actions": ["action1"],
+      "example_scripts": ["script1"]
+    }
+  ],
+  "strengths_to_leverage": ["strength1"],
+  "coaching_notes": "notes for manager"
+}
+```

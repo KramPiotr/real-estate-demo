@@ -1,0 +1,17 @@
+{
+    "transcripts_directory": "enrollment_results--enrollment-1-mon",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "enrollment_status_aggregation",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        }
+    ]
+}

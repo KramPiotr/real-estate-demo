@@ -1,0 +1,83 @@
+{
+    "transcripts_directory": "real-estate-calls",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "buyer_intent",
+        "location": "real-estate-definitions",
+        "types": ["taxonomy"]
+    },
+    "nodes": [
+        {
+            "name": "intent_classification",
+            "inputs": [
+                "buyer_intent-taxonomy",
+                "transcript"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "buyer_intent": {
+                        "type": "object",
+                        "properties": {
+                            "classification": {
+                                "type": "string",
+                                "enum": ["hot_lead", "warm_lead", "cold_lead", "not_a_buyer", "unknown"]
+                            },
+                            "confidence": {
+                                "type": "number",
+                                "minimum": 0,
+                                "maximum": 1
+                            },
+                            "evidence": {
+                                "type": "array",
+                                "items": {"type": "string"}
+                            },
+                            "timeline": {
+                                "type": "string",
+                                "enum": ["immediate", "1_3_months", "3_6_months", "6_12_months", "12_plus_months", "unknown"]
+                            }
+                        },
+                        "required": ["classification", "confidence", "evidence", "timeline"]
+                    }
+                },
+                "required": ["buyer_intent"]
+            }
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "buyer_intent-taxonomy",
+                "transcript",
+                "intent_classification"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "buyer_intent": {
+                        "type": "object",
+                        "properties": {
+                            "classification": {"type": "string"},
+                            "confidence": {"type": "number"},
+                            "consensus_count": {"type": "integer", "minimum": 1, "maximum": 3},
+                            "evidence": {"type": "array", "items": {"type": "string"}},
+                            "timeline": {"type": "string"},
+                            "reasoning": {"type": "string"}
+                        },
+                        "required": ["classification", "confidence", "consensus_count", "evidence", "timeline", "reasoning"]
+                    }
+                },
+                "required": ["buyer_intent"]
+            }
+        }
+    ]
+}

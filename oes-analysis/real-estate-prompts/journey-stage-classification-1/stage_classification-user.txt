@@ -1,0 +1,17 @@
+# Journey Stage Classification Task
+
+Identify buyer's current journey stage.
+
+## Output Format
+```json
+{
+  "journey_stage": {
+    "current_stage": "stage_name",
+    "stage_confidence": 0.0-1.0,
+    "stage_indicators": ["indicator1"],
+    "time_in_stage_estimate": "estimate",
+    "next_stage_readiness": "ready|almost_ready|not_ready|unknown",
+    "blockers_to_progression": ["blocker1"]
+  }
+}
+```

@@ -1,0 +1,20 @@
+# HECS-HELP and Fee-Help Explanation
+
+## Conceptual Overview
+Consultants should briefly inform domestic students about the existence of government loan schemes like HECS-HELP and other fee-help options. Further explanation is optional and based on student interest.
+
+## Essential Composite Requirement
+
+### 1. Mention Availability (Importance: Essential)
+- Briefly mention the existence of government loan schemes like HECS-HELP for domestic students
+
+## Optional Components
+
+### 2. Gauge Interest (Optional)
+- The consultant may check if the student wants more information about these options
+
+### 3. Provide Basic Explanation (Optional)
+- If the student shows interest and the consultant chooses to elaborate, they may offer a simple explanation of how the loan scheme works
+- The consultant may provide more details or direct the student to additional resources if asked
+
+Note: LLMs should assess whether the consultant has mentioned the availability of loan schemes. Gauging interest and providing further explanation are not required to meet this requirement and should not be factors in determining compliance.

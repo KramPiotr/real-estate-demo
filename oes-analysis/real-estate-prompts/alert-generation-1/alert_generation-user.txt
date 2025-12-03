@@ -1,0 +1,31 @@
+# Alert Generation Task
+
+Generate actionable alerts from urgency flags.
+
+## Output Format
+```json
+{
+  "alerts": [
+    {
+      "alert_id": "...",
+      "priority": "CRITICAL|HIGH|MEDIUM",
+      "title": "brief summary",
+      "description": "detailed context",
+      "buyer_info": {
+        "name": "...",
+        "contact": "...",
+        "last_call_date": "..."
+      },
+      "recommended_actions": ["action1"],
+      "response_deadline": "timeframe",
+      "assigned_to": "agent_name"
+    }
+  ],
+  "alert_summary": {
+    "total_alerts": N,
+    "critical_count": N,
+    "high_count": N,
+    "medium_count": N
+  }
+}
+```

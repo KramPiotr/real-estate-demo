@@ -1,0 +1,99 @@
+# TAXONOMY ARTIFACT 5: PROGRESSION ENABLERS & BARRIERS
+
+This taxonomy identifies specific factors that may facilitate or hinder progression through enrollment gates.
+
+## 5.A: Early Action Facilitation
+
+### 5.A.i: Immediate Action Triggering
+**Description**: Consultant successfully encourages specific, immediate post-call actions that initiate the enrollment process.
+
+**Identification Guidance**: Note instances where the consultant secures commitment to specific actions immediately following the call, rather than general or future-oriented commitments.
+
+**Examples**:
+- Consultant: "While we're on the call, I'll send you the email link. Can you check your inbox and confirm you've received it?"
+- Consultant establishes specific timing: "Will you be able to create your account this evening?"
+- Consultant and student agree on specific actions with immediate timeframes
+
+### 5.A.ii: Complexity Reduction Strategies
+**Description**: Consultant breaks down the enrollment process into manageable steps, reducing perceived complexity.
+
+**Identification Guidance**: Look for segmentation of tasks, prioritization of immediate actions, and efforts to make complex processes appear more manageable.
+
+**Examples**:
+- Consultant: "Let's focus on just the first step today: creating your account"
+- Consultant provides a numbered or sequenced explanation of the process
+- Consultant distinguishes between essential immediate actions and secondary steps
+
+### 5.A.iii: Specific Obstacle Anticipation
+**Description**: Consultant proactively identifies and addresses potential obstacles to completing enrollment steps.
+
+**Identification Guidance**: Note discussions of common challenges and specific strategies to overcome them, particularly for Hub navigation and account creation.
+
+**Examples**:
+- Consultant: "Many students find that particular step confusing. Here's exactly what you need to do..."
+- Consultant anticipates document challenges: "If you have trouble locating your transcript, here's what you can do instead..."
+- Consultant addresses potential technical issues: "If you don't see the email, be sure to check your spam folder"
+
+## 5.B: Support Connection & Utilization
+
+### 5.B.i: Support Resource Introduction
+**Description**: Consultant effectively introduces relevant support resources for early enrollment challenges.
+
+**Identification Guidance**: Look for specific information about available help resources, when and how to access them, and normalization of seeking assistance.
+
+**Examples**:
+- Consultant provides specific contact information: "If you have any technical difficulties, you can contact IT support at..."
+- Consultant normalizes help-seeking: "Many students call the support line their first time logging in, so don't hesitate to reach out"
+- Consultant explains support scope: "The student advisors can help you with any questions about documentation or enrollment steps"
+
+### 5.B.ii: Help-Seeking Encouragement
+**Description**: Consultant explicitly encourages proactive help-seeking behaviors when challenges arise.
+
+**Identification Guidance**: Note statements that positively frame asking for help, reduce stigma around difficulties, and establish help-seeking as normal.
+
+**Examples**:
+- Consultant: "The most successful students are often those who reach out early when they have questions"
+- Consultant normalizes challenges: "Setting up your account can be tricky for anyone, so our support team is there to help"
+- Consultant frames help-seeking positively: "Reaching out shows your commitment to getting started right"
+
+### 5.B.iii: Connection Point Clarity
+**Description**: Consultant provides clear, specific information about who to contact for different types of enrollment challenges.
+
+**Identification Guidance**: Look for detailed explanation of different support options, contact methods, and appropriate circumstances for each.
+
+**Examples**:
+- Consultant clearly differentiates: "For technical issues, contact IT support; for application questions, contact the admissions team"
+- Consultant provides multiple contact methods: "You can reach them by phone at X, email at Y, or through the live chat on the website"
+- Consultant explains availability: "The support team is available from 9am to 7pm weekdays, and 10am to 2pm on weekends"
+
+## 5.C: Motivation & Commitment Reinforcement
+
+### 5.C.i: Goal-Program Connection Strengthening
+**Description**: Consultant reinforces the connection between program completion and the student's personal or professional goals.
+
+**Identification Guidance**: Note instances where the consultant explicitly links program benefits to specific goals the student has mentioned.
+
+**Examples**:
+- Consultant: "As you mentioned wanting to move into management, the leadership units in this program will be particularly valuable for you"
+- Consultant references student's stated goals when explaining program features
+- Consultant helps student envision applying specific knowledge: "You'll be able to use these exact skills in your current role"
+
+### 5.C.ii: Investment Framing
+**Description**: Consultant effectively frames enrollment actions as investments in the student's success rather than administrative hurdles.
+
+**Identification Guidance**: Look for language that positions enrollment steps as meaningful investments rather than bureaucratic requirements.
+
+**Examples**:
+- Consultant: "Completing your profile thoroughly now helps us provide you with the most relevant support from day one"
+- Consultant connects steps to outcomes: "Creating your account now gives you early access to orientation materials, which many successful students find valuable"
+- Consultant frames documentation as enabling: "Providing these documents allows us to customize your learning path"
+
+### 5.C.iii: Community Integration Preparation
+**Description**: Consultant helps student begin forming a connection to the learning community before formal enrollment.
+
+**Identification Guidance**: Note discussions about belonging, peer connections, and community aspects of the learning experience.
+
+**Examples**:
+- Consultant shares relevant community information: "Many of our students are also working professionals balancing similar responsibilities"
+- Consultant mentions connection opportunities: "Once enrolled, you'll have access to discussion forums where you can meet other students in your program"
+- Consultant normalizes the student's situation: "Your background is similar to many of our most successful graduates"

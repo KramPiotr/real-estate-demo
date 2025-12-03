@@ -1,0 +1,98 @@
+# TAXONOMY ARTIFACT 10: SUPPORT SYSTEM & RESOURCE AVAILABILITY
+This taxonomy examines student support networks and resource access as revealed through sales call discussions, which may predict their ability to sustain educational commitments.
+
+## 10.A: Personal & Family Support Systems
+
+### 10.A.i: Active Family Encouragement
+**Description:** Student mentions specific family support, encouragement, or accommodations that will facilitate their educational success.
+
+**Identification Guidance:** Listen for explicit mentions of family members supporting the decision, offering practical help, or making accommodations for study time.
+
+**Examples:**
+- Student: "My wife is really encouraging me to do this and said she'll take on more of the household responsibilities"
+- Student: "My kids are excited about me going back to study and want to help by being quiet during my study time"
+- Student: "My parents offered to help with childcare on weekends so I can focus on assignments"
+
+### 10.A.ii: Professional Network Support
+**Description:** Student has workplace or professional connections that support their educational goals through mentorship, flexibility, or career opportunities.
+
+**Identification Guidance:** Note mentions of supportive managers, colleagues who have completed similar programs, mentors, or professional networks that encourage education.
+
+**Examples:**
+- Student: "My manager has been through this program and is mentoring me through the decision"
+- Student: "Several colleagues have completed their MBAs and are willing to share their experience"
+- Student: "My industry association offers study groups and networking for people in similar programs"
+
+### 10.A.iii: Community & Peer Connection Potential
+**Description:** Student demonstrates ability to build connections and seek support from others, suggesting they'll utilize student support networks effectively.
+
+**Identification Guidance:** Look for examples of building professional relationships, participating in communities, or successfully seeking help when needed.
+
+**Examples:**
+- Student: "I'm already active in professional networks and plan to connect with other students in the program"
+- Student: "I usually find study groups really helpful and hope to form one with other students"
+- Student: "I'm comfortable reaching out for help when I need it - that's how I've succeeded in other areas"
+
+## 10.B: Practical Resource Availability
+
+### 10.B.i: Technology Infrastructure Readiness
+**Description:** Student has reliable technology setup including internet, devices, and software necessary for online learning success.
+
+**Identification Guidance:** Listen for mentions of home office setup, reliable internet, appropriate devices, or previous experience with online learning technology.
+
+**Examples:**
+- Student: "I have a dedicated home office with excellent internet and all the tech I need"
+- Student: "I upgraded my internet connection specifically to support online learning"
+- Student: "I work from home regularly so my technology setup is already optimized for online activities"
+
+### 10.B.ii: Time Block Availability & Protection
+**Description:** Student has identified specific time periods for study and has strategies to protect those time blocks from interruptions.
+
+**Identification Guidance:** Note discussions of specific study schedules, time management strategies, or arrangements to protect study time.
+
+**Examples:**
+- Student: "I've blocked out Tuesday and Thursday evenings and Sunday mornings as my dedicated study times"
+- Student: "I plan to get up an hour early each day for reading - that's when I'm most focused"
+- Student: "I've arranged with my family that Saturday afternoons are my study time and they'll leave me undisturbed"
+
+### 10.B.iii: Financial Resource Security
+**Description:** Student demonstrates financial stability and resources sufficient to support their educational commitment without creating undue stress.
+
+**Identification Guidance:** Look for indications of stable income, savings, employer support, or realistic financial planning that suggests education won't create financial hardship.
+
+**Examples:**
+- Student: "I've been saving specifically for this program and have the funds available"
+- Student: "My company will reimburse 75% of the cost, so the financial impact is manageable"
+- Student: "We've budgeted for this and it fits comfortably within our financial plan"
+
+## 10.C: Resilience & Problem-Solving Resources
+
+### 10.C.i: Previous Challenge Overcome Evidence
+**Description:** Student provides examples of successfully navigating previous challenges, suggesting resilience and problem-solving capability for educational obstacles.
+
+**Identification Guidance:** Listen for stories of overcoming difficulties, adapting to change, or persisting through challenging situations in personal or professional contexts.
+
+**Examples:**
+- Student: "I managed to complete my diploma while working full-time and raising young children"
+- Student: "When our industry went through major changes, I adapted by learning new skills and found even better opportunities"
+- Student: "I've always been someone who finds a way to make things work, even when it gets challenging"
+
+### 10.C.ii: Help-Seeking Comfort & Capability
+**Description:** Student demonstrates comfort with asking for help and has examples of successfully accessing support when needed.
+
+**Identification Guidance:** Note references to seeking mentorship, asking for guidance, accessing support services, or building helpful relationships.
+
+**Examples:**
+- Student: "I'm not too proud to ask for help - I always reach out when I'm stuck on something"
+- Student: "In my previous studies, I regularly attended office hours and study groups"
+- Student: "I have a good network of people I can turn to for advice and support"
+
+### 10.C.iii: Stress Management & Self-Care Awareness
+**Description:** Student shows awareness of stress management needs and has strategies for maintaining well-being during challenging periods.
+
+**Identification Guidance:** Look for mentions of stress management techniques, self-care practices, or realistic awareness of the need to maintain balance.
+
+**Examples:**
+- Student: "I know I need to maintain my exercise routine to manage stress effectively"
+- Student: "I've learned from previous experiences that I need to pace myself and not try to do everything at once"
+- Student: "I have good strategies for managing pressure - meditation and making sure I get enough sleep"

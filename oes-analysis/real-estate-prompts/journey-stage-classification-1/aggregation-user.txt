@@ -1,0 +1,16 @@
+# Journey Stage Aggregation Task
+
+## Output Format
+```json
+{
+  "journey_stage": {
+    "current_stage": "stage",
+    "consensus_count": 1-3,
+    "stage_confidence": 0.0-1.0,
+    "stage_indicators": [...],
+    "next_stage_readiness": "level",
+    "blockers_to_progression": [...],
+    "recommended_agent_actions": ["action1"]
+  }
+}
+```

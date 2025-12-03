@@ -1,0 +1,379 @@
+# Real Estate Objections - Extraction Definition
+
+## Purpose
+Identify, categorize, and evaluate objections raised in sales calls to build objection intelligence.
+
+---
+
+# PRICE OBJECTIONS
+
+## 1.1 Asking Price Too High (`asking_price_too_high`)
+
+### Definition
+Buyer believes the listing price is higher than the property is worth.
+
+### Detection Phrases
+- "It's overpriced"
+- "Other houses in the area are cheaper"
+- "Not worth that much"
+- "I've seen comparables for less"
+- "They're asking too much"
+
+### Resolution Approaches
+- Provide recent comparables showing value justification
+- Highlight unique features not present in lower-priced properties
+- Discuss market conditions and trends
+- Explore seller flexibility if appropriate
+
+---
+
+## 1.2 Budget Mismatch (`budget_mismatch`)
+
+### Definition
+Property price exceeds buyer's stated or implied budget.
+
+### Detection Phrases
+- "Over our budget"
+- "More than we wanted to spend"
+- "Can't afford it"
+- "Out of our price range"
+- "Stretching too far"
+
+### Resolution Approaches
+- Explore budget flexibility vs. hard limit
+- Discuss creative financing options
+- Suggest alternative properties in budget
+- Help calculate true monthly cost vs. sticker shock
+
+---
+
+## 1.3 Value Not Justified (`value_not_justified`)
+
+### Definition
+Buyer doesn't see enough value for the price being asked.
+
+### Detection Phrases
+- "What justifies that price?"
+- "Doesn't seem worth it"
+- "Why so expensive?"
+- "Should be cheaper given..."
+- "Not enough for the money"
+
+### Resolution Approaches
+- Detail specific features and their value
+- Compare to recently sold similar properties
+- Highlight future value potential
+- Address specific value concerns
+
+---
+
+# PROPERTY OBJECTIONS
+
+## 2.1 Size/Layout Issues (`size_layout_issues`)
+
+### Definition
+Buyer has concerns about property dimensions or floor plan.
+
+### Detection Phrases
+- "Too small/big"
+- "Layout doesn't work"
+- "Rooms are cramped"
+- "Weird floor plan"
+- "Not enough space for..."
+- "Kitchen is too small"
+- "Need more bedrooms"
+
+### Resolution Approaches
+- Understand specific space needs
+- Suggest furniture/use configurations
+- Discuss renovation possibilities
+- Show how previous owners used space
+
+---
+
+## 2.2 Condition Concerns (`condition_concerns`)
+
+### Definition
+Buyer worried about property condition, repairs, or maintenance needed.
+
+### Detection Phrases
+- "Needs too much work"
+- "That roof/HVAC looks old"
+- "Is that water damage?"
+- "Dated/outdated"
+- "Fixer-upper"
+- "Maintenance issues"
+
+### Resolution Approaches
+- Provide inspection reports or disclosures
+- Get estimates for concerning items
+- Discuss repair credits or price adjustments
+- Highlight recent updates/improvements
+
+---
+
+## 2.3 Location Drawbacks (`location_drawbacks`)
+
+### Definition
+Buyer objects to property location or surroundings.
+
+### Detection Phrases
+- "Too far from..."
+- "Neighborhood concerns"
+- "Traffic/noise"
+- "Don't like the area"
+- "Bad location"
+- "Commute is too long"
+- "Near the highway/railroad"
+
+### Resolution Approaches
+- Understand specific location priorities
+- Highlight overlooked location benefits
+- Provide commute time data
+- Discuss neighborhood developments/improvements
+
+---
+
+## 2.4 Missing Features (`missing_features`)
+
+### Definition
+Property lacks features buyer considers essential.
+
+### Detection Phrases
+- "No garage/pool/basement"
+- "Wish it had..."
+- "Doesn't have..."
+- "Need [feature] which this lacks"
+- "Missing..."
+
+### Resolution Approaches
+- Clarify must-have vs. nice-to-have
+- Discuss addition possibilities and costs
+- Find alternative solutions (nearby gym vs. home gym)
+- Show properties with desired features
+
+---
+
+# TIMING OBJECTIONS
+
+## 3.1 Not Ready to Buy (`not_ready_to_buy`)
+
+### Definition
+Buyer indicates they're not prepared to make a purchase decision.
+
+### Detection Phrases
+- "Just looking"
+- "Not ready yet"
+- "Exploring options"
+- "Too early in our search"
+- "Need more time"
+- "Haven't started seriously"
+
+### Resolution Approaches
+- Respect their timeline
+- Understand what would make them ready
+- Offer value without pressure (market updates, alerts)
+- Set appropriate follow-up schedule
+
+---
+
+## 3.2 Waiting for Market Change (`waiting_for_market_change`)
+
+### Definition
+Buyer expects market conditions to shift in their favor.
+
+### Detection Phrases
+- "Waiting for prices to drop"
+- "Market is too hot"
+- "Interest rates might come down"
+- "Bubble is going to burst"
+- "Bad time to buy"
+
+### Resolution Approaches
+- Provide market data and expert forecasts
+- Discuss cost of waiting (rent, appreciation)
+- Show historical market performance
+- Acknowledge uncertainty while providing perspective
+
+---
+
+## 3.3 Pending Life Event (`pending_life_event`)
+
+### Definition
+Buyer waiting on external event before purchasing.
+
+### Detection Phrases
+- "After we sell our house"
+- "Once the divorce is final"
+- "When I get the new job"
+- "After the baby comes"
+- "Waiting on inheritance/settlement"
+
+### Resolution Approaches
+- Understand timeline of pending event
+- Offer contingency solutions
+- Stay in touch with nurture campaign
+- Be ready to move quickly when event occurs
+
+---
+
+# COMPETITION OBJECTIONS
+
+## 4.1 Other Property Preferred (`other_property_preferred`)
+
+### Definition
+Buyer favors a competing property over the current one.
+
+### Detection Phrases
+- "We liked [address] better"
+- "The other house had..."
+- "Compared to what we saw..."
+- "That one was nicer"
+- "Prefer the other one"
+
+### Resolution Approaches
+- Understand what they preferred about competitor
+- Highlight advantages competitor lacks
+- Offer to show additional properties
+- Know when to let go gracefully
+
+---
+
+## 4.2 Other Agent Relationship (`other_agent_relationship`)
+
+### Definition
+Buyer has existing relationship with another agent.
+
+### Detection Phrases
+- "Working with another agent"
+- "Our agent..."
+- "Already have someone"
+- "Friend/family is an agent"
+- "Promised to use..."
+
+### Resolution Approaches
+- Respect existing relationship
+- Clarify if exclusive or casual
+- Offer specific value differentiation
+- Provide service even if secondary contact
+
+---
+
+## 4.3 Wants to Keep Looking (`wants_to_keep_looking`)
+
+### Definition
+Buyer wants to see more options before deciding.
+
+### Detection Phrases
+- "Want to see more"
+- "Keep our options open"
+- "Not ready to commit"
+- "Explore other areas"
+- "What else is there?"
+
+### Resolution Approaches
+- Understand what they're hoping to find
+- Offer to show additional properties
+- Set parameters for decision
+- Create soft deadline based on their timeline
+
+---
+
+# TRUST OBJECTIONS
+
+## 5.1 Skeptical of Agent (`skeptical_of_agent`)
+
+### Definition
+Buyer questions agent's motives, expertise, or honesty.
+
+### Detection Phrases
+- "Agents just want commission"
+- "How do I know you're honest?"
+- "What's in it for you?"
+- "Don't trust..."
+- "Pushy salespeople"
+
+### Resolution Approaches
+- Acknowledge the concern directly
+- Explain fiduciary duty and process
+- Provide references and reviews
+- Demonstrate expertise through action
+
+---
+
+## 5.2 Past Bad Experience (`past_bad_experience`)
+
+### Definition
+Buyer references negative past real estate experience.
+
+### Detection Phrases
+- "Last time we bought..."
+- "Our previous agent..."
+- "Got burned before"
+- "Bad experience with..."
+- "Don't want that to happen again"
+
+### Resolution Approaches
+- Listen fully to their story
+- Acknowledge what went wrong
+- Explain how you're different
+- Offer specific protections against repeat
+
+---
+
+## 5.3 Needs Third Party Validation (`needs_third_party_validation`)
+
+### Definition
+Buyer wants outside opinion before proceeding.
+
+### Detection Phrases
+- "Need to talk to my accountant/lawyer"
+- "Want my parents to see it"
+- "Having a friend who's an agent look"
+- "Getting a second opinion"
+- "Need to consult with..."
+
+### Resolution Approaches
+- Respect and encourage due diligence
+- Offer to speak with their advisor
+- Provide documentation for review
+- Schedule follow-up after consultation
+
+---
+
+## Output Schema
+
+For each objection identified:
+
+```json
+{
+  "objection_id": "OBJ-001",
+  "main_category": "PRICE",
+  "sub_category": "budget_mismatch",
+  "buyer_quote": "It's more than we wanted to spend, honestly. We were hoping to stay under $500k.",
+  "transcript_range": "45-52",
+  "agent_response": "I understand budget is important. Let me ask - is $500k a hard ceiling or is there flexibility if the right property came along?",
+  "agent_response_range": "53-58",
+  "response_effectiveness": 4,
+  "effectiveness_reasoning": "Agent acknowledged concern and asked clarifying question to understand if hard limit",
+  "resolution_status": "partially_resolved",
+  "resolution_notes": "Buyer indicated some flexibility, discussion moved forward"
+}
+```
+
+## Response Effectiveness Scoring
+
+| Score | Criteria |
+|-------|----------|
+| 5 | Objection fully resolved, buyer more confident, moved toward commitment |
+| 4 | Well handled, buyer concern reduced, conversation progressed positively |
+| 3 | Adequately addressed, neutral outcome, may resurface |
+| 2 | Poorly handled, buyer concern remains or increased slightly |
+| 1 | Made it worse, buyer more resistant or disengaged |
+
+## Resolution Status Values
+- `resolved` - Objection fully addressed, buyer satisfied
+- `partially_resolved` - Concern reduced but may return
+- `unresolved` - Objection remains active
+- `escalated` - Became larger issue
+- `deferred` - Acknowledged, to be addressed later

@@ -1,0 +1,246 @@
+# Agent Sales Behaviors - Scoring Definition
+
+## Purpose
+Evaluate agent performance on key sales behaviors and identify coaching opportunities.
+
+---
+
+## 1. Needs Discovery (`needs_discovery`)
+
+### Definition
+Agent asks probing questions to understand buyer's true requirements, motivations, and constraints before presenting solutions.
+
+### Gold Standard Behavior
+Agent should ask open-ended questions about:
+- Why they're moving (motivation and urgency)
+- What they need vs. want (must-haves vs. nice-to-haves)
+- Timeline and urgency drivers
+- Budget and financing status
+- Decision-making process (who else is involved)
+- Past experiences (what they liked/disliked before)
+
+### Scoring Rubric
+| Score | Criteria |
+|-------|----------|
+| 5 | Comprehensive discovery: asks about motivation, needs, timeline, budget, decision process, past experiences. Listens actively, asks thoughtful follow-ups. Buyer talks more than agent. |
+| 4 | Good discovery: covers 4-5 key areas, asks follow-up questions, shows genuine curiosity |
+| 3 | Basic discovery: asks about budget and bedrooms, some follow-up but limited depth |
+| 2 | Minimal discovery: jumps to showing properties without understanding needs, surface-level questions |
+| 1 | No discovery: immediately pitches properties or talks about self without any questions |
+
+### Excellent Example (Score 5)
+> Agent: "Before I show you some options, I'd love to understand what's driving your move. What's happening in your life that's making now the right time?"
+> Buyer: "We just had our second child and we've outgrown our condo."
+> Agent: "Congratulations! So you're looking for more space. Tell me about your ideal setup - beyond just bedrooms, what does your family need? Home office? Backyard for the kids? Proximity to certain schools?"
+
+### Poor Example (Score 2)
+> Agent: "Great, so you're looking for a 3-bedroom. I've got a few listings that might work. Let me send you some links."
+
+### Missed Opportunity Indicators
+- Agent talks more than buyer in first 5 minutes
+- Agent presents properties before understanding needs
+- Agent makes assumptions without confirming
+- Questions are all closed-ended (yes/no)
+
+---
+
+## 2. Rapport Building (`rapport_building`)
+
+### Definition
+Agent creates personal connection and trust through active listening, empathy, and genuine interest.
+
+### Gold Standard Behavior
+- Uses buyer's name naturally
+- References personal details they shared
+- Shows empathy for their situation
+- Shares relevant personal experiences appropriately
+- Matches communication style to buyer
+- Creates comfortable, non-pressured atmosphere
+
+### Scoring Rubric
+| Score | Criteria |
+|-------|----------|
+| 5 | Strong personal connection established. Buyer feels heard and understood. Natural conversation flow. Agent remembers and references earlier details. |
+| 4 | Good rapport, friendly tone, some personal connection, buyer seems comfortable |
+| 3 | Professional but somewhat transactional, limited personal connection |
+| 2 | Mechanical interaction, scripted feel, buyer may feel like just another customer |
+| 1 | Cold or pushy, no attempt at connection, buyer seems uncomfortable |
+
+### Excellent Example (Score 5)
+> Agent: "You mentioned earlier your daughter just started at Lincoln Elementary - my kids went there too! The community there is wonderful. That must be a big factor in wanting to stay in this area, right?"
+
+---
+
+## 3. Property Value Articulation (`property_value_articulation`)
+
+### Definition
+Agent effectively communicates unique value and benefits of property tailored to buyer's stated needs.
+
+### Gold Standard Behavior
+- Connects features to buyer's specific needs (not generic benefits)
+- Highlights unique differentiators vs. competition
+- Tells the story of the property
+- Addresses potential concerns proactively
+- Uses comparables to justify value
+- Helps buyer visualize living there
+
+### Scoring Rubric
+| Score | Criteria |
+|-------|----------|
+| 5 | Masterfully connects property features to buyer's specific needs. Creates emotional connection. Differentiates from competition. Buyer can see themselves living there. |
+| 4 | Good value articulation, connects to needs, highlights key differentiators |
+| 3 | Generic benefits mentioned, some connection to needs, adequate presentation |
+| 2 | List-reads features without connecting to buyer's situation |
+| 1 | No value articulation, or actually highlights negatives without addressing |
+
+### Excellent Example (Score 5)
+> Agent: "You mentioned you need a dedicated home office since you work remotely. See this room here - it's got built-in shelving, a separate entrance so clients could come in without going through the house, and it's positioned so you won't hear the kids playing in the backyard. Plus, for those video calls, look at that natural light."
+
+### Poor Example (Score 2)
+> Agent: "This is a 4-bedroom, 2.5-bath. Granite counters. Two-car garage."
+
+---
+
+## 4. Objection Handling (`objection_handling`)
+
+### Definition
+Agent acknowledges buyer concerns without defensiveness and provides relevant information to address them.
+
+### Core Framework: ACRC
+1. **Acknowledge** - Validate the concern before responding
+2. **Clarify** - Ask questions to understand the real issue
+3. **Respond** - Provide specific, relevant information
+4. **Confirm** - Check if the concern is resolved
+
+### Scoring Rubric
+| Score | Criteria |
+|-------|----------|
+| 5 | Expertly handles objection using ACRC. Turns objection into opportunity. Buyer's concern is resolved and they're more confident. |
+| 4 | Good handling: acknowledges and provides relevant response, minor gaps |
+| 3 | Adequate: addresses objection but may seem slightly defensive or incomplete |
+| 2 | Poor: dismisses concern, provides irrelevant response, or gets defensive |
+| 1 | Harmful: argues with buyer, creates more resistance, buyer disengages |
+
+### Excellent Example (Score 5)
+> Buyer: "The kitchen is really small."
+> Agent: "You're right, it is more compact than some we've seen. [Acknowledge] What specifically would you be hoping to do in the kitchen that concerns you here? [Clarify]"
+> Buyer: "We love to cook together and have people over."
+> Agent: "That's great context. Notice how this flows into the dining area - previous owners used to set up a prep station there for entertaining. And the outdoor kitchen on the patio actually expands your cooking space significantly for gatherings. Would that kind of setup work for how you like to entertain? [Respond + Confirm]"
+
+### Poor Example (Score 2)
+> Buyer: "The kitchen is really small."
+> Agent: "It's really not that small. You'd be surprised how much you can fit. Let me show you the master bedroom."
+
+---
+
+## 5. Urgency Creation (`urgency_creation`)
+
+### Definition
+Agent motivates action through legitimate market conditions and buyer circumstances, without being pushy.
+
+### Gold Standard Behavior
+- References real market conditions (days on market, multiple interest)
+- Connects to buyer's own timeline and needs
+- Creates FOMO appropriately when justified
+- Never fabricates urgency or pressure tactics
+- Helps buyer understand cost of inaction
+
+### Scoring Rubric
+| Score | Criteria |
+|-------|----------|
+| 5 | Creates genuine urgency tied to buyer's situation and real market factors. Buyer feels motivated, not pressured. Action feels like their choice. |
+| 4 | Good urgency creation, references legitimate factors, buyer responds positively |
+| 3 | Some urgency mentioned but may feel generic or slightly pushy |
+| 2 | Heavy-handed pressure tactics, fabricated urgency, buyer may feel manipulated |
+| 1 | Either no urgency at all (missed opportunity) or extremely pushy (damages trust) |
+
+### Excellent Example (Score 5)
+> Agent: "You mentioned your lease ends February 1st, and you need to be out. Working backwards from a 30-day close, we'd need to be under contract by early January, which means making an offer in the next couple weeks to have time for inspections and negotiations. This house has only been on market for 3 days and I've heard there's already been showings. Based on your timeline, not this specific house necessarily, but the right house - you'll want to be ready to move quickly when you find it."
+
+### Poor Example (Score 2)
+> Agent: "You need to make an offer TODAY. There's another buyer very interested. If you don't act now, you'll lose it."
+
+---
+
+## 6. Next Steps Closing (`next_steps_closing`)
+
+### Definition
+Agent secures specific commitments for future actions with clear timelines.
+
+### Gold Standard Behavior
+- Always ends with a clear next step
+- Gets specific dates/times, not "sometime next week"
+- Confirms mutual commitment
+- Summarizes what each party will do
+- Creates accountability
+
+### Scoring Rubric
+| Score | Criteria |
+|-------|----------|
+| 5 | Crystal clear next steps with specific dates, times, and mutual commitments. Both parties know exactly what happens next. Follow-up scheduled. |
+| 4 | Good close: clear next step agreed, general timeframe established |
+| 3 | Vague next step: "We'll be in touch" or "Let me know what you think" |
+| 2 | No clear next step established, buyer left hanging |
+| 1 | Call ends awkwardly, unclear if there will be any follow-up |
+
+### Excellent Example (Score 5)
+> Agent: "Let's recap what we're doing. I'll send you the disclosure documents and the HOA financials tonight. You'll review them and come back Saturday at 11am with your parents for the second showing. If they like it too, we'll sit down Sunday to discuss offer strategy. Does that work? Great - I'll send a calendar invite to confirm."
+
+### Poor Example (Score 2)
+> Agent: "Alright, well let us know if you have any questions. Talk soon!"
+
+---
+
+## 7. Competitor Differentiation (`competitor_differentiation`)
+
+### Definition
+Agent effectively positions against competing properties or agents while remaining professional.
+
+### Gold Standard Behavior
+- Understands what competition offers
+- Highlights unique advantages without disparaging
+- Addresses why buyer should choose this property/agent
+- Focuses on value, not attacks
+- Prepared to discuss comparisons knowledgeably
+
+### Scoring Rubric
+| Score | Criteria |
+|-------|----------|
+| 5 | Expertly differentiates. Buyer clearly understands unique value. Professional, never disparaging. Competition acknowledged but clearly positioned as inferior choice for their needs. |
+| 4 | Good differentiation, highlights key advantages, professional tone |
+| 3 | Some differentiation attempted, may be generic or underdeveloped |
+| 2 | No differentiation, or unprofessionally disparages competition |
+| 1 | Actually makes competition sound better, or "badmouths" unprofessionally |
+
+### Excellent Example (Score 5)
+> Buyer: "We saw a similar house on Maple Street for $20k less."
+> Agent: "I know that property - it's a good house. The price difference mainly comes down to three things: that house backs to the main road so you'll hear traffic, this lot is 40% larger which matters with two kids, and this house has been fully updated while that one needs a new roof within 2 years according to their disclosure. When you factor in the roof cost and the lot premium, you're actually paying about the same, but getting a quieter, more updated home here."
+
+---
+
+## Output Schema
+
+For each behavior, output:
+
+```json
+{
+  "behavior": "needs_discovery",
+  "score": 4,
+  "confidence": 0.85,
+  "strengths": [
+    {
+      "quote": "What's happening in your life that's making now the right time?",
+      "transcript_range": "12-15",
+      "explanation": "Agent asked excellent open-ended question about motivation"
+    }
+  ],
+  "missed_opportunities": [
+    {
+      "description": "Did not explore decision-making process or who else is involved",
+      "transcript_range": "28-35",
+      "suggested_question": "Who else will be part of this decision? I want to make sure we're considering everyone's needs."
+    }
+  ],
+  "improvement_recommendation": "Strong on motivation questions but could expand to explore decision process earlier"
+}
+```

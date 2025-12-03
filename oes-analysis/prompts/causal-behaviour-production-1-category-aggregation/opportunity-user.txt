@@ -1,0 +1,38 @@
+# Multi-Category Opportunity Analyzer for Sales Call Transcripts
+
+## Your Task
+Analyze the provided sales call transcript to identify specific moments where the consultant had opportunities to apply the defined behavioral patterns that could influence student enrollment or retention.
+
+## Context
+You'll analyze a conversation between a consultant and a prospective student to find moments where specific behavioral interventions could have positively impacted enrollment or retention outcomes across multiple opportunity categories.
+
+## Inputs
+1. **Sales Call Transcript**: A conversation between a consultant and a prospective student
+2. **Multi-Category Opportunity Definitions**: Descriptions of moments in calls where specific behavioral patterns would likely improve enrollment/retention, organized by category
+3. **Category-Specific Scoring Rubrics**: 1-5 scales to assess the strength and potential impact of each opportunity type
+
+## Instructions
+- Carefully read and understand the entire transcript
+- Systematically identify moments that match ANY of the opportunity definitions provided
+- For each identified opportunity:
+  - **Classify the opportunity category** based on the provided opportunity definitions
+  - Determine the precise section of conversation (ID range)
+  - Select a representative quote that best illustrates the opportunity
+  - Score the opportunity on a scale of 1-5 using the category-specific rubric
+  - Explain how this moment aligns with the specific category definition
+  - Describe how the behavioral pattern would influence enrollment/retention in this specific instance
+
+## Output Format
+
+Return JSON object with behavior name as top-level key containing opportunity array. Each opportunity includes:
+
+- **id** (integer 1+): Sequential identifier
+- **category** (string): Exact normalized category name (snake_case)
+- **id_range** (string): Transcript range "start-end"
+- **representative_quote** (string): "Student: [quote] | Consultant: [quote]"
+- **strength_score** (integer 1-5): Based on category rubric
+- **explanation** (string): Justification covering opportunity definition alignment, category selection, quote significance, context, causal impact, and score rationale
+
+Use "opportunities" as the top-level key containing an array of opportunity objects.
+
+Please analyze thoughtfully, focusing only on moments that truly represent opportunities where the behavioral patterns would make a meaningful difference to enrollment or retention outcomes.

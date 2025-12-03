@@ -1,0 +1,6 @@
+{
+  "prompt_directory": "aggregation-1-2",
+  "path": "multi-agent-8/adaptability",
+  "aggregation_size": 5,
+  "aggregator_name": "compliance-aggregation-1"
+}

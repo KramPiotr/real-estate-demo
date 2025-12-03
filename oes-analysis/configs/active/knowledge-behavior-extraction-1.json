@@ -1,0 +1,166 @@
+{
+  "transcripts_directory": "monash-tp1-categorised-1-to-3-equal-duration-subset-100-fixed",
+  "output_directory": "multi_agent_responses",
+  "input_catalog": {
+    "name": "knowledge_extraction",
+    "location": "knowledge-extraction-production-1__v1-full-run",
+    "types": ["knowledge_extraction"]
+  },
+  "nodes": [
+    {
+      "name": "behavioral_analysis",
+      "inputs": ["knowledge_extraction"],
+      "models": [
+        {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash",
+          "mini": false
+        }
+      ],
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "knowledge_behavior_analysis",
+          "strict": true,
+          "schema": {
+            "type": "object",
+            "properties": {
+              "source_call_id": {
+                "type": "string",
+                "description": "Call ID from knowledge extraction output"
+              },
+              "knowledge_context": {
+                "type": "object",
+                "description": "Context about which knowledge segments were analyzed",
+                "properties": {
+                  "scenarios_discussed": {
+                    "type": "array",
+                    "description": "List of knowledge scenarios present in this call",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "segment_ids_analyzed": {
+                    "type": "array",
+                    "description": "All segment IDs where facts were discussed",
+                    "items": {
+                      "type": "integer"
+                    }
+                  },
+                  "total_segments_in_call": {
+                    "type": "integer",
+                    "description": "Total number of segments in full transcript"
+                  },
+                  "fact_coverage_percentage": {
+                    "type": "number",
+                    "description": "Percentage of call that discusses factual knowledge"
+                  }
+                },
+                "required": ["scenarios_discussed", "segment_ids_analyzed", "total_segments_in_call", "fact_coverage_percentage"],
+                "additionalProperties": false
+              },
+              "student_features": {
+                "type": "array",
+                "description": "Student emotional and behavioral features observed during knowledge discussions",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "feature_code": {
+                      "type": "string",
+                      "description": "Feature code from taxonomy (S.E.1, S.E.2, S.B.1, etc.)"
+                    },
+                    "feature_name": {
+                      "type": "string",
+                      "description": "Human-readable feature name"
+                    },
+                    "segment_ids": {
+                      "type": "array",
+                      "description": "Segment IDs where this feature was observed",
+                      "items": {
+                        "type": "integer"
+                      }
+                    },
+                    "scenarios_context": {
+                      "type": "array",
+                      "description": "Which knowledge scenarios triggered this behavior",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "intensity": {
+                      "type": "string",
+                      "description": "Intensity rating",
+                      "enum": ["very_weak", "weak", "moderate", "strong", "very_strong"]
+                    },
+                    "confidence": {
+                      "type": "number",
+                      "description": "Confidence score (0.0 to 1.0)",
+                      "minimum": 0.0,
+                      "maximum": 1.0
+                    },
+                    "justification": {
+                      "type": "string",
+                      "description": "Explanation of why this feature was identified"
+                    }
+                  },
+                  "required": ["feature_code", "feature_name", "segment_ids", "scenarios_context", "intensity", "confidence", "justification"],
+                  "additionalProperties": false
+                }
+              },
+              "consultant_features": {
+                "type": "array",
+                "description": "Consultant emotional and behavioral features observed during knowledge discussions",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "feature_code": {
+                      "type": "string",
+                      "description": "Feature code from taxonomy (C.E.1, C.E.2, C.B.1, etc.)"
+                    },
+                    "feature_name": {
+                      "type": "string",
+                      "description": "Human-readable feature name"
+                    },
+                    "segment_ids": {
+                      "type": "array",
+                      "description": "Segment IDs where this feature was observed",
+                      "items": {
+                        "type": "integer"
+                      }
+                    },
+                    "scenarios_context": {
+                      "type": "array",
+                      "description": "Which knowledge scenarios triggered this behavior",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "intensity": {
+                      "type": "string",
+                      "description": "Intensity rating",
+                      "enum": ["very_weak", "weak", "moderate", "strong", "very_strong"]
+                    },
+                    "confidence": {
+                      "type": "number",
+                      "description": "Confidence score (0.0 to 1.0)",
+                      "minimum": 0.0,
+                      "maximum": 1.0
+                    },
+                    "justification": {
+                      "type": "string",
+                      "description": "Explanation of why this feature was identified"
+                    }
+                  },
+                  "required": ["feature_code", "feature_name", "segment_ids", "scenarios_context", "intensity", "confidence", "justification"],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": ["source_call_id", "knowledge_context", "student_features", "consultant_features"],
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+# Objection Extraction Aggregation - System Prompt
+
+## Purpose
+Consolidate objection analyses from multiple analysts, producing a comprehensive objection map with averaged effectiveness scores.
+
+## Aggregation Rules
+1. Include objections identified by 2+ analysts
+2. Average effectiveness scores
+3. Consolidate resolution assessments (if analysts disagree, use most conservative status)
+4. Generate summary statistics

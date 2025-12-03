@@ -1,0 +1,133 @@
+# STUDENT EMOTIONS AND BEHAVIORS TAXONOMY
+
+This taxonomy identifies key emotional and behavioral patterns exhibited by students in educational sales calls.
+
+---
+
+## STUDENT EMOTIONS
+
+### S.E.1: Linguistic Uncertainty
+**Speaker**: Student
+**Feature Code**: S.E.1
+**Definition**: Student uses verbal patterns indicating unresolved doubts or hesitation about enrollment decisions.
+
+**Observable Indicators**:
+- Frequent hedge words: "I guess," "maybe," "probably," "I might"
+- Conditional language: "If I decide to enroll..." (not "When I enroll...")
+- Repeated questions about same topics
+
+**Example**: Student says "I guess that could work" or "Maybe I should think about it" when discussing enrollment.
+
+---
+
+### S.E.2: Online Study Anxiety
+**Speaker**: Student
+**Feature Code**: S.E.2
+**Definition**: Student expresses specific concerns or surprise about the fully online learning format.
+
+**Observable Indicators**:
+- Direct concern about online learning effectiveness
+- Surprise about lack of in-person components
+- Questions about learning without face-to-face interaction
+
+**Example**: "I was hoping there would be some face-to-face classes" or "I'm not sure I can learn effectively online."
+
+---
+
+### S.E.3: Overwhelm Indicators
+**Speaker**: Student
+**Feature Code**: S.E.3
+**Definition**: Student shows signs of feeling overwhelmed by information, decisions, or perceived difficulty.
+
+**Observable Indicators**:
+- Explicit statements: "This is a lot to take in"
+- Difficulty tracking conversation
+- Repeated requests to repeat information
+
+**Example**: "I don't know where to start" or showing scattered focus throughout the call.
+
+---
+
+### S.E.4: Enthusiasm Expression
+**Speaker**: Student
+**Feature Code**: S.E.4
+**Definition**: Student expresses excitement about program benefits and career advancement opportunities.
+
+**Observable Indicators**:
+- Positive emotional expressions about learning
+- Excitement about career advancement
+- Spontaneous discussion of applying knowledge
+
+**Example**: "I'm really excited to learn these skills" or "I can't wait to apply this in my job."
+
+---
+
+## STUDENT BEHAVIORS
+
+### S.B.1: Low Question Engagement
+**Speaker**: Student
+**Feature Code**: S.B.1
+**Definition**: Student asks few specific questions about the program, suggesting limited engagement.
+
+**Observable Indicators**:
+- No questions about program content
+- Only superficial questions
+- Doesn't seek clarification on important points
+
+**Example**: Student responds passively without asking about requirements, structure, or content.
+
+---
+
+### S.B.2: Specific Commitment Statements
+**Speaker**: Student
+**Feature Code**: S.B.2
+**Definition**: Student makes specific, actionable commitments about completing enrollment steps.
+
+**Observable Indicators**:
+- Specific timeframes: "I'll submit documents tonight"
+- Immediate action plans: "I'll create my account right after this call"
+- Clear ownership: "I will complete the form"
+
+**Example**: "I'll upload my transcript this afternoon" (not "I'll try to get to that soon").
+
+---
+
+### S.B.3: Future Self-Projection
+**Speaker**: Student
+**Feature Code**: S.B.3
+**Definition**: Student envisions themselves as a student/graduate in concrete, specific terms.
+
+**Observable Indicators**:
+- Discusses applying knowledge in current role
+- Plans study schedule
+- Talks about post-graduation career changes
+
+**Example**: "I'm looking forward to applying these accounting principles at work" or "After I graduate, I'll apply for the senior position."
+
+---
+
+### S.B.4: Conflict Avoidance
+**Speaker**: Student
+**Feature Code**: S.B.4
+**Definition**: Student demonstrates reluctance to express disagreement or concern directly.
+
+**Observable Indicators**:
+- Minimal passive responses: "sure," "okay" without enthusiasm
+- Indirect concern expressions: "My friend had trouble..." (referring to own concerns)
+- Vague deferrals: "I need to think about it" without specifying concerns
+
+**Example**: Student gives polite agreement but doesn't demonstrate genuine commitment.
+
+---
+
+## USAGE NOTES
+
+**For Analysis**:
+- Evaluate each feature independently
+- Only include features that are clearly present in the transcript
+- Reference segment IDs where the feature appears
+- Rate intensity and confidence for each present feature
+
+**Feature Codes**:
+- S.E.X = Student Emotion features
+- S.B.X = Student Behavior features

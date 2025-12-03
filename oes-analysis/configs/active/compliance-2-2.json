@@ -1,0 +1,38 @@
+{
+    "transcripts_directory": "interesting-transcripts-segments",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "requirement",
+        "location": "compliance",
+        "types": ["broad", "enhanced"]
+    },
+    "nodes": [
+        {
+            "name": "check",
+            "inputs": [
+                "requirement-broad",
+                "requirement-enhanced",
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "validation",
+            "inputs": [
+                "requirement-broad",
+                "requirement-enhanced",
+                "transcript",
+                "check"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        }
+    ]
+}

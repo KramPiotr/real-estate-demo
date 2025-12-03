@@ -1,0 +1,245 @@
+# Collaborative Planning: Co-Creation of Educational Pathways Opportunity Definition
+
+## Core Definition
+
+<opportunity_definition>
+An opportunity for Co-Creation of Educational Pathways occurs when a student expresses uncertainty about their educational journey, demonstrates readiness to discuss future planning, or requires guidance to align their course selection with their career goals, creating a moment for the consultant to engage in joint decision-making that empowers the student while providing expert guidance.
+</opportunity_definition>
+
+## Opportunity Identification Criteria
+
+<identification_criteria>
+1. Student expresses uncertainty or seeks guidance about educational choices
+2. Student demonstrates readiness to engage in planning discussions
+3. Conversation has reached a point where pathways or progression planning is relevant
+4. Student shares information about constraints, goals, or preferences that would inform planning
+5. Multiple viable educational options exist that could be explored collaboratively
+6. Student explicitly mentions specific work patterns or life circumstances as potential barriers
+7. Student expresses concerns about program flexibility related to their situation
+8. Student asks questions about how others in similar situations have managed
+9. Student uses phrases indicating uncertainty about compatibility with their schedule
+10. Student describes unique work patterns or industry-specific challenges
+</identification_criteria>
+
+## Student Signals
+
+<student_signals>
+- Expressing uncertainty about course selection or progression
+- Asking questions about how the course fits into longer-term career goals
+- Mentioning multiple conflicting priorities or constraints affecting study
+- Showing interest in customizing their educational experience
+- Requesting guidance on balancing work, life, and study commitments
+- Demonstrating readiness to make decisions but seeking confirmation
+- Using phrases like "I'm not sure which option is best" or "How would you recommend I proceed?"
+- Expressing concern about making the wrong educational choice
+- Describing specific work patterns (shift work, travel requirements, seasonal intensity)
+- Mentioning concerns about managing studies with specific work schedule (e.g., "I work rotating shifts")
+- Asking how other professionals in their field manage the program
+- Referencing changing work circumstances (redundancy, job searching, career transitions)
+- Expressing concern about time management between work and study
+- Using phrases indicating uncertainty about compatibility with their schedule
+- Describing industry-specific work challenges that might impact study
+- Mentioning family commitments or caring responsibilities
+- Sharing concerns about unpredictable work hours
+</student_signals>
+
+## Causal Impact Logic
+
+<causal_impact_logic>
+Collaborative Planning directly improves enrollment and retention likelihood by:
+
+1. **Creating Ownership**: When students participate in creating their educational plan, they develop a sense of ownership that increases commitment to follow through with enrollment and persist through challenges.
+
+2. **Aligning Expectations**: Collaborative discussions ensure students have realistic expectations about workload, progression, and outcomes, preventing future disappointment that could lead to dropout.
+
+3. **Building Confidence**: Guided decision-making builds student confidence in their educational choices, reducing decision anxiety that can prevent enrollment completion.
+
+4. **Personalizing the Educational Journey**: Plans tailored to individual circumstances demonstrate the institution's commitment to student success beyond enrollment.
+
+5. **Proactively Addressing Constraints**: Identifying and planning around potential obstacles preemptively reduces future dropout risk when those challenges arise.
+
+6. **Strengthening Relationship**: The collaborative nature of the planning process strengthens the consultant-student relationship, creating comfort and trust that supports enrollment decisions.
+</causal_impact_logic>
+
+## Opportunity Strength Scoring Rubric (1-5)
+
+<scoring_rubric>
+**1 - Minimal Opportunity**: 
+- Student shows only slight uncertainty about one aspect of their educational journey
+- Few or no competing priorities or constraints mentioned
+- Limited scope for collaborative planning (e.g., simple, straightforward decision)
+- Student already has strong direction with minimal need for guidance
+
+**2 - Low Opportunity**:
+- Student expresses some uncertainty about course selection or progression
+- Simple constraints or preferences mentioned that could inform planning
+- Limited complexity in the educational decision-making required
+- Few options to explore collaboratively
+
+**3 - Moderate Opportunity**:
+- Clear uncertainty about important aspects of educational journey
+- Multiple factors to consider in making educational decisions
+- Student explicitly seeking guidance while wanting input in decisions
+- Several viable options that could be explored collaboratively
+- Some significant constraints or preferences to incorporate into planning
+
+**4 - Strong Opportunity**:
+- Significant uncertainty about critical educational decisions
+- Complex combination of goals, constraints, and preferences to navigate
+- Student highly receptive to collaborative approach
+- Multiple interdependent decisions to be made
+- Important long-term implications of the planning decisions
+- Clear need to balance competing priorities in educational planning
+- Student describes specific work patterns requiring program adaptation
+- Student expresses concerns about managing study with complex work schedule
+- Student mentions specific life circumstances creating potential barriers to study
+- Student requires tailored approaches to address unique situation
+
+**5 - Critical Opportunity**:
+- Fundamental educational direction decisions to be made
+- Highly complex situation with multiple competing priorities
+- Student explicitly seeking partnership in making crucial decisions
+- Significant anxiety or concern about making the wrong choice
+- Life-changing implications of the educational planning decisions
+- Complex constraints requiring creative and personalized solutions
+- Student presents unique work/life situation requiring tailored approaches
+- Multiple significant barriers to enrollment that must be addressed through personalized planning
+</scoring_rubric>
+
+## Good Opportunity Examples
+
+<good_examples>
+### Example 1: Career Transition Planning (Strength: 5)
+Student: "I'm currently in IT support but want to move into cybersecurity management. I have a family and work full-time, so I'm concerned about how I'll balance everything. I'm also wondering which specialization would give me the best chance at making this career change. There are so many options, and I don't want to waste time or money on the wrong path."
+
+*Why this is a critical opportunity*: The student presents a complex situation involving career transition, multiple life constraints, and significant uncertainty about educational direction. They're explicitly seeking guidance while clearly wanting to be involved in the decision-making process. The stakes are high as this decision will impact their career trajectory and family life.
+
+### Example 2: Unit Selection Uncertainty (Strength: 3)
+Student: "I'm interested in the Business Analytics program, but I'm not sure which units to take in my first semester. I haven't studied for several years, so I'm a bit nervous about jumping in too deep. What would you recommend for someone in my situation?"
+
+*Why this is a moderate opportunity*: The student clearly expresses uncertainty about unit selection and has mentioned relevant contextual information (study gap). They're explicitly seeking recommendations while showing readiness to engage in the planning process. This represents a good opportunity for collaborative planning, though with more limited scope than Example 1.
+
+### Example 3: Competing Program Options (Strength: 4)
+Student: "I'm torn between the Masters in Finance and the MBA with Finance specialization. My company might sponsor me, but they want to see how either program would directly benefit my current role in corporate finance. I need to make a strong case for whichever program I choose."
+
+*Why this is a strong opportunity*: The student is deciding between two significant program options with external stakeholder considerations (employer). There's a need to align educational choices with specific professional outcomes, creating a complex decision-making scenario ideal for collaborative approach.
+
+### Example 4: Work-Study Integration Planning (Strength: 4)
+Student: "I work rotating shifts at the hospital, not sure how I'll manage study."
+
+*Why this is a strong opportunity*: The student has identified a specific work-related barrier to enrollment that requires collaborative planning to address. By working together to develop strategies for balancing their specific work situation with study requirements, the consultant can transform a potential barrier into a manageable challenge, significantly increasing enrollment likelihood. The complexity of rotating shift work creates a need for personalized solutions.
+
+### Example 5: Redundancy Situation (Strength: 4)
+Student: [Has expressed concerns about managing study after recent redundancy]
+
+*Why this is a strong opportunity*: The student is concerned about balancing study commitments with their changing work situation (recent redundancy). This creates an opportunity to collaborate on how the program's flexibility features could specifically support them during this transition period, addressing a potential enrollment barrier. The uncertainty around their future employment situation requires adaptable planning.
+
+### Example 6: Caring Responsibilities (Strength: 4)
+Student: "I have caring responsibilities for an elderly parent - how flexible is the program?"
+
+*Why this is a strong opportunity*: The student has identified a specific personal circumstance that could impact their ability to engage with the program. This creates an opportunity to collaboratively develop study approaches that accommodate their caring responsibilities, demonstrating how the program can adapt to their unique situation rather than requiring them to fully adapt to the program.
+
+### Example 7: Industry-Specific Challenge (Strength: 4)
+Student: "My work involves frequent travel - how can I stay on track with the course?"
+
+*Why this is a strong opportunity*: The student has mentioned a specific work pattern (frequent travel) that creates a potential barrier to consistent study. This allows for collaborative planning to address this unique challenge, exploring program features that accommodate irregular access to study resources and developing strategies tailored to the student's travel patterns.
+</good_examples>
+
+## Bad Opportunity Examples (False Positives)
+
+<bad_examples>
+### Example 1: Simple Information Request
+Student: "When does the next teaching period start?"
+
+*Why this is NOT a collaborative planning opportunity*: The student is simply requesting factual information rather than seeking guidance on decision-making or expressing uncertainty about their educational journey. This is a straightforward information exchange.
+
+### Example 2: Already Decided Student
+Student: "I've decided I want to enroll in the Master of Education program. What documents do I need to submit for my application?"
+
+*Why this is NOT a collaborative planning opportunity*: The student has already made their key educational decision and is now focused on procedural next steps. They're not expressing uncertainty or seeking guidance about their educational pathway.
+
+### Example 3: General Curiosity Question
+Student: "How many students typically enroll in this program each year?"
+
+*Why this is NOT a collaborative planning opportunity*: This question reflects general curiosity about the program rather than a desire to engage in planning or decision-making about the student's own educational journey.
+
+### Example 4: Simple Administrative Question
+Student: "Can I get an extension on the application deadline?"
+
+*Why this is NOT a collaborative planning opportunity*: This question is focused on an administrative process rather than educational planning or decision-making. It does not involve uncertainty about educational pathways or require collaborative exploration of options.
+</bad_examples>
+
+## Sub-Scope Areas for Collaborative Planning
+
+<sub_scope_areas>
+### 1. Work-Study Integration Planning
+**Definition**: When a student expresses concerns about balancing work commitments with study, creating an opportunity to collaboratively plan specific strategies for integration.
+
+**Identification Criteria**:
+- Student mentions specific work patterns (shift work, travel requirements, seasonal intensity)
+- Student expresses concern about time management between work and study
+- Student asks about program flexibility related to their professional demands
+- Student describes industry-specific work challenges that might impact study
+- Student inquires about how other professionals in their field manage the program
+- Student references changing work circumstances (like redundancy, job searching, or career transitions)
+
+**Example Signals**:
+- "I work rotating shifts at the hospital, not sure how I'll manage study."
+- "My work involves frequent travel - how can I stay on track with the course?"
+- "I work in a seasonal industry with very busy periods - can I adjust my study load accordingly?"
+- "I've recently been made redundant and am job hunting while considering study."
+
+### 2. Personalized Solution Development
+**Definition**: When a student expresses specific concerns about their ability to manage the program alongside their unique work or life circumstances, creating an opportunity to collaboratively develop tailored approaches.
+
+**Identification Criteria**:
+- Student explicitly mentions specific work patterns or life circumstances as potential barriers
+- Student expresses concerns about program flexibility related to their situation
+- Student asks questions about how others in similar situations have managed
+- Student uses phrases indicating uncertainty about compatibility with their schedule
+- Student describes unique work patterns or industry-specific challenges
+
+**Example Signals**:
+- "With my family commitments and full-time job, I'm worried about finding time to study."
+- "My industry has unpredictable hours - some weeks I work 60 hours, others much less."
+- "I have caring responsibilities for an elderly parent - how flexible is the program?"
+- "I'm wondering how other students in my field manage to balance everything."
+
+### 3. Teaching Period Selection Planning
+**Definition**: When a student requires guidance on selecting the most appropriate teaching period based on their personal or professional circumstances.
+
+**Identification Criteria**:
+- Student expresses uncertainty about when to start their studies
+- Student mentions timing constraints that impact their start date decision
+- Student seeks advice on the implications of different intake periods
+- Student is weighing the pros and cons of immediate versus delayed enrollment
+
+**Example Signals**:
+- "I'm not sure whether to start in July or wait until November."
+- "With my current work project ending in August, would it be better to start after that?"
+- "What are the advantages of starting in the next intake versus waiting for the following one?"
+- "How would delaying my start date affect my overall completion timeline?"
+</sub_scope_areas>
+
+## Implementation Principles for Personalized Solutions
+
+<implementation_principles>
+When addressing opportunities for collaborative planning that involve personalized solutions, consultants should:
+
+1. **Engage in true collaborative planning** rather than providing one-way advice
+2. **Ask specific questions** about the student's unique circumstances
+3. **Reference similar students** who have successfully managed comparable situations
+4. **Co-create potential solutions** rather than prescribing them
+5. **Provide specific, detailed examples** rather than generic reassurances
+6. **Tailor examples** to the student's specific industry or situation
+7. **Explain exactly how program features** address their specific concerns
+8. **Check for agreement** with direct questions about potential approaches
+9. **Use "we" language** to emphasize collaborative problem-solving
+10. **Connect program flexibility** directly to the student's current life situation
+</implementation_principles>
+
+## Important Note on Opportunity Identification
+
+<important_note>
+The opportunity score reflects the potential impact if collaborative planning is ideally facilitated, not the consultant's actual response quality. Even if a consultant fails to engage in effective collaborative planning, the opportunity should still be identified and scored based on the student's expressed needs and the complexity of the educational decisions at hand. The opportunity strength rating measures how impactful proper collaborative planning would be in that specific scenario, regardless of whether the opportunity was successfully leveraged.
+</important_note>

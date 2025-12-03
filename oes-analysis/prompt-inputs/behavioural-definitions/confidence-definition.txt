@@ -1,0 +1,21 @@
+<behavior_specific>
+<behavior_name>Confidence and Expertise</behavior_name>
+
+<behavior_definition>
+Demonstrating knowledge and assurance in providing information and answering questions. This involves being well-prepared with accurate information and communicating it clearly and authoritatively, instilling trust in the student and reinforcing the credibility of the institution.
+</behavior_definition>
+
+<behavior_essence>
+Confidence and expertise are about projecting a strong, knowledgeable presence that reassures students and enhances their perception of the institution. The consultant demonstrates this by providing detailed, accurate information without hesitation, explaining complex concepts clearly, and showing a deep understanding of the programs and processes. This approach helps students feel that they are in capable hands and receiving reliable guidance.
+</behavior_essence>
+
+<behavior_examples>
+* Providing detailed, accurate information about course structure, content, and career outcomes without hesitation.
+* Confidently explaining complex concepts like credit transfers or admission requirements in a clear, understandable way.
+* Using phrases like "Based on my experience with similar cases..." to demonstrate expertise.
+* Quickly accessing and sharing relevant information about specific programs or policies.
+* Offering insights into how the course content relates to industry trends or career opportunities.
+* Demonstrating "Adequate analysis of student needs" by providing tailored information that precisely addresses the student's situation.
+* Using authoritative language: "I can assure you that our program is designed to..." or "You can be confident that our support services..."
+</behavior_examples>
+</behavior_specific>

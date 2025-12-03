@@ -1,0 +1,63 @@
+{
+    "transcripts_directory": "agent-coach-analytics",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "coaching_synthesis",
+        "location": "real-estate-definitions",
+        "types": ["template"]
+    },
+    "nodes": [
+        {
+            "name": "improvement_synthesis",
+            "inputs": [
+                "coaching_synthesis-template",
+                "aggregated_behaviors",
+                "performance_analytics"
+            ],
+            "models": [
+                {"provider": "azure"}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "agent_id": {"type": "string"},
+                    "period": {"type": "string"},
+                    "overall_assessment": {
+                        "type": "object",
+                        "properties": {
+                            "performance_tier": {
+                                "type": "string",
+                                "enum": ["top_performer", "above_average", "average", "needs_improvement", "critical"]
+                            },
+                            "trend": {
+                                "type": "string",
+                                "enum": ["improving", "stable", "declining"]
+                            },
+                            "score": {"type": "number", "minimum": 1, "maximum": 5}
+                        }
+                    },
+                    "improvement_priorities": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "behavior": {"type": "string"},
+                                "current_score": {"type": "number"},
+                                "target_score": {"type": "number"},
+                                "specific_actions": {"type": "array", "items": {"type": "string"}},
+                                "example_scripts": {"type": "array", "items": {"type": "string"}}
+                            }
+                        }
+                    },
+                    "strengths_to_leverage": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "coaching_notes": {"type": "string"}
+                },
+                "required": ["overall_assessment", "improvement_priorities", "strengths_to_leverage"]
+            }
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+# Buyer Intent Classification Task
+
+## Instructions
+1. Read the complete sales call transcript provided below
+2. Identify indicators of buyer intent level throughout the conversation
+3. Classify the buyer into one of four categories: hot_lead, warm_lead, cold_lead, or not_a_buyer
+4. Provide evidence from the transcript supporting your classification
+5. Estimate the buyer's purchase timeline
+
+## Output Format
+```json
+{
+  "buyer_intent": {
+    "classification": "hot_lead|warm_lead|cold_lead|not_a_buyer",
+    "confidence": 0.0-1.0,
+    "evidence": ["quote1", "quote2"],
+    "timeline": "immediate|1_3_months|3_6_months|6_12_months|12_plus_months|unknown"
+  }
+}
+```
+
+The buyer intent taxonomy and sales call transcript will be appended separately.

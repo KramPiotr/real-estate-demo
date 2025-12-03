@@ -1,0 +1,133 @@
+# Active Listening: Deep Comprehension Opportunities Opportunity Definition
+
+## Core Definition
+
+<opportunity_definition>
+A Deep Comprehension Opportunity occurs when a student provides complex, multi-layered, or implicit information about their situation, preferences, or concerns, creating a moment for the consultant to demonstrate thorough understanding through paraphrasing, summarizing, or connecting different elements of the student's narrative.
+</opportunity_definition>
+
+## Opportunity Identification Criteria
+
+<identification_criteria>
+1. Student provides detailed or nuanced information requiring synthesis
+2. Student shares seemingly disconnected pieces of information that may have underlying connections
+3. Student's statements contain multiple embedded concerns, goals, or constraints
+4. Student communicates in a non-linear or fragmented way needing integration
+5. Implicit or unstated concerns are suggested by the student's narrative
+6. Ambiguity exists in the student's communication requiring clarification
+7. Student provides information spanning multiple aspects of their situation
+</identification_criteria>
+
+## Student Signals
+
+<student_signals>
+- Providing detailed explanations of their situation or background
+- Sharing seemingly unrelated pieces of information that may connect
+- Making statements that contain multiple embedded concerns or questions
+- Expressing contradictions or tensions in their goals or constraints
+- Using ambiguous language that requires clarification
+- Providing non-linear narratives about their educational or career journey
+- Making statements where the subtext differs from the literal meaning
+- Demonstrating hesitation that suggests unstated concerns
+</student_signals>
+
+## Causal Impact Logic
+
+<causal_impact_logic>
+Active Listening directly improves enrollment and retention likelihood by:
+
+1. **Creating Foundation of Accurate Understanding**: Comprehensive grasp of the student's true situation ensures all subsequent guidance is relevant and targeted, increasing likelihood of enrollment conversion.
+
+2. **Building Trust Through Attentiveness**: Demonstration of thorough listening creates a powerful sense of being valued and understood, fostering the trust necessary for enrollment decisions.
+
+3. **Uncovering Hidden Objections**: Careful attention to subtle cues and subtext reveals unstated concerns that might otherwise remain unaddressed and prevent enrollment.
+
+4. **Identifying True Decision Criteria**: Synthesizing scattered information helps identify the actual factors driving the student's decision, enabling more effective guidance.
+
+5. **Preventing Misalignment**: Verifying understanding prevents misinterpretation that could lead to inappropriate recommendations and future dissatisfaction.
+
+6. **Creating Coherent Narrative**: Organizing the student's fragmented information into a coherent picture helps them gain clarity about their own educational journey, supporting confident decision-making.
+</causal_impact_logic>
+
+## Opportunity Strength Scoring Rubric (1-5)
+
+<scoring_rubric>
+**1 - Minimal Opportunity**: 
+- Information provided is relatively straightforward with minimal complexity
+- Limited nuance requiring basic confirmation of understanding
+- Few details requiring integration or synthesis
+- Communication is mostly direct and explicit
+
+**2 - Low Opportunity**:
+- Some nuance or detail requiring thoughtful listening
+- Minor ambiguities that benefit from clarification
+- Several elements that could be connected more clearly
+- Some implied meaning beyond literal statements
+
+**3 - Moderate Opportunity**:
+- Notable complexity in student's narrative requiring synthesis
+- Multiple distinct elements that would benefit from integration
+- Clear presence of both explicit and implicit information
+- Some tensions or potential contradictions to reconcile
+- Important decision factors embedded within detailed narrative
+
+**4 - Strong Opportunity**:
+- Significant complexity requiring careful attention and synthesis
+- Multiple interrelated concerns, goals, or constraints
+- Substantial implicit content requiring surfacing
+- Apparent contradictions needing reconciliation
+- Non-linear narrative with important connections not explicitly made
+- Critical enrollment factors scattered throughout complex information
+
+**5 - Critical Opportunity**:
+- Extremely complex or scattered narrative requiring significant integration
+- Crucial decision factors deeply embedded or only implied
+- Major ambiguities or contradictions requiring resolution
+- Substantial subtext diverging from surface communication
+- Fragmented information that, when properly synthesized, reveals pivotal insights
+- Understanding fundamentally dependent on connecting multiple conversation elements
+</scoring_rubric>
+
+## Good Opportunity Examples
+
+<good_examples>
+### Example 1: Complex Career Transition Narrative (Strength: 5)
+Student: "I've been in marketing for about eight years, mostly digital stuff. Started in social media, moved to content marketing, now I'm doing some analytics. My company's going through changes, and I'm not sure where things are headed. I've always been interested in data, and a colleague who did your data science program got promoted recently. I'm worried about starting something new at my age though. My partner thinks I should just try to climb the ladder where I am, but I'm not sure there's much room to grow. The industry's changing so fast these days."
+
+*Why this is a critical opportunity*: The student has provided a complex narrative containing multiple interrelated elements (career progression, company instability, interest in data, colleague's success, age concern, partner's different opinion, industry change) that require significant synthesis. There are implied concerns (job security, career ceiling, relationship tension) that diverge from the surface inquiry about a program. Understanding the true situation depends on connecting these scattered elements into a coherent picture.
+
+### Example 2: Conflicting Educational Priorities (Strength: 4)
+Student: "I need a flexible program because I travel for work, sometimes for weeks at a time. I prefer in-person learning though - I tried online courses before and missed the interaction. The subject matter is what's most important, but I also want good networking opportunities since I'm looking to change industries. Cost isn't my main concern, but I do need to be mindful of it."
+
+*Why this is a strong opportunity*: The student has presented several apparent contradictions (needs flexibility but prefers in-person; prioritizes subject matter but also networking; cost isn't main concern but needs to be mindful of it) that require careful reconciliation. Their statements contain multiple criteria that need to be balanced and prioritized to provide appropriate guidance.
+
+### Example 3: Ambiguous Academic Concerns (Strength: 3)
+Student: "I didn't do particularly well in my undergraduate degree. It was a difficult time for me. I'm in a much better place now, though. The program requirements mention a minimum GPA, which makes me a bit nervous. I've been working in the field for five years since graduation, though."
+
+*Why this is a moderate opportunity*: The student has implied concerns about academic eligibility without directly asking about exceptions or alternative pathways. Their narrative contains contextual hints ("difficult time," "better place now," work experience mention) that suggest they're hoping their work experience might compensate for past academic performance. These connections need to be made explicitly to address their unstated concern.
+</good_examples>
+
+## Bad Opportunity Examples (False Positives)
+
+<bad_examples>
+### Example 1: Straightforward Information Request
+Student: "What are the entry requirements for the Master of Finance program?"
+
+*Why this is NOT a deep comprehension opportunity*: This is a direct, unambiguous question seeking specific factual information. There's no complexity requiring synthesis, no implied meaning beyond the literal question, and no scattered elements needing integration.
+
+### Example 2: Simple Preference Statement
+Student: "I'm looking for a program I can complete part-time while working."
+
+*Why this is NOT a deep comprehension opportunity*: The student has clearly stated a single, straightforward preference without complexity, contradiction, or implication requiring deeper interpretation. Simple acknowledgment rather than synthesis is sufficient.
+
+### Example 3: Direct Concern Expression
+Student: "I'm concerned about the cost of the program. What financial aid options are available?"
+
+*Why this is NOT a deep comprehension opportunity*: While the student is expressing a concern, it's direct and explicit rather than embedded or implied. There's no complex narrative requiring synthesis or connections to be made between multiple elements.
+</bad_examples>
+
+## Important Note on Opportunity Identification
+
+<important_note>
+The opportunity score reflects the potential impact if active listening is ideally demonstrated, not the consultant's actual response quality. Even if a consultant fails to show appropriate comprehension or synthesis, the opportunity should still be identified and scored based on the complexity and multi-layered nature of the information provided by the student. The opportunity strength rating measures how impactful proper active listening would be in that specific moment, regardless of whether the opportunity was successfully leveraged.
+</important_note>

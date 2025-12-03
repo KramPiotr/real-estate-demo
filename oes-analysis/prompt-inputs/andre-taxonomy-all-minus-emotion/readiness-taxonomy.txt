@@ -1,0 +1,99 @@
+# TAXONOMY ARTIFACT 2: STUDENT READINESS INDICATORS
+
+This taxonomy identifies factors that might predict a student's likelihood of successful progression through enrollment gates.
+
+## 2.A: Academic Preparation & Confidence
+
+### 2.A.i: Prior Education Insufficiency
+**Description**: Student exhibits academic background gaps or lacks prerequisites that could impact their ability to succeed in the program.
+
+**Identification Guidance**: Listen for discussions of previous education where the student reveals potential knowledge gaps, long periods away from study, or lack of experience with relevant subjects.
+
+**Examples**:
+- Student: "I haven't studied anything since high school 15 years ago"
+- Student expresses uncertainty about academic writing or research skills
+- Student mentions struggling or failing in previous educational experiences
+
+### 2.A.ii: Digital Literacy Limitations
+**Description**: Student demonstrates or expresses concerns about their ability to navigate online learning platforms or use required technology.
+
+**Identification Guidance**: Look for direct statements about technology comfort or indirect signals of digital literacy challenges when discussing online learning.
+
+**Examples**:
+- Student: "I'm not very good with computers"
+- Student expresses confusion when basic online processes are described
+- Student asks numerous questions about technical aspects of the learning platform
+
+### 2.A.iii: Academic Self-Efficacy Concerns
+**Description**: Student demonstrates low confidence in their academic abilities or potential for success in the program.
+
+**Identification Guidance**: Note expressions of self-doubt, anxiety about academic performance, or statements reflecting a fixed mindset about learning capabilities.
+
+**Examples**:
+- Student: "I'm worried I'm not smart enough for this program"
+- Student repeatedly seeks reassurance about their ability to handle the coursework
+- Student references past academic failures with ongoing concern
+
+## 2.B: Practical Readiness Factors
+
+### 2.B.i: Time Availability Constraints
+**Description**: Student has significant time commitments that may interfere with their ability to dedicate sufficient hours to study.
+
+**Identification Guidance**: Identify mentions of work hours, family responsibilities, or other commitments that could conflict with typical study requirements.
+
+**Examples**:
+- Student mentions working full-time plus having significant family responsibilities
+- Student describes a schedule that obviously leaves little time for study
+- Student expresses concern about fitting study around shift work or irregular hours
+
+### 2.B.ii: Support System Limitations
+**Description**: Student lacks necessary personal, professional, or academic support networks to succeed in their studies.
+
+**Identification Guidance**: Listen for mentions of isolation, lack of family support, or absence of workplace flexibility for study.
+
+**Examples**:
+- Student: "My family doesn't really understand why I'm doing this"
+- Student mentions being sole caregiver for children or elderly relatives without backup
+- Student indicates their employer is unsupportive of educational pursuits
+
+### 2.B.iii: Resource Accessibility Issues
+**Description**: Student lacks access to necessary resources for successful online study, including reliable internet, appropriate device, or suitable study space.
+
+**Identification Guidance**: Note mentions of technological limitations, internet connectivity issues, or challenging home study environments.
+
+**Examples**:
+- Student mentions unreliable internet connection
+- Student indicates they'll be using a smartphone rather than a computer
+- Student expresses concern about finding quiet space to study at home
+
+## 2.C: Motivational & Commitment Indicators
+
+### 2.C.i: Enrollment Purpose Vagueness
+**Description**: Student demonstrates unclear or externally-driven motivations for pursuing the program.
+
+**Identification Guidance**: Look for ambiguous responses about program choice rationale, outside pressure to enroll, or lack of connection between the program and personal goals.
+
+**Examples**:
+- Student: "My employer said I need to get a qualification"
+- Student cannot articulate specific reasons for choosing this particular program
+- Student shows more interest in the credential than the learning content
+
+### 2.C.ii: Research Depth Insufficiency
+**Description**: Student has conducted minimal research about the program, suggesting possible impulsive decision-making or lack of commitment.
+
+**Identification Guidance**: Note lack of specific questions, unfamiliarity with basic program information, or reliance on the consultant for information that's readily available online.
+
+**Examples**:
+- Student asks very basic questions answered on the program website
+- Student demonstrates little knowledge of program content or structure
+- Student seems to be hearing core program information for the first time
+
+### 2.C.iii: Decisional Uncertainty Markers
+**Description**: Student exhibits linguistic and behavioral patterns indicating unresolved doubts about enrollment.
+
+**Identification Guidance**: Identify hesitant language, frequent expressions of uncertainty, or explicit statements of indecision about proceeding.
+
+**Examples**:
+- Student repeatedly uses phrases like "I'm still thinking about it" or "I'm not sure yet"
+- Student oscillates between enthusiasm and doubt throughout the conversation
+- Student delays making decisions about concrete next steps

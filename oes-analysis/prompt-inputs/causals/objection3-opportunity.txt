@@ -1,0 +1,450 @@
+# Behaviour Name: 'Objection Handling'
+
+# Objection Handling: Multi-Category Opportunity Definition
+
+## Core Opportunity Definition
+
+**Objection Handling Opportunities** occur when a student raises a specific concern, hesitation, or objection about the program, institution, or enrollment process, creating an opportunity for the consultant to acknowledge the concern, explore its underlying causes, provide a tailored response, and confirm resolution. These moments represent critical decision points where effective handling directly influences enrollment and retention likelihood.
+
+## ⚠️ CRITICAL SCOPE RESTRICTION
+
+Analysis must focus **EXCLUSIVELY** on these seven key objection categories. Any concerns outside these scope areas should not be identified as objection handling opportunities:
+
+1. **Fees/Affordability Concerns**
+2. **Time Availability for Studying**  
+3. **Teaching Period Selection**
+4. **Institutional Value Proposition Concerns**
+5. **Browsing Without Intent to Enroll**
+6. **Inconvenient Timing for Discussion**
+7. **Confidence Issues**
+
+**Root Causes That Manifest Across Categories:**
+- **Starting a new job** → Time availability OR confidence issues
+- **Decision-making anxiety** → Confidence issues OR procrastination behaviors  
+- **Procrastination** → Confidence issues OR time availability concerns
+
+## Universal Opportunity Identification Criteria
+
+1. Student explicitly states a concern, objection, or hesitation within the scope areas
+2. Student implicitly signals resistance to a program aspect or enrollment step
+3. Student makes comparison statements favoring competitor attributes
+4. Student repeatedly returns to the same topic despite previous discussion
+5. Student shows behavioral or verbal hesitation when discussing specific topics
+6. Student uses "yes, but..." language structure when receiving information
+7. Student directly questions value, credibility, or suitability of program elements
+
+# NORMALIZED CATEGORY NAMES - MANDATORY USAGE
+
+## ⚠️ CRITICAL INSTRUCTION FOR OPPORTUNITY CATEGORIZATION
+
+When identifying and labeling Objection Handling opportunities in transcripts, you MUST use EXACTLY ONE of the following seven normalized category names. These are the ONLY valid category labels for this behavioral pattern.
+
+### The Seven Normalized Category Names:
+
+1. **`fees_affordability_concerns`**
+   - Use when students express concerns about program cost, affordability, or payment options
+   - Includes budget limitations, financial constraints, or questioning financial investment
+
+2. **`time_availability_for_studying`**
+   - Use when students express concerns about balancing study with work, family, or other responsibilities
+   - Includes time management concerns and scheduling conflicts
+
+3. **`teaching_period_selection`**
+   - Use when students express preferences for different start dates or question recommended teaching periods
+   - Includes concerns about waiting periods or alternative start date requests
+
+4. **`institutional_value_proposition_concerns`**
+   - Use when students recognize program value but express price concerns simultaneously
+   - Includes institutional comparisons while questioning investment worth
+   - **ONLY** when students are actively comparing universities
+
+5. **`browsing_without_intent_to_enroll`**
+   - Use when students appear to be gathering general information without clear enrollment intent
+   - Includes vague responses, passive engagement, or information-gathering mode
+
+6. **`inconvenient_timing_for_discussion`**
+   - Use when students indicate the current time is not suitable for detailed conversation
+   - Includes requests for callbacks or rescheduling due to timing conflicts
+
+7. **`confidence_issues`**
+   - Use when students express doubts about their ability to succeed in the program
+   - Includes academic confidence, age/maturity concerns, technology anxiety, or life transition anxiety
+
+### Mandatory Usage Rules:
+
+- **NEVER** create custom category names or variations
+- **NEVER** combine categories (e.g., "fees_and_time_concerns")
+- **NEVER** use abbreviated forms or partial names
+- **ALWAYS** use exact snake_case formatting as shown above
+- **ALWAYS** select the single most relevant category if multiple could apply
+- **ALWAYS** verify your selected category matches one of the seven normalized names exactly
+
+### Category Selection Priority:
+
+If an objection could fit multiple categories, prioritize in this order:
+1. Primary concern explicitly stated by student
+2. Root cause of the objection (e.g., "new job" could be time_availability OR confidence_issues - analyze which is primary)
+3. Dominant emotional theme of the interaction
+4. Category that best captures the core barrier to enrollment
+
+### Special Category Notes:
+
+**For `institutional_value_proposition_concerns`:**
+- ONLY use when student is actively comparing universities
+- Must include both value recognition AND price concern elements
+- NOT for general affordability concerns without institutional comparison
+
+**For Root Causes Spanning Categories:**
+- "Starting a new job" → Analyze if primarily `time_availability_for_studying` OR `confidence_issues`
+- "Decision-making anxiety" → Typically `confidence_issues` unless explicitly about timing
+- "Procrastination" → Analyze underlying cause: usually `confidence_issues` OR `time_availability_for_studying`
+
+**Example Category Assignment:**
+- ✓ CORRECT: `"category": "fees_affordability_concerns"`
+- ✗ INCORRECT: `"category": "Fees/Affordability Concerns"`
+- ✗ INCORRECT: `"category": "fees_concerns"`
+- ✗ INCORRECT: `"category": "affordability"`
+
+## Universal Student Signals
+
+- Expressing direct concerns about cost, time commitment, or teaching period selection
+- Raising comparisons with competing institutions or programs
+- Using phrases like "I'm concerned about..." or "The problem I see is..."
+- Mentioning specific barriers to enrollment or participation
+- Asking challenging questions about institutional outcomes or value
+- Demonstrating hesitation after receiving information
+- Making statements that begin with "Yes, but..." or similar qualifiers
+- Repeatedly returning to the same scope area despite previous discussion
+
+---
+
+## Category 1: Fees/Affordability Concerns
+
+### **Category Definition**
+Moments when students express concerns about program cost, affordability, payment options, or question the financial investment required for enrollment.
+
+### **Specific Student Triggers**
+- *"And the cost is around $60,000? That's a lot of money. I'm not sure if I can afford that."*
+- *"That's a little bit way beyond our budget."*
+- *"Is this program really worth the investment?"*
+- *"How does this compare to other programs in terms of cost?"*
+- *"I'm worried about taking on this much debt."*
+
+### **Identification Criteria**
+- Student explicitly mentions program cost or financial concerns
+- Student questions value relative to price
+- Student compares costs with other institutions
+- Student expresses budget limitations or constraints
+- Student shows hesitation after learning about fees
+
+### **Opportunity Strength Scoring (1-5)**
+
+**5 - Critical**: Fundamental cost objection threatening enrollment completion. Student expressing strong financial barriers that would definitively prevent enrollment if unresolved.
+
+**4 - Strong**: Major cost concern creating substantial enrollment barrier. High emotional investment in affordability issues requiring comprehensive response.
+
+**3 - Moderate**: Clear cost concern with significant impact on decision-making. Notable emotional component requiring thoughtful, personalized response.
+
+**2 - Low**: Noticeable cost concern requiring acknowledgment. Modest impact on enrollment decision, requires tailored but straightforward response.
+
+**1 - Minimal**: Minor cost hesitation with limited enrollment impact. Simple clarification about payment options sufficient.
+
+### **Good Example** (Strength: 4)
+*Student: "And the cost is around $60,000? That's a lot of money. I'm not sure if I can afford that."*
+
+**Why Strong Opportunity**: Direct concern about significant program cost with clear emotional investment ("that's a lot of money"). This would very likely prevent enrollment if not addressed. Creates opportunity for discussion of verified financing options like FEE-HELP/HECS-HELP without making unverified ROI claims.
+
+---
+
+## Category 2: Time Availability for Studying
+
+### **Category Definition**
+Moments when students express concerns about balancing study commitments with work, family, or other responsibilities.
+
+### **Specific Student Triggers**
+- *"I'm worried about the 20-25 hours of study per week. I work full-time and have family responsibilities."*
+- *"I don't see how I can fit that many hours into my schedule."*
+- *"Work is very busy right now and I am not sure if studying right now is the right decision."*
+- *"I've just started a new job - is this the right timing?"*
+
+### **Identification Criteria**
+- Student expresses concern about time commitments
+- Student mentions work/family scheduling conflicts
+- Student questions ability to balance study with other responsibilities
+- Student indicates timing concerns due to life changes (new job, pregnancy, etc.)
+
+### **Opportunity Strength Scoring (1-5)**
+
+**5 - Critical**: Time constraints that would make study impossible without significant life changes. Fundamental barrier to enrollment.
+
+**4 - Strong**: Major time management concern requiring comprehensive solution. High emotional investment in work-life balance.
+
+**3 - Moderate**: Clear time availability concern needing personalized response. Notable worry about managing commitments.
+
+**2 - Low**: Noticeable time concern requiring acknowledgment. Student seeks reassurance about feasibility.
+
+**1 - Minimal**: Minor time hesitation easily addressed with program flexibility information.
+
+### **Good Example** (Strength: 3)
+*Student: "I'm worried about the 20-25 hours of study per week you mentioned. I work full-time and have family responsibilities. I don't see how I can fit that many hours into my schedule, but I really want to get this qualification."*
+
+**Why Moderate Opportunity**: Clear objection about significant program element (time commitment) while indicating high motivation. Creates tension between desire and perceived feasibility that would significantly impact enrollment decision if not resolved.
+
+---
+
+## Category 3: Teaching Period Selection
+
+### **Category Definition**
+Moments when students express preferences for different start dates or question recommended teaching periods.
+
+### **Specific Student Triggers**
+- *"I was hoping to start in February, but it sounds like you're suggesting I wait until July."*
+- *"That's a long time to wait, and I'm concerned about losing momentum."*
+- *"Can I start earlier than that?"*
+- *"Why can't I start when I want to?"*
+
+### **Identification Criteria**
+- Student expresses preference for different teaching period
+- Student questions timing recommendations
+- Student shows concern about waiting periods
+- Student asks about alternative start dates
+
+### **Institution-Specific Context**
+**SOL**: 3 teaching periods, can only enroll one TP ahead, longer wait times
+**MOL**: 6 teaching periods, can enroll 3 TPs ahead, different cohort sizes per TP
+
+### **Opportunity Strength Scoring (1-5)**
+
+**5 - Critical**: Teaching period timing is deal-breaker for enrollment. Student cannot proceed with available options.
+
+**4 - Strong**: Strong preference for specific timing creating major enrollment barrier if not addressed.
+
+**3 - Moderate**: Clear timing concern requiring explanation of benefits and alternatives.
+
+**2 - Low**: Timing preference requiring acknowledgment and exploration of options.
+
+**1 - Minimal**: Minor timing question easily addressed with available alternatives.
+
+---
+
+## Category 4: Institutional Value Proposition Concerns
+
+### **Category Definition**
+Moments when students recognize program value but simultaneously express price concerns, or when they compare institutions while questioning investment worth.
+
+### **Specific Trigger Patterns**
+
+**Direct Value-Price Tension**:
+- *"You're more expensive than others I've looked at, but I think University X is the one to go with because it'll be well-recognized."*
+- *"That's a little bit way beyond our budget."*
+
+**Institutional Comparison**:
+- Students comparing institution favorably to competitors but expressing cost hesitation
+- Students weighing up multiple universities
+
+**Value Questions**:
+- *"Is this program really worth the investment?"*
+- *"How do I know this will pay off?"*
+
+### **Identification Criteria**
+- Student explicitly mentions program cost while acknowledging value aspects
+- Student compares institution favorably but expresses cost hesitation
+- Student asks questions revealing tension between perceived value and investment required
+- Student uses phrases like "worth it" or questions about return on investment
+- Student acknowledges institutional reputation while expressing affordability concerns
+
+### **Critical Implementation Rule**
+**Only mention institutional value proposition when students are comparing universities** - not necessary for every fee/affordability concern.
+
+### **Opportunity Strength Scoring (1-5)**
+
+**5 - Critical**: Student explicitly weighing value against cost as primary decision factor. Perfect opportunity to reinforce value proposition.
+
+**4 - Strong**: Clear value-price tension requiring comprehensive value reinforcement response.
+
+**3 - Moderate**: Implicit value questioning needing targeted institutional strength positioning.
+
+**2 - Low**: Subtle value concerns requiring gentle value proposition reinforcement.
+
+**1 - Minimal**: Minor value questioning easily addressed with basic institutional facts.
+
+---
+
+## Category 5: Browsing Without Intent to Enroll
+
+### **Category Definition**
+Moments when students appear to be gathering general information without clear enrollment intent, requiring discovery to understand true motivations.
+
+### **Specific Student Triggers**
+- Vague responses about their interest level
+- General information requests without specific commitment signals
+- Downloading brochures without clear enrollment intent
+- Passive engagement with enrollment discussions
+
+### **Identification Criteria**
+- Student provides minimal detail about their enrollment intentions
+- Student avoids specific commitment or timeline discussions
+- Student appears to be in general information-gathering mode
+- Student's engagement level suggests passive rather than active interest
+
+### **Approach: Discovery-Focused Objection Handling**
+This category requires high-quality discovery questions rather than traditional objection resolution:
+- *"What were you hoping to find in the brochure?"*
+- *"What drew you to the course?"*
+- *"What led you to download the brochure in the first place?"*
+- *"What were you looking for specifically?"*
+
+### **Opportunity Strength Scoring (1-5)**
+
+**5 - Critical**: Student completely passive, requires significant discovery to create any enrollment engagement.
+
+**4 - Strong**: Clear browsing behavior with potential for engagement through targeted discovery.
+
+**3 - Moderate**: Some interest signals but needs discovery to understand true intent.
+
+**2 - Low**: Mild browsing behavior, some engagement evident but requires clarification.
+
+**1 - Minimal**: Minor browsing signals easily converted through basic discovery questions.
+
+---
+
+## Category 6: Inconvenient Timing for Discussion
+
+### **Category Definition**
+Moments when students indicate the current time is not suitable for a detailed conversation about enrollment.
+
+### **Specific Student Triggers**
+- *"I don't have time to chat now"*
+- *"This isn't a good time for me"*
+- *"Can we talk later?"*
+- *"I'm at work and can't really talk"*
+
+### **Identification Criteria**
+- Student explicitly states timing is inconvenient
+- Student appears distracted or rushed
+- Student mentions current commitments preventing full engagement
+- Student requests alternative timing
+
+### **Approach**
+Immediate callback scheduling with respect for time constraints.
+
+### **Opportunity Strength Scoring (1-5)**
+
+**5 - Critical**: Student completely unable to engage, requires immediate rescheduling to maintain relationship.
+
+**4 - Strong**: Clear timing conflict requiring sensitive rescheduling approach.
+
+**3 - Moderate**: Timing inconvenience needing acknowledgment and alternative arrangement.
+
+**2 - Low**: Minor timing issue easily resolved with brief rescheduling.
+
+**1 - Minimal**: Slight timing concern addressed with quick scheduling confirmation.
+
+---
+
+## Category 7: Confidence Issues
+
+### **Category Definition**
+Moments when students express doubts about their ability to succeed in the program due to academic, age-related, technology, or life transition concerns.
+
+### **Specific Student Trigger Categories**
+
+**Academic Confidence**:
+- *"I've never done referencing/written an assignment/working in a group"*
+- *"It's been a long time since I've done any study"*
+
+**Age/Maturity Concerns**:
+- *"I think I'm too old/mature age student"*
+- *"Other students are going to be younger/sharper"*
+- *"I'm gonna be 60 years old when I finish this"*
+- *"Leaving it too late to change career"*
+
+**Technology/Online Learning Anxiety**:
+- *"Never studied online"*
+- *"Am I gonna have any support?"*
+- *"What does it look like?"*
+- *"Is it gonna be any good if its some shit online"*
+
+**Life Transition Anxiety**:
+- *"I've just started a new role/pregnancy"*
+
+### **Identification Criteria**
+- Student expresses doubts about academic capabilities
+- Student mentions age-related concerns about fitting in
+- Student shows anxiety about technology or online learning
+- Student questions their ability to succeed
+- Student expresses concerns about life transitions affecting study
+
+### **Opportunity Strength Scoring (1-5)**
+
+**5 - Critical**: Fundamental confidence barriers that would prevent enrollment without significant reassurance.
+
+**4 - Strong**: Major confidence concerns requiring comprehensive support system explanation.
+
+**3 - Moderate**: Clear confidence issues needing personalized encouragement and program feature explanation.
+
+**2 - Low**: Noticeable confidence concerns requiring acknowledgment and reassurance.
+
+**1 - Minimal**: Minor confidence hesitation easily addressed with basic support information.
+
+### **Good Example** (Strength: 4)
+*Student: "I think I'm too old for this. I'm going to be 60 when I finish, and all the other students will be so much younger and sharper than me."*
+
+**Why Strong Opportunity**: Major confidence barrier combining age concerns with perceived academic inadequacy. High emotional investment requiring comprehensive response about program design for mature students and support systems.
+
+---
+
+## Critical Analysis Guidelines
+
+### **What Immediately Disqualifies as Objection Handling Opportunities**
+
+1. **Non-Negotiable Requirements**: 
+   - English proficiency test requirements (IELTS/PTE)
+   - Academic prerequisites that cannot be waived
+   - Citizenship requirements for financial aid
+
+2. **Discovery Needs Misclassified as Objections**:
+   - Program fit questions requiring exploration
+   - General information requests
+   - Career alignment discussions
+
+3. **Requests for Fabricated Information**:
+   - Questions requiring specific statistics not available
+   - Requests for program features that don't exist
+
+### **Universal Implementation Principles**
+
+1. **Only use verified institutional information**
+2. **Never suggest workarounds for non-negotiable requirements**
+3. **Distinguish between objection handling and discovery needs**
+4. **Focus on implementable responses within institutional policies**
+5. **Maintain honesty about limitations while being helpful**
+
+### **Institution-Specific Value Propositions**
+
+**MOL (Monash Online)**:
+- Group of 8 university status
+- Top global rankings
+- Faculty-specific strengths (e.g., #1 education faculty)
+- Triple crown accreditation for business
+
+**SOL (Swinburne Online)**:
+- Commonwealth supported places (more affordable)
+- Pioneer in online education
+- Top 300 globally
+- 7-day support availability
+
+---
+
+## Causal Impact Logic
+
+Effective objection handling directly improves enrollment and retention by:
+
+1. **Removing Decision Barriers**: Addressing concerns eliminates obstacles preventing enrollment completion
+2. **Converting Hesitation to Confidence**: Transforming uncertainty into clarity builds enrollment confidence
+3. **Preventing Premature Disengagement**: Keeps students engaged rather than abandoning due to unaddressed concerns
+4. **Creating Information Transparency**: Builds trust through honest concern resolution
+5. **Demonstrating Institutional Responsiveness**: Models institution's approach to student needs
+6. **Aligning Expectations with Reality**: Creates accurate expectations preventing future attrition
+
+Each objection handling opportunity represents a moment where proper intervention significantly influences the student's likelihood of enrolling and succeeding in their chosen program.

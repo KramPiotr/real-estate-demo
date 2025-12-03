@@ -1,0 +1,48 @@
+{
+    "transcripts_directory": "call-type-classified-sol-calls",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "student_propensity",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ],
+            "response_format_path": "factor_analysis_collaborative.student_propensity.StudentPropensityResponse"
+        },
+        {
+            "name": "consultant_response",
+            "inputs": [
+                "transcript",
+                "student_propensity"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ],
+            "response_format_path": "factor_analysis_collaborative.consultant_response.ConsultantResponse"
+        },
+        {
+            "name": "feature_extraction",
+            "inputs": [
+                "transcript",
+                "consultant_response",
+                "student_propensity"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ],
+            "response_format_path": "factor_analysis_collaborative.feature_extraction.FeatureExtraction"
+        }
+    ]
+}

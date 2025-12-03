@@ -1,0 +1,419 @@
+# Consultative Approach: Behavior Response Analysis Guide
+
+## Conceptual Definition
+<conceptual_definition>
+Consultative Approach is the consultant's ability to uncover a student's unique motivations, constraints, and goals through strategic questioning, and then tailor recommendations specifically to their individual situation. This involves prioritizing thorough discovery before solution presentation, adapting communication based on revealed needs, and providing personalized guidance rather than generic information. The focus is on understanding the student as an individual with unique circumstances rather than applying a one-size-fits-all approach to enrollment conversations.
+</conceptual_definition>
+
+## ⚠️ CRITICAL SCOPE BOUNDARIES ⚠️
+
+<scope_boundaries>
+1. **Discovery vs. Interrogation**
+   - CONDUCT exploration that feels conversational and purposeful
+   - AVOID excessive or invasive questioning that creates discomfort
+   - BALANCE thorough discovery with conversational flow and respect for privacy
+   - Example of OUT OF SCOPE behavior: Asking rapid-fire questions without building rapport or explaining purpose, or pressing for highly personal information beyond educational needs
+
+2. **Tailored Guidance vs. Fabricated Solutions**
+   - PROVIDE recommendations based on actual institutional offerings and capabilities
+   - AVOID creating unrealistic expectations by suggesting program features or flexibility that doesn't exist
+   - FOCUS on authentic matching of student needs with genuine program attributes
+   - Example of OUT OF SCOPE behavior: Inventing program features or promising customizations beyond institutional capabilities just to secure enrollment
+
+3. **Consultative Recommendation vs. Directive Selling**
+   - PRESENT options that align with student needs rather than pushing predetermined solutions
+   - AVOID pressuring students toward specific programs without proper discovery
+   - EMPOWER students to make informed decisions based on their revealed priorities
+   - Example of OUT OF SCOPE behavior: Using discovery information to pressure vulnerable students or manipulating revealed constraints to create artificial urgency
+</scope_boundaries>
+
+## Purpose
+<purpose>
+This behavior directly influences enrollment and retention by:
+- Creating personalized relevance that enhances perceived program value
+- Uncovering potential barriers before they become enrollment obstacles
+- Building relationship trust through demonstrated student-centricity
+- Ensuring authentic program-student fit that increases long-term satisfaction
+- Shifting the conversation from transactional to consultative, building deeper commitment
+- Preventing misaligned expectations that could lead to future attrition
+- Empowering students to make confident, informed decisions based on their true needs
+</purpose>
+
+## Key Elements
+<key_elements>
+1. **Strategic Questioning**: Using purposeful, well-structured questions that progressively reveal deeper layers of student needs, motivations, and constraints.
+
+2. **Active Listening and Synthesis**: Fully attending to student responses, connecting seemingly disparate information, and demonstrating comprehension of their unique situation.
+
+3. **Progressive Deepening**: Moving systematically from surface-level information to more fundamental motivations and constraints through increasingly focused exploration.
+
+4. **Contextual Adaptation**: Adjusting questioning approach, information presentation, and recommendations based on discovered student circumstances and preferences.
+
+5. **Solution Tailoring**: Explicitly connecting program features and benefits to the student's specific motivations, constraints, and goals identified during discovery.
+
+6. **Genuine Curiosity**: Demonstrating authentic interest in understanding the student's unique situation rather than merely gathering transaction-focused information.
+
+7. **Validation Through Reflection**: Confirming accurate understanding by thoughtfully reflecting the student's situation back to them before proceeding to recommendations.
+</key_elements>
+
+## Behavioral Indicators
+<behavioral_indicators>
+- Uses open-ended questions that invite detailed responses
+- Asks follow-up questions that progressively deepen understanding
+- Demonstrates active listening through thoughtful reflection of student responses
+- Connects previous responses to new questions showing cumulative understanding
+- Adapts questioning strategy based on student's communication style and responses
+- Pauses appropriately to allow for thoughtful student reflection
+- Organizes discovery to cover multiple relevant dimensions (career, education, constraints)
+- Uses phrases like "To better understand your situation..." or "Tell me more about..."
+- Explains the purpose of discovery questions when appropriate
+- Explicitly connects recommendations to specific discovered needs
+- Uses the student's own language when reflecting understanding
+- Checks understanding before proceeding to recommendations
+- Shows flexibility in conversation direction based on emerging priorities
+- Balances speaking and listening with significantly more listening during discovery
+</behavioral_indicators>
+
+## Distinguished From
+<distinguished_from>
+- **Interrogative Questioning**: Unlike rapid information extraction, consultative approach involves purposeful exploration that feels conversational and builds relationship.
+
+- **Generic Information Provision**: Rather than providing standard information regardless of student circumstances, consultative approach tailors content based on discovered needs.
+
+- **Feature-Focused Selling**: Instead of focusing primarily on program features, consultative approach emphasizes the connection between student needs and program attributes.
+
+- **Linear Script Following**: Unlike following a predetermined conversational path, consultative approach adapts flexibly to student responses and emerging priorities.
+</distinguished_from>
+
+## Example Phrases
+<example_phrases>
+- "To help me understand what would work best for your situation, could you tell me more about your current role and what aspects you're looking to develop?"
+- "You mentioned wanting career advancement - what specific roles or responsibilities are you hoping to move into?"
+- "I'd like to understand your study preferences better. How have you found previous learning experiences in terms of what works well for you?"
+- "Based on what you've shared about your work schedule, let me recommend some specific approaches that have worked for students in similar situations."
+- "You've mentioned time constraints being a concern. Could you help me understand what your typical week looks like in terms of work and other commitments?"
+- "Now that I understand your background in healthcare and your goal to move into management, I can see two potential pathways that might align with your situation."
+- "Earlier you mentioned both marketing and finance interest you. What aspects of each area do you find most appealing?"
+</example_phrases>
+
+## Behavioral Scoring Rubric (1-5)
+
+<scoring_rubric>
+### 1: Minimal Implementation
+The consultant fails to demonstrate consultative approach effectively, displaying one or more of these behaviors:
+- Asks few or no discovery questions before providing recommendations
+- Uses only closed questions that gather minimal information
+- Provides generic information regardless of student's unique situation
+- Follows a predetermined script without adapting to student responses
+- Focuses primarily on program features rather than student needs
+- Jumps to solutions before understanding the student's situation
+- Misses obvious cues that suggest deeper exploration is needed
+- Dominates the conversation with minimal student input
+
+**Example**: 
+Student: "I'm interested in your business program because I want to advance my career."
+Consultant: "Great! Our business program is very popular. It's a 12-month course with intakes in March, July, and November. The tuition is $30,000. Would you like to enroll in the next intake?"
+
+### 2: Basic Implementation
+The consultant shows basic consultative approach with significant room for improvement:
+- Asks some discovery questions but with limited depth or follow-up
+- Gathers basic information but misses opportunities for deeper exploration
+- Shows some effort to tailor information but remains largely generic
+- Demonstrates limited adaptation based on student responses
+- Makes minimal connections between discovered needs and recommendations
+- Conducts discovery that feels mechanical rather than conversational
+- Shows imbalance between speaking and listening during discovery phase
+- Provides partially tailored recommendations with significant generic elements
+
+**Example**:
+Student: "I'm interested in your business program because I want to advance my career."
+Consultant: "What is your current career? [Student responds they're in healthcare administration]
+
+That's helpful to know. Our business program has some healthcare management components. The program is 12 months with intakes in March, July, and November. Most healthcare professionals choose the November intake. The tuition is $30,000. Would you be interested in the November intake?"
+
+### 3: Moderate Implementation
+The consultant demonstrates adequate consultative approach capabilities:
+- Conducts reasonably thorough discovery covering major need dimensions
+- Asks a mix of open and closed questions with some effective follow-up
+- Shows genuine interest in understanding the student's situation
+- Provides information with notable tailoring to discovered needs
+- Makes clear connections between student priorities and program elements
+- Balances discovery with solution presentation appropriately
+- Adapts approach somewhat based on student responses
+- Checks understanding before finalizing recommendations
+- Creates reasonably personalized recommendations with good alignment
+
+**Example**:
+Student: "I'm interested in your business program because I want to advance my career."
+Consultant: "I'd be happy to help you explore that. To make sure I recommend the right options, could you tell me a bit about your current career and what type of advancement you're hoping for? [Student responds they're in healthcare administration looking to move into department leadership]
+
+Thank you for sharing that. What specific aspects of department leadership are you looking to develop? Are there particular skills you feel you need to strengthen? [Student mentions financial management and team leadership]
+
+That's helpful context. Have you had any previous business education or management training? [Student responds with educational background]
+
+Based on what you've shared about your healthcare administration background and goals for department leadership, our MBA with Healthcare Management specialization would align well with your needs. The program specifically addresses financial management in healthcare contexts and includes a leadership practicum that many students find valuable for the team leadership skills you mentioned.
+
+The program offers flexible study options that can work around healthcare schedules, which often include shift work. Would it be helpful to hear more about how the program structure might fit with your current work commitments?"
+
+### 4: Strong Implementation
+The consultant implements consultative approach effectively with a structured methodology:
+- Conducts comprehensive discovery across all relevant dimensions
+- Uses skillfully crafted questions that reveal deeper motivations and constraints
+- Demonstrates exceptional listening with thoughtful reflection of understanding
+- Creates highly personalized recommendations directly tied to discovered needs
+- Builds visible rapport through the discovery process itself
+- Adapts questioning strategy based on emerging information
+- Balances structure and flexibility in the discovery conversation
+- Makes explicit connections between specific needs and program elements
+- Explains the relevance of questions when exploring sensitive areas
+- Creates a discovery experience that feels valuable to the student
+- Uncovers hidden constraints or concerns proactively
+- Verifies understanding thoroughly before proceeding to recommendations
+
+**Example**:
+Student: "I'm interested in your business program because I want to advance my career."
+Consultant: "I appreciate your interest in advancing your career through our business program. To help me understand what would work best for your specific situation, I'd like to learn more about your current role and career aspirations. Could you tell me about your current position and what type of advancement you're hoping to achieve? [Student responds they're in healthcare administration looking to move into department leadership]
+
+Thank you for sharing that. Healthcare administration to department leadership is a common progression, but it can look different depending on the specific environment. Could you tell me a bit about your healthcare setting and what department leadership typically involves in your organization? [Student describes hospital setting and leadership responsibilities]
+
+That provides helpful context. When you think about moving into that leadership role, what specific skills or knowledge do you feel would most help you succeed? [Student mentions financial management, team leadership, and healthcare policy navigation]
+
+I appreciate that clarity. Those are areas our curriculum can certainly address. To help me understand your learning context better, could you share what your current work schedule looks like and how you prefer to learn? Have you undertaken professional education while working before? [Student describes shift work, previous learning experiences, and preference for structured learning with real-world application]
+
+Based on everything you've shared, I can see why you're interested in advancing your career, particularly the move from healthcare administration to department leadership in a hospital setting. Your focus on financial management, team leadership, and policy navigation aligns well with our MBA with Healthcare Management specialization.
+
+What makes this particularly relevant to your situation is that the financial management unit uses hospital budgeting scenarios, and the leadership practicum involves healthcare team dynamics. The program was actually developed in consultation with hospital administrators facing similar career transitions.
+
+Given your shift work schedule and preference for structured learning with practical applications, our blended delivery option would likely be the best fit. It combines scheduled online sessions with asynchronous components and includes a workplace application project that many students conduct within their current healthcare setting.
+
+Is this alignment with your specific needs and constraints what you were hoping to find in a business program? Is there any other aspect of your situation I should understand to make sure this recommendation truly fits your needs?"
+
+### 5: Exemplary Implementation
+The consultant demonstrates exceptional consultative approach that transforms the student's understanding of their own needs and creates perfect alignment with recommendations:
+- Masters the discovery process with questions that reveal profound insights
+- Creates a discovery experience that feels transformative to the student
+- Uncovers fundamental motivations and constraints not initially recognized
+- Builds exceptional trust through demonstrated understanding
+- Tailors recommendations with such precision that they feel custom-designed
+- Balances structured methodology with intuitive exploration
+- Adapts entire approach based on discovered communication preferences
+- Makes connections between needs and solutions that create "aha" moments
+- Perfectly calibrates conversation based on student's readiness and style
+- Demonstrates such thorough understanding that students feel genuinely known
+- Transforms vague aspirations into concrete educational pathways
+- Creates a consultation experience that becomes a compelling reason to enroll
+
+**Example**:
+Student: "I'm interested in your business program because I want to advance my career."
+Consultant: "Thank you for considering our business program for your career advancement. I'd like to understand your specific situation so I can help you determine if and how our program might support your goals. Would you tell me about your current career and what advancement means to you personally? [Student responds they're in healthcare administration looking to move into department leadership]
+
+Thank you for sharing that. Healthcare administration has so many potential growth paths. I'm curious – when you envision yourself in a department leadership role, what aspects of that position most energize you? And conversely, are there elements that concern you? [Student describes excitement about strategic planning and team development, and concerns about financial management responsibilities]
+
+That's really insightful. Many healthcare professionals share that exact combination of enthusiasm and concern. The strategic and people elements draw them to leadership, while the financial aspects often represent the biggest learning curve. Could you tell me about any experiences you've had with financial management so far, even informally? [Student describes limited budget involvement and some self-study]
+
+I appreciate your self-awareness about both your strengths and development areas. To understand your learning context, could you walk me through what a typical week looks like for you in terms of work schedule, family commitments, and any other significant time obligations? [Student describes rotating shift schedule, family responsibilities, and community involvement]
+
+That's quite a full schedule. How have you managed previous educational experiences alongside these commitments? What approaches worked well for you, and what proved challenging? [Student describes previous success with structured but flexible learning and challenges with purely self-directed study]
+
+One last area I'd like to explore: when you think about your career five years from now, beyond the department leadership role, what possibilities interest you? [Student describes potential interest in hospital executive leadership or healthcare consulting]
+
+Thank you for sharing all of this. What I'm understanding is that you're seeking advancement from healthcare administration to department leadership, with particular interest in the strategic planning and team development aspects, while recognizing financial management as a key development area. You're managing a rotating shift schedule alongside family and community commitments, and you've found success with structured yet flexible learning approaches. Longer-term, you're potentially interested in executive leadership or consulting.
+
+Have I captured your situation accurately, or is there anything significant I've missed or misunderstood?
+
+[After student confirmation]
+
+Based on your specific situation, I'd like to recommend our MBA with Healthcare Management specialization, but with a particular pathway I think aligns perfectly with your circumstances. Here's why I believe this is the right fit:
+
+First, regarding your interest in strategic planning and team development combined with your need to strengthen financial management skills: The program's core structure begins with Healthcare Financial Management in the first term, providing the foundation you've identified as most needed before progressing to the Strategic Planning and Team Leadership units in subsequent terms. This sequencing was specifically designed for healthcare professionals with your exact profile.
+
+Second, for your rotating shift schedule and need for structured flexibility: The program offers an innovative "Flexible Structure" approach where core content is available in multiple formats – scheduled live sessions, recorded sessions, and interactive modules – all covering the same material but allowing you to engage in ways that adapt to your shifting schedule. The consistent weekly deadlines provide the structure you've found helpful, while the multiple engagement options offer the flexibility your schedule requires.
+
+Third, looking at your longer-term interest in executive leadership or consulting: The final term includes an Advanced Career Pathways module with specific tracks for both healthcare executive leadership and healthcare consulting. You don't need to choose between these tracks until the third term, giving you time to refine your longer-term goals.
+
+What especially stands out about your situation is the alignment between your development priorities and our program's healthcare-specific focus. Rather than teaching general business principles that you would need to translate to healthcare contexts yourself, our financial management, strategic planning, and team leadership units all use healthcare-specific scenarios and applications.
+
+Does this alignment with your specific situation, including your current constraints, development priorities, and longer-term aspirations, resonate with what you're looking for?"
+</scoring_rubric>
+
+## Edge Cases and Analysis Guidance
+
+<edge_cases>
+### 1. Discovery vs. Interrogation
+**What is it?**  
+The distinction between effective, conversational exploration versus excessive or invasive questioning that creates discomfort.
+
+**Example (Incorrect Approach):**
+```
+Title: "Excessive Questioning Session"
+Student Trigger: "I'm interested in your MBA program to advance my career."
+Consultant Response: "What's your current salary? How much are you hoping to earn after the MBA? Have you been passed over for promotion? Why haven't you advanced already? What are your weaknesses as a manager? Do you have sufficient savings for tuition? What's your credit score? How stable is your current employment? Are there problems with your current employer?"
+```
+
+**Why It's Problematic:**
+- Asks excessively personal financial and employment questions
+- Creates an interrogative rather than consultative atmosphere
+- Lacks explanation of why sensitive information is being requested
+- Fails to build rapport before asking sensitive questions
+- Includes questions beyond what's necessary for educational guidance
+- Creates potential discomfort or defensiveness
+- Follows a questioning approach that feels mechanical and invasive
+
+**Recommended Analysis Scope:**
+Consultants should:
+- Begin with less sensitive questions to build rapport
+- Explain the purpose of questions that might seem personal
+- Focus on information relevant to educational decision-making
+- Be attentive to student comfort levels and adjust accordingly
+- Balance thoroughness with conversational flow and respect
+- Use a questioning approach that feels naturally conversational
+- Focus on quality of discovery rather than quantity of questions
+
+### 2. Tailored Guidance vs. Fabricated Solutions
+**What is it?**  
+The distinction between honestly matching student needs with actual program attributes versus inventing or exaggerating program features to create artificial alignment.
+
+**Example (Incorrect Approach):**
+```
+Title: "Fabricated Program Features"
+Student Trigger: "I need a program with specialized units in cryptocurrency finance and blockchain technology for my career in financial technology."
+Consultant Response: "Our Finance program definitely offers specialized units in cryptocurrency and blockchain. You'll take advanced courses in blockchain architecture and cryptocurrency trading strategies. We also have a FinTech innovation lab where you'll develop cryptocurrency applications. Many of our graduates now lead blockchain development teams."
+```
+
+**Why It's Problematic:**
+- Creates false expectations by inventing program features that don't exist
+- Fabricates specific courses and facilities not actually offered
+- Makes unsubstantiated claims about graduate outcomes
+- Prioritizes securing enrollment over honest program-student fit
+- Sets the student up for significant disappointment and potential attrition
+- Undermines institutional credibility and trust
+- Demonstrates unethical sales behavior focused on conversion at any cost
+
+**Recommended Analysis Scope:**
+Consultants should:
+- Honestly represent actual program features and limitations
+- Focus on finding genuine alignment with existing offerings
+- Acknowledge when certain specific needs might not be fully addressed
+- Suggest alternative programs or institutions when appropriate
+- Present creative solutions using actual program flexibility
+- Maintain integrity in program representation even if it might not lead to enrollment
+- Focus on long-term student satisfaction rather than short-term conversion
+
+### 3. Consultative Recommendation vs. Directive Selling
+**What is it?**  
+The distinction between using discovery information to facilitate informed decision-making versus using revealed vulnerabilities to pressure students toward predetermined options.
+
+**Example (Incorrect Approach):**
+```
+Title: "Manipulative Use of Discovery Information"
+Student Trigger: "I'm exploring different MBA options. I'm concerned about balancing study with my job in healthcare administration."
+Consultant Response: [After discovering the student is worried about job security] "Given what you've shared about your concerns regarding potential layoffs in your hospital, you absolutely need to enroll in our July intake. If you wait until November, you might be unemployed by then without the qualifications to compete in the job market. Your situation is precisely why you can't afford to delay this decision. I can process your application right now to secure your spot."
+```
+
+**Why It's Problematic:**
+- Uses discovered vulnerabilities (job security fears) to create artificial urgency
+- Manipulates emotional concerns rather than addressing them constructively
+- Creates pressure rather than empowerment in decision-making
+- Prioritizes immediate enrollment over appropriate timing for the student
+- Positions enrollment as a fear-based decision rather than an opportunity
+- Uses directive approach rather than collaborative decision-making
+- Demonstrates self-interest rather than student-centricity
+
+**Recommended Analysis Scope:**
+Consultants should:
+- Use discovery information to inform rather than manipulate
+- Present options and implications while respecting student agency
+- Address revealed concerns constructively rather than exploitatively
+- Create space for informed decision-making rather than pressured choices
+- Focus on collaborative exploration of solutions
+- Respect the student's timeline and readiness
+- Demonstrate commitment to student best interest even when it doesn't lead to immediate enrollment
+</edge_cases>
+
+## Common Mistakes
+<common_mistakes>
+- Beginning with solutions before conducting thorough discovery
+- Asking closed questions that gather minimal information
+- Failing to follow up on important cues that suggest deeper exploration
+- Rushing through discovery to get to program presentation
+- Using a rigid questioning sequence rather than adapting to student responses
+- Making minimal connection between discovered needs and program features
+- Asking questions but not using the information in recommendations
+- Using the same discovery approach regardless of student communication style
+- Conducting discovery that feels like an interrogation rather than conversation
+- Overwhelming students with too many questions without building rapport
+- Failing to explain the purpose of questions that might seem intrusive
+- Assuming understanding without proper verification
+- Using discovery to identify sales leverage points rather than fit
+- Missing opportunities to uncover hidden concerns or constraints
+</common_mistakes>
+
+## Causal Impact Mechanism
+<causal_impact>
+Effective Consultative Approach directly impacts enrollment decisions and retention by:
+
+1. **Creating Personalized Relevance**: When students see how specific program elements directly address their unique needs, the perceived value increases dramatically. This transforms generic interest into specific conviction that this program is right for them, substantially increasing enrollment likelihood.
+
+2. **Uncovering Hidden Barriers**: Thorough discovery often reveals unstated concerns or constraints that would otherwise remain hidden until they prevent enrollment. By proactively identifying these barriers, consultants can address them before they become enrollment obstacles, preventing late-stage enrollment abandonment.
+
+3. **Building Relational Trust**: The very process of thoughtful questioning demonstrates genuine interest in the student beyond making a sale. This creates a relationship foundation built on perceived care rather than transaction, significantly increasing trust in both the consultant and institution, which directly supports enrollment decisions.
+
+4. **Ensuring Program Fit**: Deep understanding of student needs ensures recommendations are truly aligned with their situation rather than forcing everyone into the same program. This increases not only enrollment likelihood but also long-term satisfaction and retention by creating realistic expectations and genuine fit.
+
+5. **Creating Emotional Connection**: Discovery-led consultations shift the conversation from transactional to meaningful by exploring personal goals and motivations. This emotional dimension creates stronger commitment than purely rational decision-making, leading to higher enrollment conversion and persistence through challenges.
+
+6. **Preventing Mismatched Expectations**: Comprehensive discovery prevents recommending programs that won't meet the student's actual needs. This reduces future attrition due to expectation-reality gaps, improving both conversion and retention metrics while protecting institutional reputation.
+</causal_impact>
+
+## Implementation Guidelines
+
+<implementation_guidelines>
+1. **Start with purpose explanation**
+   - Begin discovery by explaining why you're asking questions
+   - Use phrases like "To help me recommend the best options for your situation..."
+   - Set expectations about the consultation process
+   - Create context for more personal or detailed questions
+   - Establish the benefit to the student of thorough exploration
+
+2. **Structure discovery logically**
+   - Begin with broader questions before exploring specifics
+   - Cover key dimensions: educational background, career goals, learning preferences, constraints
+   - Use a flexible framework rather than rigid script
+   - Create natural transitions between discovery areas
+   - Balance comprehensiveness with conversation flow
+
+3. **Master the art of follow-up questions**
+   - Listen for cues that suggest deeper exploration
+   - Use phrases like "Tell me more about that" to expand important areas
+   - Ask "why" questions to uncover underlying motivations
+   - Explore implications with "how would that impact" questions
+   - Use clarification questions to ensure accurate understanding
+
+4. **Practice active listening techniques**
+   - Demonstrate full attention through verbal and non-verbal cues
+   - Take notes on key points without disrupting conversation flow
+   - Use the student's own language when reflecting understanding
+   - Periodically summarize what you've heard to verify accuracy
+   - Allow silence after questions to give time for thoughtful responses
+
+5. **Adapt to individual communication styles**
+   - Adjust questioning approach based on student openness and preferences
+   - Notice when to shift from structured to more conversational approaches
+   - Match pace and formality level to student's communication style
+   - Be attentive to cultural differences in information sharing
+   - Respect boundaries while still gathering essential information
+
+6. **Create explicit connections**
+   - Clearly connect program features to specific needs identified
+   - Use phrases like "Based on what you shared about X, this program element would address that by..."
+   - Explain why certain options are recommended and others aren't
+   - Highlight program flexibility that addresses discovered constraints
+   - Make recommendations that directly reference the student's own priorities and language
+
+7. **Verify understanding before concluding**
+   - Summarize key elements of the student's situation
+   - Check whether your understanding is accurate and complete
+   - Ask if there are other important factors not yet discussed
+   - Confirm that recommendations align with the student's expectations
+   - Create opportunity for additional information sharing before finalizing guidance
+</implementation_guidelines>

@@ -1,0 +1,98 @@
+# TAXONOMY ARTIFACT 16: COLLABORATIVE PLANNING BEHAVIORAL PATTERNS
+This taxonomy examines consultant behaviors related to proactively engaging in educational and professional planning discussions with students, co-creating pathways and solutions that align with individual circumstances while maintaining appropriate role boundaries observable in sales call transcripts.
+
+## 16.A: Collaborative Exploration & Planning Behaviors
+
+### 16.A.i: Context-Informed Planning Initiation
+**Description:** Consultant demonstrates behavior of using previously gathered information about the student's background, goals, and preferences to guide planning discussions without repetitive questioning.
+
+**Identification Guidance:** Look for consultants who reference earlier conversation elements when initiating planning discussions and build on established context rather than starting from scratch.
+
+**Examples:**
+- Consultant: "Based on what you've shared about your work schedule and career goals, let's explore how we might structure your study approach"
+- Consultant: "Given your nursing background that you mentioned and your interest in leadership roles, there are a couple of pathways we should consider"
+- Consultant: "You've told me about your rotating shifts and family commitments, so let's look at options that would work with those realities"
+
+### 16.A.ii: Adaptive Collaboration Style
+**Description:** Consultant demonstrates behavior of adjusting the level of directiveness versus collaboration based on the student's demonstrated communication preferences and decision-making style.
+
+**Identification Guidance:** Note instances where consultants adapt their approach to match student signals about preference for guidance versus independent decision-making.
+
+**Examples:**
+- Consultant: "Would you prefer to explore the options together, or would you like me to make a specific recommendation based on your situation?"
+- Consultant: "I can see you like to think through decisions carefully. Let me outline the options and give you time to consider them"
+- Consultant: "You seem ready to move forward. Based on everything you've shared, here's what I'd recommend..."
+
+### 16.A.iii: Strategic Pathway Exploration
+**Description:** Consultant demonstrates behavior of exploring relevant educational pathways and options that align with the student's stated goals and constraints in a structured, solution-oriented way.
+
+**Identification Guidance:** Look for consultants who present multiple viable options while connecting each to the student's specific circumstances and objectives.
+
+**Examples:**
+- Consultant: "Let's map out your short-term and long-term goals. What would you like to achieve in the next year, and where do you see yourself in 5 years?"
+- Consultant: "There are essentially three approaches we could consider for your situation, and I'd value your thoughts on which might work best"
+- Consultant: "Let's explore different pathways to reach your goal - there might be multiple routes available"
+
+## 16.B: Personalized Solution Development Behaviors
+
+### 16.B.i: Work-Study Integration Planning
+**Description:** Consultant demonstrates behavior of collaboratively developing specific strategies for balancing work commitments with study requirements, tailored to the student's unique professional circumstances.
+
+**Identification Guidance:** Note instances where consultants work with students to create practical approaches for managing their specific work patterns alongside educational commitments.
+
+**Examples:**
+- Consultant: "With your rotating shifts at the hospital, let's look at how our asynchronous learning format could work with your unpredictable schedule"
+- Consultant: "Given your travel requirements for work, we should discuss which program features would support you when you're away from home"
+- Consultant: "Let's map out how the required qualifications and experience needed for your chosen career path align with your current situation"
+
+### 16.B.ii: Circumstance-Specific Solution Co-Creation
+**Description:** Consultant demonstrates behavior of working with students to develop tailored approaches that address their unique life circumstances, constraints, and goals.
+
+**Identification Guidance:** Look for consultants who engage students as active participants in creating solutions rather than imposing predetermined approaches.
+
+**Examples:**
+- Consultant: "Based on your caring responsibilities, let's work together to identify which study patterns would be most sustainable for you"
+- Consultant: "Understanding your financial situation, let's explore which payment and study load combinations would work best"
+- Consultant: "Given your career transition goals, what timeline feels realistic to you, and how can we structure the program to support that?"
+
+### 16.B.iii: Flexible Timeline Development
+**Description:** Consultant demonstrates behavior of collaboratively planning study timelines and teaching period selections that accommodate the student's personal and professional circumstances.
+
+**Identification Guidance:** Note instances where consultants work with students to determine optimal timing for enrollment and progression rather than pushing predetermined schedules.
+
+**Examples:**
+- Consultant: "Let's think about your work project timeline and when you'd feel most ready to take on study commitments"
+- Consultant: "With your current circumstances, would starting in July or November align better with your other commitments?"
+- Consultant: "Based on your goals and constraints, let's map out a timeline that feels achievable for your situation"
+
+## 16.C: Support Integration & Action Planning Behaviors
+
+### 16.C.i: Support Mechanism Integration
+**Description:** Consultant demonstrates behavior of appropriately introducing relevant post-enrollment support services as part of the planning process while maintaining clear boundaries about the consultant's role.
+
+**Identification Guidance:** Look for consultants who position support services as part of the overall educational plan while clarifying that specialized support comes from dedicated post-enrollment teams.
+
+**Examples:**
+- Consultant: "After enrollment, our Student Coaches can help you develop detailed weekly study schedules that work with your rotating shifts"
+- Consultant: "Let me connect you with one of our student support reps who is clued up on this detail. How does this sound?"
+- Consultant: "Our Online Learning Advisors specialize in helping students create study approaches for complex work situations like yours"
+
+### 16.C.ii: Collaborative Action Planning
+**Description:** Consultant demonstrates behavior of creating clear, specific next steps with appropriate student input rather than imposing predetermined paths, ensuring mutual ownership of decisions.
+
+**Identification Guidance:** Note instances where consultants develop action plans that include both consultant and student responsibilities with clear timelines and mutual agreement.
+
+**Examples:**
+- Consultant: "So our plan is: I'll send you the detailed program information today, you'll review it by Thursday, and we'll have another call Friday to finalize your approach. Does that timeline work for you?"
+- Consultant: "Based on our discussion, you'll start with 2 units in your first teaching period, and we'll evaluate how that's working after the first month. Are you comfortable with that approach?"
+- Consultant: "Let's agree on next steps: you'll speak with your employer about study support, I'll prepare the enrollment information tailored to what we've discussed, and we'll reconvene next week. Sound good?"
+
+### 16.C.iii: Autonomy Respect & Confirmation
+**Description:** Consultant demonstrates behavior of honoring the student's decision-making authority while providing expert guidance, confirming mutual understanding and satisfaction with collaborative plans.
+
+**Identification Guidance:** Look for consultants who check for agreement and satisfaction with collaborative decisions while respecting the student's ultimate choice authority.
+
+**Examples:**
+- Consultant: "Does this approach address your concerns about balancing work and study? I want to make sure this feels right for your situation"
+- Consultant: "We've outlined several options - which approach feels most comfortable to you, or do you need more time to think it through?"
+- Consultant: "I want to make sure this plan we've developed together feels achievable and exciting to you. How are you feeling about it?"

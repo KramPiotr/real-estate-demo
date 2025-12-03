@@ -1,0 +1,20 @@
+# Census Date Information
+
+## Conceptual Overview
+The census date is a critical milestone with significant financial and academic implications for students. Consultants should communicate key information to:
+- Help students understand their rights and obligations
+- Support informed decision-making about academic commitments
+- Prevent potential penalties due to lack of awareness
+- Demonstrate transparency and support for students
+
+## Essential Composite Requirements
+
+### 1. Clear Definition and Significance (Importance: Essential)
+- Provide a clear, concise definition of the census date
+- Explain the significance of this date in the context of the student's enrollment
+- Emphasize the importance of being aware of and acting before this date if necessary
+
+### 2. Implications and Options Explanation (Importance: Essential)
+- Explain the academic implications, including transcript records
+
+Note: LLMs should assess whether the consultant has made a reasonable effort to cover these key points about the census date, without requiring exact phrasing or exhaustive detail.

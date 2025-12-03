@@ -1,0 +1,31 @@
+{
+    "transcripts_directory": "interesting-transcripts-segments",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "check",
+            "inputs": [
+                "transcript",
+                "compliance-requirement"
+            ],
+            "models": [
+                {
+                    "provider": "anthropic"
+                }
+            ]
+        },
+        {
+            "name": "validation",
+            "inputs": [
+                "transcript",
+                "compliance-requirement",
+                "check"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ]
+        }
+    ]
+}

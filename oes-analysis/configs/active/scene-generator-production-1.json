@@ -1,0 +1,76 @@
+{
+  "transcripts_directory": "test-transcripts",
+  "output_directory": "multi_agent_responses",
+  "input_catalog": {
+      "name": "scene",
+      "location": "scenes-config",
+      "types": [
+          "overview", "foundation1", "checkpoint1", "framework1", "transition1"
+      ]
+  },
+  "nodes": [
+      {
+          "name": "prompt_foundation",
+          "inputs": [
+              "scene-overview",
+              "scene-foundation1"
+          ],
+          "models": [
+              {
+                  "provider": "azure"
+              }
+          ]
+      },
+      {
+          "name": "checkpoint_implementation",
+          "inputs": [
+              "scene-overview",
+              "scene-checkpoint1",
+              "prompt-foundation"
+          ],
+          "models": [
+              {
+                  "provider": "azure"
+              },
+              {
+                  "provider": "azure"
+              },
+              {
+                  "provider": "azure"
+              },
+              {
+                  "provider": "azure"
+              },
+              {
+                  "provider": "azure"
+              }
+          ]
+      },
+      {
+        "name": "framework_integration",
+        "inputs": [
+            "scene-overview",
+            "checkpoint_implementation",
+            "scene-framework1"
+          ],
+        "models": [
+              {
+                "provider": "azure"
+              }
+          ]
+      },
+      {
+        "name": "id_transition",
+        "inputs": [
+            "scene-overview",
+            "framework_integration",
+            "scene-transition1"
+          ],
+        "models": [
+            {
+                "provider": "azure"
+            }
+          ]
+      }
+  ]
+}

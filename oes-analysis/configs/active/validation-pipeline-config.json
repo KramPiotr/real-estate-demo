@@ -1,0 +1,40 @@
+{
+  "system_name": "MAB Taxonomy Validator - Standalone",
+  "version": "1.0",
+  "description": "3-node validation pipeline for taxonomy improvement",
+  "input_file": "validation-pipeline-test/100000000001_1.json",
+  "prompts_file": "prompts/validation-pipeline/consolidated_prompt.md",
+  "output_base": "partial_results/validation-pipeline",
+  "gemini": {
+    "model": "gemini-2.5-flash",
+    "temperature": 0.3,
+    "max_tokens": 20000,
+    "timeout": 60
+  },
+  "nodes": {
+    "node1": {
+      "name": "Feature Assessment",
+      "description": "LLM mimics human Q1-Q3 evaluation",
+      "outputs": ["q1", "q2", "q3", "thoughts_stage1"]
+    },
+    "node2": {
+      "name": "Evidence Quality",
+      "description": "Evaluates AI evidence and justification quality",
+      "outputs": ["q4", "q5", "q6", "detailed_assessment", "thoughts_stage2"]
+    },
+    "node3": {
+      "name": "Taxonomy Advisor",
+      "description": "Compares all assessments and suggests improvements",
+      "outputs": ["agreement_analysis", "root_cause_analysis", "taxonomy_improvement_suggestions", "thoughts_comprehensive"]
+    }
+  },
+  "similarity_calculation": {
+    "formula": "4-component equal weighting",
+    "components": {
+      "q1_verdict_match": 0.25,
+      "q2_confidence_similarity": 0.25,
+      "q4_quality_match": 0.25,
+      "q5_rating_similarity": 0.25
+    }
+  }
+}

@@ -1,0 +1,200 @@
+# REFACTORED TAXONOMY ARTIFACT 4: STUDENT LINGUISTIC & EMOTIONAL PATTERNS
+
+This taxonomy identifies student communication patterns that might predict progression challenges.
+
+## 4.A: Hesitation & Uncertainty Markers
+
+### 4.A.i: Linguistic Uncertainty Patterns
+
+**Definition**: Student communication patterns indicating unresolved doubts about enrollment decisions, student background, call purpose, and general confusion about educational path through verbal hesitation markers and conditional language.
+
+**Checklist Conditions**:
+1. Student uses hedge words (I guess, maybe, probably, I might) in 3+ instances
+2. Student uses conditional language (If I decide to enroll vs When I enroll)
+3. Student repeats questions about same topics despite receiving clear answers
+
+**Guiding Principles**:
+- Consider frequency and clustering of uncertain language throughout conversation
+- Distinguish between thoughtful consideration vs genuine unresolved doubt
+- Evaluate conversation context - not isolated phrases
+- Look for patterns that persist despite consultant reassurance
+- Repeated questions about the same topic may indicate uncertainty, but single clarifying questions are normal information-seeking
+
+**Examples**:
+- Frequent use of phrases like "I guess," "maybe," "probably," "I might"
+- Conditional statements: "If I decide to enroll..." rather than "When I enroll..."
+- Repeated questions about the same topics, suggesting information isn't resolving doubts
+
+**Real Examples**:
+- STUDENT: "No I was I got your mail I was going through it and but yeah still haven't decided it. Yeah just maybe I will check I will go in detail so whether it's like it's a that come financially it's like bit costly that's why I was confused with this?" (Shows hedge words "maybe", "just", uncertainty about decision)
+- STUDENT: "I don't know, it's just like I'll know in a couple of days from the other people. So it's just rather than like accepting and doing things and getting people to do paperwork, it just seems better just to wait like a couple more days." (Use of "I don't know" and preference to wait rather than take action demonstrate hesitation and uncertainty regarding enrollment decision)
+- STUDENT: "I was looking like I'm unsure about my two, like what kind of fork in the road. I'm either thinking of completely changing career and going to finance..." (Language reflects uncertainty and indecision with phrases like "I'm unsure" and "what kind of fork in the road", suggesting hesitation about career path and educational choices)
+
+**Negative Example (What NOT to classify as 4.A.i)**:
+  - **Incorrect Evidence**: "STUDENT: Yeah, I think it was the two business ones."
+  - **Incorrect Justification**: "The student uses the hedge word 'I think' when confirming which courses were previously discussed, indicating a slight lack of certainty or recall regarding the specific program details."
+  - **Why This Is Wrong**: The phrase "I think" here is used for normal recall confirmation, not enrollment decision uncertainty. The student is confidently confirming which specific courses were discussed earlier in the conversation. This represents normal conversational memory confirmation, not hesitation about enrollment decisions. The uncertainty relates to recalling conversation details, not doubts about moving forward with enrollment. Only classify as 4.A.i when hedge words indicate uncertainty about the enrollment decision itself, not about factual recall or conversation details.
+
+**Few-Shot Example**:
+- **Evidence**: "Kind of. (ID 17)\nSTUDENT: No, not really to be honest, just that's what I wanted to, I kind of just want to do something from the start... (ID 44-46)\nSTUDENT: I've had men wanting to get a consultation kind of on what direction to take. (ID 62)"
+- **Justification**: "All three analysts unanimously determined this feature to be 'not present.' While the student uses several hedge words like 'kind of' (ID 17, 44, 62) and 'not really' (ID 42), these are primarily in the context of clarifying their background, expressing general confusion about their educational path, or the call's purpose. They do not indicate 'unresolved doubts about enrollment decisions' for a specific, viable program, which is a core condition of this feature. Given that the conversation quickly established the student's ineligibility for the Master's program, the specific type of enrollment-related uncertainty defined by this feature could not manifest."
+- **Human review comment**: "LLm might be reading "unresolved doubts about enrollment decisions" this is leading the llm to be strict in its reasoning"
+
+### 4.A.ii: Online Study Anxiety
+
+**Definition**: Student expresses specific concerns about their ability to succeed and their enjoyment in a fully online learning environment, indicating potential adaptation challenges such concerns or questions about pastoral care, academic support, tutoring, community, group learning, poor time management, independent motivation or other online format related topics.
+
+**Checklist Conditions**:
+1. Student directly states concern about online learning effectiveness for themselves
+2. Student expresses worry about lack of support, interaction, or connection in online format
+3. Student shows disappointment or distress specifically about learning online (not just format confusion)
+4. Student shows the above worries given the fact they are aware this is an online educational course
+
+**Critical Note**:
+- Students often do not realise they are enquiring for an online education course not an on-campus course
+- Confusion about whether a course is oncampus vs online is a beyond the scope of this feature and should NOT be detected as this feature
+- Avoid identifying this feature where the student is shocked to find out the delivery of the course is not oncampus
+
+**Guiding Principles**:
+- Student is aware that they will be learning in an online format not oncampus.
+- student worries include lack of pastoral care, academic support, tutoring, community, group learning, poor time management, independent motivation or anything else related to online environment.
+- Focus on anxiety about online learning capability, NOT confusion about format
+- Look for concerns about support, friends, interaction, or personal learning style
+- Evaluate emotional response - worry/distress vs simple information-seeking
+- Questions seeking clarification about learning in an online format, does not indicate anxiety unless accompanied by worry or disappointment
+
+**Examples**:
+- Student: "I'm not sure I can learn effectively online"
+- Student: "I'm worried about not having classmates around for support"
+- Student: "I don't think I'll be able to stay motivated without in-person classes"
+
+**Real Examples**:
+- STUDENT: "Oh, I was actually hoping there would be some face-to-face sessions. I'm not sure I learn well just from reading things online." (Student expresses disappointment about fully online format and doubts about their learning capability in online environment)
+- STUDENT: "Yeah look, I'm nervous... it's you know I'm nervous about my not about my intellect necessarily but just about the... format of learning, understanding the questions, understanding the assignments." (Student explicitly states nervousness about online learning format and concerns about comprehension)
+- STUDENT: "I reckon it would be time management and also sometimes I really struggle to find the correct resources online for my assessments." (Student expresses specific struggles with online learning aspects - time management and finding resources)
+
+**Negative Example (What NOT to classify as 4.A.ii)**:
+- **Incorrect Evidence**: "STUDENT: Do you do it online? CONSULTANT: No, unfortunately not, and it doesn't look like there's going to be any time soon. So it's one year of on-campus study and one year of supervised practice."
+- **Incorrect Justification**: "The student explicitly inquires if the Masters program, a crucial next step in her desired pathway, is offered online. The consultant's response that it is not and requires on-campus study indicates that the student expected an online option, revealing a preference for or reliance on online learning. This discrepancy could induce anxiety or concern regarding the feasibility of completing her long-term educational goals."
+- **Why This Is Wrong**: This is an informational inquiry about program delivery format which is another feature, NOT an expression of anxiety about online learning capability. The student is asking a practical question to understand their educational pathway options. There is no evidence of stress, worry, disappointment, or concern about their ability to succeed in online learning. A neutral question about program format availability should not be interpreted as anxiety. 
+
+**Few-Shot Example**:
+- **Evidence**: "STUDENT: Okay, and where's the campus located? (ID 58)\nSTUDENT: I really am just trying to find a course to start, but I can't work out where to start, but I'm thinking maybe I should go and look into the bachelor's then. (ID 69-70)"
+- **Justification**: "All three analysts unanimously determined that online study anxiety was not present. The student does not express any specific concerns about her ability to succeed in an online learning environment, nor does she articulate worries about lack of support, interaction, or connection in an online format. Her question about the campus location (ID 58) is in the context of exploring a different educational pathway (a bachelor's degree), not due to apprehension about the online nature of the Graduate Certificate of Project Management. Her focus is clearly on finding the right level and type of course, rather than expressing anxiety about the online modality itself."
+- **Human review comment**: "LLM brings out a good argument on how this is related to confusion of online/ offline and her educational pathway which is NOT this feature but another feature rather than actual anxiety on the online aspect of the course. It mentions how it isn’t anxiety but rather questions on the course details"
+
+### 4.A.iii: Conflict Avoidance Behavior
+
+**Definition**: Student demonstrates reluctance to express disagreement or concerns directly, suggesting potential agreement without genuine commitment.
+
+**Checklist Conditions**:
+1. Student gives minimal responses (sure, okay) without demonstrating enthusiasm
+2. Student raises concerns indirectly through third-party references
+3. Student defers decisions without specifying clear objections
+
+**Guiding Principles**:
+- Look for patterns of passive agreement followed by doubt indicators
+- Consider cultural communication styles and individual personality
+- Evaluate enthusiasm level versus mere compliance
+- Note if student avoids follow-up questions about concerns
+- Students asking few questions may be conflict-avoidant, but some students prefer to listen and process information quietly hence whole conversation context matters
+
+**Examples**:
+- Student gives minimal responses ("sure," "okay") but doesn't demonstrate enthusiasm
+- Student raises concerns indirectly: "My friend had trouble with online learning" (referring to their own concerns)
+- Student defers decisions without clear objections: "I need to think about it" without specifying concerns
+
+**Real Examples**:
+- STUDENT: "I suppose I'm just trying to read the textbook over and over again, trying to just work it out myself. I'm a bit shy when it comes to being in classrooms." (Student avoids directly seeking help, shows reluctance to engage with potential support systems)
+- STUDENT: "I think I would still prefer, Michael, to... Probably, so if I put January now, will I be able to say like, okay, not starting in January and going to March, will that be okay, or will it become like a fixed date?" (Student shows indirect expressions of doubt about timeline commitment without stating clear objections)
+- STUDENT: "I don't think so, it's fine. CONSULTANT: Okay, all right, no worries." (Student shows passive agreement without clearly articulating concerns, suggesting reluctance to vocalize any reservations about their enrollment decision)
+
+**Negative Example (What NOT to classify as 4.A.iii)**:
+- **Incorrect Evidence**: "CONSULTANT: So the 4,000 is for domestic students. So I sent you the wrong text, the email. STUDENT: I see."
+- **Incorrect Justification**: "Following the consultant's explanation for the previous cost error, the student's minimal and neutral response 'I see' indicates a lack of deeper engagement or direct expression of concern, fitting the pattern of passive agreement without demonstrating full understanding or challenging the discrepancy."
+- **Why This Is Wrong**: The student's response "I see" is simply acknowledging that they understand the consultant's clarification about sending the wrong information. This is normal conversational acknowledgment, not conflict avoidance behavior. The consultant has already explained the error and provided the correct information, so no further challenge or concern is needed. Brief acknowledgments of factual clarifications should not be interpreted as passive agreement or conflict avoidance. Only classify as 4.A.iii when students consistently avoid expressing genuine concerns or disagreements about enrollment decisions.
+
+## 4.B: Commitment & Engagement Indicators
+
+### 4.B.i: Direct Question Frequency
+
+**Definition**: Student asks few specific questions about the program, suggesting limited engagement with the decision process.
+
+**Checklist Conditions**:
+1. Student asks no questions about program content or structure
+2. Student's questions focus only on superficial aspects (price, duration) not substance
+3. Student doesn't seek clarification on important enrollment requirements
+
+**Guiding Principles**:
+- Count both quantity and quality of questions asked
+- Consider if consultant is providing comprehensive information unprompted
+- Evaluate question depth - surface vs substantive inquiry
+- Note if student seems satisfied without deep understanding
+- Lack of questions may indicate disengagement, but some students absorb information well without frequent questioning
+
+**Examples**:
+- Student asks no questions about program content
+- Student's questions focus only on superficial aspects rather than substantive content
+- Student doesn't seek clarification on important points about structure or requirements
+
+**Real Examples**:
+- CONSULTANT: "Do you have any questions at all about the course?" STUDENT: "No, it's." (Student asked no questions about program when given direct opportunity, indicating limited engagement)
+- STUDENT: "Not really. I think I'm pretty. I'm assuming you'll email me through some stuff and I'll start filling it all out." (Student shows passive involvement without asking about key elements of the course)
+- STUDENT: "Curious about the Monash alumni discount and whether or not that applies to the online stuff." (Student's only question focuses on fee structure rather than substantive program content or requirements)
+
+**Negative Example (What NOT to classify as 4.B.i)**:
+- **Incorrect Evidence**: "STUDENT: I just had a question about like the structure of the course and how that works. ... STUDENT: And then just a question on the website on Star your application, when it says like uploading your your like proof of citizenship and transcript, does it upload without like showing it? ... STUDENT: Okay perfect so should I, so I will send that to his email is that correct?"
+- **Incorrect Justification**: "The student asks an initial general question about the course structure but does not follow up with detailed questions about academic content, curriculum, or career outcomes. Her subsequent questions are entirely procedural, focusing on technicalities of the application process (document upload, email submission), which indicates a limited engagement with the substantive aspects of the program itself."
+- **Why This Is Wrong**: The student demonstrates active engagement by asking multiple relevant questions about both program structure and enrollment procedures. Questions about application processes and technical requirements show practical engagement and preparation to move forward. This represents positive information-seeking behavior and procedural due diligence. Procedural questions about enrollment steps indicate engagement, not disengagement.
+
+### 4.B.ii: Follow-Through Statement Patterns
+
+**Definition**: Student's statements about future actions indicate likelihood of completing or not completing enrollment steps.
+
+**Checklist Conditions**:
+1. Student makes vague commitments (I'll try to get to that soon vs specific timeframes)
+2. Student proposes delayed action plans (next week/month vs immediate steps)
+3. Student uses passive language about tasks (form needs completing vs I will complete)
+
+**Guiding Principles**:
+- Specific commitments with timeframes indicate higher follow-through likelihood
+- Active ownership language suggests stronger commitment than passive phrasing
+- Immediate action plans typically correlate with completion
+- Consider student's overall tone and energy when making commitments
+- Questions about next steps are normal information-seeking, focus on the quality of commitments rather than clarifying questions
+
+**Examples**:
+- Specific commitment: "I'll submit my documents tonight" vs. vague: "I'll try to get to that soon"
+- Immediate action: "I'll create my account as soon as we hang up" vs. delayed: "I'll look into that next week"
+- Ownership: "I will complete the form" vs. passive: "The form needs to be completed"
+
+**Real Examples**:
+- CONSULTANT: "Did you have a spare 10 minutes today for me to run through that one to secure your spot?" STUDENT: "I don't right now." (Student avoids immediate action, shows reluctance to commit to enrollment process)
+- STUDENT: "So maybe I'll see if I can get someone to actually find it for me, otherwise I'll enroll for the one in March." (Vague commitment with "maybe" and delayed action plan for March enrollment)
+- STUDENT: "I'll start the application process soon." (Vague timeframe "soon" without specific commitment or ownership of timeline)
+
+### 4.B.iii: Future Self-Projection
+
+**Definition**: Student's ability to envision themselves as a student and graduate, indicating genuine commitment to the educational journey.
+
+**Checklist Conditions**:
+1. Student discusses concrete applications of learning to current role
+2. Student spontaneously mentions study schedule management plans
+3. Student expresses specific goals for post-graduation outcomes
+
+**Guiding Principles**:
+- Concrete projections indicate stronger commitment than abstract benefits
+- Spontaneous future planning suggests genuine engagement
+- Connection to current role/goals shows practical motivation
+- Look for self-initiated visualization, not responses to leading questions
+- Questions about career outcomes are normal exploration, look for spontaneous future visioning rather than prompted responses
+
+**Examples**:
+- Concrete projection: "I'm looking forward to applying the accounting principles in my current role"
+- Abstract: "I suppose having a degree would be good"
+- Student spontaneously discusses how they'll manage their study schedule or apply their learning
+
+**Real Examples**:
+- STUDENT: "Oh absolutely, and that was my next step anyway, I just wasn't sure what the process was going from the certificate to the diploma..." (Student shows concrete projection about future educational pathway, indicating genuine commitment to continuing their education)
+- STUDENT: "So I just want to get well ready, get a start, and yeah, just get on with it for the most part." (Student expresses concrete desire to embark on educational journey with proactive mindset about starting studies)
+- STUDENT: "No, I don't have any." [when asked about study limitations or concerns] (Student demonstrates confidence in their ability to complete the course, envisioning themselves successfully as a student)

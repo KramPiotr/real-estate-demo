@@ -1,0 +1,124 @@
+# Adaptability: Adaptive Responsiveness Opportunity Definition
+
+## Core Definition
+
+<opportunity_definition>
+An opportunity for Adaptive Responsiveness occurs when a student's communication style, knowledge level, emotional state, or situational constraints differ from the standard consultation flow, requiring the consultant to modify their approach to maintain effective communication and build rapport.
+</opportunity_definition>
+
+## Opportunity Identification Criteria
+
+<identification_criteria>
+1. Student demonstrates a communication style, knowledge level, or emotional state that differs from the consultant's current approach
+2. The conversation would benefit from a change in pace, tone, language complexity, or structure
+3. Standard consultation flow is not optimally matching student's needs or preferences
+4. Student signals suggest potential communication mismatch or barriers
+</identification_criteria>
+
+## Student Signals
+
+<student_signals>
+- Expressing confusion or overwhelm with information presented
+- Demonstrating advanced knowledge or using technical terminology
+- Speaking very quickly or very slowly compared to the consultant
+- Responding with brief, minimal answers or extremely detailed responses
+- Showing signs of anxiety, hesitation, or time pressure
+- Repeatedly interrupting or changing the subject
+- Using formal/informal language that differs from the consultant's style
+- Mentioning specific constraints (e.g., "I only have 15 minutes")
+</student_signals>
+
+## Causal Impact Logic
+
+<causal_impact_logic>
+Adaptability directly improves enrollment and retention likelihood by:
+
+1. **Reducing Communication Barriers**: Matching the student's communication style eliminates friction that could otherwise lead to disengagement.
+
+2. **Increasing Information Absorption**: Tailoring information delivery to the student's knowledge level and processing style enhances understanding and retention of key information.
+
+3. **Building Trust Through Attentiveness**: Demonstrating sensitivity to the student's needs shows the institution values individual relationships.
+
+4. **Preventing Frustration**: Adapting to the student's pace prevents the frustration that can lead to abandoned enrollment processes.
+
+5. **Creating Comfort**: Meeting students at their level of formality or knowledge creates psychological comfort that supports decision-making.
+
+6. **Demonstrating Institutional Flexibility**: Showing adaptability during the sales process signals the institution's broader ability to accommodate individual student needs during their educational journey.
+</causal_impact_logic>
+
+## Opportunity Strength Scoring Rubric (1-5)
+
+<scoring_rubric>
+**1 - Minimal Opportunity**: 
+- Minor differences in communication style that have little impact on understanding
+- Brief moments of misalignment that resolve naturally
+- No clear signs of student discomfort or confusion
+
+**2 - Low Opportunity**:
+- Noticeable differences in communication style or knowledge level
+- Occasional moments of confusion that don't significantly impede conversation
+- Student showing mild signs of misalignment with consultant's approach
+
+**3 - Moderate Opportunity**:
+- Clear mismatch in communication style, pace, or knowledge level
+- Student showing definite signs of confusion, discomfort, or impatience
+- Conversation flow being noticeably affected by communication differences
+- Student explicitly mentioning constraints or preferences
+
+**4 - Strong Opportunity**:
+- Significant barriers to effective communication present
+- Student showing strong signals of disconnect with current approach
+- Consultation objectives at risk if approach isn't modified
+- Multiple dimensions requiring adaptation (e.g., pace, complexity, formality)
+
+**5 - Critical Opportunity**:
+- Fundamental mismatch threatening the success of the consultation
+- Student expressing explicit frustration or considering ending the conversation
+- Student needs drastically different from standard consultation approach
+- Complex adaptation required across multiple dimensions simultaneously
+- Clear risk of losing enrollment opportunity without significant adaptation
+</scoring_rubric>
+
+## Good Opportunity Examples
+
+<good_examples>
+### Example 1: Technical Knowledge Mismatch (Strength: 4)
+Student: "I've been working with Python for machine learning applications, focusing primarily on TensorFlow and neural networks. I'm wondering how your Computer Science program's curriculum integrates with current deep learning frameworks and computational theory."
+
+*Why this is a strong opportunity*: The student demonstrates advanced technical knowledge and is using specialized terminology. A standard script-based explanation of the program would fail to address their specific interests and knowledge level. Adapting to match their technical sophistication is crucial for establishing credibility.
+
+### Example 2: Time Constraint (Strength: 5)
+Student: "I'm actually between meetings right now and only have about 10 minutes to talk. I'm specifically interested in your MBA program's finance specialization and the application deadlines."
+
+*Why this is a critical opportunity*: The student has explicitly stated a significant time constraint. The standard consultation approach would need to be drastically condensed and focused only on their specific interests. Failure to adapt would result in a frustrated student who doesn't receive their needed information before having to end the call.
+
+### Example 3: Emotional Hesitancy (Strength: 4)
+Student: "I... um... I'm not sure if I can handle going back to school. It's been 15 years since I was in a classroom. I'm worried I won't... you know... fit in or be able to keep up."
+
+*Why this is a strong opportunity*: The student is expressing significant anxiety and self-doubt. Their hesitant speech pattern and emotional concerns require a slower, more reassuring approach focused on building confidence rather than moving through standard information delivery.
+</good_examples>
+
+## Bad Opportunity Examples (False Positives)
+
+<bad_examples>
+### Example 1: Brief Clarification Question
+Student: "Could you explain that point about the teaching periods again? I didn't quite catch the dates."
+
+*Why this is NOT a significant adaptation opportunity*: This represents normal clarification within a consultation. It doesn't indicate a fundamental mismatch in communication styles or understanding levels, just a simple need for repetition.
+
+### Example 2: Minor Enthusiasm Difference
+Student: "That sounds interesting. What else can you tell me about the program?"
+
+*Why this is NOT a significant adaptation opportunity*: While the student is somewhat reserved in their response, this doesn't indicate a problematic mismatch requiring significant adaptation. This is within the normal range of conversation patterns.
+
+### Example 3: Standard Topic Change
+Student: "I understand the course structure now. Can we talk about the costs and payment options?"
+
+*Why this is NOT a significant adaptation opportunity*: This is a normal conversation transition, not an indication that the consultant's approach needs significant modification. Standard consultation flow already accommodates such topic changes.
+</bad_examples>
+
+## Important Note on Opportunity Identification
+
+<important_note>
+The opportunity score reflects the potential impact if adaptability is ideally demonstrated, not the consultant's actual response quality. Even if a consultant fails to adapt appropriately, the opportunity should still be identified and scored based on the student signals and conversation context. The opportunity strength rating measures how impactful proper adaptation would be in that specific moment, regardless of whether the opportunity was successfully leveraged.
+</important_note>

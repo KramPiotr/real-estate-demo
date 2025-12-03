@@ -1,0 +1,91 @@
+# TAXONOMY ARTIFACT 14: OBJECTION HANDLING BEHAVIORAL PATTERNS
+This taxonomy examines consultant behaviors related to transforming student concerns within seven specific scope areas into opportunities for deeper understanding and resolution through structured acknowledgment, exploration, and tailored response techniques observable in sales call transcripts.
+
+## ⚠️ CRITICAL SCOPE RESTRICTION
+Analysis must focus EXCLUSIVELY on these seven key objection types:
+1. Fees/affordability concerns
+2. Time availability for studying  
+3. Teaching period selection
+4. Institutional value proposition concerns
+5. Browsing without intent to enroll
+6. Starting a new job/decision-making anxiety/procrastination
+7. Inconvenient timing for discussion
+
+## 14.A: Financial & Value Objection Handling Behaviors
+
+### 14.A.i: Fee Affordability Concern Resolution
+**Description:** Consultant demonstrates behavior of addressing direct cost concerns through acknowledgment, exploration of specific financial barriers, and presentation of available payment options without making unverified claims.
+
+**Identification Guidance:** Look for consultants responding to explicit statements about program cost being too expensive, concerns about affordability, or budget constraints.
+
+**Examples:**
+- Student: "And the cost is around $60,000? That's a lot of money. I'm not sure if I can afford that."
+- Consultant: "I understand your concern about the cost - it is a significant investment. May I ask what specific aspects of the cost are most concerning to you? Is it the total amount, or more about the timing of payments?"
+- Consultant: "The good news is that we offer FEE-HELP for eligible students, which means you won't need to pay anything upfront and will only begin repayments once your income exceeds the threshold"
+
+### 14.A.ii: Value Proposition Reinforcement Response
+**Description:** Consultant demonstrates behavior of strengthening program value when students express both price concerns and value recognition, connecting institutional strengths to student benefits without fabricating statistics.
+
+**Identification Guidance:** Note instances where students acknowledge program quality while expressing cost hesitation, creating opportunities to reinforce value before addressing price objections.
+
+**Examples:**
+- Student: "You're more expensive than others I've looked at, but I think University X is the one to go with because it'll be well-recognized."
+- Consultant: "You've identified exactly what makes our program valuable. We have triple crown accreditation and the second-best business faculty in the country. This recognition translates directly to stronger employment outcomes"
+- Student: "That's a little bit way beyond our budget."
+- Consultant: "I understand the investment concern. Let me highlight how our exclusive industry partnerships and comprehensive support often provide value that justifies the investment"
+
+## 14.B: Time & Scheduling Objection Handling Behaviors
+
+### 14.B.i: Study Time Commitment Concern Resolution
+**Description:** Consultant demonstrates behavior of addressing concerns about fitting study hours into existing work and life commitments through personalized scheduling solutions and flexibility explanations.
+
+**Identification Guidance:** Look for consultants responding to explicit concerns about the 20-25 hour study commitment, work-life balance, or time management with study.
+
+**Examples:**
+- Student: "I'm worried about the 20-25 hours of study per week you mentioned. I work full-time and have family responsibilities. I don't see how I can fit that many hours into my schedule."
+- Consultant: "That's a common concern for working professionals. Based on what you've shared about your work schedule, you could consider taking fewer units per teaching period to manage the workload"
+- Consultant: "The recommended study load is 20 to 25 hours per week, breaking down roughly to be about two to three hours a day. But of course, you can break that up however you need throughout your week"
+
+### 14.B.ii: Teaching Period Selection Objection Response
+**Description:** Consultant demonstrates behavior of addressing concerns about recommended start dates or teaching period timing through explanation of benefits and exploration of alternatives within actual program structure.
+
+**Identification Guidance:** Note instances where students express disappointment or concern about suggested start dates or timing recommendations.
+
+**Examples:**
+- Student: "I was hoping to start in February, but it sounds like you're suggesting I wait until July. That's a long time to wait, and I'm concerned about losing momentum."
+- Consultant: "I understand your concern about the timing. Let me explain why July might actually work better for your situation and explore if there are any alternatives that align with your goals"
+- Consultant: "You can enroll now and defer to the next teaching period if needed, giving you flexibility while securing your place"
+
+## 14.C: Decision-Making & Commitment Objection Handling Behaviors
+
+### 14.C.i: Browsing Without Intent Response
+**Description:** Consultant demonstrates behavior of addressing situations where students are exploring options without clear enrollment intent, focusing on moving them toward decision-making clarity.
+
+**Identification Guidance:** Look for consultants responding to students who indicate they're "just looking," comparing multiple options, or not ready to commit to enrollment discussions.
+
+**Examples:**
+- Student: "I'm just browsing at the moment, not really ready to make any decisions."
+- Consultant: "I appreciate you being upfront about that. Even when browsing, it's helpful to understand what specific information would be most valuable for your decision-making process"
+- Consultant: "That's completely understandable. Many students benefit from having all the information before they're ready to decide. What aspects of the program are most important for you to understand?"
+
+### 14.C.ii: Decision Anxiety & Procrastination Response
+**Description:** Consultant demonstrates behavior of addressing concerns related to starting new jobs, career transitions, or general decision-making anxiety that creates hesitation about enrollment timing.
+
+**Identification Guidance:** Note instances where students express anxiety about major life changes, starting new positions, or feeling overwhelmed by the decision-making process.
+
+**Examples:**
+- Student: "I'm starting a new job next month and I'm not sure how that will affect my ability to study."
+- Consultant: "Starting a new job is a significant transition. Let's talk about how our flexible program structure could accommodate this change in your work situation"
+- Student: "I keep going back and forth on this decision. I'm worried about making the wrong choice."
+- Consultant: "It's natural to feel uncertain about important decisions like this. What specific aspects are creating the most concern for you?"
+
+### 14.C.iii: Timing Inconvenience Response
+**Description:** Consultant demonstrates behavior of addressing concerns about the current timing of discussions or enrollment processes being inconvenient for the student's schedule or life circumstances.
+
+**Identification Guidance:** Look for consultants responding to students who indicate the current timing for enrollment discussions or processes is problematic for their situation.
+
+**Examples:**
+- Student: "This timing isn't great for me with everything else going on right now."
+- Consultant: "I completely understand that timing is important. Let's discuss what timeframe would work better for you and how we can accommodate that"
+- Student: "I'm dealing with some family issues right now and can't really focus on enrollment decisions."
+- Consultant: "I appreciate you sharing that with me. Family comes first. When do you think would be a better time to revisit this conversation?"

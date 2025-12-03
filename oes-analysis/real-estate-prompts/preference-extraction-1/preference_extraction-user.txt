@@ -1,0 +1,32 @@
+# Property Preference Extraction Task
+
+## Instructions
+Extract buyer property preferences, distinguishing stated vs. revealed preferences.
+
+## Output Format
+```json
+{
+  "preferences": {
+    "location": {
+      "stated": [...],
+      "revealed": [...]
+    },
+    "size": { "stated": [...], "revealed": [...] },
+    "features": {
+      "stated": [...],
+      "revealed": [...],
+      "deal_breakers": [...]
+    },
+    "budget": {
+      "price_range": { "min": N, "max": N, "flexibility": "..." },
+      "financing_type": "..."
+    },
+    "style": { "stated": [...], "revealed": [...] },
+    "lifestyle": { "stated": [...] }
+  }
+}
+```
+
+Each preference item should include: type, value, priority, quote, transcript_range.
+
+The preference definitions and transcript will be appended separately.

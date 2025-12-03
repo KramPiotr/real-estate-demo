@@ -1,0 +1,422 @@
+# Communication & Expertise: Authoritative Clarity Moments Opportunity Definition
+
+## CRITICAL SCOPE ALIGNMENT REQUIREMENT
+
+All Communication & Expertise opportunity identification and analysis **MUST** strictly adhere to the six defined scope areas and align closely with the few-shot examples provided in this document. Effective opportunity analysis demonstrates:
+
+1. **Strict Scope Adherence**: Only identify opportunities that clearly fall within the six defined scope areas. If an opportunity doesn't fit one of these categories, it should NOT be identified as a Communication & Expertise opportunity.
+
+2. **Few-Shot Example Alignment**: Ensure all opportunity analyses follow the structure, approach, and quality demonstrated in the client-validated examples. These examples represent the gold standard for analysis.
+
+3. **Appropriate Complexity Threshold**: Only identify opportunities involving information with significant complexity, technical elements, or high-stakes implications that directly affect enrollment decisions.
+
+4. **Precise Evidence Reference**: Include specific segment numbers and direct quotes that clearly demonstrate why the opportunity meets the criteria.
+
+5. **Clear Enrollment Impact Connection**: Explicitly connect each opportunity to how it affects enrollment decision-making and progression.
+
+Deviation from these scope areas or failure to align with the few-shot examples will result in inaccurate opportunity identification and analysis that doesn't address the core Communication & Expertise behavior effectively.
+
+## Core Definition
+
+An Authoritative Clarity Moment occurs when either: 1) a student asks questions or exhibits uncertainty about complex program elements critical to their enrollment decision, or 2) a consultant needs to explain complex, technical, or high-stakes information essential for informed decision-making. These moments create opportunities for authoritative expertise delivered with exceptional clarity to build trust, prevent decision paralysis, and directly impact enrollment and retention outcomes.
+
+## What Makes High-Quality Opportunity Analysis
+
+Effective opportunity analysis requires precise identification and evaluation of moments where authoritative clarity is needed. High-quality analysis of these opportunities:
+
+1. **Uses direct evidence with specific reference points**:
+   - Cites exact segment numbers where opportunities occur
+   - Quotes the specific student language that signals the opportunity
+   - Identifies conversation context that creates the opportunity
+
+2. **Connects to specific opportunity criteria**:
+   - Links student statements to specific identification criteria
+   - Identifies which type of complexity is present
+   - Recognizes whether the opportunity is student-triggered or consultant-driven
+
+3. **Recognizes implicit concerns**:
+   - Identifies underlying concerns in seemingly casual statements
+   - Recognizes brief statements that imply significant concerns
+   - Detects repeated questions as signals of persistent confusion
+
+4. **Provides clear strength evaluation**:
+   - Assesses opportunity strength with specific reference to scoring criteria
+   - Explains why the opportunity deserves its assigned score
+   - Connects opportunity strength to enrollment impact
+
+5. **Demonstrates enrollment journey impact**:
+   - Explains how this moment influences enrollment decisions
+   - Connects to specific causal impact mechanisms
+   - Shows why clarity at this moment matters for enrollment progression
+
+## The 6-Part Framework for Communication & Expertise Opportunities
+
+The framework consists of six distinct types of Communication & Expertise opportunities. Each represents a critical moment in the consultation where authoritative clarity can significantly impact enrollment outcomes:
+
+1. **Eligibility & Requirements Clarification**
+2. **Financial System & Obligation Explanation**
+3. **Program Structure & Flexibility Demonstration**
+4. **Alternative Pathway Navigation**
+5. **Credential Value & Recognition Validation**
+6. **Technical Concept Translation**
+
+All other topics that don't require authoritative clarity or technical expertise fall outside this scope and should be analyzed under different behavioral patterns.
+
+## Critical Identification Guidelines
+
+When identifying Communication & Expertise opportunities:
+
+- **Complexity Requirement**: Only identify moments where information has significant complexity, technical elements, or high-stakes implications
+- **Decision Impact**: Verify that the information directly affects enrollment decisions or understanding
+- **Context Validation**: Consider the student's background knowledge and confusion indicators
+- **Objective Scoring**: Score opportunities based on their inherent potential if handled optimally (not on consultant's actual response)
+- **Focus on "Why" Not Just "What"**: Pay special attention to opportunities requiring explanation of rationale behind requirements or policies
+- **Holistic Information Needs**: Identify moments where multiple information types (e.g., financial and academic) need integration
+
+## Opportunity Identification Criteria
+
+### Student-Triggered Opportunities:
+
+1. **Eligibility & Requirements Clarification**: Student asks questions about qualification criteria, entry requirements, or expresses confusion about application criteria
+
+2. **Financial System & Obligation Explanation**: Student requests information about financial aspects (fees, payment options, funding) or expresses uncertainty about financial commitments
+
+3. **Program Structure & Flexibility Demonstration**: Student inquires about specific program components, customization options, or flexibility to accommodate personal circumstances
+
+4. **Alternative Pathway Navigation**: Student expresses barriers to standard enrollment routes or references previous unsuccessful attempts
+
+5. **Credential Value & Recognition Validation**: Student directly or indirectly questions institutional credibility, program quality, or recognition
+
+6. **Technical Concept Translation**: Student asks questions revealing confusion about specialized terminology or complex concepts
+
+### Consultant-Driven Opportunities:
+
+7. **Eligibility & Requirements Presentation**: Consultant needs to explain complex entry requirements or application procedures
+
+8. **Financial System & Obligation Presentation**: Consultant must communicate critical financial information affecting enrollment decisions
+
+9. **Program Structure & Flexibility Presentation**: Consultant needs to explain technical program structure, progression, or customization options
+
+10. **Alternative Pathway Presentation**: Consultant must outline non-standard routes for students with unique circumstances
+
+11. **Credential Value & Recognition Presentation**: Consultant needs to establish program credibility or competitive differentiation
+
+12. **Technical Concept Introduction**: Consultant must translate specialized academic or industry concepts for accessibility
+
+## Student Signals
+
+### Explicit Signals:
+- Asking detailed questions about complex topics
+- Using phrases indicating uncertainty: "I'm wondering if...", "How exactly does...", "I'm not sure if..."
+- Requesting clarification on previous explanations
+- Expressing confusion about program elements
+- Seeking comparison with competing institutions
+
+### Implicit Signals:
+- Taking notably long pauses after receiving information
+- Making statements that contradict previously provided information
+- Making brief statements that imply significant concerns (e.g., "I have no teaching background per se")
+- Mentioning previous unsuccessful attempts (e.g., "I couldn't get HECS approved last year")
+- Using vague language about complex topics (e.g., "the rough price they wave around")
+- Comparing their situation to others who received different outcomes
+- Referring to inconsistent experiences with the institution
+
+## Causal Impact Logic
+
+Communication and Expertise directly improves enrollment and retention likelihood by:
+
+1. **Establishing Trust Foundation**: Demonstrated expertise delivered with exceptional clarity creates the foundational trust necessary for students to accept guidance and recommendations.
+
+2. **Preventing Decision Paralysis**: When students fully understand complex information presented with authority, they can make decisions confidently rather than delaying due to uncertainty.
+
+3. **Creating Competitive Differentiation**: Clear, authoritative explanation helps distinguish the institution from competitors through both quality of information and credibility of representation.
+
+4. **Validating Investment Value**: Expert knowledge presented with clarity helps students feel confident that their educational investment will deliver expected returns.
+
+5. **Ensuring Informed Consent**: Students who clearly understand commitments, requirements, and benefits make enrollment decisions with proper expectations, reducing future disappointment.
+
+6. **Building Psychological Safety**: Confident, clear guidance creates security that supports students through the enrollment process and beyond.
+
+7. **Creating Memorable Reference Points**: Well-structured, authoritative explanations create mental anchors that students can recall during their educational journey.
+
+8. **Resolving Hesitation Through Expertise**: Authoritative clarity directly addresses underlying hesitation that might otherwise prevent enrollment completion.
+
+## Opportunity Strength Scoring Rubric (1-5)
+
+**5 - Critical Opportunity (Highest Priority)**:
+- **Definition**: A perfect opportunity for Communication and Expertise representing the highest possible impact on enrollment likelihood
+- **Information Complexity**: Extremely complex or technical information critical to enrollment decision
+- **Student Signals**: Strong confusion, misconceptions, or explicit questioning of institutional credibility
+- **Decision Impact**: Information directly affects major financial or time commitments
+- **Missed Impact**: Failure to capitalize would likely lead to enrollment abandonment
+- **Examples**: Financial aid eligibility for non-citizens; academic pathway options after previous rejection; complex program requirements where experience validation matters
+
+**4 - Strong Opportunity**:
+- **Definition**: A high-value opportunity for Communication and Expertise with substantial impact on enrollment likelihood
+- **Information Complexity**: Complex information with multiple interdependent components
+- **Student Signals**: Noticeable uncertainty, multiple questions, or comparison with alternatives
+- **Decision Impact**: Information significantly influences program perception and value assessment
+- **Missed Impact**: Failure to capitalize would substantially reduce enrollment likelihood
+- **Examples**: Program structure explanation needed for career advancement; credential recognition questions; technical eligibility criteria explanation
+
+**3 - Moderate Opportunity**:
+- **Definition**: A viable opportunity for Communication and Expertise with potential impact on enrollment likelihood
+- **Information Complexity**: Information has significant complexity requiring careful explanation
+- **Student Signals**: Some hesitation, basic questions, or expressed uncertainty
+- **Decision Impact**: Information moderately influences enrollment decision-making
+- **Missed Impact**: Failure to capitalize would somewhat reduce enrollment chances
+- **Examples**: Basic program structure questions; general financial questions; inquiries about program flexibility
+
+**2 - Limited Opportunity**:
+- **Definition**: A minimal opportunity for Communication and Expertise with limited impact on enrollment likelihood
+- **Information Complexity**: Information has some complexity but is generally accessible
+- **Student Signals**: Mild curiosity or general inquiries without significant anxiety
+- **Decision Impact**: Information has minor influence on enrollment decision-making
+- **Missed Impact**: Failure to capitalize has minimal impact on enrollment outlook
+- **Examples**: Inquiries about basic program elements; questions about administrative processes
+
+**1 - Minimal Opportunity**:
+- **Definition**: A technically valid but extremely weak opportunity for Communication and Expertise
+- **Information Complexity**: Information is straightforward with little technical complexity
+- **Student Signals**: Simple questions without signs of confusion or concern
+- **Decision Impact**: Information has negligible influence on enrollment decisions
+- **Missed Impact**: Failure to capitalize has negligible impact on enrollment likelihood
+- **Examples**: Basic factual questions; simple administrative inquiries; questions answered by readily available information
+
+## Exemplary Opportunity Analysis by Scope Area
+
+### 1. Eligibility & Requirements Clarification
+
+**Example: Eligibility Criteria Confusion**
+
+**Call ID**: 624736172953
+
+**Opportunity Analysis**:  
+In segments 43-48, the student expresses confusion about their eligibility for the Graduate Diploma, questioning why their colleague was accepted while they were not, despite having more field experience: "I have more field experience than another colleague of mine. And she got approved...when two years ago when I was ringing and asking you guys, you said I'm not qualified for it." This explicitly aligns with the behavioral pattern definition where a student exhibits uncertainty about complex program elements critical to their enrollment decision. The student's confusion about eligibility criteria represents a critical moment where authoritative clarity is essential to prevent decision paralysis and build trust. This moment is significant for the enrollment journey because understanding eligibility impacts the student's enrollment decision and perception of institutional fairness and credibility.
+
+**Opportunity Score**: 4.3/5
+
+**Client Comment**: "This was a good example as it is a very clear and assertive response to entry criteria which gives the applicant confidence they are eligible."
+
+**Key Identifiers**:
+- Student directly compares their situation to another student who was accepted
+- Language expressing perceived inconsistency in admission decisions
+- Reference to previous interaction with the institution that created confusion
+- Specific mention of qualifications (field experience) that the student believes should make them eligible
+- Underlying tone suggesting potential unfairness or unclear criteria
+
+**How to Identify Similar Opportunities**:
+1. Watch for comparisons between the student's qualifications and others who were accepted
+2. Listen for references to previous unsuccessful interactions with the institution
+3. Note language that questions the consistency or fairness of eligibility decisions
+4. Identify moments where students are seeking validation of their qualifications
+5. Recognize statements that reveal confusion about why specific criteria exist or how they are applied
+
+### 2. Financial System & Obligation Explanation
+
+**Example: Financial Requirements Inquiry**
+
+**Opportunity Analysis**:  
+In segment 93-102, there's a critical opportunity to provide authoritative clarity regarding financial requirements when the student asks, "what are the fees for the degree?" This inquiry addresses the criteria where the Consultant must communicate critical financial information affecting student decisions. The consultant here must clearly explain the HECS loan system, pivotal for shaping the student's perception of program affordability. This moment is crucial because the financial explanation impacts the student's perceived feasibility of enrolling, providing clarity on payment obligations that directly affect major financial commitments. Given the high-stakes nature of financial commitment in educational decisions, the consultant's effective explanation ensures the student can proceed with awareness and confidence.
+
+**Opportunity Score**: 4.7/5
+
+**Client Comment**: "This was good as it provided clear feedback and why it was good, it also gave a nice little extra recommendation for the optimal approach."
+
+**Key Identifiers**:
+- Direct question about program costs
+- Student inquiry related to financial commitment requirements
+- Question coming at a decision-making point in the conversation
+- Inquiry that requires explaining complex financial systems (HECS)
+- Question that directly impacts affordability perception
+
+**How to Identify Similar Opportunities**:
+1. Listen for any financial-related questions, even if they seem simple on the surface
+2. Identify questions about payment options, loans, or fee structures
+3. Watch for hesitation when discussing program costs
+4. Note moments when students are weighing the financial investment against perceived value
+5. Recognize when students need clarification about financial aid systems specific to their situation
+6. Pay attention to questions about immediate payment requirements versus deferred payment options
+
+### 3. Program Structure & Flexibility Demonstration
+
+**Example: Program Structure Personalization**
+
+**Call ID**: 624586954676
+
+**Opportunity Analysis**:  
+This opportunity arises from the student's inquiry about program structure, specifically the availability of psychology units within the criminology program. In segment 18, the student asked, "Is there a psychology unit as well?" indicating an interest in incorporating psychology into their studies, which presents a moment to align the program offer with the student's personal interests. This engagement represents a moderate opportunity, as it involves tailoring program elements to fit the student's career aspirations, impacting their decision-making by demonstrating program flexibility and alignment with their aspirations.
+
+**Opportunity Score**: 4.7/5
+
+**Client Comment**: "This was good as it adds a nice little marginal improvement, around positive and supportive language"
+
+**Key Identifiers**:
+- Question about specific subject area availability
+- Inquiry indicating personal interest beyond core program
+- Question about program flexibility or customization
+- Student seeking to align program with specific career interests
+- Query about cross-disciplinary options
+
+**How to Identify Similar Opportunities**:
+1. Listen for questions about specific subjects or topics the student is interested in
+2. Identify inquiries about elective options or program customization
+3. Notice when students mention specific career goals that might guide their course selections
+4. Watch for questions that reveal the student's attempt to align the program with their interests
+5. Pay attention to subtle indicators that the student is trying to determine if the program will accommodate their specific academic interests
+6. Recognize opportunities to demonstrate program flexibility that could enhance enrollment likelihood
+
+### 4. Alternative Pathway Navigation
+
+**Example: Alternative Pathway Explanation**
+
+**Call ID**: 624458167723
+
+**Opportunity Analysis**:  
+The opportunity arises in segment 26 when the student states, "I tried to take admission last year, but I couldn't get HECS approved, so I just delayed one year." This highlights a complex financial element from previous enrollment attempts and prompts discussion about alternative pathways, such as the consultant mentioning an undergraduate certificate as a route to eventually enter the Bachelor of Laws program. This falls under the Communication and Expertise category, needing authoritative clarity to navigate the financial and educational pathways effectively. It is significant as it directly influences the student's enrollment decision by providing a structured, achievable path that creates trust and prevents decision paralysis.
+
+**Opportunity Score**: 4.0/5
+
+**Client Comment**: "This was good as it demonstrated how the consultant can explain HECS & eligibility for the course in the same part of the conversation."
+
+**Key Identifiers**:
+- Reference to previous unsuccessful enrollment attempt
+- Mention of specific financial barrier (HECS approval)
+- Statement indicating persistence despite previous rejection
+- Implicit question about alternative pathways or options
+- Need for both financial and academic pathway guidance simultaneously
+
+**How to Identify Similar Opportunities**:
+1. Watch for mentions of previous unsuccessful applications or enrollment attempts
+2. Listen for financial barriers that prevented previous enrollment
+3. Identify statements suggesting the student has been waiting or delaying their education
+4. Notice when students need guidance on both financial aid and academic pathways
+5. Recognize implicit requests for alternatives when standard pathways aren't accessible
+6. Pay attention to signs of persistence despite previous obstacles, indicating high motivation
+
+### 5. Credential Value & Recognition Validation
+
+**Example: Program Requirement Waiver Inquiry**
+
+**Call ID**: 624719699645
+
+**Opportunity Analysis**:  
+In segment 13, the student displayed uncertainty by asking about waivers for their diploma and 10 years of experience. This highlights a lack of understanding regarding program requirements, a crucial factor in decision-making. It presented an opportunity for the consultant to clarify why full program completion is necessary to meet comprehensive teaching standards.
+
+**Opportunity Score**: (Not visible in image)
+
+**Client Comment**: "This was a good as suggestion as it elaborates on the 'why' a criteria is a certain way, but still acknowledges their experience is valuable. Just note it mentions 'VRT' it is 'VIT'"
+
+**Key Identifiers**:
+- Request for exemptions or waivers based on prior experience
+- Question about recognition of prior learning or experience
+- Inquiry suggesting expectation of shortened program pathway
+- Statement highlighting significant industry experience
+- Question about program flexibility for experienced professionals
+
+**How to Identify Similar Opportunities**:
+1. Look for questions about program customization based on experience
+2. Identify inquiries about shortening program duration
+3. Notice when students emphasize their existing qualifications and experience
+4. Watch for implicit assumptions that experience should reduce program requirements
+5. Listen for questions comparing program requirements to real-world experience
+6. Pay attention to subtle expressions of frustration about completing "unnecessary" program components
+
+### 6. Technical Concept Translation
+
+**Example: Citizenship-Based Financial Aid Differentiation**
+
+**Call ID**: 624586782782
+
+**Opportunity Analysis**:  
+In segments 47-57, the student sought clarification, "But what's the difference?" regarding citizenship and HECS loans, indicating critical misunderstanding needing authoritative explanation on eligibility differences. This aligns with 'Consultant-driven' criteria, demanding clear financial info affecting decision-making, crucial for enrollment processes with accurate guidance necessary to correct misconceptions.
+
+**Opportunity Score**: 4.7/5
+
+**Key Identifiers**:
+- Question about technical differences between related concepts
+- Inquiry requiring explanation of eligibility criteria based on citizenship status
+- Question about complex financial mechanisms with significant enrollment implications
+- Need for translation of government policy into practical implications
+- Confusion about how status changes might affect financial options
+
+**How to Identify Similar Opportunities**:
+1. Watch for questions that indicate confusion about technical distinctions
+2. Notice when students need clarification about how their specific circumstances affect eligibility
+3. Listen for questions that require translating official policies into practical implications
+4. Identify moments where students need to understand how status changes affect their options
+5. Pay attention to questions about relationships between technical categories and practical outcomes
+
+## Bad Opportunity Examples (False Positives)
+
+### Example 1: Simple Process Question
+Student: "What's the deadline for submitting my application for the next intake?"
+
+**Example LLM Analysis**:
+This question in segment 34 does not represent an authoritative clarity opportunity. It requests straightforward factual information (a specific date) with minimal complexity or specialist knowledge required. The question involves no ambiguity, technical terminology requiring explanation, or credibility concerns. It can be answered directly with a simple calendar date without requiring complex explanation or demonstration of expertise. While the information is useful for the student's planning, it's routine administrative information with minimal risk of misunderstanding and limited direct impact on major enrollment decisions. This represents a basic information exchange rather than an opportunity for authoritative clarity to resolve confusion or prevent decision paralysis.
+
+**Why this is not a valid opportunity**: The question lacks the complexity, technical nature, or high-stakes impact required for Communication and Expertise. It can be answered with simple factual information without requiring specialized knowledge or authoritative explanation.
+
+### Example 2: General Interest Query
+Student: "What kind of networking events do you host for students?"
+
+**Example LLM Analysis**:
+This question in segment 112 does not constitute an authoritative clarity opportunity. The student is seeking general information about supplementary program features (networking events) rather than complex information critical to enrollment decisions. The question doesn't involve technical terminology, complex program structure, financial commitments, or credibility concerns. While networking may be interesting to the student, it represents a peripheral program element rather than core information affecting major enrollment decisions. The question doesn't indicate confusion, misconception, or uncertainty requiring exceptional clarity to resolve, nor does it suggest decision hesitation that authoritative expertise would address. This represents a straightforward informational question that can be answered with basic program knowledge without requiring significant expertise demonstration or technical explanation.
+
+**Why this is not a valid opportunity**: The inquiry concerns supplementary features rather than core program elements that impact enrollment decisions. It doesn't require technical expertise or authoritative clarity to address effectively.
+
+### Example 3: Personal Preference Question
+Student: "Do students typically attend the online sessions in the evenings or are most sessions during the day?"
+
+**Example LLM Analysis**:
+This question in segment 87 doesn't qualify as an authoritative clarity opportunity. The student is seeking simple factual information about typical online session timing based on student participation patterns. This represents low-complexity information that doesn't require specialized knowledge or exceptional clarity to communicate effectively. The question doesn't involve technical concepts, program structure complexity, financial aspects, or credibility concerns. While the information may help with personal scheduling, it doesn't significantly impact core enrollment decisions or represent a potential barrier to enrollment progression. The answer requires basic operational knowledge rather than demonstrated expertise, and misunderstanding would have minimal impact on enrollment or retention outcomes. This represents a practical logistics question rather than an opportunity for authoritative clarity to address complex information needs or resolve decision-making barriers.
+
+**Why this is not a valid opportunity**: The question concerns practical scheduling preferences without technical complexity or significant enrollment impact. It doesn't require specialized knowledge or authoritative explanation to address effectively.
+
+## Important Note on Opportunity Identification
+
+The opportunity score reflects the potential impact if communication and expertise are ideally demonstrated, not the consultant's actual response quality. Even if a consultant fails to provide clear explanation or demonstrate appropriate authority, the opportunity should still be identified and scored based on the information complexity, its importance to the student's decision-making, and any credibility concerns present.
+
+When identifying opportunities, pay special attention to:
+
+1. The need to explain "why" not just "what" - opportunities for explaining rationale behind requirements are particularly valuable
+2. Moments requiring integration of multiple information types (financial and academic pathways)
+3. Situations where students need validation of their experience while understanding requirements
+4. Opportunities to transform technical concepts into accessible, actionable information
+5. Moments where students express confusion about seemingly inconsistent decisions or policies
+6. Questions about financial implications that directly affect enrollment feasibility
+
+Remember that Communication & Expertise opportunities often present as student questions rather than explicit statements of confusion or doubt. The need for expertise is frequently embedded in how questions are phrased and the context in which they appear.
+
+## Verification Checklist
+
+Before finalizing the identification and scoring of any Communication & Expertise opportunity, verify:
+
+1. **Complexity Check**: Does the information have significant complexity, technical elements, or high-stakes implications?
+2. **Decision Impact**: Will this information directly influence enrollment decisions or understanding?
+3. **Scope Alignment**: Does this clearly fit one of the six defined scope areas?
+4. **Student Signals**: Are there verbal cues indicating confusion, uncertainty, or information needs?
+5. **Opportunity Framework**: Is this genuinely an opportunity for authoritative expertise with clarity, not another behavioral pattern?
+6. **Prior Context**: Has the conversation established sufficient context for this to be a meaningful opportunity?
+
+If the answer to any of these questions is "no," the opportunity should not be identified. If all are "yes," identify the opportunity and assign the appropriate score using the 1-5 rubric above.
+
+## Conclusion
+
+By consistently applying this framework to identify and score Communication & Expertise opportunities, consultants can recognize the optimal moments to demonstrate authoritative clarity and advance the student's enrollment journey. Remember that all legitimate opportunities within the 6 types should be identified and scored appropriately, even when not "perfect" Score 5 opportunities.
+
+## CRITICAL SCOPE ADHERENCE REMINDER
+
+All opportunity identification and analysis must:
+
+1. **Stay Strictly Within Defined Scope Areas**: Only identify opportunities that fall clearly within the six scope areas defined in this document. Opportunities outside these areas should be analyzed under different behavioral patterns.
+
+2. **Mirror Validated Examples**: All analyses should closely follow the structure, evidence density, and approach demonstrated in the client-validated examples. These examples represent the expected standard for quality analysis.
+
+3. **Maintain Appropriate Complexity Threshold**: Communication & Expertise opportunities only exist when information has significant complexity, technical elements, or high-stakes implications that directly impact enrollment decisions.
+
+4. **Include Precise Evidence**: Every opportunity analysis must include specific segment numbers and verbatim quotes that clearly demonstrate why the opportunity meets the criteria.
+
+5. **Connect to Enrollment Impact**: Each analysis must explicitly explain how the opportunity affects enrollment decision-making and progression.
+
+Opportunity identification that fails to adhere to these scope guidelines or differs substantially from the provided examples will not effectively capture the Communication & Expertise behavior as defined by client standards and expectations.

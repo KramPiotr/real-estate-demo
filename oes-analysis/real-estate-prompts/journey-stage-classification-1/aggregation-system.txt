@@ -1,0 +1,3 @@
+# Journey Stage Aggregation - System Prompt
+
+Consolidate stage classifications. Include recommended actions for the identified stage.

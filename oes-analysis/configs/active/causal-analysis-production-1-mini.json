@@ -1,0 +1,84 @@
+{
+    "transcripts_directory": "test-transcripts",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "behaviour",
+        "location": "causals",
+        "types": [
+            "opportunity","definition"
+        ]
+    },
+    "nodes": [
+        {
+            "name": "trigger_identification",
+            "inputs": [
+                "transcript",
+                "behaviour-opportunity"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        },
+        {
+            "name": "response_analysis",
+            "inputs": [
+                "transcript",
+                "behaviour-opportunity",
+                "trigger_identification"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        },
+        {
+            "name": "recommended_improvement",
+            "inputs": [
+                "transcript",
+                "behaviour-definition",
+                "response_analysis"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        },
+        {
+            "name": "response_validation",
+            "inputs": [
+                "transcript",
+                "behaviour-opportunity",
+                "behaviour-definition",
+                "recommended_improvement"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        },
+        {
+            "name": "condense_analysis",
+            "inputs": [
+                "transcript",
+                "behaviour-opportunity",
+                "behaviour-definition",
+                "response_validation"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ]
+        }
+    ]
+}

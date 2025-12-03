@@ -1,0 +1,192 @@
+# Negative Buyer Signals - Behavioral Definition
+
+## Purpose
+Identify and score negative signals that indicate barriers to purchase or reduced likelihood to buy.
+
+---
+
+## 1. Financial Barriers (`financial_barriers`)
+
+### Definition
+Buyer indicates financial constraints, uncertainty, or obstacles that may prevent purchase.
+
+### Checklist Conditions (require 2 of 3)
+- [ ] Mentions credit issues, denied loans, or financing challenges
+- [ ] Budget significantly below property price without awareness
+- [ ] Job instability, income uncertainty, or pending financial changes
+
+### Scoring Rubric (Severity)
+| Score | Criteria |
+|-------|----------|
+| 5 | Cannot qualify for financing, no savings, recent bankruptcy or foreclosure |
+| 4 | Pre-approval denied or unlikely, significant budget gap, job loss pending |
+| 3 | Financing uncertain, budget tight, some financial concerns expressed |
+| 2 | Minor budget concerns, waiting on one financial element to clear |
+| 1 | No financial barriers detected |
+
+### Strong Negative Examples
+> **Score 5**: "We had a foreclosure three years ago and we're still rebuilding our credit. We're not sure if anyone will lend to us."
+
+> **Score 4**: "I'm being laid off next month but we're hoping to get approved before that happens."
+
+### Moderate Negative Examples
+> **Score 3**: "Our budget is around $400k but everything we like is $500k+. We're not sure how to bridge that gap."
+
+---
+
+## 2. Decision Paralysis (`decision_paralysis`)
+
+### Definition
+Buyer shows inability or unwillingness to make decisions, chronic indecisiveness, or endless comparison.
+
+### Checklist Conditions (require 2 of 3)
+- [ ] Has been looking for extended period (6+ months) without making offers
+- [ ] Expresses inability to decide, needs to see "more options"
+- [ ] Revisits same concerns repeatedly without resolution
+
+### Scoring Rubric (Severity)
+| Score | Criteria |
+|-------|----------|
+| 5 | Looking for 1+ year, never made offer, paralyzed by fear of wrong choice |
+| 4 | 6+ months looking, several "almost" offers backed out, chronic second-guessing |
+| 3 | Multiple months looking, difficulty narrowing options, "what if" mentality |
+| 2 | Normal deliberation, wants to be thorough but making progress |
+| 1 | Decisive, clear decision-making process |
+
+### Strong Negative Examples
+> **Score 5**: "We've been looking for about 18 months now. We've seen probably 50 houses but nothing feels quite right. We just want to make sure we don't make a mistake."
+
+> **Score 4**: "We almost made an offer twice but pulled back at the last minute. What if something better comes along?"
+
+---
+
+## 3. External Blockers (`external_blockers`)
+
+### Definition
+Buyer faces external circumstances that prevent or significantly delay purchase.
+
+### Checklist Conditions (require 2 of 3)
+- [ ] Pending sale of current home that must close first
+- [ ] Legal issues (divorce, estate settlement, pending lawsuit)
+- [ ] Family disagreement or absent decision-maker with different views
+
+### Scoring Rubric (Severity)
+| Score | Criteria |
+|-------|----------|
+| 5 | Blocker is immovable and indefinite (contested divorce, legal dispute) |
+| 4 | Significant blocker with uncertain timeline (home sale in difficult market) |
+| 3 | Blocker exists but has reasonable path to resolution |
+| 2 | Minor external dependency with clear timeline |
+| 1 | No external blockers identified |
+
+### Strong Negative Examples
+> **Score 5**: "We're in the middle of a divorce and nothing is settled yet. It could be another year before we know what we can afford."
+
+> **Score 4**: "We need to sell our current house first, but it's been on the market for 4 months with no offers."
+
+---
+
+## 4. Unrealistic Expectations (`unrealistic_expectations`)
+
+### Definition
+Buyer's expectations for price, features, or market conditions are misaligned with reality.
+
+### Checklist Conditions (require 2 of 3)
+- [ ] Wants significantly more than budget allows (champagne taste, beer budget)
+- [ ] Expects market conditions that don't exist (2019 prices in 2024 market)
+- [ ] Requires unicorn property (all must-haves that rarely exist together)
+
+### Scoring Rubric (Severity)
+| Score | Criteria |
+|-------|----------|
+| 5 | Completely unrealistic, refuses to accept market reality, will never find what they want at their price |
+| 4 | Significantly misaligned, needs major expectation reset, may become frustrated and quit |
+| 3 | Some unrealistic elements but coachable, needs education |
+| 2 | Slightly optimistic but reasonable, minor calibration needed |
+| 1 | Realistic expectations aligned with market |
+
+### Strong Negative Examples
+> **Score 5**: "We want a 5-bedroom house with a pool, new construction, in the best school district, and our budget is $350k. That's what houses cost, right?"
+
+> **Score 4**: "I don't understand why houses are so expensive now. We should be able to get what we want for what we paid 10 years ago."
+
+---
+
+## 5. Competitor Preference (`competitor_preference`)
+
+### Definition
+Buyer indicates preference for competing properties or agents, reducing likelihood of this deal closing.
+
+### Checklist Conditions (require 2 of 3)
+- [ ] Mentions other properties they prefer or are seriously considering
+- [ ] Working with another agent or considering switching
+- [ ] Making direct comparisons unfavorable to current option
+
+### Scoring Rubric (Severity)
+| Score | Criteria |
+|-------|----------|
+| 5 | Has made offer on another property, working primarily with different agent |
+| 4 | Strong preference for competitor property, seriously considering it |
+| 3 | Comparing multiple options including strong competitor |
+| 2 | Casually looking at other options, no strong preference elsewhere |
+| 1 | Focused on current property/agent, no competitor interest |
+
+### Strong Negative Examples
+> **Score 5**: "Actually, we put an offer in on the house on Maple Street this morning. We're just waiting to hear back."
+
+> **Score 4**: "The house we saw yesterday with the other agent is really our top choice. This one would be our backup."
+
+---
+
+## 6. Disengagement Signals (`disengagement_signals`)
+
+### Definition
+Buyer shows signs of losing interest, avoiding contact, or deprioritizing the search.
+
+### Checklist Conditions (require 2 of 3)
+- [ ] Mentions being busy, rescheduling, or needing to "slow down"
+- [ ] Less responsive than before, shorter answers, less enthusiasm
+- [ ] Excuses for not taking next steps ("we'll think about it", "maybe later")
+
+### Scoring Rubric (Severity)
+| Score | Criteria |
+|-------|----------|
+| 5 | Ghost risk - avoiding calls, cancelled multiple times, making excuses |
+| 4 | Significant pull-back from previous engagement level, stalling |
+| 3 | Some disengagement signs, energy lower than before |
+| 2 | Normal life interference, still engaged when available |
+| 1 | Highly engaged, proactive, responsive |
+
+### Strong Negative Examples
+> **Score 5**: "Yeah, we've just been really busy. Can we touch base in a few weeks maybe? Or a month? We'll call you when we're ready."
+
+> **Score 4**: "We need to think about it more. We're not really in a rush anymore. Things have changed a bit."
+
+---
+
+## Output Schema
+
+For each negative signal identified, output:
+
+```json
+{
+  "category": "financial_barriers",
+  "severity": 4,
+  "confidence": 0.85,
+  "quote": "I'm being laid off next month but we're hoping to get approved before that happens",
+  "transcript_range": "67-72",
+  "explanation": "Buyer disclosed pending job loss which significantly impacts loan qualification probability.",
+  "recommended_action": "Discuss timeline urgency - if serious, accelerate process before employment change"
+}
+```
+
+---
+
+## Analysis Instructions
+
+1. Review entire transcript for barrier indicators
+2. Score severity based on impact on purchase likelihood
+3. Include direct quotes with transcript references
+4. If no evidence for a category, score as 1 with "No negative signal detected"
+5. Consider whether negative signal is addressable or permanent
+6. Provide recommended action for each significant negative signal (score 3+)

@@ -1,0 +1,95 @@
+{
+    "transcripts_directory": "real-estate-calls",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "agent_behaviors",
+        "location": "real-estate-definitions",
+        "types": ["definition"]
+    },
+    "nodes": [
+        {
+            "name": "behavior_extraction",
+            "inputs": [
+                "agent_behaviors-definition",
+                "transcript"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "agent_behaviors": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "behavior": {
+                                    "type": "string",
+                                    "enum": ["needs_discovery", "rapport_building", "property_value_articulation", "objection_handling", "urgency_creation", "next_steps_closing", "competitor_differentiation"]
+                                },
+                                "score": {"type": "integer", "minimum": 1, "maximum": 5},
+                                "evidence_quote": {"type": "string"},
+                                "transcript_range": {"type": "string"},
+                                "strengths": {"type": "array", "items": {"type": "string"}},
+                                "improvement_areas": {"type": "array", "items": {"type": "string"}}
+                            },
+                            "required": ["behavior", "score", "evidence_quote", "transcript_range"]
+                        }
+                    }
+                },
+                "required": ["agent_behaviors"]
+            }
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "agent_behaviors-definition",
+                "transcript",
+                "behavior_extraction"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "agent_behaviors": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "behavior": {"type": "string"},
+                                "consensus_score": {"type": "number"},
+                                "analyst_agreement": {"type": "integer", "minimum": 1, "maximum": 3},
+                                "evidence_quote": {"type": "string"},
+                                "transcript_range": {"type": "string"},
+                                "strengths": {"type": "array", "items": {"type": "string"}},
+                                "improvement_areas": {"type": "array", "items": {"type": "string"}}
+                            },
+                            "required": ["behavior", "consensus_score", "analyst_agreement"]
+                        }
+                    },
+                    "overall_performance_score": {
+                        "type": "number",
+                        "minimum": 1,
+                        "maximum": 5
+                    },
+                    "top_strengths": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    },
+                    "priority_improvement_areas": {
+                        "type": "array",
+                        "items": {"type": "string"}
+                    }
+                },
+                "required": ["agent_behaviors", "overall_performance_score", "top_strengths", "priority_improvement_areas"]
+            }
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+# Comprehensive Feature Analysis Aggregation - Educational Sales Calls
+
+## Role and Context
+You're an expert analyst responsible for consolidating three separate comprehensive behavioral feature analyses of the same educational sales call transcript. You'll synthesize all feature evaluations into one authoritative report that captures consensus assessments, resolves disagreements, and maintains comprehensive coverage of the entire taxonomy.
+
+## Instructions
+1. Review the three separate comprehensive feature analyses provided below
+2. Ensure all features from the taxonomy are covered in your consolidation
+3. For each feature across all analyses:
+   - Count how many analysts assessed it as "present" (analyst_count: 0-3)
+   - Synthesize verdict determinations using evidence quality and consensus
+   - Aggregate likelihood and intensity ratings considering analyst agreement
+   - Calculate consolidated score reflecting overall assessment
+   - Determine confidence level based on evidence strength and analyst consensus
+   - Select or combine the strongest evidence from all analyses
+   - Create comprehensive justification explaining aggregation reasoning
+
+4. Include ALL features from the taxonomy in your consolidated output
+5. Resolve disagreements based on evidence quality, not just majority voting
+6. Ensure logical consistency between verdict, likelihood, intensity, score, and confidence
+7. Acknowledge uncertainty when evidence is ambiguous or analysts disagree significantly
+
+## Aggregation Guidelines
+- **Analyst Count**: Number of analysts (0-3) who assessed feature as "present"
+- **Verdict Synthesis**: Prioritize evidence quality over simple majority consensus
+- **Likelihood/Intensity**: Weight assessments based on confidence and evidence strength
+- **Score Calculation**: Integrate aggregated verdict, likelihood, and intensity
+- **Confidence Determination**: Higher with analyst agreement and strong evidence
+- **Evidence Selection**: Choose most comprehensive and contextually appropriate evidence
+- **Justification Integration**: Explain synthesis logic and address disagreements
+
+## Output Format
+```json
+{
+  "feature_evaluations": [
+    {
+      "feature_index_code": "1.A.i",
+      "feature_name": "Minimized Time Commitment Framing",
+      "verdict": "present",
+      "likelihood": "highly likely",
+      "intensity": "strong", 
+      "score": 4.3,
+      "confidence": 0.9,
+      "analyst_count": 3,
+      "evidence": "STUDENT: I work full-time, about 50 hours a week, and have two young children. How much time will I need for studying?\nCONSULTANT: The good thing about our program is it's very flexible. You can fit it around your schedule...",
+      "justification": "All three analysts agreed this feature was present. The consultant clearly minimizes time commitment by emphasizing flexibility without providing specific hourly requirements, despite student's significant existing commitments..."
+    },
+    {
+      "feature_index_code": "4.A.ii", 
+      "feature_name": "Online Study Anxiety",
+      "verdict": "unsure",
+      "likelihood": "possible",
+      "intensity": "weak",
+      "score": 2.7,
+      "confidence": 0.4,
+      "analyst_count": 1,
+      "evidence": "STUDENT: I'm not really sure about the online format. I've never done anything like this before...",
+      "justification": "Split assessment - one analyst identified moderate anxiety, two found insufficient evidence. Student expresses uncertainty about online format but lacks clear anxiety indicators about learning capability..."
+    }
+  ]
+}
+```
+
+The three separate comprehensive analyses, the behavioral feature taxonomy, and the sales call transcript will be provided below. Focus on creating an authoritative consolidation that represents the strongest collective assessment while maintaining transparency about analyst agreement levels.

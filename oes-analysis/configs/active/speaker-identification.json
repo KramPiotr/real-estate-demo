@@ -1,0 +1,56 @@
+{
+  "model_name": "speaker-identification-production-1",
+  "description": "Standalone speaker identification model for university sales call transcripts",
+  "version": "1.0.0",
+  "created_date": "2025-09-29",
+
+  "ai_provider": {
+    "primary": "gemini",
+    "model": "gemini-2.5-flash",
+    "temperature": 0.2,
+    "max_tokens": 2000,
+    "backup_provider": "gemini",
+    "backup_model": "gemini-2.0-flash"
+  },
+
+  "input_configuration": {
+    "input_directory": "./input",
+    "supported_formats": ["json"],
+    "transcript_field": null,
+    "expected_structure": [
+      {
+        "id": "segment_id",
+        "speaker": 1,
+        "text": "segment content"
+      }
+    ]
+  },
+
+  "output_configuration": {
+    "output_directory": "./output",
+    "output_format": "json",
+    "filename_pattern": "{input_filename}.json",
+    "include_metadata": true
+  },
+
+  "processing_settings": {
+    "batch_size": 10,
+    "concurrent_requests": 3,
+    "retry_attempts": 3,
+    "timeout_seconds": 120
+  },
+
+  "quality_control": {
+    "minimum_confidence_threshold": 0.7,
+    "flag_low_confidence": true,
+    "require_evidence": true,
+    "validate_output_format": true
+  },
+
+  "logging": {
+    "log_level": "INFO",
+    "log_directory": "./logs",
+    "log_filename": "speaker_identification_{timestamp}.log",
+    "include_api_calls": true
+  }
+}

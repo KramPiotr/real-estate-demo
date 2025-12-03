@@ -1,0 +1,78 @@
+{
+    "transcripts_directory": "partial_results/opportunity_generation",
+    "output_directory": "partial_results/opportunity-examples-generated",
+    "inputs": {},
+    "nodes": [
+        {
+            "name": "generate_examples",
+            "inputs": [
+                "input"
+            ],
+            "models": [
+                {
+                    "provider": "gemini",
+                    "model": "gemini-2.5-flash",
+                    "max_tokens": 20000
+                }
+            ],
+            "response_format": {
+                "type": "json_schema",
+                "json_schema": {
+                    "name": "topic_opportunity_examples",
+                    "strict": true,
+                    "schema": {
+                        "type": "object",
+                        "properties": {
+                            "opportunities": {
+                                "type": "array",
+                                "description": "Array of opportunity analyses, one per input opportunity",
+                                "items": {
+                                    "type": "object",
+                                    "properties": {
+                                        "opportunity_id": {
+                                            "type": "string",
+                                            "description": "The opportunity_id from the input (format: callid_oppid)"
+                                        },
+                                        "opportunity_summary": {
+                                            "type": "string",
+                                            "description": "A comprehensive explanation of the opportunity scenario: when/why this situation arises for students, what concerns or questions they typically have, the context in which this opportunity appears, and what makes it a critical moment in the enrollment journey"
+                                        },
+                                        "examples": {
+                                            "type": "array",
+                                            "description": "5 diverse student quotes demonstrating this opportunity",
+                                            "items": {
+                                                "type": "object",
+                                                "properties": {
+                                                    "quote": {
+                                                        "type": "string",
+                                                        "description": "What the student says that triggers this opportunity"
+                                                    }
+                                                },
+                                                "required": [
+                                                    "quote"
+                                                ],
+                                                "additionalProperties": false
+                                            },
+                                            "minItems": 5,
+                                            "maxItems": 5
+                                        }
+                                    },
+                                    "required": [
+                                        "opportunity_id",
+                                        "opportunity_summary",
+                                        "examples"
+                                    ],
+                                    "additionalProperties": false
+                                }
+                            }
+                        },
+                        "required": [
+                            "opportunities"
+                        ],
+                        "additionalProperties": false
+                    }
+                }
+            }
+        }
+    ]
+}

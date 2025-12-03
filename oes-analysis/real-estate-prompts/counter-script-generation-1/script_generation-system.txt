@@ -1,0 +1,28 @@
+# Counter-Script Generation - System Prompt
+
+## Purpose
+Generate effective response scripts for common real estate objections based on patterns and successful responses identified in call analysis.
+
+## Script Requirements
+
+1. **Multiple Tones**: Provide scripts in different tones:
+   - Empathetic: Focus on understanding
+   - Consultative: Expert guidance
+   - Assertive: Confident direction
+   - Educational: Information-based
+
+2. **Context-Aware**: Scripts should specify when to use them
+
+3. **Based on Success**: Reference successful agent responses as examples
+
+4. **Key Principles**: Include underlying principles for adaptation
+
+5. **Mistakes to Avoid**: Common pitfalls for each objection type
+
+## Output Structure
+- Objection category and sub-category
+- Frequency rank (how common)
+- Multiple recommended scripts with tones
+- When to use each script
+- Key principles
+- Common mistakes to avoid

@@ -1,0 +1,98 @@
+# TAXONOMY ARTIFACT 17: WEBSITE ACQUISITION CHANNEL BEHAVIORS
+This taxonomy examines behavioral patterns and issues specific to prospects who discovered the institution through the website, including navigation difficulties, information gaps, and technical barriers that may impact conversion.
+
+## 17.A: Information Access & Navigation Challenges
+
+### 17.A.i: Content Gaps and Clarity Problems
+**Description:** Student experiences difficulty finding comprehensive or clear information on the website, indicating potential content gaps or presentation issues that hinder decision-making.
+
+**Identification Guidance:** Listen for expressions of confusion about program details, difficulty understanding website content, or frustration with unclear information presentation.
+
+**Examples:**
+- Student: "I looked on the website and there's not a huge amount of information about the course"
+- Student: "The website was a little bit confusing with the dates for non-online programs"
+- Student: "I do human-centered design but it probably wasn't as clear as it could have been on the website"
+
+### 17.A.ii: Navigation and Discoverability Challenges
+**Description:** Student struggles to navigate the website effectively or locate specific information, suggesting issues with site architecture or user experience design.
+
+**Identification Guidance:** Note mentions of difficulty finding specific pages, getting lost in the interface, or being unable to locate expected information despite searching.
+
+**Examples:**
+- Student: "I couldn't find my application online, I wasn't sure which website was the correct one"
+- Student: "There's so many pathways within the user interface that you can kind of become bamboozled by it all"
+- Student: "I was getting so much unrelated information. It was hard, but I think this is the right place to be"
+
+### 17.A.iii: Search and Information Retrieval Difficulties
+**Description:** Student has problems using website search functionality or retrieving specific information they need for their decision-making process.
+
+**Identification Guidance:** Look for mentions of unsuccessful searches, difficulty finding course outlines, pricing information, or specific program details that should be readily available.
+
+**Examples:**
+- Student: "I tried looking up scholarship information and I couldn't really find much"
+- Student: "What I did not see last time is just all the pricing information for the subjects"
+- Student: "I was just looking for subject outlines but I'm getting a lot of spam mail, download browser back-to-back"
+
+## 17.B: Technical Functionality Problems
+
+### 17.B.i: Login and Authentication Issues
+**Description:** Student encounters technical difficulties with website login processes, account access, or password management that prevent them from accessing necessary resources.
+
+**Identification Guidance:** Listen for mentions of being locked out, password reset problems, or inability to access student accounts or application portals.
+
+**Examples:**
+- Student: "I've been locked out, so I just have to redo that and then I'll be able to forward that in"
+- Student: "I have logged in. It's saying that my ID is not working"
+- Student: "I tried to do the password reset, now I can't log into my profile"
+
+### 17.B.ii: Button and Link Functionality Failures
+**Description:** Student experiences non-functional website elements such as broken buttons, links, or interactive features that prevent task completion.
+
+**Identification Guidance:** Note reports of buttons not working, links leading nowhere, or interactive elements failing to respond as expected.
+
+**Examples:**
+- Student: "I pressed accept, but nothing's happened. Does it take me to another page?"
+- Student: "The link is not private and I cannot open it"
+- Student: "When I tried to book it wouldn't come up with any online options"
+
+### 17.B.iii: Device Compatibility and Access Problems
+**Description:** Student encounters issues accessing or using the website on specific devices or due to technical limitations, affecting their ability to complete tasks.
+
+**Identification Guidance:** Look for mentions of mobile device issues, browser compatibility problems, or technical requirements that create barriers to website usage.
+
+**Examples:**
+- Student: "I'm just trying to find an accept thing, it's not going through on my phone for some reason"
+- Student: "My internet's a bit slow today, so I'm still trying to open it"
+- Student: "Maybe I'm trying to open on my phone, once I get to my laptop, I'll try and open it again"
+
+## 17.C: Content Accuracy and Completeness
+
+### 17.C.i: Inaccurate or Conflicting Information
+**Description:** Student discovers discrepancies between website information and actual program details, or finds conflicting information across different website sections.
+
+**Identification Guidance:** Listen for mentions of incorrect information found on the website, confusion due to conflicting details, or clarification requests about website content accuracy.
+
+**Examples:**
+- Student: "On the website it says COVID support is available for that course" [when it's not actually available]
+- Student: "Because on the website it said six weeks I was like huh?" [when duration was different]
+- Student: "It's telling me it's not available in Australia, which is pretty weird because the website says it is available"
+
+### 17.C.ii: Missing Critical Information
+**Description:** Student cannot find essential information on the website that they need to make enrollment decisions, such as prerequisites, costs, or application requirements.
+
+**Identification Guidance:** Note requests for information that should be available on the website but appears to be missing or insufficiently detailed.
+
+**Examples:**
+- Student: "I couldn't find the exact entry requirements, there isn't any calculator or specific outline"
+- Student: "What else is involved in the application because I can't seem to find it on the internet"
+- Student: "The site doesn't really show that much, I think that's why I applied for it"
+
+### 17.C.iii: Program-Specific Detail Deficiencies
+**Description:** Student seeks more detailed information about specific programs, specializations, or course components that is not adequately covered on the website.
+
+**Identification Guidance:** Look for requests for additional program details, course outlines, or specialization information that goes beyond what's currently available on the website.
+
+**Examples:**
+- Student: "She wants to look at what those first core subjects are, what constitutes the individual units"
+- Student: "I don't know if you have more of an information pack on the diploma, anything that's more in-depth"
+- Student: "Can you email me all the details rather than just looking at the website and all that sort of stuff?"

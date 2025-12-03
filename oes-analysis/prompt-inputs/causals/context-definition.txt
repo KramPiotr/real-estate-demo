@@ -1,0 +1,542 @@
+# OES Sales Context and Critical Error Prevention Guide
+
+## CRITICAL INTRODUCTION
+
+This document provides comprehensive contextual information about OES (Online Education Services) sales environment and identifies common factual errors in sales call analysis. All analyses and recommendations **MUST** align with this information to ensure accuracy. This guide is specifically designed for LLMs analyzing sales calls and generating exemplar responses for OES enrollment consultants.
+
+## INSTITUTIONAL CONTEXT
+
+### OES Partner Institutions
+
+1. **Swinburne Online (SOL)**
+   - Primarily undergraduate programs
+   - Bachelor degrees, undergraduate certificates, and graduate certificates
+   - Generally requires less extensive academic background for entry
+
+2. **Monash Online (MOL)**
+   - Exclusively postgraduate programs
+   - Graduate certificates, graduate diplomas, and master's degrees
+   - Generally requires completed undergraduate degrees for entry
+
+### Academic Calendar Structure
+
+1. **Swinburne Online (SOL) Calendar**
+   - **Trimester System**
+     - Three teaching periods (TP) per year
+     - Intake months: March (TP1), July (TP2), and November (TP3)
+     - Each teaching period runs for 13 weeks
+     - Census dates approximately 4 weeks after start date
+   - **Quarter Intake System**
+     - Four quarters (Q1-Q4) per year
+     - Intake months: January (Q1), April (Q2), July (Q3), and September (Q4)
+     - Census dates approximately 2-3 weeks after start date
+
+2. **Monash Online (MOL) Calendar**
+   - **Six Teaching Periods System**
+     - Six teaching periods (TP1-TP6) per year
+     - Intake months: January (TP1), February (TP2), April (TP3), June (TP4), August (TP5), and October (TP6)
+     - Census dates approximately 3-4 weeks after start date
+   - More frequent intake opportunities compared to SOL
+
+3. **Delivery Method (Both SOL and MOL)**
+   - 100% online study delivery
+   - No on-campus requirements (except for special circumstances like placements)
+   - Flexible learning options
+   - Asynchronous content with some scheduled activities
+
+## STUDENT SUPPORT FRAMEWORK
+
+### Three-Tiered Support System
+
+1. **Student Advisors**
+   - Handle general support inquiries
+   - Manage financial and administrative matters
+   - Provide enrollment guidance
+   - Available 7 days per week (SOL specific)
+
+2. **Coaches**
+   - Provide time management assistance
+   - Offer goal-setting and motivation support
+   - Help students navigate their educational journey
+
+3. **Online Learning Advisors (OLAs)**
+   - Deliver academic support
+   - Assist with study scheduling
+   - Provide assessment guidance
+   - Offer content-specific support
+
+## FINANCIAL FRAMEWORK
+
+### Payment Options
+
+1. **FEE-HELP**
+   - Available ONLY for Australian citizens
+   - For non-Commonwealth supported places
+   - Deferred payment system
+   - Repayments begin when income exceeds threshold
+   - NOT available to New Zealand citizens
+
+2. **HECS-HELP**
+   - Available ONLY for Australian citizens
+   - For Commonwealth supported places
+   - Deferred payment system
+   - Repayments begin when income exceeds threshold
+   - NOT available to New Zealand citizens
+
+3. **Upfront Payment**
+   - Full unit payment required by census date
+   - No installment or partial payment options
+
+4. **Employer Sponsorship**
+   - Some employers may cover education costs
+   - Students must arrange directly with employers
+
+### Key Financial Limitations - CRITICAL
+
+1. **NO Payment Plans Available**
+   - Full payment must be made by census date
+   - No installment options exist
+   - No payment extensions beyond census date
+
+2. **NO Scholarships Available**
+   - No institutional scholarship programs
+   - No merit-based financial aid
+   - No need-based grants
+
+3. **NO "Afterpay" or Similar Solutions**
+   - No buy-now-pay-later financial options
+   - No third-party financing arrangements
+
+4. **Fee Sanctions Must Be Paid in Full**
+   - No payment options for fee debt sanctions
+   - Must be paid completely before enrollment can proceed
+
+## ENROLLMENT REQUIREMENTS
+
+### Documentation Needs
+
+1. **Academic Documentation**
+   - Academic transcripts
+   - Evidence of completed qualifications
+   - Certified copies may be required
+
+2. **Identification**
+   - Birth certificate/passport
+   - Proof of name change (if applicable)
+   - Citizenship/residency verification
+
+3. **Work Experience Documentation**
+   - Resume/CV
+   - Employment verification letters
+   - Portfolio (if applicable)
+
+### Additional Requirements
+
+1. **Course-Specific Tests**
+   - CASPer test for education courses
+   - Other specific entry requirements
+
+2. **Recognition of Prior Learning (RPL)**
+   - Assessment of previous study
+   - Credit transfer evaluation
+
+## COURSE STRUCTURE
+
+**IMPORTANT NOTE: The course structure information below applies EXCLUSIVELY to Swinburne Online Learning (SOL) programs. This data MUST NOT be applied to Monash Online Learning (MOL) programs. Any reference to course structures, unit requirements, or study hours for Monash Online should avoid using this SOL-specific information unless verified MOL data is available.**
+
+### Study Load
+
+1. **Unit Selection Flexibility**
+   - Students can choose 1-4 units per trimester
+   - First teaching period maximum: 3 units
+   - Recommended: 1-2 units for working professionals
+
+2. **Study Time Commitment**
+   - Each unit requires 8-10 hours minimum weekly study commitment
+   - 12.5 hours recommended per unit per week
+   - Total study time includes:
+     - Readings
+     - All collaborative sessions
+     - Participation in discussion boards
+     - Time spent on assignments
+
+### Course Structures (SOL ONLY)
+
+| Course | Total Units | Average Hrs per week per unit |
+|--------|------------|------------------------------|
+| Bachelor of Accounting | 24 | 8-10 minimum, 12.5 recommended |
+| Bachelor of Business | 24 | 8-10 minimum, 12.5 recommended |
+| Bachelor of Education (Early Childhood and Primary) | 32 | 8-10 minimum, 12.5 recommended |
+| Bachelor of Education (Early Childhood Teaching) | 32 | 8-10 minimum, 12.5 recommended |
+| Bachelor of Education (Primary) | 32 | 8-10 minimum, 12.5 recommended |
+| Bachelor of ICT | 16 | 8-10 minimum, 12.5 recommended |
+| Bachelor of Laws | 32 | 8-10 minimum, 12.5 recommended |
+| Bachelor of Laws (Graduate Entry) | 27 | 8-10 minimum, 12.5 recommended |
+| Undergraduate Certificate of Business | 4 | 8-10 minimum, 12.5 recommended |
+| Undergraduate Certificate of Criminal Justice and Criminology | 4 | 8-10 minimum, 12.5 recommended |
+| Bachelor of Media and Communication | 24 | 8-10 minimum, 12.5 recommended |
+| Bachelor of Psychological Sciences | 24 | 8-10 minimum, 12.5 recommended |
+| Bachelor of Social Science | 24 | 8-10 minimum, 12.5 recommended |
+| Graduate Certificate of Psychology | 4 | 12.5 |
+| Graduate Diploma of Psychology | 12 | 12.5 |
+| Graduate Diploma of Psychology (Advanced) | 7 | 11.5 – 14 |
+| Master of Teaching (Secondary) | 14 | 18.75 |
+| Master of Teaching (Primary) | 16 | 18.75 |
+| Graduate Certificate of Early Childhood Teaching | 4 | 27 – Online Directed and Independent combined over 8 weeks; 38 – Placements over 2 weeks |
+| Graduate Certificate of Educational Studies | 4 | 12.5 |
+| Graduate Certificate of Management | 4 | 12.5 |
+| Graduate Certificate of Business Administration | 4 | 12.5 |
+| Graduate Certificate of Project Management | 4 | 12.5 |
+| Graduate Diploma of Project Management | 8 | 12.5 |
+| Master of Business Administration (MBA) | 12 | 12.5 |
+
+### Teaching Pathway Requirements - CRITICAL
+
+- A Bachelor's degree is the minimum requirement for teaching registration in Australia
+- NO pathways below Bachelor level exist for Teaching degrees
+- This is due to strict government regulations for teaching quality
+
+## POST-ENROLLMENT SUPPORT FRAMEWORK - CRITICAL
+
+### Key Teams and Their Functions
+
+| Team | Primary Function | Call Direction | Universities | Additional Notes |
+|------|-----------------|---------------|--------------|------------------|
+| Inbound Student Advisor (SA) | Handle student-initiated support requests | Inbound | MOL & SOL | Students call directly with issues |
+| Outbound Student Advisor (START team in SOL) | Proactive administrative support and task completion | Outbound | MOL & SOL | Transactional/administrative focus |
+| Student Coach (COACH) | Personalized learning support | Outbound & Appointment-based | MOL & SOL | Students can book appointments or receive campaign calls |
+| Dedicated Student Coach (DSC) | One-to-one assigned coaching relationship | Outbound & Appointment-based | MOL (established) & SOL (new) | SOL DSC program is recent with limited volume |
+
+### Team Structure Clarifications
+
+- In SOL, the Inbound SA and Outbound SA/START teams are separate
+- Student Coach and Dedicated Student Coach are one team but two different parts
+- Appointments with Dedicated Student Coaches go directly to the assigned coach
+- MOL has had a Dedicated Student Coach function longer with more staff (now two people)
+- SOL only started its Dedicated Student Coach program at the beginning of the year with one person
+
+### Specific Post-Enrollment Support Services - CRITICAL
+
+1. **Inbound Student Advisor (SA) Services**
+   - Handling administrative inquiries and issues
+   - Addressing financial questions post-enrollment
+   - Managing document submission requirements
+   - Resolving technical access problems
+   - Providing information about university policies and procedures
+   - Connecting students with appropriate resources
+
+2. **Outbound Student Advisor (START team in SOL) Services**
+   - Proactive administrative follow-up
+   - Ensuring completion of required enrollment tasks
+   - Reminding students of upcoming deadlines
+   - Facilitating document submission
+   - Verifying student information is complete and accurate
+   - Providing orientation to university systems and resources
+
+3. **Student Coach (COACH) Services**
+   - Developing personalized study schedules
+   - Providing advice on time management strategies
+   - Offering motivation and academic goal-setting support
+   - Helping students navigate learning challenges
+   - Providing guidance on study techniques
+   - Assisting with assessment preparation strategies
+   - Creating individualized learning approaches
+
+4. **Dedicated Student Coach (DSC) Services**
+   - Providing consistent, one-to-one coaching throughout the student journey
+   - Developing deep understanding of individual student needs
+   - Creating comprehensive long-term study plans
+   - Monitoring progress across multiple teaching periods
+   - Providing specialized support for complex student situations
+   - Delivering consistent academic mentorship
+   - Addressing ongoing learning barriers or challenges
+
+## CRITICAL BOUNDARIES FOR SALES CONSULTANTS - POST-ENROLLMENT SUPPORT
+
+Sales consultants must NEVER offer to provide services that are delivered by post-enrollment support teams. This is a strict boundary that must be maintained in all sales interactions and recommendations.
+
+### ❌ Prohibited Sales Consultant Behaviors
+
+1. **Do NOT offer to create detailed study plans or schedules**
+   - This is a service provided by Student Coaches and Dedicated Student Coaches
+
+2. **Do NOT promise ongoing support from the sales consultant**
+   - Support transitions to appropriate post-enrollment teams after enrollment
+
+3. **Do NOT offer to provide specific learning strategies or academic support**
+   - This is delivered by Student Coaches and Online Learning Advisors
+
+4. **Do NOT commit to personally helping with administrative tasks post-enrollment**
+   - These are handled by Inbound and Outbound Student Advisors
+
+5. **Do NOT suggest the sales consultant will be available for regular check-ins**
+   - Ongoing support is provided by the appropriate post-enrollment team
+
+### ✓ Appropriate Sales Consultant Approach
+
+When discussing post-enrollment support, sales consultants should:
+
+1. **Inform students about available support services in general terms**
+   - Example: "After enrollment, you'll have access to our comprehensive student support services."
+
+2. **Clearly indicate that specialized support comes from dedicated post-enrollment teams**
+   - Example: "Once enrolled, our Student Coaches can help you develop detailed study schedules tailored to your specific work patterns."
+
+3. **Position post-enrollment support as a valuable program benefit**
+   - Example: "One of the benefits of our program is the dedicated support you'll receive from our Student Advisors who are available 7 days a week."
+
+4. **Accurately describe the types of support available without promising specific services**
+   - Example: "Our Dedicated Student Coaches work one-on-one with students to create personalized learning strategies throughout their studies."
+
+5. **Refer to the appropriate team for specific post-enrollment needs**
+   - Example: "After you enroll, our Student Coaches can help you with creating detailed study plans that work around your rotating shift schedule."
+
+## CRITICAL ERROR PREVENTION GUIDE
+
+Based on client feedback, the following are common factual errors that **MUST** be avoided when analyzing calls or recommending responses:
+
+### 1. Financial Aid Eligibility Errors
+
+#### ❌ INCORRECT: Suggesting HECS-HELP or FEE-HELP for New Zealand citizens
+
+**Example of Error:**
+```
+"As a New Zealand citizen, you may qualify for HECS-HELP significantly reducing your fees."
+```
+
+**Why This Is Wrong:** 
+HECS-HELP and FEE-HELP are only available to Australian citizens, not New Zealand citizens. This misinformation creates false expectations and damages trust when students discover they're ineligible.
+
+**✓ CORRECT Approach:**
+Accurately describe financial options available to the student based on their citizenship status. For NZ citizens, focus on upfront payment options and possible employer sponsorship.
+
+```
+"As a New Zealand citizen, you would need to pay your fees upfront as HECS-HELP and FEE-HELP are only available to Australian citizens. Let's discuss the upfront payment process and explore if your employer might offer any education assistance."
+```
+
+#### ❌ INCORRECT: Citing specific repayment thresholds without verification
+
+**Example of Error:**
+```
+"If you earn under $54,000, your repayment amount would be minimal—just 1% of your income."
+```
+
+**Why This Is Wrong:**
+As noted in client feedback, this threshold information is incorrect. The correct information is that "earning under $4,000 would mean 0% repayment from your income." Providing incorrect threshold information can lead to financial planning errors.
+
+**✓ CORRECT Approach:**
+Explain the general principle without citing specific thresholds that may change, or verify the current threshold before providing specific figures.
+
+```
+"HECS-HELP repayments only begin once your income exceeds a certain threshold set by the government. Below that threshold, your repayment amount would be zero. As your income increases, the repayment percentage gradually increases as well."
+```
+
+### 2. Payment Options Errors
+
+#### ❌ INCORRECT: Suggesting payment plans for fee debt sanctions
+
+**Example of Error:**
+```
+"Let's discuss payment options that can allow us to process your enrollment efficiently."
+```
+
+**Why This Is Wrong:**
+As explicitly stated in client feedback, "we don't have payment options for fee debt sanctions. These just need to be paid in full." Suggesting payment options that don't exist creates false expectations and damages trust.
+
+**✓ CORRECT Approach:**
+Clearly communicate that fee sanctions must be paid in full, while maintaining a helpful tone about efficiently resolving the issue.
+
+```
+"Regarding your fee sanctions, these must be paid in full before your enrollment can proceed. Let me explain exactly what this means for your situation and how we can help you resolve this quickly to ensure you don't miss out on your desired start date."
+```
+
+#### ❌ INCORRECT: Mentioning payment plans or installment options
+
+**Example of Error:**
+```
+"Many students effectively combine FEE-HELP with scholarship opportunities and flexible payment plans."
+```
+
+**Why This Is Wrong:**
+As stated in the OES context, "No payment plans or installment options available" and "No scholarship programs" exist. This recommendation suggests options that simply don't exist.
+
+**✓ CORRECT Approach:**
+Focus on payment options that actually exist, such as FEE-HELP (for eligible students) and upfront payment.
+
+```
+"As an Australian citizen, you can use FEE-HELP to defer your tuition payments until your income reaches the repayment threshold. Alternatively, you can pay upfront before the census date. These are the two primary payment options available."
+```
+
+#### ❌ INCORRECT: Mentioning scholarships
+
+**Example of Error:**
+```
+"While FEE-HELP covers your tuition, let's also explore scholarship opportunities that could help with additional expenses."
+```
+
+**Why This Is Wrong:**
+OES specifically notes "No scholarship programs" are available. Mentioning non-existent scholarships creates false hope and damages credibility.
+
+**✓ CORRECT Approach:**
+Focus on the actual financial options available without mentioning scholarships.
+
+```
+"FEE-HELP will cover your tuition costs, which you'll only begin repaying once your income exceeds the threshold. It's important to budget for any additional study expenses separately, as these aren't covered by FEE-HELP."
+```
+
+### 3. Program Pathway Errors
+
+#### ❌ INCORRECT: Suggesting pathways below Bachelor level for Teaching degrees
+
+**Example of Error:**
+```
+"In Australia, to teach at a high school level, a Bachelor's degree is a requirement for registration, which is why we only offer pathways that lead to this qualification."
+```
+
+**Why This Is Wrong:**
+While the statement correctly identifies that a Bachelor's is required, it implies that pathways exist below Bachelor level, which the client explicitly notes is not true: "This suggestion is wrong as we don't offer pathways below Bachelor level for Teaching degrees."
+
+**✓ CORRECT Approach:**
+Clearly state that all teaching pathways begin at the Bachelor's level due to regulatory requirements.
+
+```
+"To become a registered teacher in Australia, a Bachelor's degree in Education is the minimum qualification required by regulatory standards. All our teaching qualification pathways start at the Bachelor's degree level because of these strict regulations."
+```
+
+#### ❌ INCORRECT: Mentioning non-existent units or specializations
+
+**Example of Error:**
+Suggesting "Innovation Management" and "Entrepreneurial Finance" units that don't exist in the program.
+
+**Why This Is Wrong:**
+As noted in client feedback, these specific units are "not offered by MOL." Mentioning non-existent units creates false expectations and damages credibility when students cannot find or enroll in these units.
+
+**✓ CORRECT Approach:**
+Discuss program benefits in general terms or verify specific units before mentioning them.
+
+```
+"Our MBA program includes core business units covering management principles, financial analysis, and strategic planning, along with electives that can help you develop specialized skills. Would you like me to outline some of the specific units available in the current curriculum?"
+```
+
+### 4. Consultation Role Boundary Errors
+
+#### ❌ INCORRECT: Suggesting consultants provide detailed financial advice
+
+**Example of Error:**
+```
+"I can provide detailed information tailored to your situation."
+```
+
+**Why This Is Wrong:**
+The client feedback notes this is "not part of the CC [consultant] role, this part would be referred to a financial advisor." Consultants should provide general information about payment options but not detailed financial advice.
+
+**✓ CORRECT Approach:**
+Provide general information about payment options without crossing into financial advisor territory.
+
+```
+"Let me explain how FEE-HELP works in general. It allows eligible Australian citizens to defer their tuition payments until their income reaches the repayment threshold. For specific financial planning advice tailored to your individual situation, you may want to consult with a financial advisor."
+```
+
+#### ❌ INCORRECT: Promising post-enrollment support from sales consultant
+
+**Example of Error:**
+```
+"I'll help you create a detailed weekly study schedule once you're enrolled and check in with you regularly to see how you're progressing."
+```
+
+**Why This Is Wrong:**
+This crosses critical role boundaries by promising services that are exclusively provided by post-enrollment support teams (Student Coaches and Dedicated Student Coaches). Sales consultants should never promise to deliver these services themselves.
+
+**✓ CORRECT Approach:**
+Describe post-enrollment support as a program benefit delivered by specialized teams.
+
+```
+"After enrollment, you'll be connected with our Student Coaches who specialize in creating personalized study schedules. They can help you develop a detailed weekly plan that accommodates your unique work schedule."
+```
+
+### 5. Cross-Faculty and Waitlist Situations
+
+#### ❌ INCORRECT: Applying standard enrollment practices to cross-faculty situations
+
+**Example of Error:**
+Recommending standard enrollment closing behaviors for cross-faculty students.
+
+**Why This Is Wrong:**
+Cross-faculty studies follow different procedures handled by the campus, not by enrollment consultants. Standard enrollment techniques do not apply in this context.
+
+**✓ CORRECT Approach:**
+Direct students to the appropriate campus resources rather than attempting to manage the enrollment process.
+
+```
+"For cross-faculty studies at Swinburne Campus, you'll need to contact the campus directly to set up your enrollment. Let me provide you with the appropriate contact information so they can guide you through their specific process."
+```
+
+#### ❌ INCORRECT: Providing specific timelines for waitlist situations
+
+**Example of Error:**
+Suggesting concrete enrollment timelines for students on waitlists.
+
+**Why This Is Wrong:**
+Waitlist situations require deliberate vagueness rather than specific commitments. Providing concrete timelines creates false expectations when availability is uncertain.
+
+**✓ CORRECT Approach:**
+Maintain engagement while remaining appropriately vague about specific timelines.
+
+```
+"We'll add you to the waitlist for this program. As spots become available, we'll contact waitlisted students. While I can't provide a specific timeline, we'll update you as soon as we have more information about availability."
+```
+
+## RESPONSE FORMULATION PRINCIPLES
+
+When analyzing calls or formulating exemplar responses, adhere to these key principles:
+
+### 1. Absolute Factual Accuracy
+
+- Verify all program details, financial information, and pathways before inclusion
+- When uncertain, use general principles rather than specific figures
+- Never invent features, options, or pathways that don't exist
+- Check for alignment with either SOL or MOL specific requirements
+
+### 2. Clear Financial Explanations
+
+- Distinguish between Australian citizens and other eligibility categories
+- Accurately explain available payment options (no payment plans, no scholarships)
+- Clearly state that fee sanctions must be paid in full
+- Explain financial mechanisms in accessible language without crossing into financial advisor territory
+
+### 3. Appropriate Referrals
+
+- Recognize when to direct students to campus resources (cross-faculty)
+- Know when to maintain deliberate vagueness (waitlist situations)
+- Understand consultant role boundaries regarding financial advice
+- Identify situations requiring specialized support
+
+### 4. Transparency About Limitations
+
+- Clearly communicate when requested options don't exist
+- Be honest about program requirements and prerequisites
+- Accurately represent study commitments and expectations
+- Don't create false hope about financial flexibility that doesn't exist
+
+### 5. Post-Enrollment Support Boundaries
+
+- Never suggest the sales consultant will provide services delivered by post-enrollment teams
+- Position post-enrollment support as a program benefit delivered by specialized teams
+- Accurately describe available support without overpromising specifics
+- Clearly distinguish between pre-enrollment guidance and post-enrollment support
+- Reference appropriate post-enrollment teams for specific support needs
+
+## APPLYING THIS GUIDE
+
+When analyzing calls or generating exemplar responses:
+
+1. First identify whether the call relates to SOL or MOL
+2. Check if special considerations apply (cross-faculty, waitlist, etc.)
+3. Verify that all financial information mentioned is accurate and appropriate
+4. Ensure program pathways and units mentioned actually exist
+5. Confirm study load and time commitment information is accurate
+6. Apply appropriate consultant role boundaries
+7. Maintain clear distinction between sales consultant role and post-enrollment support
+8. Generate responses that adhere to all factual constraints
+
+By following these guidelines, all analyses and recommended responses will align with the actual OES educational sales environment, avoiding harmful misinformation that could damage student trust and satisfaction.

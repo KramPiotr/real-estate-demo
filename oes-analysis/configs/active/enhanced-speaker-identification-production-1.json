@@ -1,0 +1,75 @@
+{
+    "transcripts_directory": "speaker-identification-test",
+    "output_directory": "multi_agent_responses",
+    "processing_settings": {
+        "batch_size": 10,
+        "concurrent_requests": 3,
+        "retry_attempts": 3,
+        "min_confidence_threshold": 0.7,
+        "use_enhanced_script": true
+    },
+    "enhanced_script_config": {
+        "script_path": "src/speaker-identification-model/scripts/enhanced_speaker_identification_batch.py",
+        "config_file": "src/speaker-identification-model/config/enhanced-model-config-azure.json",
+        "enable_validation": true,
+        "enable_concatenation": true,
+        "enable_llm_reidentification": true,
+        "filter_min_duration": 120
+    },
+    "quality_control": {
+        "validate_output_format": true,
+        "flag_low_confidence": true,
+        "require_evidence": true,
+        "preserve_enhanced_features": true
+    },
+    "nodes": [
+        {
+            "name": "enhanced-speaker-analysis",
+            "description": "Complete enhanced speaker identification using the full enhanced script pipeline",
+            "type": "enhanced_script",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true,
+                    "temperature": 0.2,
+                    "max_tokens": 2000
+                }
+            ],
+            "enhanced_features": {
+                "conversation_flow_analysis": true,
+                "self_talking_detection": true,
+                "llm_reidentification": true,
+                "adjacent_concatenation": true,
+                "programmatic_json_output": true,
+                "comprehensive_validation": true
+            },
+            "output_types": [
+                "evidence",
+                "corrected_transcript"
+            ]
+        },
+        {
+            "name": "quality-validation",
+            "description": "Validate and format enhanced speaker identification results",
+            "inputs": [
+                "transcript",
+                "enhanced-speaker-analysis"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true,
+                    "temperature": 0.1,
+                    "max_tokens": 1000
+                }
+            ],
+            "output_types": [
+                "validation_report",
+                "final_results"
+            ]
+        }
+    ]
+}

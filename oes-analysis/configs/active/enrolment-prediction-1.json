@@ -1,0 +1,35 @@
+{
+    "transcripts_directory": "over_2_mins-consolidated",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "check",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                },
+                {
+                    "provider": "azure",
+                    "mini": true
+                }
+            ],
+            "response_format_path": "call_categorisation.check.CallCategorisation"
+        }
+    ]
+}

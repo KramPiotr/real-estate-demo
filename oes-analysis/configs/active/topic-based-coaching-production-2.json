@@ -1,0 +1,814 @@
+{
+  "transcripts_directory": "OVERRIDE_WITH_SHELL_SCRIPT",
+  "output_directory": "topic-based-coaching-production-1",
+  "_comment_transcripts_directory": "Will be overridden by shell script to point to topic taxonomy directory (e.g., topic-taxonomies/monash-tp1.../enrolledretained/)",
+  "_comment_architecture": "Standalone topic-based coaching: Evaluates consultant performance patterns PER TOPIC across ALL example calls. Uses extracted knowledge facts and procedures as scoring rubric. Not integrated with ROI pipeline.",
+  "_comment_analysis_scope": "MULTI-CALL AGGREGATION: Each node analyzes ALL calls within a topic together to identify patterns (what's commonly done well, what's commonly missed). NOT per-call scoring.",
+  "_comment_inputs": "Node 1: transcript (topic taxonomy) + pass2_procedures. Node 2: transcript (topic taxonomy) + pass1_knowledge_consolidated. Node 3: pass1_knowledge_consolidated + pass2_procedures + node1_output + node2_output. Transcript = topic taxonomy JSON with transcript_extract segments.",
+
+  "transcript_matching_inputs": {
+    "pass2_procedures": "/mnt/efs/oes_cxone_call_recordings/sentiment-ai/data-store/partial_results/procedure-extraction-production-1__monash-tp1-categorised-1-to-3-equal-duration-subset-100-fixed",
+    "pass1_knowledge_consolidated": "/mnt/efs/oes_cxone_call_recordings/sentiment-ai/data-store/partial_results/knowledge-extraction-production-2-consolidated__monash-tp1-categorised-1-to-3-equal-duration-subset-100-fixed"
+  },
+
+  "nodes": [
+    {
+      "name": "procedure_adherence_scoring",
+      "description": "Analyze ALL calls in topic together to identify procedure execution patterns: which steps commonly executed well vs. commonly missed",
+      "inputs": [
+        "transcript",
+        "pass2_procedures"
+      ],
+      "models": [
+        {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash",
+          "mini": false,
+          "max_tokens": 65536
+        }
+      ],
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "ProcedureAdherencePatternAnalysis",
+          
+          "schema": {
+            "type": "object",
+            "properties": {
+              "topic_id": {
+                "type": "string"
+              },
+              "topic_name": {
+                "type": "string"
+              },
+              "calls_analyzed": {
+                "type": "integer",
+                "description": "Total number of calls analyzed for this topic"
+              },
+              "procedure_analysis": {
+                "type": "array",
+                "description": "Pattern analysis for each consultant procedure scenario",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "scenario": {
+                      "type": "string",
+                      "description": "The procedure scenario being analyzed"
+                    },
+                    "applicable_in_calls": {
+                      "type": "integer",
+                      "description": "How many calls this scenario was relevant in"
+                    },
+                    "overall_scenario_score": {
+                      "type": "number",
+                      "description": "Aggregate performance score 0-5 across all calls for this scenario"
+                    },
+                    "step_analysis": {
+                      "type": "array",
+                      "description": "Pattern analysis for each step in the procedure",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "step_number": {
+                            "type": "integer"
+                          },
+                          "action": {
+                            "type": "string"
+                          },
+                          "execution_rate": {
+                            "type": "number",
+                            "description": "Proportion of applicable calls that executed this step (0-1)"
+                          },
+                          "average_quality_when_executed": {
+                            "type": "number",
+                            "description": "Average quality score 0-5 when step was executed"
+                          },
+                          "common_strengths": {
+                            "type": "array",
+                            "description": "What's commonly done well across calls",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "common_gaps": {
+                            "type": "array",
+                            "description": "What's commonly missed or done poorly",
+                            "items": {
+                              "type": "string"
+                            }
+                          },
+                          "example_executions": {
+                            "type": "array",
+                            "description": "Representative examples from specific calls",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "call_id": {
+                                  "type": "string"
+                                },
+                                "quality": {
+                                  "type": "string",
+                                  "enum": ["excellent", "good", "adequate", "poor", "missing"]
+                                },
+                                "evidence": {
+                                  "type": "string",
+                                  "description": "Verbatim quote showing execution or null if missing"
+                                },
+                                "notes": {
+                                  "type": "string",
+                                  "description": "Why this is a good/bad example"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "scenario_common_patterns": {
+                      "type": "object",
+                      "properties": {
+                        "strengths": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "gaps": {
+                          "type": "array",
+                          "items": {
+                            "type": "string"
+                          }
+                        },
+                        "variations": {
+                          "type": "array",
+                          "description": "Different valid approaches observed",
+                          "items": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "topic_level_insights": {
+                "type": "object",
+                "properties": {
+                  "overall_procedure_adherence": {
+                    "type": "number",
+                    "description": "Topic-level average score 0-5"
+                  },
+                  "most_consistent_strength": {
+                    "type": "string"
+                  },
+                  "most_critical_gap": {
+                    "type": "string"
+                  },
+                  "execution_consistency": {
+                    "type": "string",
+                    "enum": ["high", "medium", "low"]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "knowledge_application_assessment",
+      "description": "Analyze ALL calls in topic together to identify knowledge citation patterns: which facts commonly cited accurately vs. commonly missed or misstated",
+      "inputs": [
+        "transcript",
+        "pass1_knowledge_consolidated"
+      ],
+      "models": [
+        {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash",
+          "mini": false,
+          "max_tokens": 65536
+        }
+      ],
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "KnowledgeApplicationPatternAnalysis",
+          
+          "schema": {
+            "type": "object",
+            "properties": {
+              "topic_id": {
+                "type": "string"
+              },
+              "topic_name": {
+                "type": "string"
+              },
+              "calls_analyzed": {
+                "type": "integer"
+              },
+              "knowledge_assessment": {
+                "type": "object",
+                "description": "Pattern analysis organized by knowledge fact type",
+                "properties": {
+                  "policies": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "policy_statement": {
+                          "type": "string"
+                        },
+                        "relevant_in_calls": {
+                          "type": "integer"
+                        },
+                        "cited_correctly": {
+                          "type": "integer"
+                        },
+                        "cited_incorrectly": {
+                          "type": "integer"
+                        },
+                        "not_cited": {
+                          "type": "integer"
+                        },
+                        "citation_rate": {
+                          "type": "number",
+                          "description": "Proportion 0-1 of relevant calls that cited this"
+                        },
+                        "accuracy_when_cited": {
+                          "type": "number",
+                          "description": "Proportion 0-1 of citations that were accurate"
+                        },
+                        "average_completeness": {
+                          "type": "number",
+                          "description": "Average completeness score 0-5 when cited"
+                        },
+                        "common_citation_patterns": {
+                          "type": "object",
+                          "properties": {
+                            "strengths": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "gaps": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "inaccuracies": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "example_citations": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "call_id": {
+                                "type": "string"
+                              },
+                              "quality": {
+                                "type": "string",
+                                "enum": ["accurate", "incomplete", "incorrect", "missing"]
+                              },
+                              "evidence": {
+                                "type": "string",
+                                "description": "Verbatim quote or null if not cited"
+                              },
+                              "notes": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "requirements": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "requirement_statement": {
+                          "type": "string"
+                        },
+                        "relevant_in_calls": {
+                          "type": "integer"
+                        },
+                        "cited_correctly": {
+                          "type": "integer"
+                        },
+                        "cited_incorrectly": {
+                          "type": "integer"
+                        },
+                        "not_cited": {
+                          "type": "integer"
+                        },
+                        "citation_rate": {
+                          "type": "number"
+                        },
+                        "accuracy_when_cited": {
+                          "type": "number"
+                        },
+                        "average_completeness": {
+                          "type": "number"
+                        },
+                        "common_citation_patterns": {
+                          "type": "object",
+                          "properties": {
+                            "strengths": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "gaps": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "inaccuracies": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "example_citations": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "call_id": {
+                                "type": "string"
+                              },
+                              "quality": {
+                                "type": "string",
+                                "enum": ["accurate", "incomplete", "incorrect", "missing"]
+                              },
+                              "evidence": {
+                                "type": "string"
+                              },
+                              "notes": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "timelines": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "timeline_statement": {
+                          "type": "string"
+                        },
+                        "relevant_in_calls": {
+                          "type": "integer"
+                        },
+                        "cited_correctly": {
+                          "type": "integer"
+                        },
+                        "cited_incorrectly": {
+                          "type": "integer"
+                        },
+                        "not_cited": {
+                          "type": "integer"
+                        },
+                        "citation_rate": {
+                          "type": "number"
+                        },
+                        "accuracy_when_cited": {
+                          "type": "number"
+                        },
+                        "average_completeness": {
+                          "type": "number"
+                        },
+                        "common_citation_patterns": {
+                          "type": "object",
+                          "properties": {
+                            "strengths": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "gaps": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "inaccuracies": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "example_citations": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "call_id": {
+                                "type": "string"
+                              },
+                              "quality": {
+                                "type": "string",
+                                "enum": ["accurate", "incomplete", "incorrect", "missing"]
+                              },
+                              "evidence": {
+                                "type": "string"
+                              },
+                              "notes": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "edge_cases": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "edge_case_statement": {
+                          "type": "string"
+                        },
+                        "relevant_in_calls": {
+                          "type": "integer"
+                        },
+                        "cited_correctly": {
+                          "type": "integer"
+                        },
+                        "cited_incorrectly": {
+                          "type": "integer"
+                        },
+                        "not_cited": {
+                          "type": "integer"
+                        },
+                        "citation_rate": {
+                          "type": "number"
+                        },
+                        "accuracy_when_cited": {
+                          "type": "number"
+                        },
+                        "average_completeness": {
+                          "type": "number"
+                        },
+                        "common_citation_patterns": {
+                          "type": "object",
+                          "properties": {
+                            "strengths": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "gaps": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "inaccuracies": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "example_citations": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "call_id": {
+                                "type": "string"
+                              },
+                              "quality": {
+                                "type": "string",
+                                "enum": ["accurate", "incomplete", "incorrect", "missing"]
+                              },
+                              "evidence": {
+                                "type": "string"
+                              },
+                              "notes": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "others": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "other_statement": {
+                          "type": "string"
+                        },
+                        "relevant_in_calls": {
+                          "type": "integer"
+                        },
+                        "cited_correctly": {
+                          "type": "integer"
+                        },
+                        "cited_incorrectly": {
+                          "type": "integer"
+                        },
+                        "not_cited": {
+                          "type": "integer"
+                        },
+                        "citation_rate": {
+                          "type": "number"
+                        },
+                        "accuracy_when_cited": {
+                          "type": "number"
+                        },
+                        "average_completeness": {
+                          "type": "number"
+                        },
+                        "common_citation_patterns": {
+                          "type": "object",
+                          "properties": {
+                            "strengths": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "gaps": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            },
+                            "inaccuracies": {
+                              "type": "array",
+                              "items": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        },
+                        "example_citations": {
+                          "type": "array",
+                          "items": {
+                            "type": "object",
+                            "properties": {
+                              "call_id": {
+                                "type": "string"
+                              },
+                              "quality": {
+                                "type": "string",
+                                "enum": ["accurate", "incomplete", "incorrect", "missing"]
+                              },
+                              "evidence": {
+                                "type": "string"
+                              },
+                              "notes": {
+                                "type": "string"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "topic_level_insights": {
+                "type": "object",
+                "properties": {
+                  "overall_citation_rate": {
+                    "type": "number"
+                  },
+                  "overall_accuracy_rate": {
+                    "type": "number"
+                  },
+                  "overall_completeness": {
+                    "type": "number"
+                  },
+                  "most_accurately_cited": {
+                    "type": "string"
+                  },
+                  "most_critical_gap": {
+                    "type": "string"
+                  },
+                  "most_common_inaccuracy": {
+                    "type": "string"
+                  },
+                  "citation_consistency": {
+                    "type": "string",
+                    "enum": ["high", "medium", "low"]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "name": "coaching_generation",
+      "description": "Synthesize Node 1 and Node 2 pattern analyses into prioritized, actionable coaching recommendations for this topic",
+      "inputs": [
+        "pass1_knowledge_consolidated",
+        "pass2_procedures",
+        "procedure_adherence_scoring",
+        "knowledge_application_assessment"
+      ],
+      "models": [
+        {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash",
+          "mini": false,
+          "max_tokens": 65536
+        }
+      ],
+      "response_format": {
+        "type": "json_schema",
+        "json_schema": {
+          "name": "TopicCoachingRecommendations",
+          
+          "schema": {
+            "type": "object",
+            "properties": {
+              "topic_id": {
+                "type": "string"
+              },
+              "topic_name": {
+                "type": "string"
+              },
+              "calls_analyzed": {
+                "type": "integer"
+              },
+              "analysis_date": {
+                "type": "string",
+                "description": "ISO 8601 date string"
+              },
+              "overall_summary": {
+                "type": "object",
+                "properties": {
+                  "average_procedure_score": {
+                    "type": "number"
+                  },
+                  "average_knowledge_citation_rate": {
+                    "type": "number"
+                  },
+                  "average_knowledge_accuracy": {
+                    "type": "number"
+                  },
+                  "average_knowledge_completeness": {
+                    "type": "number"
+                  },
+                  "top_strengths": {
+                    "type": "array",
+                    "description": "Top 2-3 strengths with data",
+                    "maxItems": 3,
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "critical_improvements_needed": {
+                    "type": "array",
+                    "description": "Top 3-5 critical improvements",
+                    "maxItems": 5,
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "overall_performance_summary": {
+                    "type": "string",
+                    "description": "2-3 sentences summarizing topic performance"
+                  }
+                }
+              },
+              "coaching_recommendations": {
+                "type": "array",
+                "description": "Top 3-5 prioritized coaching recommendations",
+                "maxItems": 5,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "priority": {
+                      "type": "integer",
+                      "description": "1=highest priority"
+                    },
+                    "area": {
+                      "type": "string",
+                      "description": "Specific procedure step or knowledge fact"
+                    },
+                    "issue": {
+                      "type": "string",
+                      "description": "Clear description of pattern from Node 1/2"
+                    },
+                    "impact": {
+                      "type": "string",
+                      "description": "Why this matters"
+                    },
+                    "frequency": {
+                      "type": "string",
+                      "description": "How often this occurs"
+                    },
+                    "root_cause": {
+                      "type": "string",
+                      "enum": ["execution_gap", "knowledge_gap", "both"]
+                    },
+                    "recommended_action": {
+                      "type": "string",
+                      "description": "Specific actionable steps"
+                    },
+                    "example_phrase": {
+                      "type": "string",
+                      "description": "Model language from key_phrases or examples"
+                    },
+                    "procedure_reference": {
+                      "type": "string",
+                      "description": "Link to scenario and step or null"
+                    },
+                    "knowledge_reference": {
+                      "type": "string",
+                      "description": "Link to policy/requirement/timeline or null"
+                    },
+                    "supporting_evidence": {
+                      "type": "object",
+                      "properties": {
+                        "call_id": {
+                          "type": "string"
+                        },
+                        "quality": {
+                          "type": "string"
+                        },
+                        "evidence": {
+                          "type": "string"
+                        },
+                        "notes": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "expected_outcome": {
+                      "type": "string",
+                      "description": "What will improve if addressed"
+                    }
+                  }
+                }
+              },
+              "reinforcement_areas": {
+                "type": "array",
+                "description": "Top 2-3 strengths to reinforce",
+                "maxItems": 3,
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "area": {
+                      "type": "string"
+                    },
+                    "evidence": {
+                      "type": "string",
+                      "description": "Data from Node 1/2"
+                    },
+                    "why_effective": {
+                      "type": "string"
+                    },
+                    "encouragement": {
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "training_resources_needed": {
+                "type": "array",
+                "description": "Specific training materials that would help",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

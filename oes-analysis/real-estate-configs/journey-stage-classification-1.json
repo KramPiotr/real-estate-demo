@@ -1,0 +1,79 @@
+{
+    "transcripts_directory": "real-estate-calls",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "buyer_journey",
+        "location": "real-estate-definitions",
+        "types": ["taxonomy"]
+    },
+    "nodes": [
+        {
+            "name": "stage_classification",
+            "inputs": [
+                "buyer_journey-taxonomy",
+                "transcript"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "journey_stage": {
+                        "type": "object",
+                        "properties": {
+                            "current_stage": {
+                                "type": "string",
+                                "enum": ["awareness", "consideration", "evaluation", "decision", "negotiation", "closing", "post_purchase"]
+                            },
+                            "stage_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+                            "stage_indicators": {"type": "array", "items": {"type": "string"}},
+                            "time_in_stage_estimate": {"type": "string"},
+                            "next_stage_readiness": {
+                                "type": "string",
+                                "enum": ["ready", "almost_ready", "not_ready", "unknown"]
+                            },
+                            "blockers_to_progression": {"type": "array", "items": {"type": "string"}}
+                        },
+                        "required": ["current_stage", "stage_confidence", "stage_indicators", "next_stage_readiness"]
+                    }
+                },
+                "required": ["journey_stage"]
+            }
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "buyer_journey-taxonomy",
+                "transcript",
+                "stage_classification"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "journey_stage": {
+                        "type": "object",
+                        "properties": {
+                            "current_stage": {"type": "string"},
+                            "consensus_count": {"type": "integer", "minimum": 1, "maximum": 3},
+                            "stage_confidence": {"type": "number"},
+                            "stage_indicators": {"type": "array", "items": {"type": "string"}},
+                            "next_stage_readiness": {"type": "string"},
+                            "blockers_to_progression": {"type": "array", "items": {"type": "string"}},
+                            "recommended_agent_actions": {"type": "array", "items": {"type": "string"}}
+                        },
+                        "required": ["current_stage", "consensus_count", "stage_confidence", "next_stage_readiness"]
+                    }
+                },
+                "required": ["journey_stage"]
+            }
+        }
+    ]
+}

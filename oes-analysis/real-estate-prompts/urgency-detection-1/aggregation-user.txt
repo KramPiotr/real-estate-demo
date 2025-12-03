@@ -1,0 +1,13 @@
+# Urgency Detection Aggregation Task
+
+Consolidate analyst urgency flags. Prioritize not missing any critical situations.
+
+## Output Format
+```json
+{
+  "urgency_flags": [...],
+  "highest_urgency": "CRITICAL|HIGH|MEDIUM|NONE",
+  "alert_summary": "brief summary for agent",
+  "immediate_actions_required": ["action1", "action2"]
+}
+```

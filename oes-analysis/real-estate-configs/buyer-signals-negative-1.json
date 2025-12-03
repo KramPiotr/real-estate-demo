@@ -1,0 +1,90 @@
+{
+    "transcripts_directory": "real-estate-calls",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "negative_signals",
+        "location": "real-estate-definitions",
+        "types": ["definition"]
+    },
+    "nodes": [
+        {
+            "name": "signal_extraction",
+            "inputs": [
+                "negative_signals-definition",
+                "transcript"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "negative_signals": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "category": {
+                                    "type": "string",
+                                    "enum": ["financial_barriers", "decision_paralysis", "external_blockers", "unrealistic_expectations", "competitor_preference", "disengagement_signals"]
+                                },
+                                "severity": {"type": "integer", "minimum": 1, "maximum": 5},
+                                "quote": {"type": "string"},
+                                "transcript_range": {"type": "string"},
+                                "explanation": {"type": "string"},
+                                "recommended_action": {"type": "string"}
+                            },
+                            "required": ["category", "severity", "quote", "transcript_range", "explanation"]
+                        }
+                    }
+                },
+                "required": ["negative_signals"]
+            }
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "negative_signals-definition",
+                "transcript",
+                "signal_extraction"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "negative_signals": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "category": {"type": "string"},
+                                "consensus_severity": {"type": "number"},
+                                "analyst_agreement": {"type": "integer", "minimum": 1, "maximum": 3},
+                                "quote": {"type": "string"},
+                                "transcript_range": {"type": "string"},
+                                "explanation": {"type": "string"},
+                                "recommended_action": {"type": "string"}
+                            },
+                            "required": ["category", "consensus_severity", "analyst_agreement", "quote", "transcript_range", "explanation"]
+                        }
+                    },
+                    "overall_negative_score": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 30
+                    },
+                    "deal_breakers_identified": {
+                        "type": "boolean"
+                    }
+                },
+                "required": ["negative_signals", "overall_negative_score", "deal_breakers_identified"]
+            }
+        }
+    ]
+}

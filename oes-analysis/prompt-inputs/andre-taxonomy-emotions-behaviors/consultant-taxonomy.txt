@@ -1,0 +1,147 @@
+# CONSULTANT EMOTIONS AND BEHAVIORS TAXONOMY
+
+This taxonomy identifies key emotional and behavioral patterns exhibited by consultants in educational sales calls.
+
+---
+
+## CONSULTANT EMOTIONS
+
+### C.E.1: Empathy Expression
+**Speaker**: Consultant
+**Feature Code**: C.E.1
+**Definition**: Consultant acknowledges and validates student's feelings, concerns, or challenges.
+
+**Observable Indicators**:
+- Acknowledges student emotions: "I understand that's concerning"
+- Validates concerns rather than dismissing them
+- Shows understanding of student situation
+
+**Example**: "That's a valid concern - many students feel that way initially."
+
+---
+
+### C.E.2: Enthusiasm/Energy
+**Speaker**: Consultant
+**Feature Code**: C.E.2
+**Definition**: Consultant demonstrates positive energy and excitement about the program.
+
+**Observable Indicators**:
+- Upbeat tone and language
+- Excitement about program benefits
+- Enthusiastic responses to student interest
+
+**Example**: "That's fantastic that you're interested in this area!" or "You're going to love this unit."
+
+---
+
+## CONSULTANT BEHAVIORS
+
+### C.B.1: Artificial Urgency Creation
+**Speaker**: Consultant
+**Feature Code**: C.B.1
+**Definition**: Consultant creates false time pressure or uses scarcity tactics to push for immediate enrollment.
+
+**Observable Indicators**:
+- Claims about limited spots: "Only a few spots left"
+- Arbitrary deadlines: "I need your decision by tomorrow"
+- Fear-based language: "I'd hate for you to miss out"
+
+**Example**: "We only have a few spots left in this intake" (when not actually true).
+
+---
+
+### C.B.2: Objection Dismissal
+**Speaker**: Consultant
+**Feature Code**: C.B.2
+**Definition**: Consultant quickly dismisses or minimizes legitimate student concerns.
+
+**Observable Indicators**:
+- Downplays concerns: "Oh, everyone feels that way"
+- Changes subject when concerns raised
+- Generic reassurance without addressing specific concern
+
+**Example**: Student expresses time concern → Consultant says "It's no big deal" without exploring further.
+
+---
+
+### C.B.3: Excessive Promise-Making
+**Speaker**: Consultant
+**Feature Code**: C.B.3
+**Definition**: Consultant makes unrealistic promises about outcomes or support that exceed what's deliverable.
+
+**Observable Indicators**:
+- Guarantees about results: "This degree virtually guarantees promotion"
+- Unrealistic availability promises: "I'll personally be available whenever"
+- Specific outcome promises without evidence
+
+**Example**: "You'll definitely get a $20K salary increase after graduation."
+
+---
+
+### C.B.4: Comprehensive Needs Assessment
+**Speaker**: Consultant
+**Feature Code**: C.B.4
+**Definition**: Consultant conducts thorough exploration of student needs, goals, and circumstances.
+
+**Observable Indicators**:
+- Multiple probing questions about student situation
+- Open-ended questions: "Tell me about your career goals"
+- Refers back to student's stated needs
+
+**Example**: "Before I explain the program, can you tell me more about what you're hoping to achieve?"
+
+---
+
+### C.B.5: Realistic Expectation Setting
+**Speaker**: Consultant
+**Feature Code**: C.B.5
+**Definition**: Consultant provides balanced, honest information about program challenges and benefits.
+
+**Observable Indicators**:
+- Acknowledges both positives and challenges
+- Honest about workload demands
+- Explains limitations as well as benefits
+
+**Example**: "Many students do find the first unit challenging while adjusting to online study."
+
+---
+
+### C.B.6: Clear Process Guidance
+**Speaker**: Consultant
+**Feature Code**: C.B.6
+**Definition**: Consultant provides clear, specific instructions for completing enrollment steps.
+
+**Observable Indicators**:
+- Step-by-step explanations
+- Confirms understanding: "Does that make sense?"
+- Anticipates common challenges
+
+**Example**: "First, you'll receive an email with a link. Click that link to create your account, then..."
+
+---
+
+### C.B.7: Proactive Follow-Up Planning
+**Speaker**: Consultant
+**Feature Code**: C.B.7
+**Definition**: Consultant establishes specific plans for follow-up communication.
+
+**Observable Indicators**:
+- Concrete follow-up plans: "I'll call you next Tuesday"
+- Specific timing established
+- Clear ownership of next steps
+
+**Example**: "So you'll submit those documents by Friday, and I'll call Monday to confirm receipt."
+
+---
+
+## USAGE NOTES
+
+**For Analysis**:
+- Evaluate each feature independently
+- Only include features that are clearly present in the transcript
+- Reference segment IDs where the feature appears
+- Rate intensity and confidence for each present feature
+
+**Feature Codes**:
+- C.E.X = Consultant Emotion features
+- C.B.X = Consultant Behavior features

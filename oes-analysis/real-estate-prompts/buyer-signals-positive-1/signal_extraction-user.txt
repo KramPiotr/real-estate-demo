@@ -1,0 +1,25 @@
+# Positive Buyer Signals Extraction Task
+
+## Instructions
+1. Read the complete sales call transcript
+2. Identify positive buying signals across all six categories
+3. Score each signal found on a 1-5 scale
+4. Provide direct quotes as evidence
+5. Include transcript line references
+
+## Output Format
+```json
+{
+  "positive_signals": [
+    {
+      "category": "financial_readiness|timeline_urgency|decision_maker_engagement|property_specificity|repeat_engagement|commitment_language",
+      "score": 1-5,
+      "quote": "exact quote from transcript",
+      "transcript_range": "line_start-line_end",
+      "explanation": "why this indicates positive intent"
+    }
+  ]
+}
+```
+
+The positive signals definition and sales call transcript will be appended separately.

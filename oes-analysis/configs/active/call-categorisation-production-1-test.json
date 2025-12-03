@@ -1,0 +1,18 @@
+{
+    "transcripts_directory": "weekly-analysis-2024-10-25",
+    "output_directory": "multi_agent_responses",
+    "nodes": [
+        {
+            "name": "check",
+            "inputs": [
+                "transcript"
+            ],
+            "models": [
+                {
+                    "provider": "azure"
+                }
+            ],
+            "response_format_path": "call_categorisation.check.CallCategorisation"
+        }
+    ]
+}

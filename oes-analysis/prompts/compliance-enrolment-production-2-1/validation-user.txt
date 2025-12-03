@@ -1,0 +1,49 @@
+Please conduct a final validation and error correction of the attached compliance analysis for the requirement. Your task is to provide a comprehensive, expert-validated assessment that considers multiple analysis layers and error types.
+
+Attached:
+1. Initial compliance analysis output (Layer 1 - 'check' layer)
+2. Enhanced error analysis and report (Layer 2 - 'errors' layer)
+3. Sales call transcript in JSON format
+4. Basic Requirement Definition
+5. Enhanced Requirement Definition with sub-requirements
+
+Your validation process should follow these steps:
+
+1. Call Type Validation
+   - Review the enrolment call validation from the error report
+   - Verify if this is a valid enrolment call where compliance assessment applies
+   - Determine the applicability of compliance analysis based on call type
+
+2. Comprehensive Analysis Review
+   For each sub-requirement and the overall verdict:
+   - Compare initial analysis with error report findings
+   - Validate both interpretation and transcript analysis errors
+   - Review evidence and reasoning from both layers
+   - Consider acceptable alternative phrasings
+   - Verify transcript references (segment IDs and timestamps)
+
+3. Error Validation
+   For each identified error:
+   - Assess validity of interpretation errors
+   - Verify accuracy of transcript analysis errors
+   - Determine appropriate corrections where needed
+   - Provide clear reasoning for accepting or rejecting error findings
+
+4. Final Compliance Assessment
+   - Determine validated verdicts for all components
+   - Apply compliance criteria consistently:
+     * Full Compliance: All requirements fully met
+     * Partial Compliance: Any effort to comply
+     * No Compliance: No effort to comply
+   - Consider context and reasonable flexibility
+   - Provide comprehensive justification for final decisions
+
+Provide your validated analysis in the specified JSON format, including:
+1. Call type validation and applicability
+2. Initial and validated verdicts at all levels
+3. Validation of both interpretation and transcript analysis
+4. Evidence with verified references
+5. Comprehensive reasoning for all decisions
+6. Detailed final assessment with confidence level
+
+Your expert judgment is crucial for producing the most accurate and reliable final compliance assessment. Focus on evidence-based validation while maintaining appropriate flexibility in interpretation.

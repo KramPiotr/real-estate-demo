@@ -1,0 +1,336 @@
+# Urgency Flags - Detection Definition
+
+## Purpose
+Identify time-sensitive situations requiring immediate agent action to prevent lost deals or capitalize on opportunities.
+
+---
+
+# CRITICAL FLAGS (Immediate Response - Within 30 Minutes)
+
+## 1. Competitor Offer Pending (`competitor_offer_pending`)
+
+### Definition
+Buyer indicates they have or are seriously considering a competing offer, creating immediate risk of losing the deal.
+
+### Detection Phrases
+- "We have another offer"
+- "The other agent said..."
+- "We're also looking at [specific address/property]"
+- "Another property we like"
+- "We need to compare"
+- "Meeting with another agent"
+- "Saw something else we liked"
+
+### Severity: CRITICAL
+### Response Window: Immediate (within 30 minutes)
+
+### Required Action
+Agent must call back immediately with:
+1. Acknowledge the competition without desperation
+2. Reinforce unique value of current property
+3. Offer to expedite any pending items
+4. Discuss pre-emptive offer strategy if appropriate
+
+### Example
+> Buyer: "We really like your listing, but we saw a place yesterday on Oak Street that's also in our budget. We're meeting with that agent again tomorrow to possibly make an offer."
+
+---
+
+## 2. Deadline Today (`deadline_today`)
+
+### Definition
+Buyer faces a decision deadline within the current day.
+
+### Detection Phrases
+- "We need to decide today"
+- "By end of day"
+- "Before 5pm"
+- "This evening"
+- "Tonight"
+- "The offer expires today"
+- "They need an answer now"
+
+### Severity: CRITICAL
+### Response Window: Immediate
+
+### Required Action
+1. Clear schedule to be available
+2. Prepare all necessary documentation
+3. Be ready to write offer or negotiate
+4. Ensure decision-makers are available
+
+---
+
+## 3. Viewing With Competitor (`viewing_with_competitor`)
+
+### Definition
+Buyer is seeing another property or meeting with competitor agent soon.
+
+### Detection Phrases
+- "We're seeing another place this afternoon"
+- "Meeting with [agent name] later"
+- "Have a showing at [time]"
+- "Looking at one more today"
+
+### Severity: CRITICAL
+### Response Window: Before their competing appointment
+
+### Required Action
+1. Attempt to schedule before competitor viewing
+2. Highlight unique advantages proactively
+3. Create urgency around current opportunity
+4. Follow up immediately after their other viewing
+
+---
+
+## 4. Emotional Peak (`emotional_peak`)
+
+### Definition
+Buyer expresses strong positive emotion about the property - maximum buying intent that should be captured immediately.
+
+### Detection Phrases
+- "We love it"
+- "This is the one"
+- "This is our house"
+- "I can see us living here"
+- "This feels like home"
+- "We don't need to see anything else"
+- "When can we make an offer?"
+- "What do they need to hear?"
+- "How do we do this?"
+
+### Severity: CRITICAL
+### Response Window: Immediate (strike while hot)
+
+### Required Action
+1. Acknowledge and reinforce their feelings
+2. Transition to next steps immediately
+3. Discuss offer strategy while enthusiasm is high
+4. Schedule follow-up within 24 hours maximum
+5. Don't let them leave without a commitment to next step
+
+---
+
+# HIGH FLAGS (Respond Within 2 Hours)
+
+## 5. Price Objection - Serious (`price_objection_serious`)
+
+### Definition
+Buyer raises significant concern about price that could derail the deal if not addressed.
+
+### Detection Phrases
+- "It's too expensive"
+- "Over our budget"
+- "Can't afford it"
+- "Need to think about the price"
+- "More than we wanted to spend"
+- "Is there any flexibility?"
+
+### Severity: HIGH
+### Response Window: Within 2 hours
+
+### Required Action
+1. Acknowledge concern without defensiveness
+2. Provide market comparables
+3. Discuss value justification
+4. Explore creative financing options
+5. Determine if budget is hard limit or preference
+
+---
+
+## 6. Losing Interest (`losing_interest`)
+
+### Definition
+Buyer shows signs of waning enthusiasm after previous engagement.
+
+### Detection Phrases
+- "Maybe we should keep looking"
+- "Not sure anymore"
+- "Need to think about it more"
+- "Starting to have doubts"
+- "It's fine but..."
+- "We're reconsidering"
+
+### Severity: HIGH
+### Response Window: Within 2 hours
+
+### Required Action
+1. Probe to understand specific concerns
+2. Address underlying issues
+3. Reconnect with original motivation
+4. Schedule in-person conversation if possible
+
+---
+
+## 7. Requested Callback (`requested_callback`)
+
+### Definition
+Buyer explicitly asked for a return call at a specific time.
+
+### Detection Phrases
+- "Can you call me back at [time]?"
+- "Call me later today"
+- "I'll be available at [time]"
+- "Let's talk at [time]"
+- "Reach me after [time]"
+
+### Severity: HIGH
+### Response Window: At or before requested time
+
+### Required Action
+1. Set reminder for exact time
+2. Call precisely when promised
+3. Be prepared with any information they requested
+
+---
+
+## 8. Inspection Concern (`inspection_concern`)
+
+### Definition
+Buyer raises concerns about property condition that could lead to deal termination.
+
+### Detection Phrases
+- "Worried about the [foundation/roof/HVAC/etc]"
+- "That looks like water damage"
+- "Is that mold?"
+- "How old is the [system]?"
+- "Will that pass inspection?"
+- "We'd need to get that looked at"
+
+### Severity: HIGH
+### Response Window: Within 2 hours
+
+### Required Action
+1. Acknowledge concern seriously
+2. Provide any available documentation (inspection reports, warranties)
+3. Offer to get professional assessment
+4. Discuss repair credits or price adjustments if appropriate
+
+---
+
+# MEDIUM FLAGS (Respond Within 24 Hours)
+
+## 9. Needs More Info (`needs_more_info`)
+
+### Definition
+Buyer requested specific information or documentation.
+
+### Detection Phrases
+- "Can you send me..."
+- "I'd like to see the..."
+- "Do you have the [HOA docs/disclosures/reports]?"
+- "What are the [taxes/HOA fees/utilities]?"
+- "Can I get that in writing?"
+
+### Severity: MEDIUM
+### Response Window: Within 24 hours (same day preferred)
+
+### Required Action
+1. Gather requested information
+2. Send within promised timeframe
+3. Follow up to confirm receipt
+4. Offer to discuss any questions
+
+---
+
+## 10. Wants Second Viewing (`wants_second_viewing`)
+
+### Definition
+Buyer wants to return to the property, possibly with others.
+
+### Detection Phrases
+- "Can we come back?"
+- "Want to bring my [spouse/parents/contractor]"
+- "Like to see it again"
+- "Second look"
+- "One more visit"
+
+### Severity: MEDIUM
+### Response Window: Within 24 hours (schedule promptly)
+
+### Required Action
+1. Express enthusiasm about their interest
+2. Offer multiple time options
+3. Prepare for questions from new attendees
+4. Have relevant information ready for their concerns
+
+---
+
+## 11. Financing Question (`financing_question`)
+
+### Definition
+Buyer asking about payment, mortgage, or affordability details.
+
+### Detection Phrases
+- "What would our payment be?"
+- "How much down?"
+- "What interest rate?"
+- "Can you recommend a lender?"
+- "How does the mortgage process work?"
+
+### Severity: MEDIUM
+### Response Window: Within 24 hours
+
+### Required Action
+1. Provide accurate estimates
+2. Connect with preferred lender if appropriate
+3. Explain financing options
+4. Help them understand affordability
+
+---
+
+## 12. Negotiation Signal (`negotiation_signal`)
+
+### Definition
+Buyer indicating interest in negotiating terms.
+
+### Detection Phrases
+- "Would they consider a lower offer?"
+- "Is there any flexibility?"
+- "What's their bottom line?"
+- "Would they take [amount]?"
+- "Are they motivated?"
+- "How long has it been on market?"
+
+### Severity: MEDIUM
+### Response Window: Within 24 hours
+
+### Required Action
+1. Gauge seriousness of offer intent
+2. Discuss market conditions and seller motivation
+3. Help them prepare competitive offer
+4. Set expectations appropriately
+
+---
+
+## Output Schema
+
+```json
+{
+  "flags": [
+    {
+      "flag_type": "competitor_offer_pending",
+      "severity": "CRITICAL",
+      "quote": "We're meeting with that agent again tomorrow to possibly make an offer",
+      "transcript_range": "89-94",
+      "context": "Buyer comparing this property to Oak Street listing",
+      "recommended_action": "Call immediately - acknowledge competition, reinforce unique value, discuss offer strategy",
+      "response_deadline": "30 minutes"
+    }
+  ],
+  "highest_severity": "CRITICAL",
+  "total_flags": 2,
+  "immediate_action_required": true
+}
+```
+
+---
+
+## Analysis Instructions
+
+1. Scan transcript for any flag trigger phrases
+2. Classify each flag by severity level
+3. Include exact quote and context
+4. Provide specific recommended action
+5. If multiple flags, prioritize by severity
+6. Set `immediate_action_required: true` if any CRITICAL or HIGH flags exist

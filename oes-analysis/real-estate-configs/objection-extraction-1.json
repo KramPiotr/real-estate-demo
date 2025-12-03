@@ -1,0 +1,99 @@
+{
+    "transcripts_directory": "real-estate-calls",
+    "output_directory": "multi_agent_responses",
+    "input_catalog": {
+        "name": "objections",
+        "location": "real-estate-definitions",
+        "types": ["definition"]
+    },
+    "nodes": [
+        {
+            "name": "objection_extraction",
+            "inputs": [
+                "objections-definition",
+                "transcript"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true},
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "objections": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "main_category": {
+                                    "type": "string",
+                                    "enum": ["PRICE", "PROPERTY", "TIMING", "COMPETITION", "TRUST"]
+                                },
+                                "sub_category": {"type": "string"},
+                                "buyer_quote": {"type": "string"},
+                                "transcript_range": {"type": "string"},
+                                "agent_response": {"type": "string"},
+                                "agent_response_range": {"type": "string"},
+                                "response_effectiveness": {"type": "integer", "minimum": 1, "maximum": 5},
+                                "effectiveness_reasoning": {"type": "string"},
+                                "resolution_status": {
+                                    "type": "string",
+                                    "enum": ["resolved", "partially_resolved", "unresolved", "escalated", "deferred"]
+                                }
+                            },
+                            "required": ["main_category", "sub_category", "buyer_quote", "transcript_range", "resolution_status"]
+                        }
+                    }
+                },
+                "required": ["objections"]
+            }
+        },
+        {
+            "name": "aggregation",
+            "inputs": [
+                "objections-definition",
+                "transcript",
+                "objection_extraction"
+            ],
+            "models": [
+                {"provider": "azure", "mini": true}
+            ],
+            "response_format_schema": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                    "objections": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "main_category": {"type": "string"},
+                                "sub_category": {"type": "string"},
+                                "consensus_count": {"type": "integer", "minimum": 1, "maximum": 3},
+                                "buyer_quote": {"type": "string"},
+                                "transcript_range": {"type": "string"},
+                                "agent_response": {"type": "string"},
+                                "response_effectiveness": {"type": "number"},
+                                "resolution_status": {"type": "string"}
+                            },
+                            "required": ["main_category", "sub_category", "consensus_count", "buyer_quote", "resolution_status"]
+                        }
+                    },
+                    "objection_summary": {
+                        "type": "object",
+                        "properties": {
+                            "total_objections": {"type": "integer"},
+                            "resolved_count": {"type": "integer"},
+                            "unresolved_count": {"type": "integer"},
+                            "average_handling_effectiveness": {"type": "number"},
+                            "most_challenging_category": {"type": "string"}
+                        }
+                    }
+                },
+                "required": ["objections", "objection_summary"]
+            }
+        }
+    ]
+}

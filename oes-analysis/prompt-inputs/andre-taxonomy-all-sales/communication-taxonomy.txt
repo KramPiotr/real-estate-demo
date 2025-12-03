@@ -1,0 +1,114 @@
+# TAXONOMY ARTIFACT 13: COMMUNICATION & EXPERTISE BEHAVIORAL PATTERNS
+This taxonomy examines consultant behaviors related to clear, confident communication that transforms student uncertainty into understanding through structured, accessible explanations observable in sales call transcripts.
+
+## 13.A: Requirements & Process Communication Behaviors
+
+### 13.A.i: Structured Eligibility Explanation
+**Description:** Consultant demonstrates behavior of organizing qualification criteria and entry requirements in clear, logical sequences that build understanding.
+
+**Identification Guidance:** Look for consultants who present requirements using clear structure, confident language, and appropriate authority without being intimidating.
+
+**Examples:**
+- Consultant: "So to gain entry into this course you have to be diploma qualified so you must hold your diploma of early childhood education and on top of that you need five years of working as room leader or above within the last seven years"
+- Consultant: "Let me outline the three requirements: first your bachelor's degree, second your work experience, and third your citizenship documentation"
+- Consultant: "Your experience is definitely valuable. Our program requires the complete 12-month journey to ensure all students develop the skills needed for professional recognition"
+
+### 13.A.ii: Process Clarification Technique
+**Description:** Consultant demonstrates behavior of making complex application or enrollment processes accessible through step-by-step explanation and verification.
+
+**Identification Guidance:** Note instances where consultants break down processes into manageable components and check for understanding.
+
+**Examples:**
+- Consultant: "Let me explain the three-step process: First, submit your transcript by Friday. This ensures we verify eligibility before the deadline. Second, complete the online form. Third, we'll have a brief call to finalize everything"
+- Consultant: "Does that make sense? Would you like me to clarify anything about these steps?"
+- Consultant: "So pretty much after this call, I'll send you the application link. Once you've started your application, you'll get a welcome email..."
+
+## 13.B: Financial & Value Communication Behaviors
+
+### 13.B.i: Confident Financial Explanation
+**Description:** Consultant demonstrates behavior of presenting financial information with clarity and reassurance, focusing on the most pressing concerns while maintaining transparency.
+
+**Identification Guidance:** Look for consultants who address financial anxiety through straightforward, confident language and clear structure.
+
+**Examples:**
+- Consultant: "Bachelor degrees are supported by the Australian HECS loan system, so you don't have to pay out of pocket. As long as you've applied for that student loan, then you won't have to pay out of pocket"
+- Consultant: "Let me clarify the payment options available to you: FEE-HELP allows you to defer payments, or you can pay upfront before the census date"
+- Consultant: "I understand cost is a concern. While our investment is higher than Program X, we include benefits that often come as extra costs elsewhere"
+
+### 13.B.ii: Value Proposition Articulation
+**Description:** Consultant demonstrates behavior of communicating program benefits and institutional credibility in authoritative yet accessible ways that build confidence.
+
+**Identification Guidance:** Note instances where consultants present program value with specific, confident language while connecting to student goals.
+
+**Examples:**
+- Consultant: "Our online degrees are exactly the same qualification as those earned on campus. The degree certificate doesn't specify whether you studied online or on-campus, and it carries full accreditation from the Australian Qualifications Framework"
+- Consultant: "You've identified exactly what makes our program valuable. We have triple crown accreditation and the second-best business faculty in the country"
+- Consultant: "This recognition translates directly to stronger employment outcomes for our graduates"
+
+## 13.C: Program Structure Communication Behaviors
+
+### 13.C.i: Enthusiastic Program Explanation
+**Description:** Consultant demonstrates behavior of communicating program components with engaging, personalized language that connects to student interests.
+
+**Identification Guidance:** Look for consultants who use positive framing, enthusiasm, and personal connection when explaining program features.
+
+**Examples:**
+- Consultant: "It's great that you're interested in psychology! While our criminology program doesn't offer a double degree with psychology, you can definitely tailor your electives to focus on psychological aspects that interest you"
+- Consultant: "Based on your interest in strategic planning, our MBA covers exactly those areas you mentioned"
+- Consultant: "Given your background in healthcare, you might find our units on healthcare management particularly valuable"
+
+### 13.C.ii: Flexibility & Option Communication
+**Description:** Consultant demonstrates behavior of explaining program flexibility and customization options in ways that empower student choice.
+
+**Identification Guidance:** Note instances where consultants present options and flexibility as advantages while maintaining clear program structure.
+
+**Examples:**
+- Consultant: "You have the flexibility to choose between 1 and 4 units per trimester, depending on your other commitments"
+- Consultant: "In terms of study, we estimate about 16 hours per week per unit. So it's quite flexible – you can do your study whenever suits you"
+- Consultant: "You can choose psychology units as part of your elective units, which gives you that interdisciplinary approach you're looking for"
+
+## 13.D: Complex Concept Communication Behaviors
+
+### 13.D.i: Technical Translation Ability
+**Description:** Consultant demonstrates behavior of translating specialized terminology or complex concepts into accessible language that builds understanding.
+
+**Identification Guidance:** Look for consultants who make complex information accessible through clear definitions, comparisons, and practical connections.
+
+**Examples:**
+- Consultant: "A Graduate Certificate is a postgraduate qualification that consists of four units and serves as the first stage of a Master's program. It's classified as AQF Level 8, the same academic level as a Graduate Diploma but half the length"
+- Consultant: "Let me explain the difference between citizenship options for financial aid. As an Australian citizen, you can access HECS-HELP which means no upfront payments..."
+- Consultant: "The census date is the last day you can withdraw from a unit without financial or academic penalty. You have until this date to decide if you want to continue"
+
+### 13.D.ii: Pathway Clarification Technique
+**Description:** Consultant demonstrates behavior of explaining alternative routes or non-standard pathways in structured, solution-oriented ways.
+
+**Identification Guidance:** Note instances where consultants organize pathway information clearly and build confidence about alternative options.
+
+**Examples:**
+- Consultant: "Now with the completed diploma you can't get straight into the Bachelor of Laws program but we do have a great pathway option... an undergraduate certificate which is four bachelor level law units"
+- Consultant: "While you don't meet the direct entry requirements, let me explain the pathway that gets you to the same destination"
+- Consultant: "Your previous study can be credited toward the program. Here's exactly how that pathway works..."
+
+## 13.E: Verification & Understanding Behaviors
+
+### 13.E.i: Comprehension Checking Technique
+**Description:** Consultant demonstrates behavior of verifying student understanding through strategic questions and clarification offers.
+
+**Identification Guidance:** Look for consultants who use effective checking questions and create opportunities for students to confirm understanding.
+
+**Examples:**
+- Consultant: "Does that make sense to you?" or "Is that clear?"
+- Consultant: "What questions do you have about the entry requirements?"
+- Consultant: "Just to make sure we're on the same page, what's your understanding of the academic requirements?"
+- Consultant: "Should I slow down as I explain these financial details?"
+
+### 13.E.ii: Adaptive Communication Style
+**Description:** Consultant demonstrates behavior of adjusting communication complexity and pace based on student signals and responses.
+
+**Identification Guidance:** Note instances where consultants modify their approach, repeat information differently, or adjust detail level based on student cues.
+
+**Examples:**
+- Consultant: "Let me break this down differently" (after student confusion)
+- Consultant: "I can see this is a lot of information. Would you like me to focus on the most important points first?"
+- Consultant: "Since you mentioned your technical background, you might appreciate that this program uses industry-standard frameworks"
+- Consultant: "Would you like me to go over the program structure more slowly?"
